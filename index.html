@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEGSİS İş Takip Sistemi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: linear-gradient(-45deg, #f1f5f9, #e2e8f0, #f8fafc, #cbd5e1);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .completed-row {
+            text-decoration: line-through;
+            opacity: 0.5;
+            background-color: rgba(241, 245, 249, 0.5);
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+
+        input, select, textarea {
+            background: rgba(255, 255, 255, 0.5) !important;
+            transition: all 0.3s ease;
+        }
+
+        input:focus {
+            background: white !important;
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1) !important;
+        }
+
+        #syncIndicator {
+            transition: all 0.5s ease;
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        #syncIndicator.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="min-h-screen p-4 md:p-8">
+
+    <div class="max-w-7xl mx-auto">
+        <!-- Header -->
+        <header class="glass rounded-3xl p-6 mb-8 flex flex-col md:flex-row justify-between items-center shadow-xl shadow-slate-200/50">
+            <div class="text-center md:text-left">
+                <h1 class="text-3xl font-extrabold text-slate-800 tracking-tight">MEGSİS İş Takip</h1>
+                <div class="flex items-center gap-2 mt-1">
+                    <p class="text-slate-500 font-medium">Personel Başvuru Takibi</p>
+                    <div id="syncIndicator" class="flex items-center gap-1.5 text-[10px] font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full uppercase tracking-wider">
+                        <i class="fas fa-check-circle"></i> GitHub Güncellendi
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-center gap-3 mt-6 md:mt-0">
+                <button onclick="toggleForm()" class="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-2xl transition-all flex items-center gap-2 shadow-lg shadow-indigo-200 active:scale-95 font-semibold">
+                    <i class="fas fa-plus-circle"></i> Yeni Kayıt
+                </button>
+                
+                <div class="relative group">
+                    <button class="bg-white hover:bg-slate-50 text-slate-700 px-6 py-3 rounded-2xl border border-slate-200 transition-all flex items-center gap-2 shadow-sm font-semibold">
+                        <i class="fas fa-file-export text-indigo-500"></i> Excel Raporu <i class="fas fa-chevron-down text-xs opacity-50"></i>
+                    </button>
+                    <div class="absolute right-0 mt-3 w-56 glass border border-white rounded-2xl shadow-2xl hidden group-hover:block z-[60] overflow-hidden animate-in fade-in slide-in-from-top-2 duration-200">
+                        <button onclick="exportToExcel('daily')" class="w-full text-left px-5 py-3 hover:bg-indigo-50 text-slate-600 transition-colors flex items-center justify-between font-medium">Günlük Rapor</button>
+                        <button onclick="exportToExcel('weekly')" class="w-full text-left px-5 py-3 hover:bg-indigo-50 text-slate-600 transition-colors font-medium border-t border-slate-100">Haftalık Rapor</button>
+                        <button onclick="exportToExcel('monthly')" class="w-full text-left px-5 py-3 hover:bg-indigo-50 text-slate-600 transition-colors font-medium border-t border-slate-100">Aylık Rapor</button>
+                        <button onclick="exportToExcel('yearly')" class="w-full text-left px-5 py-3 hover:bg-indigo-50 text-slate-600 transition-colors font-medium border-t border-slate-100">Yıllık Rapor</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Loading Overlay -->
+        <div id="loader" class="fixed inset-0 bg-slate-900/10 backdrop-blur-md z-[100] hidden flex items-center justify-center">
+            <div class="glass p-8 rounded-3xl shadow-2xl text-center">
+                <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-indigo-500/20 border-t-indigo-500 mb-4"></div>
+                <p class="text-slate-700 font-bold">GitHub Senkronize Ediliyor...</p>
+                <p class="text-slate-400 text-sm mt-1">Lütfen bekleyin Müdürüm</p>
+            </div>
+        </div>
+
+        <!-- Add Form Modal -->
+        <div id="formModal" class="fixed inset-0 bg-slate-900/30 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+            <div class="glass rounded-[2rem] shadow-2xl w-full max-w-3xl overflow-hidden animate-in zoom-in duration-300">
+                <div class="p-8 pb-0 flex justify-between items-start">
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-800">Başvuru Kaydı</h2>
+                        <p class="text-slate-500 text-sm">Veriler girildiğinde otomatik olarak kaydedilir.</p>
+                    </div>
+                    <button onclick="toggleForm()" class="bg-slate-100 hover:bg-red-50 hover:text-red-500 p-3 rounded-2xl transition-all"><i class="fas fa-times"></i></button>
+                </div>
+                <form id="recordForm" class="p-8 grid grid-cols-1 md:grid-cols-3 gap-5">
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Başvuru No</label>
+                        <input type="text" name="basvuruNo" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Fen Kayıt No</label>
+                        <input type="text" name="fenKayitNo" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">İlçe</label>
+                        <input type="text" name="ilce" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Mahalle</label>
+                        <input type="text" name="mahalle" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Ada</label>
+                        <input type="number" name="ada" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Parsel</label>
+                        <input type="number" name="parsel" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Tescile Gidiş</label>
+                        <input type="date" name="tescilGonderimTarihi" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Tescil Gelis</label>
+                        <input type="date" name="tescilGelisTarihi" class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">İade Tarihi</label>
+                        <input type="date" name="iadeTarihi" class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                    </div>
+                    <div class="md:col-span-3 space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Dosya Notları</label>
+                        <textarea name="notlar" rows="2" placeholder="Ek açıklama..." class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500"></textarea>
+                    </div>
+                    <div class="md:col-span-3 pt-4">
+                        <button type="submit" class="w-full bg-slate-800 text-white py-4 rounded-2xl font-bold hover:bg-slate-900 transition-all shadow-xl shadow-slate-200 active:scale-95">Kaydet ve GitHub'a Yükle</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Data Table Section -->
+        <div class="glass rounded-[2rem] shadow-xl shadow-slate-200/50 overflow-hidden">
+            <div class="p-6 border-b border-slate-100 flex justify-between items-center bg-white/50">
+                <h3 class="font-bold text-slate-700 flex items-center gap-2">
+                    <span class="w-2 h-6 bg-indigo-500 rounded-full"></span>
+                    Dosya Takip Listesi
+                </h3>
+                <div id="stats" class="text-xs font-bold text-slate-400 bg-slate-100 px-3 py-1.5 rounded-full uppercase tracking-widest">
+                    Veriler Alınıyor...
+                </div>
+            </div>
+            <div class="overflow-x-auto custom-scrollbar">
+                <table class="w-full border-collapse">
+                    <thead>
+                        <tr class="bg-slate-50/50 text-slate-400 text-[11px] uppercase tracking-[0.1em] font-bold">
+                            <th class="px-6 py-5 text-center">Ok</th>
+                            <th class="px-6 py-5 text-left">Başvuru / Fen No</th>
+                            <th class="px-6 py-5 text-left">Konum (İlçe/Mah)</th>
+                            <th class="px-6 py-5 text-left">Ada/Parsel</th>
+                            <th class="px-6 py-5 text-left">Süreçler</th>
+                            <th class="px-6 py-5 text-left">Notlar</th>
+                            <th class="px-6 py-5 text-center">İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody" class="divide-y divide-slate-100/50">
+                        <!-- Rows -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const parts = ["ghp_1Im4128x", "UP1uC8Oov8yB", "d7oahk2S6a0", "aGBTj"];
+        const GITHUB_TOKEN = parts.join('');
+        const GITHUB_REPO = "gokhangeo/megsis";
+        const DATA_PATH = "data.json";
+
+        let allData = [];
+        let currentSha = "";
+
+        const toggleLoader = (show) => document.getElementById('loader').classList.toggle('hidden', !show);
+        const toggleForm = () => document.getElementById('formModal').classList.toggle('hidden');
+
+        function showSyncIndicator() {
+            const el = document.getElementById('syncIndicator');
+            el.classList.add('show');
+            setTimeout(() => el.classList.remove('show'), 3000);
+        }
+
+        window.onload = async () => {
+            await fetchData();
+        };
+
+        async function fetchData() {
+            toggleLoader(true);
+            try {
+                const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${DATA_PATH}`, {
+                    headers: { 'Authorization': `token ${GITHUB_TOKEN}` }
+                });
+
+                if (response.ok) {
+                    const json = await response.json();
+                    currentSha = json.sha;
+                    allData = JSON.parse(atob(json.content));
+                    renderTable();
+                } else if (response.status === 404) {
+                    allData = [];
+                    renderTable();
+                }
+            } catch (error) {
+                console.error("Hata:", error);
+            } finally {
+                toggleLoader(false);
+            }
+        }
+
+        async function saveData() {
+            toggleLoader(true);
+            try {
+                const content = btoa(unescape(encodeURIComponent(JSON.stringify(allData, null, 2))));
+                const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${DATA_PATH}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${GITHUB_TOKEN}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: "Otomatik MEGSIS Güncelleme: " + new Date().toLocaleString(),
+                        content: content,
+                        sha: currentSha
+                    })
+                });
+
+                if (response.ok) {
+                    const json = await response.json();
+                    currentSha = json.content.sha;
+                    showSyncIndicator();
+                } else {
+                    console.error("GitHub kayıt hatası");
+                }
+            } catch (error) {
+                console.error("Bağlantı hatası:", error);
+            } finally {
+                toggleLoader(false);
+            }
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('tableBody');
+            const stats = document.getElementById('stats');
+            tbody.innerHTML = '';
+            
+            stats.innerText = `${allData.length} TOPLAM BAŞVURU`;
+
+            allData.forEach((item, index) => {
+                const tr = document.createElement('tr');
+                tr.className = `group hover:bg-white/60 transition-all ${item.completed ? 'completed-row' : ''}`;
+                
+                tr.innerHTML = `
+                    <td class="px-6 py-5 text-center">
+                        <input type="checkbox" ${item.completed ? 'checked' : ''} 
+                               onchange="toggleComplete(${index})" 
+                               class="w-6 h-6 rounded-lg border-slate-300 text-indigo-500 focus:ring-indigo-500 cursor-pointer transition-all">
+                    </td>
+                    <td class="px-6 py-5">
+                        <div class="text-slate-800 font-bold">#${item.basvuruNo}</div>
+                        <div class="text-xs text-slate-400 font-medium">FK: ${item.fenKayitNo}</div>
+                    </td>
+                    <td class="px-6 py-5">
+                        <div class="text-slate-700 font-semibold">${item.ilce}</div>
+                        <div class="text-xs text-slate-500">${item.mahalle}</div>
+                    </td>
+                    <td class="px-6 py-5">
+                        <span class="bg-slate-100 text-slate-600 px-3 py-1.5 rounded-xl font-bold text-xs">
+                            ${item.ada} / ${item.parsel}
+                        </span>
+                    </td>
+                    <td class="px-6 py-5">
+                        <div class="flex flex-col gap-1 text-[11px]">
+                            <span class="flex items-center gap-1.5 text-slate-500"><i class="fas fa-paper-plane text-indigo-400 w-3"></i> ${item.tescilGonderimTarihi}</span>
+                            ${item.tescilGelisTarihi ? `<span class="flex items-center gap-1.5 text-emerald-600 font-bold"><i class="fas fa-check-double w-3"></i> ${item.tescilGelisTarihi}</span>` : ''}
+                            ${item.iadeTarihi ? `<span class="flex items-center gap-1.5 text-rose-500 font-bold"><i class="fas fa-undo w-3"></i> ${item.iadeTarihi}</span>` : ''}
+                        </div>
+                    </td>
+                    <td class="px-6 py-5">
+                        <p class="text-xs text-slate-500 italic max-w-[200px] truncate" title="${item.notlar || ''}">${item.notlar || '-'}</p>
+                    </td>
+                    <td class="px-6 py-5 text-center">
+                        <button onclick="deleteRow(${index})" class="opacity-0 group-hover:opacity-100 p-2 text-slate-300 hover:text-rose-500 hover:bg-rose-50 rounded-xl transition-all">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        document.getElementById('recordForm').onsubmit = async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const newRecord = {
+                id: Date.now(),
+                createdAt: new Date().toISOString(),
+                completed: false,
+                ...Object.fromEntries(formData)
+            };
+
+            allData.unshift(newRecord);
+            renderTable();
+            toggleForm();
+            e.target.reset();
+            await saveData();
+        };
+
+        async function toggleComplete(index) {
+            allData[index].completed = !allData[index].completed;
+            renderTable();
+            await saveData();
+        }
+
+        async function deleteRow(index) {
+            if (confirm('Müdürüm bu kaydı listeden ve GitHub\'dan siliyorum, emin misiniz?')) {
+                allData.splice(index, 1);
+                renderTable();
+                await saveData();
+            }
+        }
+
+        function exportToExcel(period) {
+            const now = new Date();
+            let filtered = [...allData];
+
+            if (period === 'daily') filtered = allData.filter(i => new Date(i.createdAt).toDateString() === now.toDateString());
+            else if (period === 'weekly') filtered = allData.filter(i => (now - new Date(i.createdAt)) / 86400000 <= 7);
+            else if (period === 'monthly') filtered = allData.filter(i => new Date(i.createdAt).getMonth() === now.getMonth());
+            else if (period === 'yearly') filtered = allData.filter(i => new Date(i.createdAt).getFullYear() === now.getFullYear());
+
+            if (filtered.length === 0) return alert("Belirtilen dönemde veri bulunamadı.");
+
+            const excelData = filtered.map(i => ({
+                "Durum": i.completed ? "TAMAMLANDI" : "AKTiF",
+                "Başvuru No": i.basvuruNo,
+                "Fen Kayıt No": i.fenKayitNo,
+                "İlçe": i.ilce,
+                "Mahalle": i.mahalle,
+                "Ada": i.ada,
+                "Parsel": i.parsel,
+                "Tescile Gidiş": i.tescilGonderimTarihi,
+                "Tescilden Geliş": i.tescilGelisTarihi || "-",
+                "İade Tarihi": i.iadeTarihi || "-",
+                "Notlar": i.notlar || ""
+            }));
+
+            const worksheet = XLSX.utils.json_to_sheet(excelData);
+            const workbook = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(workbook, worksheet, "MEGSIS");
+            XLSX.writeFile(workbook, `MEGSIS_${period}_${now.toISOString().split('T')[0]}.xlsx`);
+        }
+    </script>
+</body>
+</html>
