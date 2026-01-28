@@ -115,60 +115,72 @@
 
         <!-- Add Form Modal -->
         <div id="formModal" class="fixed inset-0 bg-slate-900/30 backdrop-blur-sm z-[150] hidden flex items-center justify-center p-4">
-            <div class="glass rounded-[2rem] shadow-2xl w-full max-w-3xl overflow-hidden animate-in zoom-in duration-300">
+            <div class="glass rounded-[2rem] shadow-2xl w-full max-w-4xl overflow-hidden animate-in zoom-in duration-300">
                 <div class="p-8 pb-0 flex justify-between items-start">
                     <div>
                         <h2 class="text-2xl font-bold text-slate-800">Başvuru Kaydı</h2>
-                        <p class="text-slate-500 text-sm">İlçe ve mahalle bilgilerini listeden seçiniz.</p>
+                        <p class="text-slate-500 text-sm">Gerekli bilgileri listeden seçerek doldurunuz.</p>
                     </div>
                     <button onclick="toggleForm()" class="bg-slate-100 hover:bg-red-50 hover:text-red-500 p-3 rounded-2xl transition-all"><i class="fas fa-times"></i></button>
                 </div>
-                <form id="recordForm" class="p-8 grid grid-cols-1 md:grid-cols-3 gap-5">
+                <form id="recordForm" class="p-8 grid grid-cols-1 md:grid-cols-4 gap-4">
                     <div class="space-y-1">
                         <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Başvuru No</label>
-                        <input type="text" name="basvuruNo" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                        <input type="text" name="basvuruNo" required class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
                     </div>
                     <div class="space-y-1">
                         <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Fen Kayıt No</label>
-                        <input type="text" name="fenKayitNo" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                        <input type="text" name="fenKayitNo" required class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
                     </div>
                     <div class="space-y-1">
                         <label class="text-xs font-bold text-slate-500 ml-1 uppercase">İlçe</label>
-                        <select id="ilceSelect" name="ilce" required onchange="handleIlceChange()" class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                        <select id="ilceSelect" name="ilce" required onchange="handleIlceChange()" class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
                             <option value="">İlçe Seçiniz</option>
                         </select>
                     </div>
                     <div class="space-y-1">
                         <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Mahalle</label>
-                        <select id="mahalleSelect" name="mahalle" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                        <select id="mahalleSelect" name="mahalle" required class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
                             <option value="">İlçe Seçilmeli</option>
                         </select>
                     </div>
                     <div class="space-y-1">
                         <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Ada</label>
-                        <input type="number" name="ada" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                        <input type="number" name="ada" required class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
                     </div>
                     <div class="space-y-1">
                         <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Parsel</label>
-                        <input type="number" name="parsel" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                        <input type="number" name="parsel" required class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Mühendis</label>
+                        <select id="muhendisSelect" name="muhendis" required class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
+                            <option value="">Seçiniz</option>
+                        </select>
+                    </div>
+                    <div class="space-y-1">
+                        <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Tekniker</label>
+                        <select id="teknikerSelect" name="tekniker" required class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
+                            <option value="">Seçiniz</option>
+                        </select>
                     </div>
                     <div class="space-y-1">
                         <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Tescile Gidiş</label>
-                        <input type="date" name="tescilGonderimTarihi" required class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                        <input type="date" name="tescilGonderimTarihi" required class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
                     </div>
                     <div class="space-y-1">
                         <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Tescil Gelis</label>
-                        <input type="date" name="tescilGelisTarihi" class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                        <input type="date" name="tescilGelisTarihi" class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
                     </div>
                     <div class="space-y-1">
                         <label class="text-xs font-bold text-slate-500 ml-1 uppercase">İade Tarihi</label>
-                        <input type="date" name="iadeTarihi" class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500">
+                        <input type="date" name="iadeTarihi" class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500">
                     </div>
-                    <div class="md:col-span-3 space-y-1">
+                    <div class="md:col-span-4 space-y-1">
                         <label class="text-xs font-bold text-slate-500 ml-1 uppercase">Dosya Notları</label>
-                        <textarea name="notlar" rows="2" placeholder="Ek açıklama..." class="w-full rounded-2xl border-slate-200 border p-3.5 focus:border-indigo-500"></textarea>
+                        <textarea name="notlar" rows="2" placeholder="Ek açıklama..." class="w-full rounded-2xl border-slate-200 border p-3 focus:border-indigo-500"></textarea>
                     </div>
-                    <div class="md:col-span-3 pt-4">
+                    <div class="md:col-span-4 pt-4">
                         <button type="submit" class="w-full bg-slate-800 text-white py-4 rounded-2xl font-bold hover:bg-slate-900 transition-all shadow-xl shadow-slate-200 active:scale-95">Kaydet ve GitHub'a Yükle</button>
                     </div>
                 </form>
@@ -194,6 +206,7 @@
                             <th class="px-6 py-5 text-left">Başvuru / Fen No</th>
                             <th class="px-6 py-5 text-left">Konum (İlçe/Mah)</th>
                             <th class="px-6 py-5 text-left">Ada/Parsel</th>
+                            <th class="px-6 py-5 text-left">Sorumlular</th>
                             <th class="px-6 py-5 text-left">Süreçler</th>
                             <th class="px-6 py-5 text-left">Notlar</th>
                             <th class="px-6 py-5 text-center">İşlem</th>
@@ -212,7 +225,7 @@
         const GITHUB_TOKEN = parts.join('');
         const GITHUB_REPO = "gokhangeo/megsis";
         const DATA_PATH = "data.json";
-        const BIRIMLER_PATH = "birimler.xlsx"; // .xls yerine .xlsx olarak güncellendi
+        const BIRIMLER_PATH = "birimler.xlsx";
 
         let allData = [];
         let locationDatabase = {};
@@ -252,37 +265,56 @@
                     workbook.SheetNames.forEach(sheetName => {
                         const worksheet = workbook.Sheets[sheetName];
                         const data = XLSX.utils.sheet_to_json(worksheet, {header: 1});
-                        // A sütunundaki mahalleleri al
                         locationDatabase[sheetName] = data
                             .map(row => row[0])
                             .filter(val => val && val.toString().trim() !== "");
                     });
 
                     populateIlceOptions();
-                } else {
-                    console.error("Birimler dosyası bulunamadı. Lütfen GitHub'daki dosya adını kontrol edin.");
+                    populateStaffOptions();
                 }
             } catch (error) {
-                console.error("Lokasyon veritabanı yükleme hatası:", error);
+                console.error("Hata:", error);
             }
         }
 
         function populateIlceOptions() {
             const ilceSelect = document.getElementById('ilceSelect');
             ilceSelect.innerHTML = '<option value="">İlçe Seçiniz</option>';
-            const ilceler = Object.keys(locationDatabase).sort();
+            // Mühendis ve Tekniker sayfalarını İlçe listesinden hariç tut
+            const ilceler = Object.keys(locationDatabase)
+                .filter(name => name !== "MÜHENDİS" && name !== "TEKNİKER")
+                .sort();
             
-            if (ilceler.length === 0) {
-                console.warn("Hiç ilçe verisi bulunamadı.");
-                return;
-            }
-
             ilceler.forEach(ilce => {
                 const opt = document.createElement('option');
                 opt.value = ilce;
                 opt.textContent = ilce;
                 ilceSelect.appendChild(opt);
             });
+        }
+
+        function populateStaffOptions() {
+            const muhendisSelect = document.getElementById('muhendisSelect');
+            const teknikerSelect = document.getElementById('teknikerSelect');
+
+            if(locationDatabase["MÜHENDİS"]) {
+                locationDatabase["MÜHENDİS"].forEach(name => {
+                    const opt = document.createElement('option');
+                    opt.value = name;
+                    opt.textContent = name;
+                    muhendisSelect.appendChild(opt);
+                });
+            }
+
+            if(locationDatabase["TEKNİKER"]) {
+                locationDatabase["TEKNİKER"].forEach(name => {
+                    const opt = document.createElement('option');
+                    opt.value = name;
+                    opt.textContent = name;
+                    teknikerSelect.appendChild(opt);
+                });
+            }
         }
 
         function handleIlceChange() {
@@ -322,7 +354,7 @@
                     renderTable();
                 }
             } catch (error) {
-                console.error("Veri çekme hatası:", error);
+                console.error("Hata:", error);
             } finally {
                 toggleLoader(false);
             }
@@ -351,7 +383,7 @@
                     showSyncIndicator();
                 }
             } catch (error) {
-                console.error("GitHub kayıt hatası:", error);
+                console.error("Hata:", error);
             } finally {
                 toggleLoader(false);
             }
@@ -385,6 +417,10 @@
                         <span class="bg-slate-100 text-slate-600 px-3 py-1.5 rounded-xl font-bold text-xs">
                             ${item.ada} / ${item.parsel}
                         </span>
+                    </td>
+                    <td class="px-6 py-5">
+                        <div class="text-xs font-bold text-indigo-600">M: ${item.muhendis || '-'}</div>
+                        <div class="text-xs text-slate-500">T: ${item.tekniker || '-'}</div>
                     </td>
                     <td class="px-6 py-5">
                         <div class="flex flex-col gap-1 text-[11px]">
@@ -457,6 +493,8 @@
                 "Mahalle": i.mahalle,
                 "Ada": i.ada,
                 "Parsel": i.parsel,
+                "Mühendis": i.muhendis,
+                "Tekniker": i.tekniker,
                 "Tescile Gidiş": i.tescilGonderimTarihi,
                 "Tescilden Geliş": i.tescilGelisTarihi || "-",
                 "İade Tarihi": i.iadeTarihi || "-",
