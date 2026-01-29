@@ -36,6 +36,11 @@
             background-color: rgba(241, 245, 249, 0.5);
         }
 
+        .cancelled-row {
+            background-color: rgba(254, 243, 199, 0.5) !important;
+            border-left: 4px solid #f59e0b;
+        }
+
         .custom-scrollbar::-webkit-scrollbar {
             width: 6px;
         }
@@ -121,7 +126,7 @@
                 <button onclick="setStatusFilter('all')" id="filter-all" class="filter-btn active px-4 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap">HEPSİ</button>
                 <button onclick="setStatusFilter('giden')" id="filter-giden" class="filter-btn px-4 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap">TESCİLE GİDEN</button>
                 <button onclick="setStatusFilter('gelen')" id="filter-gelen" class="filter-btn px-4 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap">TESCİLDEN GELEN</button>
-                <button onclick="setStatusFilter('iade')" id="filter-iade" class="filter-btn px-4 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap">İADE/İPTAL</button>
+                <button onclick="setStatusFilter('iade')" id="filter-iade" class="filter-btn px-4 py-2 rounded-lg text-xs font-bold transition-all whitespace-nowrap">İADE/VAZGEÇİLDİ</button>
             </div>
         </div>
 
@@ -177,7 +182,7 @@
                 <table class="w-full border-collapse">
                     <thead>
                         <tr class="bg-slate-50/50 text-slate-400 text-[11px] uppercase tracking-[0.1em] font-bold sticky top-0 z-10">
-                            <th class="px-6 py-5 text-center">Ok</th>
+                            <th class="px-6 py-5 text-center">Durum</th>
                             <th class="px-6 py-5 text-left">Başvuru / Fen No</th>
                             <th class="px-6 py-5 text-left">Konum (İlçe/Mah)</th>
                             <th class="px-6 py-5 text-left">Ada/Parsel</th>
@@ -272,7 +277,6 @@
             }
         }
 
-        // Arama ve Filtreleme Mantığı
         function handleSearch() {
             currentSearch = document.getElementById('searchInput').value.toLowerCase();
             renderTable();
@@ -322,7 +326,6 @@
             tbody.innerHTML = '';
             
             const filteredData = allData.filter(item => {
-                // Arama filtresi
                 const matchesSearch = 
                     item.basvuruNo?.toLowerCase().includes(currentSearch) ||
                     item.fenKayitNo?.toLowerCase().includes(currentSearch) ||
@@ -331,23 +334,22 @@
                     item.ilce?.toLowerCase().includes(currentSearch) ||
                     item.mahalle?.toLowerCase().includes(currentSearch);
 
-                // Durum filtresi
                 let matchesStatus = true;
-                if (currentFilter === 'giden') matchesStatus = item.tescilGonderimTarihi && !item.tescilGelisTarihi && !item.iadeTarihi;
+                if (currentFilter === 'giden') matchesStatus = item.tescilGonderimTarihi && !item.tescilGelisTarihi && !item.iadeTarihi && !item.vazgecildi;
                 else if (currentFilter === 'gelen') matchesStatus = !!item.tescilGelisTarihi;
-                else if (currentFilter === 'iade') matchesStatus = !!item.iadeTarihi;
+                else if (currentFilter === 'iade') matchesStatus = !!item.iadeTarihi || !!item.vazgecildi;
 
                 return matchesSearch && matchesStatus;
             });
 
             document.getElementById('stats').innerText = `${filteredData.length} DOSYA LİSTELENDİ`;
 
-            filteredData.forEach((item, index) => {
+            filteredData.forEach((item) => {
                 const tr = document.createElement('tr');
-                tr.className = `group hover:bg-white/60 transition-all ${item.completed ? 'completed-row' : ''}`;
+                tr.className = `group hover:bg-white/60 transition-all ${item.completed ? 'completed-row' : ''} ${item.vazgecildi ? 'cancelled-row' : ''}`;
                 
                 tr.innerHTML = `
-                    <td class="px-6 py-5 text-center">
+                    <td class="px-6 py-5 text-center flex items-center justify-center gap-2">
                         <input type="checkbox" ${item.completed ? 'checked' : ''} onchange="toggleComplete(${item.id})" class="w-6 h-6 rounded-lg border-slate-300 text-indigo-500 cursor-pointer transition-all">
                     </td>
                     <td class="px-6 py-5">
@@ -372,13 +374,19 @@
                             <span class="flex items-center gap-1.5 text-slate-500"><i class="fas fa-calendar-alt w-3"></i> G: ${item.tescilGonderimTarihi}</span>
                             ${item.tescilGelisTarihi ? `<span class="flex items-center gap-1.5 text-emerald-600"><i class="fas fa-check-circle w-3"></i> T: ${item.tescilGelisTarihi}</span>` : ''}
                             ${item.iadeTarihi ? `<span class="flex items-center gap-1.5 text-rose-500"><i class="fas fa-times-circle w-3"></i> İ: ${item.iadeTarihi}</span>` : ''}
+                            ${item.vazgecildi ? `<span class="flex items-center gap-1.5 text-amber-600"><i class="fas fa-ban w-3"></i> V: ${item.vazgecildi}</span>` : ''}
                         </div>
                     </td>
                     <td class="px-6 py-5"><p class="text-xs text-slate-500 italic max-w-[150px] truncate" title="${item.notlar || ''}">${item.notlar || '-'}</p></td>
                     <td class="px-6 py-5 text-center">
-                        <button onclick="deleteRow(${item.id})" class="opacity-0 group-hover:opacity-100 p-2 text-slate-300 hover:text-rose-500 hover:bg-rose-50 rounded-xl transition-all">
-                            <i class="fas fa-trash-alt"></i>
-                        </button>
+                        <div class="flex items-center justify-center gap-1">
+                            <button onclick="toggleCancel(${item.id})" class="p-2 text-slate-400 hover:text-amber-500 hover:bg-amber-50 rounded-xl transition-all" title="Vazgeçildi">
+                                <i class="fas fa-ban"></i>
+                            </button>
+                            <button onclick="deleteRow(${item.id})" class="opacity-0 group-hover:opacity-100 p-2 text-slate-300 hover:text-rose-500 hover:bg-rose-50 rounded-xl transition-all" title="Sil">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                        </div>
                     </td>
                 `;
                 tbody.appendChild(tr);
@@ -388,7 +396,7 @@
         document.getElementById('recordForm').onsubmit = async (e) => {
             e.preventDefault();
             const formData = new FormData(e.target);
-            const newRecord = { id: Date.now(), createdAt: new Date().toISOString(), completed: false, ...Object.fromEntries(formData) };
+            const newRecord = { id: Date.now(), createdAt: new Date().toISOString(), completed: false, vazgecildi: null, ...Object.fromEntries(formData) };
             allData.unshift(newRecord);
             renderTable();
             toggleForm();
@@ -400,6 +408,18 @@
         async function toggleComplete(id) {
             const idx = allData.findIndex(i => i.id === id);
             allData[idx].completed = !allData[idx].completed;
+            renderTable();
+            await saveData();
+        }
+
+        async function toggleCancel(id) {
+            const idx = allData.findIndex(i => i.id === id);
+            if (allData[idx].vazgecildi) {
+                allData[idx].vazgecildi = null;
+            } else {
+                const today = new Date().toLocaleDateString('tr-TR');
+                allData[idx].vazgecildi = today;
+            }
             renderTable();
             await saveData();
         }
@@ -421,10 +441,11 @@
             else if (period === 'yearly') filtered = allData.filter(i => new Date(i.createdAt).getFullYear() === now.getFullYear());
 
             const excelData = filtered.map(i => ({
-                "Durum": i.completed ? "TAMAMLANDI" : "AKTiF",
+                "Durum": i.vazgecildi ? "VAZGEÇİLDİ" : (i.completed ? "TAMAMLANDI" : "AKTiF"),
                 "Başvuru No": i.basvuruNo, "Fen Kayıt No": i.fenKayitNo, "İlçe": i.ilce, "Mahalle": i.mahalle,
                 "Ada": i.ada, "Parsel": i.parsel, "Mühendis": i.muhendis, "Tekniker": i.tekniker,
-                "Tescile Gidiş": i.tescilGonderimTarihi, "Tescilden Geliş": i.tescilGelisTarihi || "-", "İade Tarihi": i.iadeTarihi || "-", "Notlar": i.notlar || ""
+                "Tescile Gidiş": i.tescilGonderimTarihi, "Tescilden Geliş": i.tescilGelisTarihi || "-", 
+                "İade Tarihi": i.iadeTarihi || "-", "Vazgeçilme Tarihi": i.vazgecildi || "-", "Notlar": i.notlar || ""
             }));
             const ws = XLSX.utils.json_to_sheet(excelData);
             const wb = XLSX.utils.book_new();
