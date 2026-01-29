@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": 1769681089945,
+    "createdAt": "2026-01-29T10:04:49.945Z",
+    "completed": false,
+    "vazgecildi": null,
+    "basvuruNo": "11421482",
+    "fenKayitNo": "168",
+    "ilce": "MEZİTLİ",
+    "mahalle": "Tece",
+    "ada": "12589",
+    "parsel": "2",
+    "muhendis": "Mustafa DIKI",
+    "tekniker": "Ayşe PEKÇETİN",
+    "tescilGonderimTarihi": "2026-01-21",
+    "tescilGelisTarihi": "2026-01-21",
+    "iadeTarihi": "",
+    "notlar": "teknikerine arşiv işlemleri için teslim edildi"
+  }
+]
