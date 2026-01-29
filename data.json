@@ -1,5 +1,23 @@
 [
   {
+    "id": 1769681668087,
+    "createdAt": "2026-01-29T10:14:28.087Z",
+    "completed": false,
+    "vazgecildi": null,
+    "basvuruNo": "11434179",
+    "fenKayitNo": "223",
+    "ilce": "MEZİTLİ",
+    "mahalle": "Kuyuluk",
+    "ada": "118",
+    "parsel": "16",
+    "muhendis": "Gülizar YILDIZ",
+    "tekniker": "Ayşe PEKÇETİN",
+    "tescilGonderimTarihi": "2026-01-26",
+    "tescilGelisTarihi": "2026-01-27",
+    "iadeTarihi": "",
+    "notlar": "teknikerine arşiv işlemleri için teslim edildi"
+  },
+  {
     "id": 1769681428226,
     "createdAt": "2026-01-29T10:10:28.226Z",
     "completed": false,
