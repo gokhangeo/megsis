@@ -63,7 +63,7 @@
                 <p class="text-[11px] text-slate-400 mt-1.5 font-medium italic">© Gökhan ELGÜL tarafından tasarlanmıştır.</p>
             </div>
             <div class="flex flex-wrap justify-center gap-3 mt-6 md:mt-0">
-                <button onclick="toggleForm()" class="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-2xl transition-all flex items-center gap-2 shadow-lg shadow-indigo-200 active:scale-95 font-semibold">
+                <button onclick="openCreateModal()" class="bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-2xl transition-all flex items-center gap-2 shadow-lg shadow-indigo-200 active:scale-95 font-semibold">
                     <i class="fas fa-plus-circle"></i> <span id="addBtnText">Yeni Başvuru</span>
                 </button>
                 <div class="relative group">
@@ -109,7 +109,7 @@
         <div class="glass rounded-[2rem] shadow-2xl w-full max-w-4xl overflow-hidden animate-in zoom-in duration-300">
             <div class="p-8 pb-0 flex justify-between items-start">
                 <h2 id="modalTitle" class="text-2xl font-bold text-slate-800">Kayıt Ekranı</h2>
-                <button onclick="toggleForm()" class="bg-slate-100 hover:bg-red-50 hover:text-red-500 p-3 rounded-2xl transition-all"><i class="fas fa-times"></i></button>
+                <button onclick="closeModal()" class="bg-slate-100 hover:bg-red-50 hover:text-red-500 p-3 rounded-2xl transition-all"><i class="fas fa-times"></i></button>
             </div>
             <form id="activeForm" class="p-8 grid grid-cols-1 md:grid-cols-4 gap-4"></form>
         </div>
@@ -134,9 +134,20 @@
         let allData = { megsis: [], ebys: [] };
         let locationDatabase = {};
         let currentSha = "";
+        let editingItemId = null;
 
         const toggleLoader = (s) => document.getElementById('loader').classList.toggle('hidden', !s);
-        const toggleForm = () => { buildForm(); document.getElementById('formModal').classList.toggle('hidden'); };
+        
+        function openCreateModal() {
+            editingItemId = null;
+            buildForm();
+            document.getElementById('formModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            editingItemId = null;
+            document.getElementById('formModal').classList.add('hidden');
+        }
         
         function switchTab(tab) { 
             activeTab = tab; 
@@ -233,46 +244,62 @@
         function buildForm() {
             const form = document.getElementById('activeForm');
             const isMeg = activeTab === 'megsis';
+            const item = editingItemId ? allData[activeTab].find(i => i.id === editingItemId) : null;
+            document.getElementById('modalTitle').innerText = item ? (isMeg ? 'Başvuru Düzenle' : 'Evrak Düzenle') : (isMeg ? 'Yeni Başvuru' : 'Yeni Evrak Kaydı');
+            
             let html = '';
-            const staff = (role) => (locationDatabase[role] || []).map(n => `<option value="${n}">${n}</option>`).join('');
-            const ilceler = Object.keys(locationDatabase).filter(n => n !== "MÜHENDİS" && n !== "TEKNİKER").map(i => `<option value="${i}">${i}</option>`).join('');
+            const staff = (role) => (locationDatabase[role] || []).map(n => `<option value="${n}" ${item?.[role.toLowerCase()] === n ? 'selected' : ''}>${n}</option>`).join('');
+            const ilceler = Object.keys(locationDatabase).filter(n => n !== "MÜHENDİS" && n !== "TEKNİKER").map(i => `<option value="${i}" ${item?.ilce === i ? 'selected' : ''}>${i}</option>`).join('');
 
             if (isMeg) {
                 html = `
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Başvuru No</label><input type="text" name="basvuruNo" required class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Fen Kayıt No</label><input type="text" name="fenKayitNo" required class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Başvuru No</label><input type="text" name="basvuruNo" required value="${item?.basvuruNo || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Fen Kayıt No</label><input type="text" name="fenKayitNo" required value="${item?.fenKayitNo || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
                     <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">İlçe</label><select name="ilce" onchange="updateMahalle(this)" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${ilceler}</select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mahalle</label><select name="mahalle" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">İlçe Seçilmeli</option></select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Ada</label><input type="number" name="ada" required class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mahalle</label><select name="mahalle" id="formMahalle" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">İlçe Seçilmeli</option></select></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Ada</label><input type="number" name="ada" required value="${item?.ada || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required value="${item?.parsel || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
                     <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mühendis</label><select name="muhendis" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${staff('MÜHENDİS')}</select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tekniker</label><select name="tekniker" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${staff('TEKNİKER')}</select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tescil Gidiş</label><input type="date" name="tescilGonderimTarihi" required class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tescil Geliş</label><input type="date" name="tescilGelisTarihi" class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="md:col-span-2 space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Notlar</label><input type="text" name="notlar" class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tekniker</label><select name="tekniker" class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçilmedi</option>${staff('TEKNİKER')}</select></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tescil Gidiş</label><input type="date" name="tescilGonderimTarihi" required value="${item?.tescilGonderimTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tescil Geliş</label><input type="date" name="tescilGelisTarihi" value="${item?.tescilGelisTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="md:col-span-2 space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Notlar</label><input type="text" name="notlar" value="${item?.notlar || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
                 `;
             } else {
                 html = `
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Evrak Tarihi</label><input type="date" name="evrakTarihi" required class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Evrak Sayısı</label><input type="text" name="evrakSayisi" required class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="md:col-span-2 space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Konu</label><input type="text" name="konu" required class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Evrak Tarihi</label><input type="date" name="evrakTarihi" required value="${item?.evrakTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Evrak Sayısı</label><input type="text" name="evrakSayisi" required value="${item?.evrakSayisi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="md:col-span-2 space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Konu</label><input type="text" name="konu" required value="${item?.konu || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
                     <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">İlçe</label><select name="ilce" onchange="updateMahalle(this)" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${ilceler}</select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mahalle</label><select name="mahalle" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">İlçe Seçilmeli</option></select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Ada</label><input type="number" name="ada" required class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mahalle</label><select name="mahalle" id="formMahalle" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">İlçe Seçilmeli</option></select></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Ada</label><input type="number" name="ada" required value="${item?.ada || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required value="${item?.parsel || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
                     <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mühendis</label><select name="muhendis" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${staff('MÜHENDİS')}</select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tekniker</label><select name="tekniker" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${staff('TEKNİKER')}</select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Cevap Tarihi</label><input type="date" name="cevapTarihi" class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="md:col-span-4 space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Notlar</label><textarea name="notlar" rows="2" class="w-full rounded-xl border-slate-200 border p-3"></textarea></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tekniker</label><select name="tekniker" class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçilmedi</option>${staff('TEKNİKER')}</select></div>
+                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Cevap Tarihi</label><input type="date" name="cevapTarihi" value="${item?.cevapTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
+                    <div class="md:col-span-4 space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Notlar</label><textarea name="notlar" rows="2" class="w-full rounded-xl border-slate-200 border p-3">${item?.notlar || ''}</textarea></div>
                 `;
             }
             form.innerHTML = html + `<div class="md:col-span-4 pt-4"><button type="submit" class="w-full bg-slate-800 text-white py-4 rounded-2xl font-bold hover:bg-black transition-all shadow-xl active:scale-95">Kaydet</button></div>`;
+            
+            // Edit durumunda mahalleleri doldur
+            if(item?.ilce) {
+                const dummyEl = { value: item.ilce, form: { mahalle: document.getElementById('formMahalle') } };
+                updateMahalle(dummyEl);
+                document.getElementById('formMahalle').value = item.mahalle;
+            }
+
             form.onsubmit = async (e) => {
                 e.preventDefault();
-                const data = Object.fromEntries(new FormData(e.target));
-                const item = { id: Date.now(), createdAt: new Date().toISOString(), ...data };
-                allData[activeTab].unshift(item);
-                toggleForm();
+                const formData = Object.fromEntries(new FormData(e.target));
+                if (editingItemId) {
+                    const idx = allData[activeTab].findIndex(i => i.id === editingItemId);
+                    allData[activeTab][idx] = { ...allData[activeTab][idx], ...formData, updatedAt: new Date().toISOString() };
+                } else {
+                    const newItem = { id: Date.now(), createdAt: new Date().toISOString(), completed: false, ...formData };
+                    allData[activeTab].unshift(newItem);
+                }
+                closeModal();
                 renderTable();
                 await saveData();
             };
@@ -319,13 +346,14 @@
                         <td class="px-6 py-4 font-bold text-slate-800">#${item.basvuruNo}<br><span class="text-[10px] text-slate-400 font-bold uppercase">FK: ${item.fenKayitNo}</span></td>
                         <td class="px-6 py-4 text-sm font-semibold text-slate-700">${item.ilce}<br><span class="text-xs text-slate-400">${item.mahalle}</span></td>
                         <td class="px-6 py-4"><span class="bg-indigo-50 text-indigo-600 px-3 py-1.5 rounded-xl font-bold text-xs border border-indigo-100">${item.ada} / ${item.parsel}</span></td>
-                        <td class="px-6 py-4 text-[11px] font-bold">M: ${item.muhendis}<br><span class="text-slate-500">T: ${item.tekniker}</span></td>
+                        <td class="px-6 py-4 text-[11px] font-bold">M: ${item.muhendis}<br><span class="${item.tekniker ? 'text-slate-500' : 'text-rose-400 italic'}">T: ${item.tekniker || 'Atanmadı'}</span></td>
                         <td class="px-6 py-4 text-[10px] font-bold">G: ${item.tescilGonderimTarihi}<br>${item.tescilGelisTarihi ? `<span class="text-emerald-600 font-bold">T: ${item.tescilGelisTarihi}</span>` : ''}${item.vazgecildi ? `<br><span class="text-amber-600">V: ${item.vazgecildi}</span>` : ''}</td>
                         <td class="px-6 py-4 text-xs text-slate-500 italic max-w-[150px] truncate" title="${item.notlar || '-'}">${item.notlar || '-'}</td>
                         <td class="px-6 py-4 text-center">
                             <div class="flex items-center justify-center gap-1">
-                                <button onclick="toggleField('megsis', ${item.id}, 'vazgecildi')" class="p-2 text-slate-400 hover:text-amber-500 transition-all"><i class="fas fa-ban"></i></button>
-                                <button onclick="deleteItem('megsis', ${item.id})" class="p-2 text-slate-300 hover:text-red-500 transition-all"><i class="fas fa-trash-alt"></i></button>
+                                <button onclick="editItem(${item.id})" class="p-2 text-indigo-400 hover:text-indigo-600 transition-all" title="Düzenle"><i class="fas fa-edit"></i></button>
+                                <button onclick="toggleField('megsis', ${item.id}, 'vazgecildi')" class="p-2 text-slate-400 hover:text-amber-500 transition-all" title="Vazgeçildi"><i class="fas fa-ban"></i></button>
+                                <button onclick="deleteItem('megsis', ${item.id})" class="p-2 text-slate-300 hover:text-red-500 transition-all" title="Sil"><i class="fas fa-trash-alt"></i></button>
                             </div>
                         </td>
                     `;
@@ -338,18 +366,27 @@
                         <td class="px-6 py-4 text-xs font-semibold text-slate-500 italic max-w-[150px] truncate" title="${item.konu}">${item.konu}</td>
                         <td class="px-6 py-4 text-sm font-semibold text-slate-700">${item.ilce}<br><span class="text-xs text-slate-400">${item.mahalle}</span></td>
                         <td class="px-6 py-4 font-bold text-xs text-indigo-500">${item.ada}/${item.parsel}</td>
-                        <td class="px-6 py-4 text-[11px] font-bold">M: ${item.muhendis}<br><span class="text-slate-500">T: ${item.tekniker}</span></td>
+                        <td class="px-6 py-4 text-[11px] font-bold">M: ${item.muhendis}<br><span class="${item.tekniker ? 'text-slate-500' : 'text-rose-400 italic'}">T: ${item.tekniker || 'Atanmadı'}</span></td>
                         <td class="px-6 py-4 text-[11px] font-bold ${isOverdue ? 'text-red-600 animate-pulse' : 'text-slate-600'}">
                             ${item.cevapTarihi || '<i class="fas fa-clock"></i> Bekliyor'}
                         </td>
                         <td class="px-6 py-4 text-xs text-slate-500 italic max-w-[150px] truncate" title="${item.notlar || '-'}">${item.notlar || '-'}</td>
                         <td class="px-6 py-4 text-center">
-                            <button onclick="deleteItem('ebys', ${item.id})" class="p-2 text-slate-300 hover:text-red-500 transition-all"><i class="fas fa-trash-alt"></i></button>
+                            <div class="flex items-center justify-center gap-1">
+                                <button onclick="editItem(${item.id})" class="p-2 text-indigo-400 hover:text-indigo-600 transition-all" title="Düzenle"><i class="fas fa-edit"></i></button>
+                                <button onclick="deleteItem('ebys', ${item.id})" class="p-2 text-slate-300 hover:text-red-500 transition-all" title="Sil"><i class="fas fa-trash-alt"></i></button>
+                            </div>
                         </td>
                     `;
                 }
                 tbody.appendChild(tr);
             });
+        }
+
+        function editItem(id) {
+            editingItemId = id;
+            buildForm();
+            document.getElementById('formModal').classList.remove('hidden');
         }
 
         async function toggleField(tab, id, field) {
