@@ -88,10 +88,7 @@
                 <input type="text" id="searchInput" oninput="renderTable()" placeholder="Tabloda ara..." class="w-full pl-11 pr-4 py-3 rounded-xl border-slate-200 border bg-white/50 focus:bg-white transition-all text-sm outline-none">
             </div>
             
-            <!-- Dinamik Filtre Butonları -->
-            <div id="filterContainer" class="flex items-center gap-2 p-1 bg-slate-100/50 rounded-xl overflow-x-auto no-scrollbar w-full lg:w-auto">
-                <!-- Filtreler JS ile buraya dolacak -->
-            </div>
+            <div id="filterContainer" class="flex items-center gap-2 p-1 bg-slate-100/50 rounded-xl overflow-x-auto no-scrollbar w-full lg:w-auto"></div>
 
             <div id="stats" class="text-xs font-bold text-slate-400 bg-slate-100 px-4 py-2 rounded-full uppercase tracking-widest whitespace-nowrap">Yükleniyor...</div>
         </div>
@@ -205,7 +202,6 @@
             document.getElementById('pageDesc').innerText = isMeg ? "Personel Başvuru Takibi" : "Elektronik Belge Takibi";
             document.getElementById('addBtnText').innerText = isMeg ? "Yeni Başvuru" : "Yeni Evrak Kaydı";
             
-            // Filtre Butonlarını Oluştur
             const filterBox = document.getElementById('filterContainer');
             if (isMeg) {
                 filterBox.innerHTML = `
@@ -226,11 +222,11 @@
             if (isMeg) {
                 head.innerHTML = `<tr class="bg-slate-50/80 text-slate-400 text-[11px] uppercase tracking-wider font-bold">
                     <th class="px-6 py-4">Durum</th><th class="px-6 py-4 text-left">Başvuru/Fen No</th><th class="px-6 py-4 text-left">Konum</th><th class="px-6 py-4 text-left">Ada/Parsel</th>
-                    <th class="px-6 py-4 text-left">Sorumlular</th><th class="px-6 py-4 text-left">Süreçler</th><th class="px-6 py-4 text-center">İşlem</th></tr>`;
+                    <th class="px-6 py-4 text-left">Sorumlular</th><th class="px-6 py-4 text-left">Süreçler</th><th class="px-6 py-4 text-left">Notlar</th><th class="px-6 py-4 text-center">İşlem</th></tr>`;
             } else {
                 head.innerHTML = `<tr class="bg-slate-50/80 text-slate-400 text-[11px] uppercase tracking-wider font-bold">
                     <th class="px-6 py-4 text-left">Evrak No/Tarih</th><th class="px-6 py-4 text-left">Konu</th><th class="px-6 py-4 text-left">Konum</th><th class="px-6 py-4 text-left">Ada/Parsel</th>
-                    <th class="px-6 py-4 text-left">Sorumlular</th><th class="px-6 py-4 text-left">Cevap Tarihi</th><th class="px-6 py-4 text-center">İşlem</th></tr>`;
+                    <th class="px-6 py-4 text-left">Sorumlular</th><th class="px-6 py-4 text-left">Cevap Tarihi</th><th class="px-6 py-4 text-left">Notlar</th><th class="px-6 py-4 text-center">İşlem</th></tr>`;
             }
         }
 
@@ -296,7 +292,6 @@
             
             const list = allData[activeTab].filter(item => {
                 const matchesSearch = Object.values(item).some(v => v?.toString().toLowerCase().includes(search));
-                
                 let matchesStatus = true;
                 if (activeTab === 'megsis') {
                     if (currentStatusFilter === 'giden') matchesStatus = item.tescilGonderimTarihi && !item.tescilGelisTarihi && !item.vazgecildi;
@@ -306,7 +301,6 @@
                     if (currentStatusFilter === 'bekleyen') matchesStatus = !item.cevapTarihi;
                     else if (currentStatusFilter === 'cevaplanan') matchesStatus = !!item.cevapTarihi;
                 }
-                
                 return matchesSearch && matchesStatus;
             });
 
@@ -321,14 +315,13 @@
                     if(item.completed) tr.classList.add('completed-row');
                     
                     tr.innerHTML = `
-                        <td class="px-6 py-4 text-center">
-                            <input type="checkbox" ${item.completed ? 'checked' : ''} onchange="toggleField('megsis', ${item.id}, 'completed')" class="w-6 h-6 rounded-lg border-slate-300 text-indigo-500 cursor-pointer">
-                        </td>
+                        <td class="px-6 py-4 text-center"><input type="checkbox" ${item.completed ? 'checked' : ''} onchange="toggleField('megsis', ${item.id}, 'completed')" class="w-6 h-6 rounded-lg border-slate-300 text-indigo-500 cursor-pointer"></td>
                         <td class="px-6 py-4 font-bold text-slate-800">#${item.basvuruNo}<br><span class="text-[10px] text-slate-400 font-bold uppercase">FK: ${item.fenKayitNo}</span></td>
                         <td class="px-6 py-4 text-sm font-semibold text-slate-700">${item.ilce}<br><span class="text-xs text-slate-400">${item.mahalle}</span></td>
                         <td class="px-6 py-4"><span class="bg-indigo-50 text-indigo-600 px-3 py-1.5 rounded-xl font-bold text-xs border border-indigo-100">${item.ada} / ${item.parsel}</span></td>
                         <td class="px-6 py-4 text-[11px] font-bold">M: ${item.muhendis}<br><span class="text-slate-500">T: ${item.tekniker}</span></td>
-                        <td class="px-6 py-4 text-[10px] font-bold">G: ${item.tescilGonderimTarihi}<br>${item.tescilGelisTarihi ? `<span class="text-emerald-600 font-bold">T: ${item.tescilGelisTarihi}</span>` : ''}</td>
+                        <td class="px-6 py-4 text-[10px] font-bold">G: ${item.tescilGonderimTarihi}<br>${item.tescilGelisTarihi ? `<span class="text-emerald-600 font-bold">T: ${item.tescilGelisTarihi}</span>` : ''}${item.vazgecildi ? `<br><span class="text-amber-600">V: ${item.vazgecildi}</span>` : ''}</td>
+                        <td class="px-6 py-4 text-xs text-slate-500 italic max-w-[150px] truncate" title="${item.notlar || '-'}">${item.notlar || '-'}</td>
                         <td class="px-6 py-4 text-center">
                             <div class="flex items-center justify-center gap-1">
                                 <button onclick="toggleField('megsis', ${item.id}, 'vazgecildi')" class="p-2 text-slate-400 hover:text-amber-500 transition-all"><i class="fas fa-ban"></i></button>
@@ -349,6 +342,7 @@
                         <td class="px-6 py-4 text-[11px] font-bold ${isOverdue ? 'text-red-600 animate-pulse' : 'text-slate-600'}">
                             ${item.cevapTarihi || '<i class="fas fa-clock"></i> Bekliyor'}
                         </td>
+                        <td class="px-6 py-4 text-xs text-slate-500 italic max-w-[150px] truncate" title="${item.notlar || '-'}">${item.notlar || '-'}</td>
                         <td class="px-6 py-4 text-center">
                             <button onclick="deleteItem('ebys', ${item.id})" class="p-2 text-slate-300 hover:text-red-500 transition-all"><i class="fas fa-trash-alt"></i></button>
                         </td>
