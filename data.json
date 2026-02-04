@@ -1,6 +1,22 @@
 {
   "megsis": [
     {
+      "id": 1770185081853,
+      "createdAt": "2026-02-04T06:04:41.853Z",
+      "completed": false,
+      "basvuruNo": "11388528",
+      "fenKayitNo": "204",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "565",
+      "parsel": "65",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-01-19",
+      "tescilGelisTarihi": "2026-01-20",
+      "notlar": ""
+    },
+    {
       "id": 1770184440481,
       "createdAt": "2026-02-04T05:54:00.481Z",
       "completed": false,
