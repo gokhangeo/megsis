@@ -1,6 +1,22 @@
 {
   "megsis": [
     {
+      "id": 1770212100374,
+      "createdAt": "2026-02-04T13:35:00.374Z",
+      "completed": false,
+      "basvuruNo": "11394625",
+      "fenKayitNo": "239",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "7573",
+      "parsel": "4",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-02-04",
+      "tescilGelisTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770211999564,
       "createdAt": "2026-02-04T13:33:19.564Z",
       "completed": false,
