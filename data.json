@@ -1,6 +1,22 @@
 {
   "megsis": [
     {
+      "id": 1770183745302,
+      "createdAt": "2026-02-04T05:42:25.302Z",
+      "completed": false,
+      "basvuruNo": "11435152",
+      "fenKayitNo": "357",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "1846",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-03",
+      "tescilGelisTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770183655704,
       "createdAt": "2026-02-04T05:40:55.704Z",
       "completed": false,
