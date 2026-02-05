@@ -118,7 +118,7 @@
     <div id="loader" class="fixed inset-0 bg-slate-900/10 backdrop-blur-md z-[200] hidden flex items-center justify-center">
         <div class="glass p-8 rounded-3xl shadow-2xl text-center">
             <div class="animate-spin rounded-full h-12 w-12 border-4 border-indigo-500/20 border-t-indigo-500 mx-auto mb-4"></div>
-            <p class="text-slate-700 font-bold">İşlem yapılıyor Müdürüm...</p>
+            <p class="text-slate-700 font-bold">İşlem yapılıyor...</p>
         </div>
     </div>
 
@@ -403,7 +403,7 @@
         }
 
         async function deleteItem(tab, id) {
-            if(confirm('Silmek istediğine emin misin Müdürüm?')) {
+            if(confirm('Silmek istediğine emin misin?')) {
                 allData[tab] = allData[tab].filter(i => i.id !== id);
                 renderTable();
                 await saveData();
@@ -426,3 +426,4 @@
     </script>
 </body>
 </html>
+
