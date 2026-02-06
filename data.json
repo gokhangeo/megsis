@@ -1,6 +1,22 @@
 {
   "megsis": [
     {
+      "id": 1770361699038,
+      "createdAt": "2026-02-06T07:08:19.038Z",
+      "completed": false,
+      "basvuruNo": "11459558",
+      "fenKayitNo": "310",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "214",
+      "parsel": "3",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-05",
+      "tescilGelisTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770360349364,
       "createdAt": "2026-02-06T06:45:49.364Z",
       "completed": false,
