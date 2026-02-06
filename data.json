@@ -1,6 +1,22 @@
 {
   "megsis": [
     {
+      "id": 1770360148863,
+      "createdAt": "2026-02-06T06:42:28.863Z",
+      "completed": false,
+      "basvuruNo": "11478346",
+      "fenKayitNo": "457",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "11932",
+      "parsel": "1",
+      "muhendis": "Gülizar YILDIZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-05",
+      "tescilGelisTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770360081515,
       "createdAt": "2026-02-06T06:41:21.515Z",
       "completed": false,
