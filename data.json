@@ -1192,7 +1192,8 @@
       "tescilGonderimTarihi": "2026-01-28",
       "tescilGelisTarihi": "2026-01-28",
       "iadeTarihi": "",
-      "notlar": "arşive teslim edildi"
+      "notlar": "arşive teslim edildi",
+      "isArchived": true
     },
     {
       "id": 1769685290143,
