@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770626293804,
+      "createdAt": "2026-02-09T08:38:13.804Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11458907",
+      "fenKayitNo": "306",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "386",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770626081995,
       "createdAt": "2026-02-09T08:34:41.995Z",
       "completed": false,
