@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770616106660,
+      "createdAt": "2026-02-09T05:48:26.660Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11374227",
+      "fenKayitNo": "57",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "10576",
+      "parsel": "6",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770615992142,
       "createdAt": "2026-02-09T05:46:32.142Z",
       "completed": false,
