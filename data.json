@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770626081995,
+      "createdAt": "2026-02-09T08:34:41.995Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11466819",
+      "fenKayitNo": "324",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "196",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770617311632,
       "createdAt": "2026-02-09T06:08:31.632Z",
       "completed": false,
