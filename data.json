@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770641719953,
+      "createdAt": "2026-02-09T12:55:19.953Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11473548",
+      "fenKayitNo": "394",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "2986",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-02-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770634062716,
       "createdAt": "2026-02-09T10:47:42.716Z",
       "completed": false,
