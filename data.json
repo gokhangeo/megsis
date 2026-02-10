@@ -617,7 +617,8 @@
       "tescilGonderimTarihi": "2026-02-03",
       "tescilGelisTarihi": "2026-02-05",
       "notlar": "",
-      "updatedAt": "2026-02-06T07:48:09.474Z"
+      "updatedAt": "2026-02-06T07:48:09.474Z",
+      "isArchived": true
     },
     {
       "id": 1770183745302,
