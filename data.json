@@ -1669,7 +1669,8 @@
       "tescilGonderimTarihi": "2026-01-21",
       "tescilGelisTarihi": "2026-01-21",
       "iadeTarihi": "",
-      "notlar": "teknikerine arşiv işlemleri için teslim edildi"
+      "notlar": "teknikerine arşiv işlemleri için teslim edildi",
+      "isArchived": true
     }
   ],
   "ebys": []
