@@ -38,6 +38,10 @@
         #syncIndicator { transition: all 0.5s ease; opacity: 0; transform: translateY(-10px); }
         #syncIndicator.show { opacity: 1; transform: translateY(0); }
 
+        .note-card { transition: all 0.3s ease; }
+        .note-card:hover { transform: translateY(-2px); }
+        .note-done { text-decoration: line-through; opacity: 0.6; }
+
         #exportCanvas { position: absolute; left: -9999px; top: -9999px; background: white; padding: 40px; width: 1400px; }
         #exportCanvas table { width: 100%; border-collapse: collapse; }
         #exportCanvas th, #exportCanvas td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; font-size: 12px; }
@@ -152,7 +156,7 @@
             </div>
         </div>
 
-        <!-- Ana İçerik -->
+        <!-- Tablo Alanı -->
         <div id="mainContentArea" class="glass rounded-[2rem] shadow-xl overflow-hidden relative z-0 min-h-[400px]">
             <div id="tableView" class="overflow-x-auto custom-scrollbar max-h-[60vh]">
                 <table class="w-full border-collapse text-left text-xs">
@@ -182,25 +186,19 @@
 
     <!-- Mükerrer Kayıt Uyarı Modalı -->
     <div id="duplicateModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-md z-[300] hidden flex items-center justify-center p-4">
-        <div class="bg-white rounded-[2.5rem] shadow-2xl w-full max-w-md overflow-hidden p-8 border-4 border-amber-400">
-            <div class="text-center space-y-4">
-                <div class="bg-amber-100 text-amber-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto text-4xl shadow-inner animate-bounce">
-                    <i class="fas fa-copy"></i>
-                </div>
-                <h2 class="text-2xl font-black text-slate-800">Aynı Kayıt Mevcut</h2>
-                <p class="text-sm text-slate-600 leading-relaxed">Seçilen <b>İlçe</b> içerisinde, bu <b>Fen Kayıt No</b> ve <b>Başvuru Tarihi</b> ile bir kayıt zaten yapılmış.</p>
-                <div class="bg-slate-50 p-4 rounded-2xl text-left border border-slate-100">
-                    <div id="duplicateDetails" class="text-xs space-y-1 font-semibold text-slate-500"></div>
-                </div>
-                <div class="flex flex-col gap-3 pt-4">
-                    <button onclick="confirmDuplicateSave()" class="w-full bg-slate-800 text-white py-4 rounded-2xl font-bold hover:bg-black transition-all shadow-xl active:scale-95 text-xs uppercase tracking-widest">Yine de Kaydet</button>
-                    <button onclick="closeDuplicateModal()" class="w-full bg-slate-100 text-slate-600 py-4 rounded-2xl font-bold hover:bg-slate-200 transition-all text-xs uppercase tracking-widest">Vazgeç</button>
-                </div>
+        <div class="bg-white rounded-[2.5rem] shadow-2xl w-full max-w-md overflow-hidden p-8 border-4 border-amber-400 text-center">
+            <div class="bg-amber-100 text-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto text-3xl mb-4 animate-bounce"><i class="fas fa-copy"></i></div>
+            <h2 class="text-xl font-black text-slate-800">Aynı Kayıt Mevcut</h2>
+            <p class="text-xs text-slate-600 mt-2">Bu <b>İlçe</b>, <b>Fen Kayıt No</b> ve <b>Başvuru Tarihi</b> ile bir kayıt zaten yapılmış.</p>
+            <div id="duplicateDetails" class="bg-slate-50 p-4 rounded-2xl text-left border border-slate-100 mt-4 text-[10px] space-y-1 font-semibold text-slate-500"></div>
+            <div class="flex flex-col gap-2 mt-6">
+                <button onclick="confirmDuplicateSave()" class="bg-slate-800 text-white py-3.5 rounded-xl font-bold active:scale-95 text-[10px] uppercase tracking-widest">Yine de Kaydet</button>
+                <button onclick="closeDuplicateModal()" class="bg-slate-100 text-slate-600 py-3.5 rounded-xl font-bold text-[10px] uppercase tracking-widest">Vazgeç</button>
             </div>
         </div>
     </div>
 
-    <!-- Diğer Modallar -->
+    <!-- Kayıt Modalı -->
     <div id="formModal" class="fixed inset-0 bg-slate-900/30 backdrop-blur-sm z-[150] hidden flex items-center justify-center p-4">
         <div class="glass rounded-[2rem] shadow-2xl w-full max-w-4xl overflow-hidden animate-in zoom-in duration-300">
             <div class="p-8 pb-0 flex justify-between items-start">
@@ -253,12 +251,7 @@
         function closeModal() { editingItemId = null; document.getElementById('formModal').classList.add('hidden'); }
         function openIadeModal(id) { returnItemId = id; document.getElementById('iadeTarihiInput').value = new Date().toISOString().split('T')[0]; document.getElementById('iadeModal').classList.remove('hidden'); }
         function closeIadeModal() { returnItemId = null; document.getElementById('iadeModal').classList.add('hidden'); }
-        
-        function openDuplicateModal(details, formData) {
-            document.getElementById('duplicateDetails').innerHTML = `<b>İlçe:</b> ${details.ilce}<br><b>Fen Kayıt No:</b> ${details.fenKayitNo}<br><b>Başvuru Tarihi:</b> ${details.tescilGonderimTarihi}`;
-            pendingSaveData = formData;
-            document.getElementById('duplicateModal').classList.remove('hidden');
-        }
+        function openDuplicateModal(details, formData) { document.getElementById('duplicateDetails').innerHTML = `<b>İlçe:</b> ${details.ilce}<br><b>Fen Kayıt No:</b> ${details.fenKayitNo}<br><b>Başvuru Tarihi:</b> ${details.tescilGonderimTarihi}`; pendingSaveData = formData; document.getElementById('duplicateModal').classList.remove('hidden'); }
         function closeDuplicateModal() { pendingSaveData = null; document.getElementById('duplicateModal').classList.add('hidden'); }
 
         window.onload = async () => { await fetchLocationDatabase(); await fetchData(); await fetchNotes(); };
@@ -325,61 +318,31 @@
                     headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' },
                     body: JSON.stringify({ message: "Sistem Güncelleme", content, sha })
                 });
-                if (res.ok) { 
-                    const json = await res.json(); 
-                    if(isNotes) notesSha = json.content.sha; else currentSha = json.content.sha;
-                    showSync(); 
-                }
+                if (res.ok) { const json = await res.json(); if(isNotes) notesSha = json.content.sha; else currentSha = json.content.sha; showSync(); }
             } catch (e) { console.error(e); } finally { toggleLoader(false); }
         }
 
         function showSync() { const el = document.getElementById('syncIndicator'); el.classList.add('show'); setTimeout(() => el.classList.remove('show'), 3000); }
 
         function switchTab(tab) { 
-            activeTab = tab; 
-            currentStatusFilter = 'all'; 
-            showOnlyDelayed = false;
-            const isNotes = tab === 'daily_notes';
-            document.getElementById('tableView').classList.toggle('hidden', isNotes);
-            document.getElementById('notesView').classList.toggle('hidden', !isNotes);
-            document.getElementById('filterPanel').classList.toggle('hidden', isNotes || tab === 'archive' || tab === 'archived_list');
-            document.getElementById('excelDropdown').classList.toggle('hidden', isNotes);
+            activeTab = tab; currentStatusFilter = 'all'; showOnlyDelayed = false;
+            document.getElementById('tableView').classList.toggle('hidden', tab === 'daily_notes');
+            document.getElementById('notesView').classList.toggle('hidden', tab !== 'daily_notes');
+            document.getElementById('filterPanel').classList.toggle('hidden', tab === 'daily_notes' || tab === 'archive' || tab === 'archived_list');
+            document.getElementById('excelDropdown').classList.toggle('hidden', tab === 'daily_notes');
             document.getElementById('downloadJpegBtn').classList.toggle('hidden', tab !== 'archive');
-            
-            updateUI(); 
-            if(isNotes) renderNotes(); else renderTable(); 
+            updateUI(); if(tab === 'daily_notes') renderNotes(); else renderTable(); 
         }
 
         function setStatusFilter(f) { currentStatusFilter = f; showOnlyDelayed = false; renderTable(); }
         function filterDelayedOnly() { activeTab = 'megsis'; showOnlyDelayed = true; currentStatusFilter = 'all'; switchTab('megsis'); }
 
-        async function confirmIade() {
-            const date = document.getElementById('iadeTarihiInput').value;
-            if(!date) return;
-            const idx = allData.megsis.findIndex(i => i.id === returnItemId);
-            if(idx > -1) {
-                allData.megsis[idx].iadeTarihi = date;
-                allData.megsis[idx].vazgecildi = null;
-                closeIadeModal(); renderTable(); await saveData();
-            }
-        }
-
-        async function clearIade(id) {
-            const idx = allData.megsis.findIndex(i => i.id === id);
-            if(idx > -1 && confirm('İade durumunu iptal etmek istediğinize emin misiniz?')) {
-                allData.megsis[idx].iadeTarihi = null;
-                renderTable(); await saveData();
-            }
-        }
-
         async function addDailyNote() {
             const text = document.getElementById('noteInput').value;
             const priority = document.getElementById('notePriority').checked;
             if(!text) return;
-            const newNote = { id: Date.now(), date: new Date().toLocaleString('tr-TR'), text, priority, done: false };
-            notesData.unshift(newNote);
-            document.getElementById('noteInput').value = '';
-            document.getElementById('notePriority').checked = false;
+            notesData.unshift({ id: Date.now(), date: new Date().toLocaleString('tr-TR'), text, priority, done: false });
+            document.getElementById('noteInput').value = ''; document.getElementById('notePriority').checked = false;
             renderNotes(); await saveData(true);
         }
 
@@ -387,14 +350,14 @@
             const list = document.getElementById('notesList');
             list.innerHTML = '';
             const sorted = [...notesData].sort((a, b) => b.priority - a.priority);
-            document.getElementById('stats').innerText = `${notesData.length} Toplam Not`;
+            document.getElementById('stats').innerText = `${notesData.length} Not`;
             sorted.forEach(note => {
                 list.innerHTML += `<div class="glass note-card p-5 rounded-[2rem] border-l-8 ${note.priority ? 'border-amber-400 bg-amber-50/30' : 'border-slate-200 bg-white/40'} flex justify-between items-start"><div class="flex-1 cursor-pointer" onclick="toggleNote(${note.id})"><div class="text-[10px] font-bold text-slate-400 mb-1">${note.date} ${note.priority ? '<span class="text-amber-500 ml-2">★ ÖNEMLİ</span>' : ''}</div><p class="text-sm font-medium text-slate-700 ${note.done ? 'note-done' : ''}">${note.text}</p></div><div class="flex gap-2 ml-4"><button onclick="toggleNote(${note.id})" class="text-emerald-500 p-2 hover:bg-emerald-50 rounded-full transition-all"><i class="fas ${note.done ? 'fa-check-double' : 'fa-check'}"></i></button><button onclick="deleteNote(${note.id})" class="text-rose-400 p-2 hover:bg-rose-50 rounded-full transition-all"><i class="fas fa-trash-alt"></i></button></div></div>`;
             });
         }
 
         async function toggleNote(id) { const idx = notesData.findIndex(n => n.id === id); notesData[idx].done = !notesData[idx].done; renderNotes(); await saveData(true); }
-        async function deleteNote(id) { if(confirm('Notu silmek istiyor musunuz?')) { notesData = notesData.filter(n => n.id !== id); renderNotes(); await saveData(true); } }
+        async function deleteNote(id) { if(confirm('Sileyim mi?')) { notesData = notesData.filter(n => n.id !== id); renderNotes(); await saveData(true); } }
 
         function calculateStats() {
             const today = new Date();
@@ -424,13 +387,7 @@
             
             const filterBox = document.getElementById('filterContainer');
             if (isMeg) {
-                filterBox.innerHTML = `
-                    <button onclick="setStatusFilter('all')" class="filter-btn ${currentStatusFilter==='all'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Hepsi</button>
-                    <button onclick="setStatusFilter('giden')" class="filter-btn ${currentStatusFilter==='giden'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Giden</button>
-                    <button onclick="setStatusFilter('gelen')" class="filter-btn ${currentStatusFilter==='gelen'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Gelen</button>
-                    <button onclick="setStatusFilter('tapu_iade')" class="filter-btn ${currentStatusFilter==='tapu_iade'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Tapu İade</button>
-                    <button onclick="setStatusFilter('iade')" class="filter-btn ${currentStatusFilter==='iade'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">İade</button>
-                `;
+                filterBox.innerHTML = `<button onclick="setStatusFilter('all')" class="filter-btn ${currentStatusFilter==='all'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Hepsi</button><button onclick="setStatusFilter('giden')" class="filter-btn ${currentStatusFilter==='giden'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Giden</button><button onclick="setStatusFilter('gelen')" class="filter-btn ${currentStatusFilter==='gelen'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Gelen</button><button onclick="setStatusFilter('tapu_iade')" class="filter-btn ${currentStatusFilter==='tapu_iade'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Tapu İade</button><button onclick="setStatusFilter('iade')" class="filter-btn ${currentStatusFilter==='iade'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">İade</button>`;
             } else if (isEbys) {
                 filterBox.innerHTML = `<button onclick="setStatusFilter('all')" class="filter-btn ${currentStatusFilter==='all'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Hepsi</button><button onclick="setStatusFilter('bekleyen')" class="filter-btn ${currentStatusFilter==='bekleyen'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Bekleyen</button><button onclick="setStatusFilter('cevaplanan')" class="filter-btn ${currentStatusFilter==='cevaplanan'?'active':''} px-3 py-1.5 rounded-lg text-[9px] font-bold transition-all uppercase">Cevaplı</button>`;
             }
@@ -490,16 +447,16 @@
                         <td class="px-6 py-4 font-bold text-slate-500">
                             G: ${item.tescilGonderimTarihi}${isDelayed?' <span class="text-red-500 animate-pulse">!</span>':''}${item.isArchived?' <i class="fas fa-check-double text-emerald-500"></i>':''}<br>
                             ${item.tescilGelisTarihi ? `<span class="text-emerald-600 font-bold">T: ${item.tescilGelisTarihi}</span>` : ''}
-                            ${item.tapuIadeTarihi ? `<br><span class="text-rose-500 font-bold" title="${item.tapuIadeNedeni}">T.İade: ${item.tapuIadeTarihi}</span>` : ''}
+                            ${item.tapuIadeTarihi ? `<br><span class="text-rose-500 font-bold">T.İade: ${item.tapuIadeTarihi}</span>` : ''}
                             ${item.iadeTarihi ? `<br><span class="text-amber-600 font-bold">İ: ${item.iadeTarihi}</span>` : ''}
                             ${item.vazgecildi ? `<br><span class="text-amber-600 italic">V: ${item.vazgecildi}</span>` : ''}
                         </td>
                         <td class="px-6 py-4 text-slate-500 italic max-w-[120px] truncate" title="${item.notlar || '-'}">${item.notlar || '-'}</td>
-                        <td class="px-6 py-4 text-center"><div class="flex items-center justify-center gap-1">${activeTab === 'archive' ? `<button onclick="archiveItem(${item.id})" class="bg-emerald-500 text-white px-3 py-1.5 rounded-xl text-[10px] font-bold shadow-md hover:bg-emerald-600 transition-all">ARŞİVLE</button>` : (activeTab === 'archived_list' ? `<button onclick="unarchiveItem(${item.id})" class="p-1.5 text-slate-400 hover:text-indigo-500 transition-all"><i class="fas fa-undo"></i></button>` : `<button onclick="editItem(${item.id})" class="p-1.5 text-indigo-400 hover:text-indigo-600 transition-all"><i class="fas fa-edit"></i></button>${item.iadeTarihi ? `<button onclick="clearIade(${item.id})" class="p-1.5 text-rose-500 hover:text-rose-700 transition-all"><i class="fas fa-times-circle"></i></button>` : `<button onclick="openIadeModal(${item.id})" class="p-1.5 text-amber-500 hover:text-amber-700 transition-all"><i class="fas fa-undo-alt"></i></button>`}<button onclick="toggleField('megsis', ${item.id}, 'vazgecildi')" class="p-1.5 text-slate-400 hover:text-amber-500 transition-all"><i class="fas fa-ban"></i></button><button onclick="deleteItem('megsis', ${item.id})" class="p-1.5 text-slate-300 hover:text-red-500 transition-all"><i class="fas fa-trash-alt"></i></button>`)}</div></td>`;
+                        <td class="px-6 py-4 text-center"><div class="flex items-center justify-center gap-1">${activeTab === 'archive' ? `<button onclick="archiveItem(${item.id})" class="bg-emerald-500 text-white px-3 py-1.5 rounded-xl text-[10px] font-bold shadow-md hover:bg-emerald-600 transition-all uppercase">Arşivle</button>` : (activeTab === 'archived_list' ? `<button onclick="unarchiveItem(${item.id})" class="p-1.5 text-slate-400 hover:text-indigo-500 transition-all"><i class="fas fa-undo"></i></button>` : `<button onclick="editItem(${item.id})" class="p-1.5 text-indigo-400 hover:text-indigo-600 transition-all"><i class="fas fa-edit"></i></button>${item.iadeTarihi ? `<button onclick="clearIade(${item.id})" class="p-1.5 text-rose-500 hover:text-rose-700 transition-all"><i class="fas fa-times-circle"></i></button>` : `<button onclick="openIadeModal(${item.id})" class="p-1.5 text-amber-500 hover:text-amber-700 transition-all"><i class="fas fa-undo-alt"></i></button>`}<button onclick="toggleField('megsis', ${item.id}, 'vazgecildi')" class="p-1.5 text-slate-400 hover:text-amber-500 transition-all"><i class="fas fa-ban"></i></button><button onclick="deleteItem('megsis', ${item.id})" class="p-1.5 text-slate-300 hover:text-red-500 transition-all"><i class="fas fa-trash-alt"></i></button>`)}</div></td>`;
                 } else {
                     const isOverdue = !item.cevapTarihi && (today - new Date(item.evrakTarihi)) / 86400000 > 15;
                     if(isOverdue) tr.classList.add('urgent-row');
-                    tr.innerHTML = `<td class="px-6 py-4 font-bold text-slate-800">#${item.evrakSayisi}<br><span class="text-[9px] text-slate-400">${item.evrakTarihi}</span></td><td class="px-6 py-4 font-semibold text-slate-500 italic max-w-[150px] truncate" title="${item.konu}">${item.konu}</td><td class="px-6 py-4 font-semibold text-slate-700">${item.ilce}<br><span class="text-[10px] text-slate-400 font-normal">${item.mahalle}</span></td><td class="px-6 py-4 font-bold text-indigo-500">${item.ada}/${item.parsel}</td><td class="px-6 py-4 font-bold">M: ${item.muhendis}<br><span class="${item.tekniker?'text-slate-500':'text-rose-400'}">T: ${item.tekniker||'Atanmadı'}</span></td><td class="px-6 py-4 font-bold ${isOverdue?'text-red-600':'text-slate-600'}">${item.cevapTarihi||'Bekliyor'}</td><td class="px-6 py-4 text-slate-500 italic max-w-[120px] truncate">${item.notlar||'-'}</td><td class="px-6 py-4 text-center"><div class="flex items-center justify-center gap-1"><button onclick="editItem(${item.id})" class="p-1.5 text-indigo-400 transition-all"><i class="fas fa-edit"></i></button><button onclick="deleteItem('ebys', ${item.id})" class="p-1.5 text-slate-300 hover:text-red-500 transition-all"><i class="fas fa-trash-alt"></i></button></div></td>`;
+                    tr.innerHTML = `<td class="px-6 py-4 font-bold text-slate-800">#${item.evrakSayisi}<br><span class="text-[9px] text-slate-400">${item.evrakTarihi}</span></td><td class="px-6 py-4 font-semibold text-slate-500 italic max-w-[150px] truncate" title="${item.konu}">${item.konu}</td><td class="px-6 py-4 font-semibold text-slate-700">${item.ilce}<br><span class="text-[10px] text-slate-400 font-normal">${item.mahalle}</span></td><td class="px-6 py-4 font-bold text-indigo-500">${item.ada}/${item.parsel}</td><td class="px-6 py-4 font-bold">M: ${item.muhendis}<br><span class="${item.tekniker?'text-slate-500':'text-rose-400'}">T: ${item.tekniker||'Atanmadı'}</span></td><td class="px-6 py-4 font-bold ${isOverdue?'text-red-600':'text-slate-600'}">${item.cevapTarihi||'Bekliyor'}</td><td class="px-6 py-4 text-slate-500 italic max-w-[120px] truncate">${item.notlar||'-'}</td><td class="px-6 py-4 text-center"><div class="flex items-center justify-center gap-1"><button onclick="editItem(${item.id})" class="p-1.5 text-indigo-400"><i class="fas fa-edit"></i></button><button onclick="deleteItem('ebys', ${item.id})" class="p-1.5 text-slate-300 hover:text-red-500"><i class="fas fa-trash-alt"></i></button></div></td>`;
                 }
                 tbody.appendChild(tr);
             });
@@ -514,7 +471,7 @@
             toggleLoader(true);
             const canvas = await html2canvas(document.getElementById('exportCanvas'), { scale: 2 });
             const link = document.createElement('a');
-            link.download = `Arsive_Teslim_Listesi_${new Date().toISOString().split('T')[0]}.jpg`;
+            link.download = `Teslim_Listesi_${new Date().toISOString().split('T')[0]}.jpg`;
             link.href = canvas.toDataURL('image/jpeg', 0.9);
             link.click();
             toggleLoader(false);
@@ -523,22 +480,19 @@
         async function archiveItem(id) { const idx = allData.megsis.findIndex(i => i.id === id); allData.megsis[idx].isArchived = true; renderTable(); await saveData(); }
         async function unarchiveItem(id) { const idx = allData.megsis.findIndex(i => i.id === id); allData.megsis[idx].isArchived = false; renderTable(); await saveData(); }
         function editItem(id) { editingItemId = id; buildForm(); document.getElementById('formModal').classList.remove('hidden'); }
-        async function toggleField(tab, id, field) {
-            const idx = allData[tab].findIndex(i => i.id === id);
-            if(field === 'vazgecildi') allData[tab][idx][field] = allData[tab][idx][field] ? null : new Date().toLocaleDateString('tr-TR');
-            else allData[tab][idx][field] = !allData[tab][idx][field];
-            renderTable(); await saveData();
-        }
+        async function toggleField(tab, id, field) { const idx = allData[tab].findIndex(i => i.id === id); if(field === 'vazgecildi') allData[tab][idx][field] = allData[tab][idx][field] ? null : new Date().toLocaleDateString('tr-TR'); else allData[tab][idx][field] = !allData[tab][idx][field]; renderTable(); await saveData(); }
+        async function clearIade(id) { const idx = allData.megsis.findIndex(i => i.id === id); if(idx > -1 && confirm('İade iptal edilsin mi?')) { allData.megsis[idx].iadeTarihi = null; renderTable(); await saveData(); } }
         async function deleteItem(tab, id) { if(confirm('Silinsin mi?')) { allData[tab] = allData[tab].filter(i => i.id !== id); renderTable(); await saveData(); } }
         function exportToExcel() { const listKey = (activeTab === 'archive' || activeTab === 'archived_list') ? 'megsis' : activeTab; let exportData = activeTab === 'archived_list' ? allData.megsis.filter(i => i.isArchived) : (activeTab === 'archive' ? allData.megsis.filter(i => i.tescilGelisTarihi && !i.isArchived) : allData[activeTab]); const ws = XLSX.utils.json_to_sheet(exportData.map(i => { const c = {...i}; delete c.id; delete c.createdAt; return c; })); const wb = XLSX.utils.book_new(); XLSX.utils.book_append_sheet(wb, ws, "RAPOR"); XLSX.writeFile(wb, `${activeTab.toUpperCase()}_Rapor_${new Date().toLocaleDateString()}.xlsx`); }
         
         async function confirmDuplicateSave() {
             const formData = pendingSaveData;
+            const targetTab = (activeTab === 'archive' || activeTab === 'archived_list') ? 'megsis' : activeTab;
             if (editingItemId) {
-                const idx = allData[activeTab].findIndex(i => i.id === editingItemId);
-                allData[activeTab][idx] = { ...allData[activeTab][idx], ...formData };
+                const idx = allData[targetTab].findIndex(i => i.id === editingItemId);
+                allData[targetTab][idx] = { ...allData[targetTab][idx], ...formData };
             } else {
-                allData[activeTab].unshift({ id: Date.now(), createdAt: new Date().toISOString(), completed: false, isArchived: false, ...formData });
+                allData[targetTab].unshift({ id: Date.now(), createdAt: new Date().toISOString(), completed: false, isArchived: false, ...formData });
             }
             closeDuplicateModal(); closeModal(); renderTable(); await saveData();
         }
@@ -549,24 +503,17 @@
             const tabKey = (activeTab === 'archive' || activeTab === 'archived_list') ? 'megsis' : activeTab;
             const item = editingItemId ? allData[tabKey].find(i => i.id === editingItemId) : null;
             let html = '';
-            const staff = (role) => (locationDatabase[role] || []).map(n => `<option value="${n}" ${item?.[role.toLowerCase()] === n ? 'selected' : ''}>${n}</option>`).join('');
+            
+            // Helper function to map sheet names to form keys
+            const getStaffKey = (role) => role === "MÜHENDİS" ? "muhendis" : "tekniker";
+
+            const staff = (role) => (locationDatabase[role] || []).map(n => 
+                `<option value="${n}" ${item?.[getStaffKey(role)] === n ? 'selected' : ''}>${n}</option>`
+            ).join('');
+
             const ilceler = Object.keys(locationDatabase).filter(n => n !== "MÜHENDİS" && n !== "TEKNİKER").map(i => `<option value="${i}" ${item?.ilce === i ? 'selected' : ''}>${i}</option>`).join('');
             if (isMeg) {
-                html = `
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Başvuru No</label><input type="text" name="basvuruNo" required value="${item?.basvuruNo || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Fen Kayıt No</label><input type="text" name="fenKayitNo" required value="${item?.fenKayitNo || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">İlçe</label><select name="ilce" onchange="updateMahalle(this)" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${ilceler}</select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mahalle</label><select name="mahalle" id="formMahalle" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option></select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Ada</label><input type="number" name="ada" required value="${item?.ada || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required value="${item?.parsel || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mühendis</label><select name="muhendis" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${staff('MÜHENDİS')}</select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tekniker</label><select name="tekniker" class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçilmedi</option>${staff('TEKNİKER')}</select></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tescil Gidiş</label><input type="date" name="tescilGonderimTarihi" required value="${item?.tescilGonderimTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tescil Geliş</label><input type="date" name="tescilGelisTarihi" value="${item?.tescilGelisTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase text-rose-500">Tapu İade Tarihi</label><input type="date" name="tapuIadeTarihi" value="${item?.tapuIadeTarihi || ''}" class="w-full rounded-xl border-rose-200 border p-3 bg-rose-50/20"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase text-rose-500">Tapu İade Nedeni</label><input type="text" name="tapuIadeNedeni" value="${item?.tapuIadeNedeni || ''}" class="w-full rounded-xl border-rose-200 border p-3 bg-rose-50/20"></div>
-                    <div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Birim İade Tarihi</label><input type="date" name="iadeTarihi" value="${item?.iadeTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>
-                    <div class="md:col-span-1 space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Notlar</label><input type="text" name="notlar" value="${item?.notlar || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>`;
+                html = `<div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Başvuru No</label><input type="text" name="basvuruNo" required value="${item?.basvuruNo || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Fen Kayıt No</label><input type="text" name="fenKayitNo" required value="${item?.fenKayitNo || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">İlçe</label><select name="ilce" onchange="updateMahalle(this)" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${ilceler}</select></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mahalle</label><select name="mahalle" id="formMahalle" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option></select></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Ada</label><input type="number" name="ada" required value="${item?.ada || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required value="${item?.parsel || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mühendis</label><select name="muhendis" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${staff('MÜHENDİS')}</select></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tekniker</label><select name="tekniker" class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçilmedi</option>${staff('TEKNİKER')}</select></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tescil Gidiş</label><input type="date" name="tescilGonderimTarihi" required value="${item?.tescilGonderimTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tescil Geliş</label><input type="date" name="tescilGelisTarihi" value="${item?.tescilGelisTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase text-rose-500">Tapu İade Tarihi</label><input type="date" name="tapuIadeTarihi" value="${item?.tapuIadeTarihi || ''}" class="w-full rounded-xl border-rose-200 border p-3 bg-rose-50/20"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase text-rose-500">Tapu İade Nedeni</label><input type="text" name="tapuIadeNedeni" value="${item?.tapuIadeNedeni || ''}" class="w-full rounded-xl border-rose-200 border p-3 bg-rose-50/20"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Birim İade Tarihi</label><input type="date" name="iadeTarihi" value="${item?.iadeTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="md:col-span-1 space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Notlar</label><input type="text" name="notlar" value="${item?.notlar || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div>`;
             } else {
                 html = `<div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Evrak Tarihi</label><input type="date" name="evrakTarihi" required value="${item?.evrakTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Evrak Sayısı</label><input type="text" name="evrakSayisi" required value="${item?.evrakSayisi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="md:col-span-2 space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Konu</label><input type="text" name="konu" required value="${item?.konu || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">İlçe</label><select name="ilce" onchange="updateMahalle(this)" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${ilceler}</select></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mahalle</label><select name="mahalle" id="formMahalle" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option></select></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Ada</label><input type="number" name="ada" required value="${item?.ada || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required value="${item?.parsel || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Mühendis</label><select name="muhendis" required class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçiniz</option>${staff('MÜHENDİS')}</select></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Tekniker</label><select name="tekniker" class="w-full rounded-xl border-slate-200 border p-3"><option value="">Seçilmedi</option>${staff('TEKNİKER')}</select></div><div class="space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Cevap Tarihi</label><input type="date" name="cevapTarihi" value="${item?.cevapTarihi || ''}" class="w-full rounded-xl border-slate-200 border p-3"></div><div class="md:col-span-4 space-y-1"><label class="text-[10px] font-bold text-slate-500 uppercase">Notlar</label><textarea name="notlar" rows="2" class="w-full rounded-xl border-slate-200 border p-3">${item?.notlar || ''}</textarea></div>`;
             }
@@ -577,32 +524,12 @@
                 e.preventDefault();
                 const formData = Object.fromEntries(new FormData(e.target));
                 const targetTab = (activeTab === 'archive' || activeTab === 'archived_list') ? 'megsis' : activeTab;
-                
                 if(targetTab === 'megsis') {
-                    // Mükerrer Kontrolü: Aynı ilçede, aynı fen kayıt ve aynı tarih var mı?
-                    const isDuplicate = allData.megsis.some(i => 
-                        i.id !== editingItemId && 
-                        i.ilce === formData.ilce && 
-                        i.fenKayitNo.toString().trim() === formData.fenKayitNo.toString().trim() && 
-                        i.tescilGonderimTarihi === formData.tescilGonderimTarihi
-                    );
-                    
-                    if(isDuplicate) {
-                        openDuplicateModal({
-                            ilce: formData.ilce,
-                            fenKayitNo: formData.fenKayitNo,
-                            tescilGonderimTarihi: formData.tescilGonderimTarihi
-                        }, formData);
-                        return;
-                    }
+                    const isDuplicate = allData.megsis.some(i => i.id !== editingItemId && i.ilce === formData.ilce && i.fenKayitNo.toString().trim() === formData.fenKayitNo.toString().trim() && i.tescilGonderimTarihi === formData.tescilGonderimTarihi);
+                    if(isDuplicate) { openDuplicateModal({ ilce: formData.ilce, fenKayitNo: formData.fenKayitNo, tescilGonderimTarihi: formData.tescilGonderimTarihi }, formData); return; }
                 }
-
-                if (editingItemId) {
-                    const idx = allData[targetTab].findIndex(i => i.id === editingItemId);
-                    allData[targetTab][idx] = { ...allData[targetTab][idx], ...formData };
-                } else {
-                    allData[targetTab].unshift({ id: Date.now(), createdAt: new Date().toISOString(), completed: false, isArchived: false, ...formData });
-                }
+                if (editingItemId) { const idx = allData[targetTab].findIndex(i => i.id === editingItemId); allData[targetTab][idx] = { ...allData[targetTab][idx], ...formData }; }
+                else { allData[targetTab].unshift({ id: Date.now(), createdAt: new Date().toISOString(), completed: false, isArchived: false, ...formData }); }
                 closeModal(); renderTable(); await saveData();
             };
         }
