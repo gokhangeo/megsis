@@ -345,8 +345,11 @@
       "muhendis": "Sariye KUŞÇU",
       "tekniker": "Seval ÇELİK",
       "tescilGonderimTarihi": "2026-02-05",
-      "tescilGelisTarihi": "",
-      "notlar": ""
+      "tescilGelisTarihi": "2026-02-05",
+      "notlar": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": ""
     },
     {
       "id": 1770360349364,
