@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770704792322,
+      "createdAt": "2026-02-10T06:26:32.322Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11485379",
+      "fenKayitNo": "378",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "39",
+      "parsel": "12",
+      "muhendis": "Gülizar YILDIZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770641791662,
       "createdAt": "2026-02-09T12:56:31.662Z",
       "completed": false,
