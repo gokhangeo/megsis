@@ -1369,7 +1369,8 @@
       "tescilGonderimTarihi": "2026-01-16",
       "tescilGelisTarihi": "2026-01-29",
       "iadeTarihi": "",
-      "notlar": ""
+      "notlar": "",
+      "isArchived": true
     },
     {
       "id": 1769756636359,
