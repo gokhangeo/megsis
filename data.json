@@ -268,7 +268,8 @@
       "tekniker": "Nurhan ARSLAN",
       "tescilGonderimTarihi": "2026-02-03",
       "tescilGelisTarihi": "2026-02-05",
-      "notlar": ""
+      "notlar": "",
+      "isArchived": true
     },
     {
       "id": 1770365394259,
@@ -284,7 +285,8 @@
       "tekniker": "Seval ÇELİK",
       "tescilGonderimTarihi": "2026-02-05",
       "tescilGelisTarihi": "2026-02-05",
-      "notlar": ""
+      "notlar": "",
+      "isArchived": true
     },
     {
       "id": 1770361999683,
