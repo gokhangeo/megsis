@@ -1391,9 +1391,11 @@
       "muhendis": "Kemal KORKMAZ",
       "tekniker": "Ayşe PEKÇETİN",
       "tescilGonderimTarihi": "2026-01-28",
-      "tescilGelisTarihi": "",
+      "tescilGelisTarihi": "2026-02-11",
       "iadeTarihi": "",
-      "notlar": ""
+      "notlar": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": ""
     },
     {
       "id": 1770011464583,
