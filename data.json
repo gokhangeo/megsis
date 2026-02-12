@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770904703513,
+      "createdAt": "2026-02-12T13:58:23.513Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11379577",
+      "fenKayitNo": "20",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "4268",
+      "parsel": "3",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-05",
+      "tescilGelisTarihi": "2026-02-06",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770904586345,
       "createdAt": "2026-02-12T13:56:26.345Z",
       "completed": false,
