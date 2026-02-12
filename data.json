@@ -828,8 +828,11 @@
       "muhendis": "Kemal KORKMAZ",
       "tekniker": "Ayşe PEKÇETİN",
       "tescilGonderimTarihi": "2026-02-03",
-      "tescilGelisTarihi": "",
-      "notlar": ""
+      "tescilGelisTarihi": "2026-02-04",
+      "notlar": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": ""
     },
     {
       "id": 1770183655704,
