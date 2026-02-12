@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770904174940,
+      "createdAt": "2026-02-12T13:49:34.940Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11424772",
+      "fenKayitNo": "77",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "103",
+      "parsel": "102",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770904111860,
       "createdAt": "2026-02-12T13:48:31.860Z",
       "completed": false,
