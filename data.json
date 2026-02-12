@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770903922209,
+      "createdAt": "2026-02-12T13:45:22.209Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11446619",
+      "fenKayitNo": "268",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "461",
+      "parsel": "280",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770903842282,
       "createdAt": "2026-02-12T13:44:02.282Z",
       "completed": false,
