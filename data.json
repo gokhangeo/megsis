@@ -1362,9 +1362,11 @@
       "muhendis": "Hüseyin KURT",
       "tekniker": "Ayşe PEKÇETİN",
       "tescilGonderimTarihi": "2026-01-30",
-      "tescilGelisTarihi": "",
+      "tescilGelisTarihi": "2026-02-11",
       "iadeTarihi": "",
-      "notlar": ""
+      "notlar": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": ""
     },
     {
       "id": 1770028373542,
