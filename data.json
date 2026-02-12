@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770874834154,
+      "createdAt": "2026-02-12T05:40:34.154Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11478910",
+      "fenKayitNo": "343",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuzucubelen",
+      "ada": "147",
+      "parsel": "47",
+      "muhendis": "Gülizar YILDIZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-09",
+      "tescilGelisTarihi": "2026-02-09",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770800505342,
       "createdAt": "2026-02-11T09:01:45.342Z",
       "completed": false,
