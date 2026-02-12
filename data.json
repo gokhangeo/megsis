@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770874971306,
+      "createdAt": "2026-02-12T05:42:51.306Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11464256",
+      "fenKayitNo": "307",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "8105",
+      "parsel": "21",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-06",
+      "tescilGelisTarihi": "2026-02-10",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770874834154,
       "createdAt": "2026-02-12T05:40:34.154Z",
       "completed": false,
