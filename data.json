@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770875394562,
+      "createdAt": "2026-02-12T05:49:54.562Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11437800",
+      "fenKayitNo": "231",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Bozön",
+      "ada": "13328",
+      "parsel": "3",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-06",
+      "tescilGelisTarihi": "2026-02-09",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770875071035,
       "createdAt": "2026-02-12T05:44:31.035Z",
       "completed": false,
