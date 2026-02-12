@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770904035443,
+      "createdAt": "2026-02-12T13:47:15.443Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11502986",
+      "fenKayitNo": "424",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "1112",
+      "parsel": "10",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770903979218,
       "createdAt": "2026-02-12T13:46:19.218Z",
       "completed": false,
