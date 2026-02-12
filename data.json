@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770903979218,
+      "createdAt": "2026-02-12T13:46:19.218Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11481931",
+      "fenKayitNo": "369",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "5028",
+      "parsel": "8",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770903922209,
       "createdAt": "2026-02-12T13:45:22.209Z",
       "completed": false,
