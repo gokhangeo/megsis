@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770875974768,
+      "createdAt": "2026-02-12T05:59:34.768Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11300418",
+      "fenKayitNo": "244",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "383",
+      "parsel": "11",
+      "muhendis": "Mustafa DIKI",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-06",
+      "tescilGelisTarihi": "2026-02-09",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770875394562,
       "createdAt": "2026-02-12T05:49:54.562Z",
       "completed": false,
