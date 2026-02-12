@@ -1781,9 +1781,11 @@
       "muhendis": "Kemal KORKMAZ",
       "tekniker": "Dudu POYRAZ",
       "tescilGonderimTarihi": "2026-01-16",
-      "tescilGelisTarihi": "",
+      "tescilGelisTarihi": "2026-01-29",
       "iadeTarihi": "",
-      "notlar": ""
+      "notlar": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": ""
     },
     {
       "id": 1769681668087,
