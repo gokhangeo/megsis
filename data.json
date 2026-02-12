@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770904499432,
+      "createdAt": "2026-02-12T13:54:59.432Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11485514",
+      "fenKayitNo": "156",
+      "ilce": "AKDENİZ",
+      "mahalle": "Kazanlı",
+      "ada": "10218",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770904376151,
       "createdAt": "2026-02-12T13:52:56.151Z",
       "completed": false,
