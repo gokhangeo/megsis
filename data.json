@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770904303550,
+      "createdAt": "2026-02-12T13:51:43.550Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11391077",
+      "fenKayitNo": "74",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "7519",
+      "parsel": "21",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770904237541,
       "createdAt": "2026-02-12T13:50:37.541Z",
       "completed": false,
