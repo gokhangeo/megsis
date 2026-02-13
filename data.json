@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770977029533,
+      "createdAt": "2026-02-13T10:03:49.533Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11507413",
+      "fenKayitNo": "184",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "588",
+      "parsel": "223",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770976805615,
       "createdAt": "2026-02-13T10:00:05.615Z",
       "completed": false,
