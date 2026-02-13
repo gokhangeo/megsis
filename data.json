@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770977998319,
+      "createdAt": "2026-02-13T10:19:58.319Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11471728",
+      "fenKayitNo": "335",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "512",
+      "parsel": "4",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770977719574,
       "createdAt": "2026-02-13T10:15:19.574Z",
       "completed": false,
