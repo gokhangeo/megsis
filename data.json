@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770977339599,
+      "createdAt": "2026-02-13T10:08:59.599Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11481738",
+      "fenKayitNo": "359",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "1004",
+      "parsel": "8",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770977283997,
       "createdAt": "2026-02-13T10:08:03.997Z",
       "completed": false,
