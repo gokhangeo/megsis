@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770977719574,
+      "createdAt": "2026-02-13T10:15:19.574Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11422128",
+      "fenKayitNo": "174",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "12390",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-01-20",
+      "tescilGelisTarihi": "2026-02-03",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770977339599,
       "createdAt": "2026-02-13T10:08:59.599Z",
       "completed": false,
