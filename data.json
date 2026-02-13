@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770976805615,
+      "createdAt": "2026-02-13T10:00:05.615Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11453465",
+      "fenKayitNo": "393",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "7206",
+      "parsel": "17",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770904703513,
       "createdAt": "2026-02-12T13:58:23.513Z",
       "completed": false,
