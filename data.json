@@ -1233,7 +1233,8 @@
       "notlar": "",
       "tapuIadeTarihi": "",
       "tapuIadeNedeni": "",
-      "iadeTarihi": ""
+      "iadeTarihi": "",
+      "isArchived": true
     },
     {
       "id": 1770125682639,
