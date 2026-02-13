@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1770977200098,
+      "createdAt": "2026-02-13T10:06:40.098Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11373943",
+      "fenKayitNo": "50",
+      "ilce": "TOROSLAR",
+      "mahalle": "Işıktepe",
+      "ada": "114",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1770977029533,
       "createdAt": "2026-02-13T10:03:49.533Z",
       "completed": false,
