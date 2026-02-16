@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771230077892,
+      "createdAt": "2026-02-16T08:21:17.892Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11446305",
+      "fenKayitNo": "270",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "91",
+      "parsel": "10",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771229804937,
       "createdAt": "2026-02-16T08:16:44.937Z",
       "completed": false,
