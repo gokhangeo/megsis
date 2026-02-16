@@ -2437,7 +2437,7 @@
     {
       "id": 1769681288911,
       "createdAt": "2026-01-29T10:08:08.911Z",
-      "completed": true,
+      "completed": false,
       "vazgecildi": null,
       "basvuruNo": "11420912",
       "fenKayitNo": "170",
