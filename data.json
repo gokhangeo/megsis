@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771237920570,
+      "createdAt": "2026-02-16T10:32:00.570Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11447355",
+      "fenKayitNo": "381",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2479",
+      "parsel": "5",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771237012936,
       "createdAt": "2026-02-16T10:16:52.936Z",
       "completed": false,
