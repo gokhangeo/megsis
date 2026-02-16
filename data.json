@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771229638986,
+      "createdAt": "2026-02-16T08:13:58.986Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11217037",
+      "fenKayitNo": "2552",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Bozön",
+      "ada": "0",
+      "parsel": "1439",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771229490286,
       "createdAt": "2026-02-16T08:11:30.286Z",
       "completed": false,
