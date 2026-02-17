@@ -623,7 +623,7 @@
     {
       "id": 1770875071035,
       "createdAt": "2026-02-12T05:44:31.035Z",
-      "completed": false,
+      "completed": true,
       "isArchived": false,
       "basvuruNo": "11463677",
       "fenKayitNo": "131",
