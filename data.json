@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771401229201,
+      "createdAt": "2026-02-18T07:53:49.201Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11483416",
+      "fenKayitNo": "366",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "651",
+      "parsel": "2",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771237920570,
       "createdAt": "2026-02-16T10:32:00.570Z",
       "completed": false,
