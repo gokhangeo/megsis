@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771409601736,
+      "createdAt": "2026-02-18T10:13:21.736Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11512197",
+      "fenKayitNo": "453",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "347",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-16",
+      "tescilGelisTarihi": "2026-02-17",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771408962169,
       "createdAt": "2026-02-18T10:02:42.169Z",
       "completed": false,
