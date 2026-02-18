@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771403538032,
+      "createdAt": "2026-02-18T08:32:18.032Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11447840",
+      "fenKayitNo": "273",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "149",
+      "parsel": "4",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771401613522,
       "createdAt": "2026-02-18T08:00:13.522Z",
       "completed": false,
