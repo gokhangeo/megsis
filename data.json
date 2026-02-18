@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771401613522,
+      "createdAt": "2026-02-18T08:00:13.522Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11512874",
+      "fenKayitNo": "451",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "291",
+      "parsel": "6",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-02-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771401229201,
       "createdAt": "2026-02-18T07:53:49.201Z",
       "completed": false,
