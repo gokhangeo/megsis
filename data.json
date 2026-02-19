@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771485640738,
+      "createdAt": "2026-02-19T07:20:40.738Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11522115",
+      "fenKayitNo": "471",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "8108",
+      "parsel": "11",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "2026-02-18",
+      "notlar": "vazgeçildi"
+    },
+    {
       "id": 1771409601736,
       "createdAt": "2026-02-18T10:13:21.736Z",
       "completed": false,
