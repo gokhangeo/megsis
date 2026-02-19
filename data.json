@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771496315997,
+      "createdAt": "2026-02-19T10:18:35.997Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11367130",
+      "fenKayitNo": "51",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "6961",
+      "parsel": "19",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771495767312,
       "createdAt": "2026-02-19T10:09:27.312Z",
       "completed": false,
