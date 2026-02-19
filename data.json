@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771495767312,
+      "createdAt": "2026-02-19T10:09:27.312Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11385213",
+      "fenKayitNo": "76",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "11062",
+      "parsel": "3",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-11",
+      "tescilGelisTarihi": "2026-02-12",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771491281652,
       "createdAt": "2026-02-19T08:54:41.652Z",
       "completed": false,
