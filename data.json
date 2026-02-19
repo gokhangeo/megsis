@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771496776103,
+      "createdAt": "2026-02-19T10:26:16.103Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11485038",
+      "fenKayitNo": "375",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "129",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-12",
+      "tescilGelisTarihi": "2026-02-16",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771496511956,
       "createdAt": "2026-02-19T10:21:51.956Z",
       "completed": false,
