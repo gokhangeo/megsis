@@ -2717,5 +2717,23 @@
       "isArchived": true
     }
   ],
-  "ebys": []
+  "ebys": [
+    {
+      "id": 1771501468383,
+      "createdAt": "2026-02-19T11:44:28.383Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-02-18",
+      "evrakSayisi": "23705260",
+      "konu": "22/a itiraz",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "0",
+      "parsel": "1444",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "cevapTarihi": "",
+      "notlar": ""
+    }
+  ]
 }
