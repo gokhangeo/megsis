@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771593810121,
+      "createdAt": "2026-02-20T13:23:30.121Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11528425",
+      "fenKayitNo": "212",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nacarlı",
+      "ada": "265",
+      "parsel": "5",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771593702561,
       "createdAt": "2026-02-20T13:21:42.561Z",
       "completed": false,
