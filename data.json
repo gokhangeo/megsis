@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771593474411,
+      "createdAt": "2026-02-20T13:17:54.411Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11499897",
+      "fenKayitNo": "515",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "3955",
+      "parsel": "5",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771499796347,
       "createdAt": "2026-02-19T11:16:36.347Z",
       "completed": false,
