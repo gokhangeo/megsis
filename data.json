@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771594442017,
+      "createdAt": "2026-02-20T13:34:02.017Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11358112",
+      "fenKayitNo": "9",
+      "ilce": "TOROSLAR",
+      "mahalle": "Doruklu",
+      "ada": "0",
+      "parsel": "1441",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771594270777,
       "createdAt": "2026-02-20T13:31:10.777Z",
       "completed": false,
