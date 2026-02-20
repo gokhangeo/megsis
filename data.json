@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771594507568,
+      "createdAt": "2026-02-20T13:35:07.568Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11516703",
+      "fenKayitNo": "197",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nacarlı",
+      "ada": "303",
+      "parsel": "14",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-02-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771594442017,
       "createdAt": "2026-02-20T13:34:02.017Z",
       "completed": false,
