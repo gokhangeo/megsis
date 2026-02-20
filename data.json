@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771594566783,
+      "createdAt": "2026-02-20T13:36:06.783Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11519670",
+      "fenKayitNo": "474",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kocayer",
+      "ada": "147",
+      "parsel": "89",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771594507568,
       "createdAt": "2026-02-20T13:35:07.568Z",
       "completed": false,
