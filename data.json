@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771594872185,
+      "createdAt": "2026-02-20T13:41:12.185Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11531046",
+      "fenKayitNo": "512",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuzucu",
+      "ada": "119",
+      "parsel": "69",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771594802832,
       "createdAt": "2026-02-20T13:40:02.832Z",
       "completed": false,
