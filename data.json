@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771594736503,
+      "createdAt": "2026-02-20T13:38:56.503Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11459605",
+      "fenKayitNo": "424",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1062",
+      "parsel": "11",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771594668103,
       "createdAt": "2026-02-20T13:37:48.103Z",
       "completed": false,
