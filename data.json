@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771594037634,
+      "createdAt": "2026-02-20T13:27:17.634Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11465005",
+      "fenKayitNo": "140",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "8137",
+      "parsel": "21",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771593903394,
       "createdAt": "2026-02-20T13:25:03.394Z",
       "completed": false,
