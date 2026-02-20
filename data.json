@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771594668103,
+      "createdAt": "2026-02-20T13:37:48.103Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11446294",
+      "fenKayitNo": "258",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "8267",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771594566783,
       "createdAt": "2026-02-20T13:36:06.783Z",
       "completed": false,
