@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771593702561,
+      "createdAt": "2026-02-20T13:21:42.561Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11485864",
+      "fenKayitNo": "497",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "4005",
+      "parsel": "3",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-02-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771593556572,
       "createdAt": "2026-02-20T13:19:16.572Z",
       "completed": false,
