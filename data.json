@@ -3003,6 +3003,23 @@
   ],
   "ebys": [
     {
+      "id": 1771595137728,
+      "createdAt": "2026-02-20T13:45:37.728Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-02-10",
+      "evrakSayisi": "196399",
+      "konu": "2025/3 8.md. 1/ç fıkra 18. md 1. fıkrası",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "4330",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "cevapTarihi": "2026-02-18",
+      "notlar": "sistem üzerinden beyanname gönderilmiştir"
+    },
+    {
       "id": 1771501468383,
       "createdAt": "2026-02-19T11:44:28.383Z",
       "completed": false,
