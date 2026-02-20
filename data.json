@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771594802832,
+      "createdAt": "2026-02-20T13:40:02.832Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11510439",
+      "fenKayitNo": "439",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "82",
+      "parsel": "2",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771594736503,
       "createdAt": "2026-02-20T13:38:56.503Z",
       "completed": false,
