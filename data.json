@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771594270777,
+      "createdAt": "2026-02-20T13:31:10.777Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11533264",
+      "fenKayitNo": "502",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "9542",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771594037634,
       "createdAt": "2026-02-20T13:27:17.634Z",
       "completed": false,
