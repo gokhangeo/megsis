@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771834207144,
+      "createdAt": "2026-02-23T08:10:07.144Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11526092",
+      "fenKayitNo": "220",
+      "ilce": "AKDENİZ",
+      "mahalle": "Bağlarbaşı",
+      "ada": "0",
+      "parsel": "1335",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-02-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771594872185,
       "createdAt": "2026-02-20T13:41:12.185Z",
       "completed": false,
