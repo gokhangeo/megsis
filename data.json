@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771911344095,
+      "createdAt": "2026-02-24T05:35:44.095Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11544018",
+      "fenKayitNo": "240",
+      "ilce": "AKDENİZ",
+      "mahalle": "Iğdır",
+      "ada": "0",
+      "parsel": "724",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771911260496,
       "createdAt": "2026-02-24T05:34:20.496Z",
       "completed": false,
