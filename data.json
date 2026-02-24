@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771911092720,
+      "createdAt": "2026-02-24T05:31:32.720Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11423848",
+      "fenKayitNo": "194",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "10578",
+      "parsel": "2",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771834207144,
       "createdAt": "2026-02-23T08:10:07.144Z",
       "completed": false,
