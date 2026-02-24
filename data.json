@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771934207646,
+      "createdAt": "2026-02-24T11:56:47.646Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11447836",
+      "fenKayitNo": "281",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "12057",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771934092337,
       "createdAt": "2026-02-24T11:54:52.337Z",
       "completed": false,
