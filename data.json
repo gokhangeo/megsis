@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771934338817,
+      "createdAt": "2026-02-24T11:58:58.817Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11532968",
+      "fenKayitNo": "501",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "3889",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771934207646,
       "createdAt": "2026-02-24T11:56:47.646Z",
       "completed": false,
