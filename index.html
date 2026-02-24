@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEGSİS & EBYS & Not Takip Sistemi</title>
+    <title>MEGSİS İş Takip Sistemi</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            DEFAULT: '#003380',
+                            indigo: '#4f46e5'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
         
         body {
             font-family: 'Plus Jakarta Sans', sans-serif;
-            background: #f1f5f9; 
-            margin: 0;
-            overflow-x: hidden;
+            transition: background-color 0.3s ease;
+            background: #f1f5f9;
         }
 
         .main-gradient-bg {
             background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-            min-height: 100vh;
+        }
+        .dark .main-gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
         }
 
         .glass { 
@@ -28,98 +44,81 @@
             backdrop-filter: blur(10px); 
             border: 1px solid rgba(255, 255, 255, 0.5); 
         }
+        .dark .glass {
+            background: rgba(30, 41, 59, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
 
-        /* Satır Durumları */
         .completed-row { text-decoration: line-through; opacity: 0.5; background-color: rgba(241, 245, 249, 0.5); }
         .cancelled-row { background-color: rgba(254, 243, 199, 0.5) !important; border-left: 6px solid #f59e0b; }
         .urgent-row { border-left: 6px solid #ef4444; background-color: #fff1f2 !important; }
         .archived-row { opacity: 0.8; background-color: rgba(236, 253, 245, 0.6); }
         
-        /* Kaydırma Çubuğu */
         .custom-scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
         .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        .dark .custom-scrollbar::-webkit-scrollbar-thumb { background: #475569; }
 
-        /* Form Elemanları */
         input, select, textarea { 
             background: #ffffff !important; 
             border: 1px solid #e2e8f0 !important;
             padding: 12px 16px !important;
             font-size: 14px !important;
+            border-radius: 0.75rem !important;
         }
-        input:focus, select:focus { 
-            border-color: #4f46e5 !important;
-            box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1) !important; 
+        .dark input, .dark select, .dark textarea {
+            background: #1e293b !important;
+            border: 1px solid #334155 !important;
+            color: white !important;
         }
 
-        /* Tab ve Butonlar */
-        .tab-btn { color: #64748b; font-weight: 700; transition: all 0.3s ease; padding: 12px 24px; border-radius: 1rem; }
+        .tab-btn { color: #64748b; font-weight: 700; transition: all 0.3s ease; padding: 10px 20px; border-radius: 1rem; font-size: 13px; }
         .tab-btn.active { background-color: white; color: #4f46e5; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+        .dark .tab-btn.active { background-color: #334155; color: #818cf8; }
         
-        .filter-btn { color: #64748b; border: 1px solid #e2e8f0; font-weight: 700; border-radius: 0.75rem; }
+        .filter-btn { color: #64748b; border: 1px solid #e2e8f0; font-weight: 700; border-radius: 0.75rem; padding: 8px 16px; font-size: 12px; text-transform: uppercase; }
         .filter-btn.active { background-color: #4f46e5; color: white; border-color: #4f46e5; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3); }
-        
-        #syncIndicator { transition: all 0.5s ease; opacity: 0; transform: translateY(-10px); }
-        #syncIndicator.show { opacity: 1; transform: translateY(0); }
 
-        /* JPEG Export Alanı */
         #exportCanvas { position: absolute; left: -9999px; top: -9999px; background: white; padding: 40px; width: 1400px; }
         #exportCanvas table { width: 100%; border-collapse: collapse; }
-        #exportCanvas th, #exportCanvas td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; font-size: 12px; }
+        #exportCanvas th, #exportCanvas td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; font-size: 12px; color: black; }
 
-        /* Giriş Ekranı */
         #loginScreen {
             position: fixed; inset: 0; z-index: 5000;
-            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            background: #2b2e4a;
             display: flex; align-items: center; justify-content: center;
         }
-        .login-box {
-            background: white;
-            border: 1px solid rgba(255, 255, 255, 1);
-            width: 100%;
-            max-width: 420px;
-        }
-        .login-btn {
-            background-color: #003380;
-            color: white;
-        }
+        .login-btn { background-color: #003380; color: white; }
     </style>
 </head>
-<body class="main-gradient-bg min-h-screen">
+<body class="main-gradient-bg min-h-screen transition-colors duration-300">
 
     <!-- Global Loader -->
-    <div id="loader" class="fixed inset-0 bg-slate-900/10 backdrop-blur-md z-[6000] hidden flex items-center justify-center">
-        <div class="glass p-8 rounded-3xl shadow-2xl text-center">
-            <div class="animate-spin rounded-full h-12 w-12 border-4 border-indigo-500/20 border-t-indigo-600 mx-auto mb-4"></div>
-            <p class="text-slate-700 font-bold text-sm uppercase tracking-widest">İşlem Yapılıyor</p>
+    <div id="loader" class="fixed inset-0 bg-slate-900/10 dark:bg-slate-950/40 backdrop-blur-md z-[6000] hidden flex items-center justify-center">
+        <div class="glass p-10 rounded-[2rem] shadow-2xl text-center border-none">
+            <div class="animate-spin rounded-full h-14 w-14 border-4 border-indigo-500/20 border-t-indigo-600 mx-auto mb-4"></div>
+            <p class="text-[#1e293b] dark:text-slate-200 font-black text-sm uppercase tracking-widest">Lütfen Bekleyiniz</p>
         </div>
     </div>
 
     <!-- Giriş Ekranı -->
     <div id="loginScreen">
-        <div class="p-10 space-y-8 animate-in fade-in zoom-in duration-500 login-box rounded-[3rem] shadow-2xl text-center">
+        <div class="w-full max-w-sm p-10 space-y-8 animate-in fade-in zoom-in duration-500 bg-[#3a3f58] rounded-3xl shadow-2xl text-center border border-[#4a4f68]">
             <div>
-                <h1 class="text-4xl font-black text-[#1e293b] tracking-tight mb-2">MEGSİS İş Takip</h1>
-                <p class="text-slate-400 text-sm font-medium tracking-wide">Güvenli Yönetim Paneli</p>
+                <h1 class="text-3xl font-bold text-white tracking-wide mb-2">MEGSİS İş Takip</h1>
             </div>
             <form id="loginForm" class="space-y-6 text-left">
                 <div class="space-y-4">
-                    <div class="space-y-1.5">
-                        <label class="text-[10px] font-black text-slate-400 uppercase ml-2">Kullanıcı Adı</label>
-                        <input type="text" id="username" required class="w-full rounded-2xl outline-none border-slate-200 text-slate-800 shadow-sm" placeholder="kullanıcı adı">
-                    </div>
-                    <div class="space-y-1.5">
-                        <label class="text-[10px] font-black text-slate-400 uppercase ml-2">Şifre</label>
-                        <input type="password" id="password" required class="w-full rounded-2xl outline-none border-slate-200 text-slate-800 shadow-sm" placeholder="••••••">
-                    </div>
+                    <input type="text" id="username" required class="w-full bg-[#ebf0f6] text-slate-800 border-none px-4 py-3 rounded-lg font-medium" placeholder="mersin">
+                    <input type="password" id="password" required class="w-full bg-[#ebf0f6] text-slate-800 border-none px-4 py-3 rounded-lg font-medium" placeholder="••••••">
                 </div>
                 <div class="flex items-center gap-2 px-1">
-                    <input type="checkbox" id="rememberMe" class="w-4 h-4 rounded border-slate-300 text-indigo-600">
-                    <label for="rememberMe" class="text-xs text-slate-500 font-bold cursor-pointer uppercase">Beni Hatırla</label>
+                    <input type="checkbox" id="rememberMe" class="w-4 h-4 rounded border-none bg-white text-[#003380]">
+                    <label for="rememberMe" class="text-sm text-white font-medium cursor-pointer">Beni Hatırla</label>
                 </div>
-                <button type="submit" class="w-full login-btn py-5 rounded-2xl font-black text-sm shadow-xl hover:brightness-110 active:scale-95 transition-all uppercase tracking-widest">Giriş Yap</button>
+                <button type="submit" class="w-full login-btn py-4 rounded-lg font-bold text-lg shadow-xl hover:brightness-110 active:scale-95 transition-all">Giriş Yap</button>
             </form>
-            <div class="pt-6">
-                <p class="text-[10px] text-slate-300 font-bold uppercase tracking-wider italic">© Gökhan ELGÜL tarafından tasarlanmıştır.</p>
+            <div class="pt-4 border-t border-slate-600/50">
+                <p class="text-xs text-slate-400 font-medium">© Gökhan ELGÜL tarafından tasarlanmıştır.</p>
             </div>
         </div>
     </div>
@@ -138,153 +137,175 @@
         <div style="margin-top: 30px; text-align: right; font-size: 10px; color: #94a3b8;">Rapor Tarihi: <span id="exportDate"></span></div>
     </div>
 
-    <!-- Ana Uygulama (Geniş Tasarım) -->
-    <div id="appContent" class="hidden opacity-0 transition-opacity duration-700 p-2 md:p-4 w-[98%] mx-auto">
+    <!-- Ana Uygulama -->
+    <div id="appContent" class="hidden opacity-0 transition-opacity duration-700 p-4 md:p-8 max-w-[1600px] mx-auto">
         
         <!-- Bilgi Kartları -->
-        <div id="warningPanel" class="hidden mb-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div onclick="filterDelayedOnly()" class="bg-white border border-red-100 p-4 rounded-3xl cursor-pointer hover:shadow-md transition-all flex items-center gap-4">
-                <div class="bg-red-50 text-red-500 w-12 h-12 rounded-full flex items-center justify-center text-xl shadow-inner"><i class="fas fa-clock"></i></div>
+        <div id="warningPanel" class="hidden mb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div onclick="filterDelayedOnly()" class="bg-white dark:bg-slate-800 border border-red-200 dark:border-red-900/30 p-6 rounded-3xl cursor-pointer hover:shadow-lg transition-all flex items-center gap-6">
+                <div class="bg-red-50 dark:bg-red-900/20 text-red-500 w-16 h-16 rounded-full flex items-center justify-center text-3xl"><i class="fas fa-clock"></i></div>
                 <div>
-                    <h3 class="text-[9px] font-black text-red-500 uppercase tracking-widest">Gecikme Uyarısı</h3>
-                    <p class="text-sm text-slate-600 font-bold"><span id="delayedCount">0</span> dosya bekliyor.</p>
+                    <h3 class="text-sm font-bold text-red-500 uppercase tracking-widest">Gecikme Uyarısı</h3>
+                    <p class="text-base text-slate-600 dark:text-slate-300 mt-1"><span id="delayedCount" class="font-bold text-red-600 text-lg">0</span> adet dosya 7 günden fazladır bekliyor.</p>
                 </div>
             </div>
-            <div onclick="switchTab('archive')" class="bg-white border border-emerald-100 p-4 rounded-3xl cursor-pointer hover:shadow-md transition-all flex items-center gap-4">
-                <div class="bg-emerald-50 text-emerald-500 w-12 h-12 rounded-full flex items-center justify-center text-xl shadow-inner"><i class="fas fa-archive"></i></div>
+            <div onclick="switchTab('archive')" class="bg-white dark:bg-slate-800 border border-emerald-200 dark:border-emerald-900/30 p-6 rounded-3xl cursor-pointer hover:shadow-lg transition-all flex items-center gap-6">
+                <div class="bg-emerald-50 dark:bg-emerald-900/20 text-emerald-500 w-16 h-16 rounded-full flex items-center justify-center text-3xl"><i class="fas fa-archive"></i></div>
                 <div>
-                    <h3 class="text-[9px] font-black text-emerald-500 uppercase tracking-widest">Arşivleme</h3>
-                    <p class="text-sm text-slate-600 font-bold"><span id="archiveCount">0</span> dosya hazır.</p>
+                    <h3 class="text-sm font-bold text-emerald-500 uppercase tracking-widest">Arşiv Bekleyenler</h3>
+                    <p class="text-base text-slate-600 dark:text-slate-300 mt-1"><span id="archiveCount" class="font-bold text-emerald-600 text-lg">0</span> adet dosya arşivlenmeyi bekliyor.</p>
                 </div>
             </div>
         </div>
 
-        <!-- Ana Menü -->
-        <div class="flex flex-wrap items-center gap-2 mb-4 bg-slate-200/40 p-1.5 rounded-[1.5rem] w-fit glass">
-            <button onclick="switchTab('megsis')" id="tab-megsis" class="tab-btn active text-xs flex items-center gap-2 uppercase tracking-wider"><i class="fas fa-tasks"></i> MEGSİS</button>
-            <button onclick="switchTab('ebys')" id="tab-ebys" class="tab-btn text-xs flex items-center gap-2 uppercase tracking-wider"><i class="fas fa-envelope-open-text"></i> EBYS</button>
-            <button onclick="switchTab('archive')" id="tab-archive" class="tab-btn text-xs flex items-center gap-2 uppercase tracking-wider"><i class="fas fa-box-archive"></i> Arşivlenecekler</button>
-            <button onclick="switchTab('archived_list')" id="tab-archived_list" class="tab-btn text-xs flex items-center gap-2 uppercase tracking-wider"><i class="fas fa-history"></i> Arşivlenenler</button>
-            <button onclick="switchTab('daily_notes')" id="tab-daily_notes" class="tab-btn text-xs flex items-center gap-2 text-amber-600 uppercase tracking-wider"><i class="fas fa-sticky-note"></i> Günlük Notlar</button>
+        <!-- Üst Bar -->
+        <div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+            <div class="flex flex-wrap items-center gap-2 bg-slate-200/50 dark:bg-slate-800/50 p-2 rounded-[1.5rem] glass shadow-sm">
+                <button onclick="switchTab('megsis')" id="tab-megsis" class="tab-btn active"><i class="fas fa-tasks mr-1"></i> MEGSİS</button>
+                <button onclick="switchTab('ebys')" id="tab-ebys" class="tab-btn"><i class="fas fa-envelope-open-text mr-1"></i> EBYS</button>
+                <button onclick="switchTab('archive')" id="tab-archive" class="tab-btn"><i class="fas fa-box-archive mr-1"></i> Arşivlenecekler</button>
+                <button onclick="switchTab('archived_list')" id="tab-archived_list" class="tab-btn"><i class="fas fa-history mr-1"></i> Arşivlenenler</button>
+                <button onclick="switchTab('daily_notes')" id="tab-daily_notes" class="tab-btn text-amber-600 dark:text-amber-400"><i class="fas fa-sticky-note mr-1"></i> Günlük Notlar</button>
+            </div>
+            <div class="flex items-center gap-3">
+                <button onclick="toggleDarkMode()" class="bg-white dark:bg-slate-800 text-slate-600 dark:text-amber-400 p-4 rounded-2xl shadow-sm hover:scale-105 transition-all">
+                    <i id="darkIcon" class="fas fa-moon text-lg"></i>
+                </button>
+                <button onclick="handleLogout()" class="bg-rose-50 dark:bg-rose-900/20 text-rose-500 p-4 rounded-2xl font-bold transition-all hover:bg-rose-100 shadow-sm" title="Çıkış Yap">
+                    <i class="fas fa-sign-out-alt text-lg"></i>
+                </button>
+            </div>
         </div>
 
-        <!-- Başlık ve Kontroller -->
-        <header class="glass rounded-[2rem] p-6 mb-4 flex flex-col md:flex-row justify-between items-center shadow-lg relative z-[100]">
+        <!-- Header -->
+        <header class="glass rounded-[2rem] p-8 mb-6 flex flex-col md:flex-row justify-between items-center shadow-lg relative z-[100]">
             <div class="text-center md:text-left">
-                <h1 id="pageTitle" class="text-3xl font-black text-[#1e293b] tracking-tight">MEGSİS İş Takip</h1>
-                <div id="syncIndicator" class="inline-flex items-center gap-1.5 text-[10px] font-bold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full uppercase tracking-wider mt-2">
-                    <i class="fas fa-check-circle"></i> Sistem Aktif
-                </div>
+                <h1 id="pageTitle" class="text-4xl font-extrabold text-[#1e293b] dark:text-white tracking-tight">MEGSİS İş Takip</h1>
+                <p id="pageDesc" class="text-slate-500 dark:text-slate-400 font-medium text-sm mt-2">Personel Başvuru Takibi</p>
+                <p class="text-xs text-slate-400 mt-1 italic">© Gökhan ELGÜL tarafından tasarlanmıştır.</p>
             </div>
-            <div class="flex flex-wrap justify-center gap-2 mt-4 md:mt-0">
-                <button id="downloadJpegBtn" onclick="downloadArchiveAsImage()" class="hidden bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3.5 rounded-2xl transition-all flex items-center gap-2 shadow-lg font-black text-xs uppercase tracking-wider">
+            <div class="flex flex-wrap justify-center gap-3 mt-6 md:mt-0">
+                <button id="downloadJpegBtn" onclick="downloadArchiveAsImage()" class="hidden bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-2xl transition-all flex items-center gap-2 shadow-lg font-bold text-sm">
                     <i class="fas fa-image"></i> JPEG
                 </button>
-                <button id="addMainBtn" onclick="openCreateModal()" class="bg-[#4f46e5] hover:bg-[#4338ca] text-white px-8 py-3.5 rounded-2xl transition-all flex items-center gap-2 shadow-lg active:scale-95 font-black text-xs uppercase tracking-wider">
-                    <i class="fas fa-plus-circle"></i> <span id="addBtnText">Yeni Başvuru</span>
+                <button id="addMainBtn" onclick="openCreateModal()" class="bg-[#4f46e5] hover:bg-[#4338ca] text-white px-8 py-4 rounded-2xl transition-all flex items-center gap-2 shadow-lg active:scale-95 font-bold text-sm">
+                    <i class="fas fa-plus-circle text-lg"></i> <span id="addBtnText">Yeni Başvuru</span>
                 </button>
                 <div class="relative group" id="excelDropdown">
-                    <button class="bg-white text-slate-700 border border-slate-200 px-8 py-3.5 rounded-2xl font-black text-xs transition-all flex items-center gap-2 shadow-sm hover:bg-slate-50 uppercase tracking-wider">
-                        <i class="fas fa-file-export text-indigo-500"></i> Excel <i class="fas fa-chevron-down text-[10px] opacity-40"></i>
+                    <button class="bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 px-8 py-4 rounded-2xl font-bold text-sm transition-all flex items-center gap-2 shadow-sm hover:bg-slate-50">
+                        <i class="fas fa-file-export text-indigo-500 text-lg"></i> EXCEL <i class="fas fa-chevron-down text-xs opacity-50 ml-1"></i>
                     </button>
-                    <div class="absolute right-0 pt-2 w-44 hidden group-hover:block z-[110] animate-in fade-in slide-in-from-top-2 duration-200">
-                        <div class="glass border border-white rounded-2xl shadow-2xl overflow-hidden">
-                            <button onclick="exportToExcel('all')" class="w-full text-left px-5 py-4 hover:bg-indigo-50 text-slate-600 transition-colors text-[10px] font-black uppercase tracking-widest">Excel İndir</button>
+                    <div class="absolute right-0 pt-2 w-48 hidden group-hover:block z-[110] animate-in fade-in slide-in-from-top-2 duration-200">
+                        <div class="glass border-none rounded-xl shadow-2xl overflow-hidden">
+                            <button onclick="exportToExcel('all')" class="w-full text-left px-6 py-4 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 text-slate-600 dark:text-slate-300 transition-colors text-sm font-bold">Tümünü İndir</button>
                         </div>
                     </div>
                 </div>
-                <button onclick="handleLogout()" class="bg-rose-50 text-rose-500 p-3.5 rounded-2xl font-bold transition-all hover:bg-rose-100 shadow-sm">
-                    <i class="fas fa-sign-out-alt"></i>
-                </button>
             </div>
         </header>
 
-        <!-- Filtreler (Tam Sığdırılmış Yapı) -->
-        <div id="filterPanel" class="glass rounded-[2rem] p-5 mb-4 shadow-md">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-4 items-end">
-                <div class="lg:col-span-3 space-y-1.5">
-                    <label class="text-[10px] font-black text-slate-400 uppercase ml-2 tracking-widest">Kayıt Ara</label>
-                    <input type="text" id="searchInput" oninput="renderTable()" placeholder="Kelime bazlı..." class="w-full rounded-2xl border-none outline-none bg-slate-50 shadow-inner">
+        <!-- Filtreler -->
+        <div id="filterPanel" class="glass rounded-[2rem] p-6 mb-6 shadow-sm">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 items-end">
+                <div class="lg:col-span-3 space-y-2">
+                    <label class="text-xs font-bold text-slate-400 uppercase tracking-wide">Arama</label>
+                    <input type="text" id="searchInput" oninput="renderTable()" placeholder="Kelime ara..." class="w-full shadow-sm">
                 </div>
-                <div class="lg:col-span-2 space-y-1.5">
-                    <label class="text-[10px] font-black text-slate-400 uppercase ml-2 tracking-widest">İlçe</label>
-                    <select id="filterDistrict" onchange="renderTable()" class="w-full rounded-2xl border-none outline-none bg-slate-50 shadow-inner"></select>
+                <div class="lg:col-span-2 space-y-2">
+                    <label class="text-xs font-bold text-slate-400 uppercase tracking-wide">İlçe</label>
+                    <select id="filterDistrict" onchange="renderTable()" class="w-full shadow-sm"></select>
                 </div>
-                <div class="lg:col-span-3 space-y-1.5">
-                    <label class="text-[10px] font-black text-slate-400 uppercase ml-2 tracking-widest">Sorumlu Personel</label>
-                    <select id="filterPerson" onchange="renderTable()" class="w-full rounded-2xl border-none outline-none bg-slate-50 shadow-inner"></select>
+                <div class="lg:col-span-3 space-y-2">
+                    <label class="text-xs font-bold text-slate-400 uppercase tracking-wide">Personel</label>
+                    <select id="filterPerson" onchange="renderTable()" class="w-full shadow-sm"></select>
                 </div>
-                <div class="lg:col-span-4 space-y-1.5">
-                    <label class="text-[10px] font-black text-slate-400 uppercase ml-2 tracking-widest">Durum Filtreleri</label>
-                    <div id="filterContainer" class="flex gap-1 p-1 bg-slate-100/60 rounded-2xl"></div>
+                <div class="lg:col-span-4 space-y-2">
+                    <label class="text-xs font-bold text-slate-400 uppercase tracking-wide">Durum</label>
+                    <div id="filterContainer" class="flex flex-wrap gap-2 p-1.5 bg-slate-100 dark:bg-slate-900/50 rounded-xl w-full"></div>
                 </div>
             </div>
         </div>
 
-        <!-- Tablo Alanı -->
-        <div id="mainContentArea" class="glass rounded-[2.5rem] shadow-2xl overflow-hidden relative min-h-[500px]">
+        <!-- Ana Liste / Notlar -->
+        <div id="mainContentArea" class="glass rounded-[2rem] shadow-xl overflow-hidden relative min-h-[500px]">
             <div id="tableView" class="overflow-x-auto custom-scrollbar max-h-[65vh]">
                 <table class="w-full border-collapse text-left">
                     <thead id="tableHead" class="sticky top-0 z-20"></thead>
-                    <tbody id="tableBody" class="divide-y divide-slate-100 bg-white/40"></tbody>
+                    <tbody id="tableBody" class="divide-y divide-slate-100 dark:divide-slate-800 bg-white/40 dark:bg-transparent"></tbody>
                 </table>
             </div>
 
+            <!-- Notlar ve İstatistikler -->
             <div id="notesView" class="hidden p-8">
-                <div class="flex flex-col lg:flex-row gap-8">
-                    <div class="w-full lg:w-1/3">
-                        <div class="bg-white p-8 rounded-[2.5rem] shadow-xl border border-slate-50 space-y-6">
-                            <h3 class="font-black text-slate-800 uppercase text-sm tracking-widest">Yeni Hatırlatıcı</h3>
-                            <textarea id="noteInput" rows="4" placeholder="Notunuzu buraya girin..." class="w-full rounded-2xl border-none shadow-inner bg-slate-50 outline-none p-4 text-sm"></textarea>
-                            <div class="flex items-center gap-3 bg-amber-50 p-4 rounded-2xl border border-amber-100">
-                                <input type="checkbox" id="notePriority" class="w-5 h-5 rounded-lg text-amber-500">
-                                <label for="notePriority" class="text-xs font-black text-amber-700 uppercase">Önemli İşaretle</label>
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                    <!-- Yeni Not -->
+                    <div class="lg:col-span-4">
+                        <div class="bg-white dark:bg-slate-800 p-8 rounded-[2rem] shadow-lg space-y-6">
+                            <h3 class="font-bold text-slate-800 dark:text-white text-lg">Yeni Not Ekle</h3>
+                            <textarea id="noteInput" rows="5" placeholder="Genel notlarınızı buraya yazabilirsiniz..." class="w-full shadow-sm"></textarea>
+                            <div class="flex items-center gap-3 bg-slate-50 dark:bg-slate-900/50 p-4 rounded-xl">
+                                <input type="checkbox" id="notePriority" class="w-5 h-5 rounded text-amber-500">
+                                <label for="notePriority" class="text-sm font-bold text-slate-600 dark:text-slate-300">Önemli Olarak İşaretle</label>
                             </div>
-                            <button onclick="addDailyNote()" class="w-full bg-[#003380] text-white py-5 rounded-2xl font-black shadow-lg active:scale-95 transition-all uppercase text-xs">Kaydet</button>
+                            <button onclick="addDailyNote()" class="w-full bg-[#003380] dark:bg-indigo-600 text-white py-4 rounded-xl font-bold shadow-md active:scale-95 transition-all text-sm">Notu Kaydet</button>
                         </div>
                     </div>
-                    <div class="w-full lg:w-2/3">
-                        <div id="notesList" class="grid grid-cols-1 gap-4 overflow-y-auto max-h-[50vh] pr-2 custom-scrollbar"></div>
+
+                    <!-- Not Listesi -->
+                    <div class="lg:col-span-5">
+                        <div id="notesList" class="grid grid-cols-1 gap-4 overflow-y-auto max-h-[60vh] pr-2 custom-scrollbar"></div>
+                    </div>
+
+                    <!-- İstatistikler -->
+                    <div class="lg:col-span-3">
+                        <div class="bg-white dark:bg-slate-800 p-8 rounded-[2rem] shadow-lg h-full flex flex-col gap-8">
+                            <div class="flex-1">
+                                <h3 class="font-bold text-slate-800 dark:text-white text-sm mb-4 border-b border-slate-100 dark:border-slate-700 pb-2"><i class="fas fa-map-marker-alt text-indigo-500 mr-2"></i>İlçe İstatistikleri</h3>
+                                <div id="districtStats" class="space-y-3 overflow-y-auto max-h-[25vh] custom-scrollbar pr-2"></div>
+                            </div>
+                            <div class="flex-1">
+                                <h3 class="font-bold text-slate-800 dark:text-white text-sm mb-4 border-b border-slate-100 dark:border-slate-700 pb-2"><i class="fas fa-users text-indigo-500 mr-2"></i>Personel İstatistikleri</h3>
+                                <div id="staffStats" class="space-y-3 overflow-y-auto max-h-[25vh] custom-scrollbar pr-2"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="statsDisplay" class="mt-4 text-[10px] font-black text-slate-400 text-right uppercase tracking-[0.2em] px-8 italic">© Gökhan ELGÜL tarafından tasarlanmıştır.</div>
+        <div id="statsDisplay" class="mt-4 text-xs font-bold text-slate-500 text-right px-6"></div>
     </div>
 
-    <!-- Kayıt Modalı -->
-    <div id="formModal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-md z-[2500] hidden flex items-center justify-center p-4">
-        <div class="glass rounded-[3rem] shadow-2xl w-full max-w-4xl overflow-hidden animate-in zoom-in duration-300">
-            <div class="p-10 pb-0 flex justify-between items-start">
-                <h2 id="modalTitle" class="text-2xl font-black text-slate-800 tracking-tight uppercase">Kayıt Ekranı</h2>
-                <button onclick="closeModal()" class="bg-slate-100 hover:bg-rose-100 hover:text-rose-500 p-4 rounded-3xl transition-all shadow-sm"><i class="fas fa-times"></i></button>
+    <!-- Modallar -->
+    <div id="formModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-md z-[2500] hidden flex items-center justify-center p-4">
+        <div class="glass rounded-[2rem] shadow-2xl w-full max-w-5xl overflow-hidden animate-in zoom-in duration-300">
+            <div class="p-8 pb-0 flex justify-between items-start">
+                <h2 id="modalTitle" class="text-2xl font-bold text-slate-800 dark:text-white">Kayıt Ekranı</h2>
+                <button onclick="closeModal()" class="bg-slate-100 dark:bg-slate-700 hover:bg-rose-100 text-slate-500 hover:text-rose-500 p-3 rounded-full transition-all"><i class="fas fa-times text-lg"></i></button>
             </div>
-            <form id="activeForm" class="p-10 grid grid-cols-1 md:grid-cols-4 gap-6"></form>
+            <form id="activeForm" class="p-8 grid grid-cols-1 md:grid-cols-4 gap-5"></form>
         </div>
     </div>
 
-    <!-- Mükerrer Kayıt Modalı -->
     <div id="duplicateModal" class="fixed inset-0 bg-slate-900/70 backdrop-blur-xl z-[4000] hidden flex items-center justify-center p-4">
-        <div class="bg-white rounded-[3rem] shadow-2xl w-full max-w-md p-10 border-8 border-amber-400 text-center">
+        <div class="bg-white dark:bg-slate-800 rounded-[2rem] shadow-2xl w-full max-w-md p-8 border-4 border-amber-400 text-center">
             <div class="bg-amber-100 text-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto text-3xl mb-4 animate-bounce"><i class="fas fa-copy"></i></div>
-            <h2 class="text-2xl font-black text-slate-800">Aynı Kayıt Mevcut</h2>
-            <div id="duplicateDetails" class="bg-slate-50 p-5 rounded-3xl text-left border border-slate-200 mt-4 text-xs font-semibold text-slate-500 shadow-inner"></div>
-            <div class="flex flex-col gap-2 mt-6">
-                <button onclick="confirmDuplicateSave()" class="bg-slate-900 text-white py-4 rounded-2xl font-black uppercase text-[10px] tracking-widest shadow-xl">Yine de Kaydet</button>
-                <button onclick="closeDuplicateModal()" class="bg-slate-100 text-slate-600 py-4 rounded-2xl font-black uppercase text-[10px] tracking-widest hover:bg-slate-200 transition-all">İptal</button>
+            <h2 class="text-xl font-bold text-slate-800 dark:text-white">Aynı Kayıt Mevcut</h2>
+            <div id="duplicateDetails" class="bg-slate-50 dark:bg-slate-900 p-4 rounded-xl text-left border border-slate-200 dark:border-slate-700 mt-4 text-sm text-slate-600 dark:text-slate-300"></div>
+            <div class="flex gap-3 mt-6">
+                <button onclick="closeDuplicateModal()" class="flex-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 py-3 rounded-xl font-bold hover:bg-slate-200 transition-all">İptal</button>
+                <button onclick="confirmDuplicateSave()" class="flex-1 bg-slate-800 dark:bg-indigo-600 text-white py-3 rounded-xl font-bold active:scale-95 transition-all">Yine de Kaydet</button>
             </div>
         </div>
     </div>
 
-    <!-- İade Modalı -->
-    <div id="iadeModal" class="fixed inset-0 bg-slate-900/50 backdrop-blur-md z-[3000] hidden flex items-center justify-center p-4">
-        <div class="glass rounded-[2rem] shadow-2xl w-full max-w-sm overflow-hidden p-8 animate-in zoom-in duration-300">
-            <h2 class="text-xl font-black text-slate-800 text-center mb-6">İade Tarihi Seçin</h2>
+    <div id="iadeModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-md z-[3000] hidden flex items-center justify-center p-4">
+        <div class="bg-white dark:bg-slate-800 rounded-[2rem] shadow-2xl w-full max-w-sm overflow-hidden p-8 animate-in zoom-in duration-300">
+            <h2 class="text-xl font-bold text-slate-800 dark:text-white text-center mb-6">İade Tarihi Seçin</h2>
             <div class="space-y-6">
-                <input type="date" id="iadeTarihiInput" class="w-full rounded-2xl border-none shadow-inner bg-slate-50 p-4">
+                <input type="date" id="iadeTarihiInput" class="w-full shadow-sm">
                 <div class="flex gap-3">
-                    <button onclick="closeIadeModal()" class="flex-1 bg-slate-100 text-slate-600 py-4 rounded-2xl font-bold uppercase text-[10px]">Vazgeç</button>
-                    <button onclick="confirmIade()" class="flex-1 bg-amber-500 text-white py-4 rounded-2xl font-bold shadow-lg uppercase text-[10px]">Kaydet</button>
+                    <button onclick="closeIadeModal()" class="flex-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 py-3 rounded-xl font-bold">Vazgeç</button>
+                    <button onclick="confirmIade()" class="flex-1 bg-amber-500 hover:bg-amber-600 text-white py-3 rounded-xl font-bold shadow-md">Kaydet</button>
                 </div>
             </div>
         </div>
@@ -303,21 +324,14 @@
             const el = document.getElementById('loader');
             if(el) el.classList.toggle('hidden', !s);
         };
-        
-        function openCreateModal() { editingItemId = null; buildForm(); document.getElementById('formModal').classList.remove('hidden'); }
-        function closeModal() { editingItemId = null; document.getElementById('formModal').classList.add('hidden'); }
-        function openIadeModal(id) { returnItemId = id; document.getElementById('iadeTarihiInput').value = new Date().toISOString().split('T')[0]; document.getElementById('iadeModal').classList.remove('hidden'); }
-        function closeIadeModal() { returnItemId = null; document.getElementById('iadeModal').classList.add('hidden'); }
-        function openDuplicateModal(details, formData) { 
-            const d = document.getElementById('duplicateDetails');
-            if(d) d.innerHTML = `İlçe: ${details.ilce}<br>Fen Kayıt: ${details.fenKayitNo}<br>Tarih: ${details.tescilGonderimTarihi}`; 
-            pendingSaveData = formData; 
-            const m = document.getElementById('duplicateModal');
-            if(m) m.classList.remove('hidden'); 
-        }
-        function closeDuplicateModal() { pendingSaveData = null; const m = document.getElementById('duplicateModal'); if(m) m.classList.add('hidden'); }
 
-        // Giriş Sistemi
+        function toggleDarkMode() {
+            const isDark = document.documentElement.classList.toggle('dark');
+            const icon = document.getElementById('darkIcon');
+            if(icon) icon.className = isDark ? 'fas fa-sun text-lg' : 'fas fa-moon text-lg';
+            localStorage.setItem('megsis_dark_mode', isDark);
+        }
+
         document.getElementById('loginForm').onsubmit = (e) => {
             e.preventDefault();
             const u = document.getElementById('username').value, p = document.getElementById('password').value;
@@ -325,18 +339,25 @@
                 if(document.getElementById('rememberMe').checked) localStorage.setItem('megsis_login', 'true');
                 else sessionStorage.setItem('megsis_login', 'true');
                 enterApp();
-            } else alert('Bilgiler uyuşmuyor!');
+            } else alert('Kullanıcı adı veya şifre hatalı!');
         };
 
         function enterApp() {
-            const l = document.getElementById('loginScreen'), a = document.getElementById('appContent');
-            if(l) l.style.display = 'none';
-            if(a) { a.classList.remove('hidden'); setTimeout(() => a.classList.add('opacity-100'), 50); }
+            const login = document.getElementById('loginScreen'), app = document.getElementById('appContent');
+            if(login) login.style.display = 'none';
+            if(app) {
+                app.classList.remove('hidden');
+                setTimeout(() => app.classList.add('opacity-100'), 50);
+            }
         }
 
         function handleLogout() { localStorage.removeItem('megsis_login'); sessionStorage.removeItem('megsis_login'); location.reload(); }
 
         window.onload = async () => { 
+            if (localStorage.getItem('megsis_dark_mode') === 'true') {
+                document.documentElement.classList.add('dark');
+                const i = document.getElementById('darkIcon'); if(i) i.className = 'fas fa-sun text-lg';
+            }
             if (localStorage.getItem('megsis_login') === 'true' || sessionStorage.getItem('megsis_login') === 'true') { enterApp(); }
             await fetchLocationDatabase(); await fetchData(); await fetchNotes(); 
         };
@@ -350,7 +371,7 @@
                     workbook.SheetNames.forEach(n => { locationDatabase[n] = XLSX.utils.sheet_to_json(workbook.Sheets[n], {header: 1}).map(r => r[0]).filter(v => v); });
                     populateFilterDropdowns();
                 }
-            } catch (e) { console.error("Veritabanı hatası", e); }
+            } catch (e) { console.error("Veritabanı hatası"); }
         }
 
         function populateFilterDropdowns() {
@@ -373,17 +394,13 @@
                     if(!allData.megsis) allData = { megsis: allData, ebys: [] };
                     renderTable();
                 }
-            } catch (e) { console.error("Veri çekilemedi", e); } finally { toggleLoader(false); }
+            } catch (e) { } finally { toggleLoader(false); }
         }
 
         async function fetchNotes() {
             try {
                 const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${NOTES_PATH}`, { headers: { 'Authorization': `token ${GITHUB_TOKEN}` } });
-                if (res.ok) { 
-                    const json = await res.json(); notesSha = json.sha;
-                    notesData = JSON.parse(decodeURIComponent(escape(atob(json.content))));
-                    if(activeTab === 'daily_notes') renderNotes(); 
-                }
+                if (res.ok) { const json = await res.json(); notesSha = json.sha; notesData = JSON.parse(decodeURIComponent(escape(atob(json.content)))); if(activeTab === 'daily_notes') renderNotes(); }
             } catch (e) { notesData = []; }
         }
 
@@ -393,7 +410,7 @@
             try {
                 const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`, { method: 'PUT', headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'Content-Type': 'application/json' }, body: JSON.stringify({ message: "Sistem Güncelleme", content, sha }) });
                 if (res.ok) { const json = await res.json(); if(isNotes) notesSha = json.content.sha; else currentSha = json.content.sha; showSync(); }
-            } catch (e) { console.error("Kaydetme hatası", e); } finally { toggleLoader(false); }
+            } catch (e) { } finally { toggleLoader(false); }
         }
 
         function showSync() { const el = document.getElementById('syncIndicator'); if(el) { el.classList.add('show'); setTimeout(() => el.classList.remove('show'), 3000); } }
@@ -411,6 +428,34 @@
         function setStatusFilter(f) { currentStatusFilter = f; showOnlyDelayed = false; renderTable(); }
         function filterDelayedOnly() { activeTab = 'megsis'; showOnlyDelayed = true; currentStatusFilter = 'all'; switchTab('megsis'); }
 
+        // --- İstatistikler Paneli ---
+        function updateStatistics() {
+            if(activeTab !== 'daily_notes') return;
+            const dEl = document.getElementById('districtStats'), sEl = document.getElementById('staffStats');
+            if(!dEl || !sEl) return;
+
+            const dCounts = {}; const sCounts = {};
+            allData.megsis.forEach(item => {
+                if(item.ilce) dCounts[item.ilce] = (dCounts[item.ilce] || 0) + 1;
+                if(item.muhendis) sCounts[item.muhendis] = (sCounts[item.muhendis] || 0) + 1;
+                if(item.tekniker) sCounts[item.tekniker] = (sCounts[item.tekniker] || 0) + 1;
+            });
+
+            dEl.innerHTML = Object.keys(dCounts).length > 0 ? Object.entries(dCounts).sort((a,b) => b[1]-a[1]).map(([n, c]) => `
+                <div class="flex justify-between items-center bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl border border-slate-100 dark:border-slate-600">
+                    <span class="font-bold text-slate-700 dark:text-slate-200 text-xs">${n}</span>
+                    <span class="bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 px-3 py-1 rounded-lg font-bold text-xs">${c}</span>
+                </div>
+            `).join('') : '<p class="text-xs text-slate-400">Veri bulunamadı.</p>';
+
+            sEl.innerHTML = Object.keys(sCounts).length > 0 ? Object.entries(sCounts).sort((a,b) => b[1]-a[1]).map(([n, c]) => `
+                <div class="flex justify-between items-center bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl border border-slate-100 dark:border-slate-600">
+                    <span class="font-bold text-slate-700 dark:text-slate-200 text-xs">${n}</span>
+                    <span class="text-indigo-600 dark:text-indigo-400 font-bold text-xs">${c} Dosya</span>
+                </div>
+            `).join('') : '<p class="text-xs text-slate-400">Veri bulunamadı.</p>';
+        }
+
         async function addDailyNote() {
             const t = document.getElementById('noteInput').value, p = document.getElementById('notePriority').checked;
             if(!t) return;
@@ -423,10 +468,11 @@
             const l = document.getElementById('notesList'); if(!l) return;
             l.innerHTML = '';
             const sorted = [...notesData].sort((a, b) => b.priority - a.priority);
-            const sd = document.getElementById('statsDisplay'); if(sd) sd.innerText = `${notesData.length} NOT KAYITLI`;
+            const sd = document.getElementById('statsDisplay'); if(sd) sd.innerText = `${notesData.length} ADET NOT BULUNDU`;
             sorted.forEach(note => {
-                l.innerHTML += `<div class="glass note-card p-6 rounded-[2rem] border-l-8 ${note.priority ? 'border-amber-400 bg-amber-50/40' : 'border-slate-200'} flex justify-between items-start"><div class="flex-1 cursor-pointer" onclick="toggleNote(${note.id})"><div class="text-[9px] font-black text-slate-400 mb-1 tracking-widest uppercase">${note.date} ${note.priority ? '<span class="text-amber-500 ml-2">★ ÖNEMLİ</span>' : ''}</div><p class="text-sm font-bold text-slate-700 ${note.done ? 'note-done' : ''}">${note.text}</p></div><div class="flex gap-2 ml-4"><button onclick="toggleNote(${note.id})" class="text-emerald-500 p-2 hover:bg-emerald-50 rounded-xl transition-all"><i class="fas ${note.done ? 'fa-check-double' : 'fa-check'}"></i></button><button onclick="deleteNote(${note.id})" class="text-rose-400 p-2 hover:bg-rose-50 rounded-xl transition-all"><i class="fas fa-trash-alt"></i></button></div></div>`;
+                l.innerHTML += `<div class="bg-white dark:bg-slate-800 p-5 rounded-2xl border-l-4 ${note.priority ? 'border-amber-500 shadow-md' : 'border-slate-300'} flex justify-between items-start mb-3"><div class="flex-1 cursor-pointer" onclick="toggleNote(${note.id})"><div class="text-xs font-bold text-slate-400 mb-2">${note.date} ${note.priority ? '<span class="text-amber-500 ml-2"><i class="fas fa-star"></i> ÖNEMLİ</span>' : ''}</div><p class="text-sm font-semibold text-slate-700 dark:text-slate-200 ${note.done ? 'note-done opacity-50' : ''}">${note.text}</p></div><div class="flex gap-2 ml-4"><button onclick="toggleNote(${note.id})" class="text-emerald-500 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 p-2 rounded-lg transition-all"><i class="fas ${note.done ? 'fa-check-double' : 'fa-check'}"></i></button><button onclick="deleteNote(${note.id})" class="text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-900/30 p-2 rounded-lg transition-all"><i class="fas fa-trash-alt"></i></button></div></div>`;
             });
+            updateStatistics();
         }
 
         async function toggleNote(id) { const idx = notesData.findIndex(n => n.id === id); if(idx>-1) { notesData[idx].done = !notesData[idx].done; renderNotes(); await saveData(true); } }
@@ -447,22 +493,24 @@
             calculateStats();
             const tabs = ['megsis', 'ebys', 'archive', 'archived_list', 'daily_notes'];
             tabs.forEach(t => { const el = document.getElementById('tab-'+t); if(el) el.classList.toggle('active', activeTab === t); });
+            
             const fb = document.getElementById('filterContainer');
-            if (activeTab === 'megsis') fb.innerHTML = `<button onclick="setStatusFilter('all')" class="filter-btn ${currentStatusFilter==='all'?'active':''} px-4 py-2.5 text-[9px] uppercase tracking-tighter">Hepsini Gör</button><button onclick="setStatusFilter('giden')" class="filter-btn ${currentStatusFilter==='giden'?'active':''} px-4 py-2.5 text-[9px] uppercase tracking-tighter">Gidenler</button><button onclick="setStatusFilter('gelen')" class="filter-btn ${currentStatusFilter==='gelen'?'active':''} px-4 py-2.5 text-[9px] uppercase tracking-tighter">Gelenler</button><button onclick="setStatusFilter('tapu_iade')" class="filter-btn ${currentStatusFilter==='tapu_iade'?'active':''} px-4 py-2.5 text-[9px] uppercase tracking-tighter">Tapu İade</button><button onclick="setStatusFilter('iade')" class="filter-btn ${currentStatusFilter==='iade'?'active':''} px-4 py-2.5 text-[9px] uppercase tracking-tighter">İadeler</button>`;
-            else if (activeTab === 'ebys') fb.innerHTML = `<button onclick="setStatusFilter('all')" class="filter-btn ${currentStatusFilter==='all'?'active':''} px-4 py-2.5 text-[9px] uppercase tracking-tighter">Tümü</button><button onclick="setStatusFilter('bekleyen')" class="filter-btn ${currentStatusFilter==='bekleyen'?'active':''} px-4 py-2.5 text-[9px] uppercase tracking-tighter">Bekleyen</button><button onclick="setStatusFilter('cevaplanan')" class="filter-btn ${currentStatusFilter==='cevaplanan'?'active':''} px-4 py-2.5 text-[9px] uppercase tracking-tighter">Cevaplı</button>`;
+            if (activeTab === 'megsis') fb.innerHTML = `<button onclick="setStatusFilter('all')" class="filter-btn ${currentStatusFilter==='all'?'active':''} flex-1">HEPSİ</button><button onclick="setStatusFilter('giden')" class="filter-btn ${currentStatusFilter==='giden'?'active':''} flex-1">GİDEN</button><button onclick="setStatusFilter('gelen')" class="filter-btn ${currentStatusFilter==='gelen'?'active':''} flex-1">GELEN</button><button onclick="setStatusFilter('tapu_iade')" class="filter-btn ${currentStatusFilter==='tapu_iade'?'active':''} flex-1">T.İADE</button><button onclick="setStatusFilter('iade')" class="filter-btn ${currentStatusFilter==='iade'?'active':''} flex-1">İADE</button>`;
+            else if (activeTab === 'ebys') fb.innerHTML = `<button onclick="setStatusFilter('all')" class="filter-btn ${currentStatusFilter==='all'?'active':''} flex-1">TÜMÜ</button><button onclick="setStatusFilter('bekleyen')" class="filter-btn ${currentStatusFilter==='bekleyen'?'active':''} flex-1">BEKLEYEN</button><button onclick="setStatusFilter('cevaplanan')" class="filter-btn ${currentStatusFilter==='cevaplanan'?'active':''} flex-1">CEVAPLI</button>`;
             else fb.innerHTML = '';
-            const head = document.getElementById('tableHead'), th = "px-6 py-5 bg-slate-50 text-slate-400 text-[10px] uppercase font-black border-b border-slate-100 tracking-wider";
-            if (activeTab !== 'ebys') head.innerHTML = `<tr><th class="${th}">Ok</th><th class="${th}">Başvuru/Fen No</th><th class="${th}">Konum</th><th class="${th}">Ada/Parsel</th><th class="${th}">Sorumlular</th><th class="${th}">Süreçler</th><th class="${th}">Notlar</th><th class="${th} text-center">İşlem</th></tr>`;
-            else head.innerHTML = `<tr><th class="${th}">Evrak No/Tarih</th><th class="${th}">Konu</th><th class="${th}">Konum</th><th class="${th}">Ada/Parsel</th><th class="${th}">Sorumlular</th><th class="${th}">Cevap Tarihi</th><th class="${th}">Notlar</th><th class="${th} text-center">İşlem</th></tr>`;
+
+            const head = document.getElementById('tableHead'), th = "px-6 py-5 bg-slate-50 dark:bg-slate-900/50 text-slate-500 font-bold border-b border-slate-200 dark:border-slate-800 text-xs";
+            if (activeTab !== 'ebys') head.innerHTML = `<tr><th class="${th} w-16 text-center">Durum</th><th class="${th}">Başvuru/Fen No</th><th class="${th}">İlçe/Mahalle</th><th class="${th}">Ada/Parsel</th><th class="${th}">Personel</th><th class="${th}">Tarihler</th><th class="${th}">Notlar</th><th class="${th} text-center">İşlem</th></tr>`;
+            else head.innerHTML = `<tr><th class="${th}">Evrak No/Tarih</th><th class="${th}">Konu</th><th class="${th}">İlçe/Mahalle</th><th class="${th}">Ada/Parsel</th><th class="${th}">Personel</th><th class="${th}">Cevap Tarihi</th><th class="${th}">Notlar</th><th class="${th} text-center">İşlem</th></tr>`;
         }
 
         function renderTable() {
             updateUI(); if(activeTab === 'daily_notes') return;
             const tbody = document.getElementById('tableBody'), search = document.getElementById('searchInput').value.toLowerCase(), distF = document.getElementById('filterDistrict').value, persF = document.getElementById('filterPerson').value, today = new Date();
-            if(!tbody) return;
-            tbody.innerHTML = '';
+            if(!tbody) return; tbody.innerHTML = '';
             let src = activeTab === 'archive' ? allData.megsis.filter(i => i.tescilGelisTarihi && !i.isArchived) : (activeTab === 'archived_list' ? allData.megsis.filter(i => i.isArchived) : allData[activeTab]);
             if(activeTab === 'megsis') src = [...allData.megsis].sort((a,b) => (a.isArchived === b.isArchived) ? 0 : a.isArchived ? 1 : -1);
+            
             const list = src.filter(item => {
                 const mSearch = Object.values(item).some(v => v?.toString().toLowerCase().includes(search)), mDist = distF === 'all' || item.ilce === distF, mPers = persF === 'all' || item.muhendis === persF || item.tekniker === persF;
                 let mStatus = true;
@@ -470,21 +518,65 @@
                 else if (activeTab === 'ebys') { if (currentStatusFilter === 'bekleyen') mStatus = !item.cevapTarihi; else if (currentStatusFilter === 'cevaplanan') mStatus = !!item.cevapTarihi; }
                 return mSearch && mDist && mPers && mStatus;
             });
-            const stats = document.getElementById('statsDisplay'); if(stats) stats.innerText = `${list.length} KAYIT BULUNDU`;
+
+            const stats = document.getElementById('statsDisplay'); if(stats) stats.innerText = `TOPLAM ${list.length} KAYIT BULUNDU`;
+            
             list.forEach(item => {
-                const tr = document.createElement('tr'); tr.className = `hover:bg-indigo-50/40 transition-all shadow-sm ${item.isArchived && activeTab === 'megsis' ? 'archived-row' : ''}`;
+                const tr = document.createElement('tr'); tr.className = `hover:bg-indigo-50/50 dark:hover:bg-indigo-900/20 transition-all ${item.isArchived && activeTab === 'megsis' ? 'archived-row' : ''}`;
                 if (activeTab !== 'ebys') {
                     let dly = item.tescilGonderimTarihi && !item.tescilGelisTarihi && !item.iadeTarihi && !item.tapuIadeTarihi && !item.vazgecildi && Math.floor((today - new Date(item.tescilGonderimTarihi)) / 86400000) >= 7;
                     if(item.vazgecildi) tr.classList.add('cancelled-row'); if(item.completed) tr.classList.add('completed-row'); if(dly) tr.classList.add('urgent-row');
-                    tr.innerHTML = `<td class="px-6 py-4 text-center"><input type="checkbox" ${item.completed ? 'checked' : ''} onchange="toggleField('megsis', ${item.id}, 'completed')" class="w-5 h-5 rounded border-slate-300 text-indigo-500 cursor-pointer"></td><td class="px-6 py-4 font-black text-slate-800 text-sm">#${item.basvuruNo}<br><span class="text-[10px] text-slate-400 font-black tracking-widest uppercase">FK: ${item.fenKayitNo}</span></td><td class="px-6 py-4 font-bold text-slate-700 text-sm">${item.ilce}<br><span class="text-[11px] text-slate-400 font-normal italic">${item.mahalle}</span></td><td class="px-6 py-4"><span class="bg-slate-100 text-slate-700 px-3 py-1.5 rounded-lg font-black text-[11px] border border-slate-200">${item.ada}/${item.parsel}</span></td><td class="px-6 py-4 font-bold text-slate-600">M: ${item.muhendis}<br><span class="${item.tekniker ? 'text-slate-500' : 'text-rose-400 italic'}">T: ${item.tekniker || 'Atanmadı'}</span></td><td class="px-6 py-4 font-bold text-slate-500">G: ${item.tescilGonderimTarihi}${dly?' <span class="text-red-500 animate-pulse">!</span>':''}<br>${item.tescilGelisTarihi ? `<span class="text-emerald-600 font-black uppercase">T: ${item.tescilGelisTarihi}</span>` : ''}${item.tapuIadeTarihi ? `<br><span class="text-rose-500 font-black">T.İade: ${item.tapuIadeTarihi}</span>` : ''}${item.iadeTarihi ? `<br><span class="text-amber-600 font-black italic">İ: ${item.iadeTarihi}</span>` : ''}${item.vazgecildi ? `<br><span class="text-amber-600 italic">V: ${item.vazgecildi}</span>` : ''}</td><td class="px-6 py-4 text-slate-500 italic max-w-[150px] truncate">${item.notlar || '-'}</td><td class="px-6 py-4 text-center"><div class="flex items-center justify-center gap-1">${activeTab === 'archive' ? `<button onclick="archiveItem(${item.id})" class="bg-emerald-600 text-white px-4 py-2 rounded-xl text-[10px] font-black uppercase shadow-md active:scale-90 transition-all">Arşivle</button>` : (activeTab === 'archived_list' ? `<button onclick="unarchiveItem(${item.id})" class="p-2 text-slate-400 hover:text-indigo-500"><i class="fas fa-undo"></i></button>` : `<button onclick="editItem(${item.id})" class="p-2 text-indigo-400 transition-all"><i class="fas fa-edit"></i></button>${item.iadeTarihi ? `<button onclick="clearIade(${item.id})" class="p-2 text-rose-500"><i class="fas fa-times-circle"></i></button>` : `<button onclick="openIadeModal(${item.id})" class="p-2 text-amber-500"><i class="fas fa-undo-alt"></i></button>`}<button onclick="toggleField('megsis', ${item.id}, 'vazgecildi')" class="p-2 text-slate-400 hover:text-amber-500 transition-all"><i class="fas fa-ban"></i></button><button onclick="deleteItem('megsis', ${item.id})" class="p-2 text-slate-300 hover:text-red-500 transition-all"><i class="fas fa-trash-alt"></i></button>`)}</div></td>`;
+                    tr.innerHTML = `
+                        <td class="px-6 py-4 text-center"><input type="checkbox" ${item.completed ? 'checked' : ''} onchange="toggleField('megsis', ${item.id}, 'completed')" class="w-5 h-5 rounded cursor-pointer text-indigo-600"></td>
+                        <td class="px-6 py-4 font-bold text-slate-800 dark:text-slate-200 text-sm">#${item.basvuruNo}<br><span class="text-xs text-slate-500 font-normal">FK: ${item.fenKayitNo}</span></td>
+                        <td class="px-6 py-4 font-bold text-slate-700 dark:text-slate-300 text-sm">${item.ilce}<br><span class="text-xs text-slate-500 font-normal">${item.mahalle}</span></td>
+                        <td class="px-6 py-4"><span class="bg-indigo-50 text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-300 px-3 py-1.5 rounded-lg font-bold text-xs border border-indigo-100 dark:border-indigo-800">${item.ada}/${item.parsel}</span></td>
+                        <td class="px-6 py-4 font-bold text-slate-700 dark:text-slate-300 text-sm">M: ${item.muhendis}<br><span class="${item.tekniker ? 'text-slate-500' : 'text-rose-400 font-normal italic'}">T: ${item.tekniker || 'Atanmadı'}</span></td>
+                        <td class="px-6 py-4 font-bold text-slate-600 dark:text-slate-400 text-xs">
+                            G: ${item.tescilGonderimTarihi}${dly?' <span class="text-red-500 animate-pulse text-lg">!</span>':''}${item.isArchived?' <i class="fas fa-check-double text-emerald-500"></i>':''}<br>
+                            ${item.tescilGelisTarihi ? `<span class="text-emerald-600 dark:text-emerald-400">T: ${item.tescilGelisTarihi}</span>` : ''}
+                            ${item.tapuIadeTarihi ? `<br><span class="text-rose-500">T.İade: ${item.tapuIadeTarihi}</span>` : ''}
+                            ${item.iadeTarihi ? `<br><span class="text-amber-600">İade: ${item.iadeTarihi}</span>` : ''}
+                            ${item.vazgecildi ? `<br><span class="text-amber-600 font-normal italic">İptal: ${item.vazgecildi}</span>` : ''}
+                        </td>
+                        <td class="px-6 py-4 text-slate-500 italic max-w-[200px] truncate text-xs" title="${item.notlar || '-'}">${item.notlar || '-'}</td>
+                        <td class="px-6 py-4 text-center">
+                            <div class="flex items-center justify-center gap-1">
+                                ${activeTab === 'archive' ? `<button onclick="archiveItem(${item.id})" class="bg-emerald-600 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all hover:bg-emerald-700">ARŞİVLE</button>` : (activeTab === 'archived_list' ? `<button onclick="unarchiveItem(${item.id})" class="p-2 text-slate-400 hover:text-indigo-500 transition-all"><i class="fas fa-undo"></i></button>` : `<button onclick="editItem(${item.id})" class="p-2 text-indigo-500 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 rounded-lg transition-all"><i class="fas fa-edit"></i></button>${item.iadeTarihi ? `<button onclick="clearIade(${item.id})" class="p-2 text-rose-500 hover:bg-rose-50 dark:hover:bg-rose-900/30 rounded-lg transition-all"><i class="fas fa-times-circle"></i></button>` : `<button onclick="openIadeModal(${item.id})" class="p-2 text-amber-500 hover:bg-amber-50 dark:hover:bg-amber-900/30 rounded-lg transition-all"><i class="fas fa-undo-alt"></i></button>`}<button onclick="toggleField('megsis', ${item.id}, 'vazgecildi')" class="p-2 text-slate-400 hover:text-amber-500 transition-all"><i class="fas fa-ban"></i></button><button onclick="deleteItem('megsis', ${item.id})" class="p-2 text-slate-400 hover:text-rose-500 transition-all"><i class="fas fa-trash-alt"></i></button>`)}
+                            </div>
+                        </td>
+                    `;
                 } else {
                     const ovr = !item.cevapTarihi && (today - new Date(item.evrakTarihi)) / 86400000 > 15;
                     if(ovr) tr.classList.add('urgent-row');
-                    tr.innerHTML = `<td class="px-6 py-4 font-black text-slate-800 text-sm">#${item.evrakSayisi}<br><span class="text-[10px] text-slate-400 tracking-wider">${item.evrakTarihi}</span></td><td class="px-6 py-4 font-bold text-slate-500 italic max-w-[200px] truncate">${item.konu}</td><td class="px-6 py-4 font-bold text-slate-700 text-sm">${item.ilce}<br><span class="text-[10px] text-slate-400 font-normal italic">${item.mahalle}</span></td><td class="px-6 py-4 font-black text-indigo-500">${item.ada}/${item.parsel}</td><td class="px-6 py-4 font-bold text-slate-600">M: ${item.muhendis}<br><span class="${item.tekniker?'text-slate-500':'text-rose-400'}">T: ${item.tekniker||'-'}</span></td><td class="px-6 py-4 font-black ${ovr?'text-red-600':'text-slate-600'} uppercase">${item.cevapTarihi||'Bekliyor'}</td><td class="px-6 py-4 text-slate-500 italic max-w-[150px] truncate">${item.notlar||'-'}</td><td class="px-6 py-4 text-center"><div class="flex items-center justify-center gap-1"><button onclick="editItem(${item.id})" class="p-2 text-indigo-400"><i class="fas fa-edit"></i></button><button onclick="deleteItem('ebys', ${item.id})" class="p-2 text-slate-300 hover:text-red-500 transition-all"><i class="fas fa-trash-alt"></i></button></div></td>`;
+                    tr.innerHTML = `
+                        <td class="px-6 py-4 font-bold text-slate-800 dark:text-slate-200 text-sm">#${item.evrakSayisi}<br><span class="text-xs text-slate-500 font-normal">${item.evrakTarihi}</span></td>
+                        <td class="px-6 py-4 font-bold text-slate-700 dark:text-slate-300 text-sm">${item.konu}</td>
+                        <td class="px-6 py-4 font-bold text-slate-700 dark:text-slate-300 text-sm">${item.ilce}<br><span class="text-xs text-slate-500 font-normal">${item.mahalle}</span></td>
+                        <td class="px-6 py-4"><span class="bg-indigo-50 text-indigo-700 px-3 py-1.5 rounded-lg font-bold text-xs">${item.ada}/${item.parsel}</span></td>
+                        <td class="px-6 py-4 font-bold text-slate-700 dark:text-slate-300 text-sm">M: ${item.muhendis}<br><span class="${item.tekniker?'text-slate-500':'text-rose-400 font-normal italic'}">T: ${item.tekniker||'-'}</span></td>
+                        <td class="px-6 py-4 font-bold text-sm ${ovr?'text-red-600':'text-slate-600 dark:text-slate-400'}">${item.cevapTarihi||'Bekliyor'}</td>
+                        <td class="px-6 py-4 text-slate-500 italic max-w-[200px] truncate text-xs">${item.notlar||'-'}</td>
+                        <td class="px-6 py-4 text-center"><div class="flex items-center justify-center gap-1"><button onclick="editItem(${item.id})" class="p-2 text-indigo-500 hover:bg-indigo-50 rounded-lg"><i class="fas fa-edit"></i></button><button onclick="deleteItem('ebys', ${item.id})" class="p-2 text-slate-400 hover:text-rose-500 rounded-lg"><i class="fas fa-trash-alt"></i></button></div></td>
+                    `;
                 }
                 tbody.appendChild(tr);
             });
         }
+
+        // Action Handlers
+        function openCreateModal() { editingItemId = null; buildForm(); document.getElementById('formModal').classList.remove('hidden'); }
+        function closeModal() { editingItemId = null; document.getElementById('formModal').classList.add('hidden'); }
+        function openIadeModal(id) { returnItemId = id; document.getElementById('iadeTarihiInput').value = new Date().toISOString().split('T')[0]; document.getElementById('iadeModal').classList.remove('hidden'); }
+        function closeIadeModal() { returnItemId = null; document.getElementById('iadeModal').classList.add('hidden'); }
+        function openDuplicateModal(details, formData) { 
+            const d = document.getElementById('duplicateDetails');
+            if(d) d.innerHTML = `<b>İlçe:</b> ${details.ilce}<br><b>Fen Kayıt No:</b> ${details.fenKayitNo}<br><b>Başvuru:</b> ${details.tescilGonderimTarihi}`; 
+            pendingSaveData = formData; 
+            const m = document.getElementById('duplicateModal');
+            if(m) m.classList.remove('hidden'); 
+        }
+        function closeDuplicateModal() { pendingSaveData = null; const m = document.getElementById('duplicateModal'); if(m) m.classList.add('hidden'); }
 
         async function downloadArchiveAsImage() {
             const t = document.getElementById('exportTableBody'), s = allData.megsis.filter(i => i.tescilGelisTarihi && !i.isArchived);
@@ -494,14 +586,20 @@
             toggleLoader(true); const c = await html2canvas(document.getElementById('exportCanvas'), { scale: 2 }); const l = document.createElement('a'); l.download = `Teslim_Listesi.jpg`; l.href = c.toDataURL('image/jpeg', 0.9); l.click(); toggleLoader(false);
         }
 
-        async function archiveItem(id) { const i = allData.megsis.findIndex(x => x.id === id); if(i>-1) { allData.megsis[i].isArchived = true; renderTable(); await saveData(); } }
-        async function unarchiveItem(id) { const i = allData.megsis.findIndex(x => x.id === id); if(i>-1) { allData.megsis[i].isArchived = false; renderTable(); await saveData(); } }
+        async function archiveItem(id) { const idx = allData.megsis.findIndex(x => x.id === id); if(idx>-1) { allData.megsis[idx].isArchived = true; renderTable(); await saveData(); } }
+        async function unarchiveItem(id) { const idx = allData.megsis.findIndex(x => x.id === id); if(idx>-1) { allData.megsis[idx].isArchived = false; renderTable(); await saveData(); } }
         function editItem(id) { editingItemId = id; buildForm(); document.getElementById('formModal').classList.remove('hidden'); }
-        async function toggleField(tab, id, field) { const i = allData[tab].findIndex(x => x.id === id); if(i>-1) { if(field === 'vazgecildi') allData[tab][i][field] = allData[tab][i][field] ? null : new Date().toLocaleDateString('tr-TR'); else allData[tab][i][field] = !allData[tab][i][field]; renderTable(); await saveData(); } }
-        async function clearIade(id) { const i = allData.megsis.findIndex(x => x.id === id); if(i > -1 && confirm('İade iptal edilsin mi?')) { allData.megsis[i].iadeTarihi = null; renderTable(); await saveData(); } }
+        async function toggleField(tab, id, field) { const idx = allData[tab].findIndex(x => x.id === id); if(idx>-1) { if(field === 'vazgecildi') allData[tab][idx][field] = allData[tab][idx][field] ? null : new Date().toLocaleDateString('tr-TR'); else allData[tab][idx][field] = !allData[tab][idx][field]; renderTable(); await saveData(); } }
+        async function clearIade(id) { const idx = allData.megsis.findIndex(x => x.id === id); if(idx > -1 && confirm('İade iptal edilsin mi?')) { allData.megsis[idx].iadeTarihi = null; renderTable(); await saveData(); } }
         async function deleteItem(tab, id) { if(confirm('Sileyim mi?')) { allData[tab] = allData[tab].filter(x => x.id !== id); renderTable(); await saveData(); } }
         function exportToExcel() { const l = activeTab.includes('archive') ? 'megsis' : activeTab; let d = activeTab === 'archived_list' ? allData.megsis.filter(i => i.isArchived) : (activeTab === 'archive' ? allData.megsis.filter(i => i.tescilGelisTarihi && !i.isArchived) : allData[activeTab]); const ws = XLSX.utils.json_to_sheet(d.map(i => { const c = {...i}; delete c.id; delete c.createdAt; return c; })); const wb = XLSX.utils.book_new(); XLSX.utils.book_append_sheet(wb, ws, "RAPOR"); XLSX.writeFile(wb, `MEGSIS_Rapor.xlsx`); }
         
+        async function confirmIade() {
+            const date = document.getElementById('iadeTarihiInput').value; if(!date) return;
+            const idx = allData.megsis.findIndex(i => i.id === returnItemId);
+            if(idx > -1) { allData.megsis[idx].iadeTarihi = date; allData.megsis[idx].vazgecildi = null; closeIadeModal(); renderTable(); await saveData(); }
+        }
+
         async function confirmDuplicateSave() {
             const fd = pendingSaveData, t = activeTab.includes('archive') ? 'megsis' : activeTab;
             if (editingItemId) { const idx = allData[t].findIndex(i => i.id === editingItemId); if(idx>-1) allData[t][idx] = { ...allData[t][idx], ...fd }; }
@@ -510,22 +608,46 @@
         }
 
         function buildForm() {
-            const f = document.getElementById('activeForm'); if(!f) return;
+            const form = document.getElementById('activeForm'); if(!form) return;
             const isM = activeTab !== 'ebys', t = activeTab.includes('archive') ? 'megsis' : activeTab, item = editingItemId ? allData[t].find(x => x.id === editingItemId) : null;
-            document.getElementById('modalTitle').innerText = item ? 'Düzenle' : 'Yeni Kayıt';
-            const staff = (role) => (locationDatabase[role] || []).map(n => { const sVal = role === "MÜHENDİS" ? item?.muhendis : item?.tekniker; return `<option value="${n}" ${sVal === n ? 'selected' : ''}>${n}</option>`; }).join('');
-            const ilcs = Object.keys(locationDatabase).filter(n => !["MÜHENDİS","TEKNİKER"].includes(n)).map(i => `<option value="${i}" ${item?.ilce === i ? 'selected' : ''}>${i}</option>`).join('');
-            let html = isM ? `<div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Başvuru No</label><input type="text" name="basvuruNo" required value="${item?.basvuruNo || ''}" class="w-full rounded-xl"></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Fen Kayıt No</label><input type="text" name="fenKayitNo" required value="${item?.fenKayitNo || ''}" class="w-full rounded-xl"></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">İlçe</label><select name="ilce" onchange="updateMahalle(this)" required class="w-full rounded-xl"><option value="">Seçiniz</option>${ilcs}</select></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Mahalle</label><select name="mahalle" id="formMahalle" required class="w-full rounded-xl"><option value="">Seçiniz</option></select></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Ada</label><input type="number" name="ada" required value="${item?.ada || ''}" class="w-full rounded-xl"></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required value="${item?.parsel || ''}" class="w-full rounded-xl"></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Mühendis</label><select name="muhendis" required class="w-full rounded-xl"><option value="">Seçiniz</option>${staff('MÜHENDİS')}</select></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Tekniker</label><select name="tekniker" class="w-full rounded-xl"><option value="">Seçilmedi</option>${staff('TEKNİKER')}</select></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Tescil Gidiş</label><input type="date" name="tescilGonderimTarihi" required value="${item?.tescilGonderimTarihi || ''}" class="w-full rounded-xl"></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Tescil Geliş</label><input type="date" name="tescilGelisTarihi" value="${item?.tescilGelisTarihi || ''}" class="w-full rounded-xl"></div><div class="space-y-1"><label class="text-[10px] font-black text-rose-500 uppercase">Tapu İade Tarihi</label><input type="date" name="tapuIadeTarihi" value="${item?.tapuIadeTarihi || ''}" class="w-full rounded-xl border-rose-100 bg-rose-50/20"></div><div class="space-y-1"><label class="text-[10px] font-black text-rose-500 uppercase">Tapu İade Nedeni</label><input type="text" name="tapuIadeNedeni" value="${item?.tapuIadeNedeni || ''}" class="w-full rounded-xl border-rose-100 bg-rose-50/20"></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Birim İade Tarihi</label><input type="date" name="iadeTarihi" value="${item?.iadeTarihi || ''}" class="w-full rounded-xl"></div><div class="md:col-span-1 space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Notlar</label><input type="text" name="notlar" value="${item?.notlar || ''}" class="w-full rounded-xl"></div>` : `<div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Evrak Tarihi</label><input type="date" name="evrakTarihi" required value="${item?.evrakTarihi || ''}" class="w-full rounded-xl"></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Evrak Sayısı</label><input type="text" name="evrakSayisi" required value="${item?.evrakSayisi || ''}" class="w-full rounded-xl"></div><div class="md:col-span-2 space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Konu</label><input type="text" name="konu" required value="${item?.konu || ''}" class="w-full rounded-xl"></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">İlçe</label><select name="ilce" onchange="updateMahalle(this)" required class="w-full rounded-xl"><option value="">Seçiniz</option>${ilcs}</select></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Mahalle</label><select name="mahalle" id="formMahalle" required class="w-full rounded-xl"><option value="">Seçiniz</option>${item?.mahalle ? `<option value="${item.mahalle}" selected>${item.mahalle}</option>` : ''}</select></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Ada</label><input type="number" name="ada" required value="${item?.ada || ''}" class="w-full rounded-xl"></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required value="${item?.parsel || ''}" class="w-full rounded-xl"></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Mühendis</label><select name="muhendis" required class="w-full rounded-xl"><option value="">Seçiniz</option>${staff('MÜHENDİS')}</select></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Tekniker</label><select name="tekniker" class="w-full rounded-xl"><option value="">Seçilmedi</option>${staff('TEKNİKER')}</select></div><div class="space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Cevap Tarihi</label><input type="date" name="cevapTarihi" value="${item?.cevapTarihi || ''}" class="w-full rounded-xl"></div><div class="md:col-span-4 space-y-1"><label class="text-[10px] font-black text-slate-500 uppercase">Notlar</label><textarea name="notlar" rows="2" class="w-full rounded-xl">${item?.notlar || ''}</textarea></div>`;
-            f.innerHTML = html + `<div class="md:col-span-4 pt-4"><button type="submit" class="w-full bg-[#1e293b] text-white py-5 rounded-2xl font-black transition-all shadow-xl active:scale-95 text-[10px] uppercase tracking-widest">Kayıt İşlemini Tamamla</button></div>`;
+            document.getElementById('modalTitle').innerText = item ? 'Kayıt Güncelle' : 'Yeni Kayıt';
+            
+            const staff = (role) => (locationDatabase[role] || []).map(n => {
+                const staffVal = role === "MÜHENDİS" ? item?.muhendis : item?.tekniker;
+                return `<option value="${n}" ${staffVal === n ? 'selected' : ''}>${n}</option>`;
+            }).join('');
+
+            const ilcs = Object.keys(locationDatabase).filter(n => !["MÜHENDİS","TEKNİKER"].includes(n)).sort().map(i => `<option value="${i}" ${item?.ilce === i ? 'selected' : ''}>${i}</option>`).join('');
+            
+            let html = isM ? `
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Başvuru No</label><input type="text" name="basvuruNo" required value="${item?.basvuruNo || ''}" class="w-full"></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Fen Kayıt No</label><input type="text" name="fenKayitNo" required value="${item?.fenKayitNo || ''}" class="w-full"></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">İlçe</label><select name="ilce" onchange="updateMahalle(this)" required class="w-full"><option value="">Seçiniz</option>${ilcs}</select></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Mahalle</label><select name="mahalle" id="formMahalle" required class="w-full"><option value="">Seçiniz</option></select></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Ada</label><input type="number" name="ada" required value="${item?.ada || ''}" class="w-full"></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required value="${item?.parsel || ''}" class="w-full"></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Mühendis</label><select name="muhendis" required class="w-full"><option value="">Seçiniz</option>${staff('MÜHENDİS')}</select></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Tekniker</label><select name="tekniker" class="w-full"><option value="">Seçilmedi</option>${staff('TEKNİKER')}</select></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Tescil Gidiş</label><input type="date" name="tescilGonderimTarihi" required value="${item?.tescilGonderimTarihi || ''}" class="w-full"></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Tescil Geliş</label><input type="date" name="tescilGelisTarihi" value="${item?.tescilGelisTarihi || ''}" class="w-full"></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-rose-500 uppercase">Tapu İade Tarihi</label><input type="date" name="tapuIadeTarihi" value="${item?.tapuIadeTarihi || ''}" class="w-full bg-rose-50 border-rose-200"></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-rose-500 uppercase">Tapu İade Nedeni</label><input type="text" name="tapuIadeNedeni" value="${item?.tapuIadeNedeni || ''}" class="w-full bg-rose-50 border-rose-200"></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-amber-600 uppercase">Birim İade Tarihi</label><input type="date" name="iadeTarihi" value="${item?.iadeTarihi || ''}" class="w-full bg-amber-50 border-amber-200"></div>
+                <div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Notlar</label><input type="text" name="notlar" value="${item?.notlar || ''}" class="w-full"></div>` : 
+                `<div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Evrak Tarihi</label><input type="date" name="evrakTarihi" required value="${item?.evrakTarihi || ''}" class="w-full"></div><div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Evrak Sayısı</label><input type="text" name="evrakSayisi" required value="${item?.evrakSayisi || ''}" class="w-full"></div><div class="md:col-span-2 space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Konu</label><input type="text" name="konu" required value="${item?.konu || ''}" class="w-full"></div><div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">İlçe</label><select name="ilce" onchange="updateMahalle(this)" required class="w-full"><option value="">Seçiniz</option>${ilcs}</select></div><div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Mahalle</label><select name="mahalle" id="formMahalle" required class="w-full"><option value="">Seçiniz</option>${item?.mahalle ? `<option value="${item.mahalle}" selected>${item.mahalle}</option>` : ''}</select></div><div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Ada</label><input type="number" name="ada" required value="${item?.ada || ''}" class="w-full"></div><div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Parsel</label><input type="number" name="parsel" required value="${item?.parsel || ''}" class="w-full"></div><div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Mühendis</label><select name="muhendis" required class="w-full"><option value="">Seçiniz</option>${staff('MÜHENDİS')}</select></div><div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Tekniker</label><select name="tekniker" class="w-full"><option value="">Seçilmedi</option>${staff('TEKNİKER')}</select></div><div class="space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Cevap Tarihi</label><input type="date" name="cevapTarihi" value="${item?.cevapTarihi || ''}" class="w-full"></div><div class="md:col-span-4 space-y-1"><label class="text-xs font-bold text-slate-500 uppercase">Notlar</label><textarea name="notlar" rows="2" class="w-full">${item?.notlar || ''}</textarea></div>`;
+            
+            form.innerHTML = html + `<div class="md:col-span-4 pt-6"><button type="submit" class="w-full bg-[#1e293b] text-white py-5 rounded-2xl font-black text-sm uppercase tracking-widest shadow-xl hover:brightness-110 active:scale-95 transition-all">Veriyi Kaydet</button></div>`;
+            
             if(item?.ilce) { updateMahalle({ value: item.ilce }); if(document.getElementById('formMahalle')) document.getElementById('formMahalle').value = item.mahalle; }
-            f.onsubmit = async (e) => {
-                e.preventDefault(); const fd = Object.fromEntries(new FormData(e.target)), tar = activeTab.includes('archive') ? 'megsis' : activeTab;
-                if(tar === 'megsis') {
-                    const isD = allData.megsis.some(x => x.id !== editingItemId && x.ilce === fd.ilce && x.fenKayitNo.toString().trim() === fd.fenKayitNo.toString().trim() && x.tescilGonderimTarihi === fd.tescilGonderimTarihi);
-                    if(isD) { openDuplicateModal({ ilce: fd.ilce, fenKayitNo: fd.fenKayitNo, tescilGonderimTarihi: fd.tescilGonderimTarihi }, fd); return; }
+
+            form.onsubmit = async (e) => {
+                e.preventDefault(); const fd = Object.fromEntries(new FormData(e.target)), t = activeTab.includes('archive') ? 'megsis' : activeTab;
+                if(t === 'megsis') {
+                    const isDup = allData.megsis.some(x => x.id !== editingItemId && x.ilce === fd.ilce && x.fenKayitNo.toString().trim() === fd.fenKayitNo.toString().trim() && x.tescilGonderimTarihi === fd.tescilGonderimTarihi);
+                    if(isDup) { openDuplicateModal({ ilce: fd.ilce, fenKayitNo: fd.fenKayitNo, tescilGonderimTarihi: fd.tescilGonderimTarihi }, fd); return; }
                 }
-                if (editingItemId) { const i = allData[tar].findIndex(x => x.id === editingItemId); if(i>-1) allData[tar][i] = { ...allData[tar][i], ...fd }; }
-                else { allData[tar].unshift({ id: Date.now(), createdAt: new Date().toISOString(), completed: false, isArchived: false, ...fd }); }
+                if (editingItemId) { const idx = allData[t].findIndex(x => x.id === editingItemId); if(idx>-1) allData[t][idx] = { ...allData[t][idx], ...fd }; }
+                else { allData[t].unshift({ id: Date.now(), createdAt: new Date().toISOString(), completed: false, isArchived: false, ...fd }); }
                 closeModal(); renderTable(); await saveData();
             };
         }
