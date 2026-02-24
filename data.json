@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771911751901,
+      "createdAt": "2026-02-24T05:42:31.901Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11377556",
+      "fenKayitNo": "162",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "1846",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-02-12",
+      "tescilGelisTarihi": "2026-02-13",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771911344095,
       "createdAt": "2026-02-24T05:35:44.095Z",
       "completed": false,
