@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771934891376,
+      "createdAt": "2026-02-24T12:08:11.376Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11548870",
+      "fenKayitNo": "552",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "3888",
+      "parsel": "5",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-02-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771934748221,
       "createdAt": "2026-02-24T12:05:48.221Z",
       "completed": false,
