@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771934556938,
+      "createdAt": "2026-02-24T12:02:36.938Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11529609",
+      "fenKayitNo": "489",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kaşlı",
+      "ada": "8938",
+      "parsel": "3",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771934338817,
       "createdAt": "2026-02-24T11:58:58.817Z",
       "completed": false,
