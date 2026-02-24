@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1771934748221,
+      "createdAt": "2026-02-24T12:05:48.221Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11546299",
+      "fenKayitNo": "551",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Sarılar",
+      "ada": "133",
+      "parsel": "12",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-02-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1771934665650,
       "createdAt": "2026-02-24T12:04:25.650Z",
       "completed": false,
