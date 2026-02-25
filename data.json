@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772019043823,
+      "createdAt": "2026-02-25T11:30:43.823Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11368499",
+      "fenKayitNo": "17",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "5913",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-01-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "2026-02-23",
+      "notlar": "vazgeçildi tescile gidiş evrak geliş tarihi"
+    },
+    {
       "id": 1772017921308,
       "createdAt": "2026-02-25T11:12:01.308Z",
       "completed": false,
