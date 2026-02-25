@@ -3323,6 +3323,23 @@
   ],
   "ebys": [
     {
+      "id": 1772007101016,
+      "createdAt": "2026-02-25T08:11:41.016Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-02-23",
+      "evrakSayisi": "305657802",
+      "konu": "sarılar mh. mezarlık yeri tetkiki",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Sarılar",
+      "ada": "142",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "cevapTarihi": "",
+      "notlar": "26/02/2026 tarihinde arazi mühendis yok program için eklendi"
+    },
+    {
       "id": 1771595137728,
       "createdAt": "2026-02-20T13:45:37.728Z",
       "completed": false,
