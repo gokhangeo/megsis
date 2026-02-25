@@ -3483,6 +3483,23 @@
   ],
   "ebys": [
     {
+      "id": 1772018037613,
+      "createdAt": "2026-02-25T11:13:57.613Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2025-10-16",
+      "evrakSayisi": "18910",
+      "konu": "mülkiyet raporu",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "10120",
+      "parsel": "34",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "cevapTarihi": "2026-01-13",
+      "notlar": ""
+    },
+    {
       "id": 1772017226181,
       "createdAt": "2026-02-25T11:00:26.181Z",
       "completed": false,
