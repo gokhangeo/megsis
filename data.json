@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772008496784,
+      "createdAt": "2026-02-25T08:34:56.784Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11311844",
+      "fenKayitNo": "1696",
+      "ilce": "AKDENİZ",
+      "mahalle": "Tekke",
+      "ada": "10251",
+      "parsel": "29",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "EBYS;TCDD 6. BM 16/12/2025-1469126 TARİH-SAYI YAZISI"
+    },
+    {
       "id": 1772008008886,
       "createdAt": "2026-02-25T08:26:48.886Z",
       "completed": false,
