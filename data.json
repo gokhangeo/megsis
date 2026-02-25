@@ -3503,6 +3503,23 @@
   ],
   "ebys": [
     {
+      "id": 1772019208316,
+      "createdAt": "2026-02-25T11:33:28.316Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-01-08",
+      "evrakSayisi": "17",
+      "konu": "mülkiyet raporu shkm den gelmiş",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "5913",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "cevapTarihi": "2026-02-23",
+      "notlar": "cevap tarihi vazgeçildi tarihidir"
+    },
+    {
       "id": 1772018037613,
       "createdAt": "2026-02-25T11:13:57.613Z",
       "completed": false,
