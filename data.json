@@ -183,7 +183,7 @@
     {
       "id": 1771911751901,
       "createdAt": "2026-02-24T05:42:31.901Z",
-      "completed": false,
+      "completed": true,
       "isArchived": false,
       "basvuruNo": "11377556",
       "fenKayitNo": "162",
