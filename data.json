@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772008630199,
+      "createdAt": "2026-02-25T08:37:10.199Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11549134",
+      "fenKayitNo": "244",
+      "ilce": "AKDENİZ",
+      "mahalle": "Sarıibrahimli",
+      "ada": "109",
+      "parsel": "3",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772008571015,
       "createdAt": "2026-02-25T08:36:11.015Z",
       "completed": false,
