@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772007396468,
+      "createdAt": "2026-02-25T08:16:36.468Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11542700",
+      "fenKayitNo": "253",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "103",
+      "parsel": "20",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "22/09/2025 tarih ve 5677 sayılı ebys"
+    },
+    {
       "id": 1772002185574,
       "createdAt": "2026-02-25T06:49:45.574Z",
       "completed": false,
