@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772100233049,
+      "createdAt": "2026-02-26T10:03:53.049Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11546536",
+      "fenKayitNo": "634",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "8185",
+      "parsel": "7",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-02-24",
+      "tescilGelisTarihi": "2026-02-25",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772019043823,
       "createdAt": "2026-02-25T11:30:43.823Z",
       "completed": false,
