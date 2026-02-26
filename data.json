@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772103172532,
+      "createdAt": "2026-02-26T10:52:52.532Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11540231",
+      "fenKayitNo": "530",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "11623",
+      "parsel": "5",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-02-24",
+      "tescilGelisTarihi": "2026-02-25",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772103060047,
       "createdAt": "2026-02-26T10:51:00.047Z",
       "completed": false,
