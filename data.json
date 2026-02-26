@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772114224636,
+      "createdAt": "2026-02-26T13:57:04.636Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11420833",
+      "fenKayitNo": "184",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "296",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772114165376,
       "createdAt": "2026-02-26T13:56:05.376Z",
       "completed": false,
