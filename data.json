@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772101811282,
+      "createdAt": "2026-02-26T10:30:11.282Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11557132",
+      "fenKayitNo": "571",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "961",
+      "parsel": "16",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772101727954,
       "createdAt": "2026-02-26T10:28:47.954Z",
       "completed": false,
