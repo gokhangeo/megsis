@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772101727954,
+      "createdAt": "2026-02-26T10:28:47.954Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11520248",
+      "fenKayitNo": "541",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Değirmençay",
+      "ada": "303",
+      "parsel": "25",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-02-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772101658034,
       "createdAt": "2026-02-26T10:27:38.034Z",
       "completed": false,
