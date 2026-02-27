@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772175819334,
+      "createdAt": "2026-02-27T07:03:39.334Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "1156023",
+      "fenKayitNo": "574",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "990",
+      "parsel": "7",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-02-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772114224636,
       "createdAt": "2026-02-26T13:57:04.636Z",
       "completed": false,
