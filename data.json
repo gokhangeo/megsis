@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772200251854,
+      "createdAt": "2026-02-27T13:50:51.854Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11518819",
+      "fenKayitNo": "198",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "557",
+      "parsel": "791",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-27",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772200017173,
       "createdAt": "2026-02-27T13:46:57.173Z",
       "completed": false,
