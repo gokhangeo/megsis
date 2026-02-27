@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772177746313,
+      "createdAt": "2026-02-27T07:35:46.313Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11532276",
+      "fenKayitNo": "498",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arslanköy",
+      "ada": "105",
+      "parsel": "75",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-02-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772175819334,
       "createdAt": "2026-02-27T07:03:39.334Z",
       "completed": false,
