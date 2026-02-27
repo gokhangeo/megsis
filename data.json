@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772179187154,
+      "createdAt": "2026-02-27T07:59:47.154Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11549244",
+      "fenKayitNo": "245",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "952",
+      "parsel": "25",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-02-27",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772179096967,
       "createdAt": "2026-02-27T07:58:16.967Z",
       "completed": false,
