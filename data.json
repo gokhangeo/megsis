@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772179096967,
+      "createdAt": "2026-02-27T07:58:16.967Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11543452",
+      "fenKayitNo": "226",
+      "ilce": "AKDENİZ",
+      "mahalle": "Yanpar",
+      "ada": "104",
+      "parsel": "35",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-02-27",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772177746313,
       "createdAt": "2026-02-27T07:35:46.313Z",
       "completed": false,
