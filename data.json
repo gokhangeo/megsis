@@ -3889,6 +3889,23 @@
   ],
   "ebys": [
     {
+      "id": 1772523861701,
+      "createdAt": "2026-03-03T07:44:21.701Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-02-04",
+      "evrakSayisi": "138410",
+      "konu": "mülkiyet raporu",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "261",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "cevapTarihi": "2026-03-03",
+      "notlar": ""
+    },
+    {
       "id": 1772024461210,
       "createdAt": "2026-02-25T13:01:01.210Z",
       "completed": false,
