@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772620870931,
+      "createdAt": "2026-03-04T10:41:10.931Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11501624",
+      "fenKayitNo": "176",
+      "ilce": "AKDENİZ",
+      "mahalle": "Parmakkurdu",
+      "ada": "130",
+      "parsel": "16",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772620769992,
       "createdAt": "2026-03-04T10:39:29.992Z",
       "completed": false,
