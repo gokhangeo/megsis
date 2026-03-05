@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772713548362,
+      "createdAt": "2026-03-05T12:25:48.362Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11557338",
+      "fenKayitNo": "663",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "10940",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-03-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772706887304,
       "createdAt": "2026-03-05T10:34:47.304Z",
       "completed": false,
