@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772706887304,
+      "createdAt": "2026-03-05T10:34:47.304Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11576201",
+      "fenKayitNo": "630",
+      "ilce": "TOROSLAR",
+      "mahalle": "Evrenli",
+      "ada": "128",
+      "parsel": "7",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-03-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772706775084,
       "createdAt": "2026-03-05T10:32:55.084Z",
       "completed": false,
