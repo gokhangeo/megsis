@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772706775084,
+      "createdAt": "2026-03-05T10:32:55.084Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11551515",
+      "fenKayitNo": "554",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "5230",
+      "parsel": "8",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-03-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772623796870,
       "createdAt": "2026-03-04T11:29:56.870Z",
       "completed": false,
