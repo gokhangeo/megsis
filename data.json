@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772805777516,
+      "createdAt": "2026-03-06T14:02:57.516Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11594504",
+      "fenKayitNo": "342",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "101",
+      "parsel": "143",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1772805739819,
       "createdAt": "2026-03-06T14:02:19.819Z",
       "completed": false,
