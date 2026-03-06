@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772806741646,
+      "createdAt": "2026-03-06T14:19:01.646Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11588214",
+      "fenKayitNo": "714",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "8783",
+      "parsel": "14",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1772806693497,
       "createdAt": "2026-03-06T14:18:13.497Z",
       "completed": false,
