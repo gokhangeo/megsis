@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1772806536275,
+      "createdAt": "2026-03-06T14:15:36.275Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11448092",
+      "fenKayitNo": "386",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "5464",
+      "parsel": "17",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ifraz"
+    },
+    {
       "id": 1772806495173,
       "createdAt": "2026-03-06T14:14:55.173Z",
       "completed": false,
