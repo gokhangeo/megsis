@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773040390475,
+      "createdAt": "2026-03-09T07:13:10.475Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11592578",
+      "fenKayitNo": "310",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "138",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-03-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1773040289462,
       "createdAt": "2026-03-09T07:11:29.462Z",
       "completed": false,
