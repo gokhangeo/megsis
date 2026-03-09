@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773039540667,
+      "createdAt": "2026-03-09T06:59:00.667Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11594514",
+      "fenKayitNo": "340",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "124",
+      "parsel": "77",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-03-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773039502687,
       "createdAt": "2026-03-09T06:58:22.687Z",
       "completed": false,
