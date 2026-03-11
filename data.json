@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773210617880,
+      "createdAt": "2026-03-11T06:30:17.880Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11573316",
+      "fenKayitNo": "691",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Değirmençay",
+      "ada": "317",
+      "parsel": "6",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-03-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma-317/6-7-8 ve114/5-371/5 ada/parseller"
+    },
+    {
       "id": 1773210483839,
       "createdAt": "2026-03-11T06:28:03.839Z",
       "completed": false,
