@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773210483839,
+      "createdAt": "2026-03-11T06:28:03.839Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11590650",
+      "fenKayitNo": "750",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "5480",
+      "parsel": "6",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1773210379297,
       "createdAt": "2026-03-11T06:26:19.297Z",
       "completed": false,
