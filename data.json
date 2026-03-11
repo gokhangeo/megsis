@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773208086872,
+      "createdAt": "2026-03-11T05:48:06.872Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11583393",
+      "fenKayitNo": "673",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "5040",
+      "parsel": "10",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-03-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "muhtesat terkini"
+    },
+    {
       "id": 1773208034129,
       "createdAt": "2026-03-11T05:47:14.129Z",
       "completed": false,
