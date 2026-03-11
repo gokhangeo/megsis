@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773232469391,
+      "createdAt": "2026-03-11T12:34:29.391Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11577157",
+      "fenKayitNo": "652",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "2541",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-03-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1773232421460,
       "createdAt": "2026-03-11T12:33:41.460Z",
       "completed": false,
