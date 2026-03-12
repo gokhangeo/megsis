@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773318657200,
+      "createdAt": "2026-03-12T12:30:57.200Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11593343",
+      "fenKayitNo": "326",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "115",
+      "parsel": "21",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-03-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1773318606216,
       "createdAt": "2026-03-12T12:30:06.216Z",
       "completed": false,
