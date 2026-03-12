@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773319763039,
+      "createdAt": "2026-03-12T12:49:23.039Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11533006",
+      "fenKayitNo": "508",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çandır",
+      "ada": "211",
+      "parsel": "19",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-03-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ifraz"
+    },
+    {
       "id": 1773319704257,
       "createdAt": "2026-03-12T12:48:24.257Z",
       "completed": false,
