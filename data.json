@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773403843375,
+      "createdAt": "2026-03-13T12:10:43.375Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11597463",
+      "fenKayitNo": "770",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "6370",
+      "parsel": "3",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-03-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1773378202729,
       "createdAt": "2026-03-13T05:03:22.729Z",
       "completed": false,
