@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773669304033,
+      "createdAt": "2026-03-16T13:55:04.033Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11421727",
+      "fenKayitNo": "70",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karacailyas",
+      "ada": "123",
+      "parsel": "18",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1773669204188,
       "createdAt": "2026-03-16T13:53:24.188Z",
       "completed": false,
