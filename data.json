@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773724389085,
+      "createdAt": "2026-03-17T05:13:09.085Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11599037",
+      "fenKayitNo": "648",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "143",
+      "parsel": "8",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-ihdas"
+    },
+    {
       "id": 1773669304033,
       "createdAt": "2026-03-16T13:55:04.033Z",
       "completed": false,
