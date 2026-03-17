@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773724938457,
+      "createdAt": "2026-03-17T05:22:18.457Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11579047",
+      "fenKayitNo": "662",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "6639",
+      "parsel": "20",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-03-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1773724874690,
       "createdAt": "2026-03-17T05:21:14.690Z",
       "completed": false,
