@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773727554764,
+      "createdAt": "2026-03-17T06:05:54.764Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11544571",
+      "fenKayitNo": "623",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "5483",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-03-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773727064021,
       "createdAt": "2026-03-17T05:57:44.021Z",
       "completed": false,
