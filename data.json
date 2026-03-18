@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773841417507,
+      "createdAt": "2026-03-18T13:43:37.507Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11610527",
+      "fenKayitNo": "766",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "191",
+      "parsel": "4",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-03-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773841147749,
       "createdAt": "2026-03-18T13:39:07.749Z",
       "completed": false,
