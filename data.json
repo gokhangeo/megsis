@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773837847637,
+      "createdAt": "2026-03-18T12:44:07.637Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11636682",
+      "fenKayitNo": "852",
+      "ilce": "TOROSLAR",
+      "mahalle": "Buluklu",
+      "ada": "5756",
+      "parsel": "14",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-03-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773837390908,
       "createdAt": "2026-03-18T12:36:30.908Z",
       "completed": false,
