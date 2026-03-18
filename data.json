@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773838385726,
+      "createdAt": "2026-03-18T12:53:05.726Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11556858",
+      "fenKayitNo": "678",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "119",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-03-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773838312902,
       "createdAt": "2026-03-18T12:51:52.902Z",
       "completed": false,
