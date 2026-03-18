@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773841471893,
+      "createdAt": "2026-03-18T13:44:31.893Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11521427",
+      "fenKayitNo": "206",
+      "ilce": "AKDENİZ",
+      "mahalle": "Kiremithane",
+      "ada": "93",
+      "parsel": "17",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-03-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773841417507,
       "createdAt": "2026-03-18T13:43:37.507Z",
       "completed": false,
