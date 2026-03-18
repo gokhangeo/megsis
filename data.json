@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773838661157,
+      "createdAt": "2026-03-18T12:57:41.157Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11632026",
+      "fenKayitNo": "810",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "2603",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-03-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773838521870,
       "createdAt": "2026-03-18T12:55:21.870Z",
       "completed": false,
