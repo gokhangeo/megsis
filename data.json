@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773833050787,
+      "createdAt": "2026-03-18T11:24:10.787Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11562203",
+      "fenKayitNo": "265",
+      "ilce": "AKDENİZ",
+      "mahalle": "Yanpar",
+      "ada": "172",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-02-12",
+      "tescilGelisTarihi": "2026-03-16",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773727765132,
       "createdAt": "2026-03-17T06:09:25.132Z",
       "completed": false,
