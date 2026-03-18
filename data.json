@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773838928437,
+      "createdAt": "2026-03-18T13:02:08.437Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11638831",
+      "fenKayitNo": "743",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Pelitkoyağı",
+      "ada": "103",
+      "parsel": "30",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-03-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773838771759,
       "createdAt": "2026-03-18T12:59:31.759Z",
       "completed": false,
