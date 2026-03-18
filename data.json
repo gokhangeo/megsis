@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773838312902,
+      "createdAt": "2026-03-18T12:51:52.902Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11640385",
+      "fenKayitNo": "764",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "302",
+      "parsel": "2",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-03-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773838233300,
       "createdAt": "2026-03-18T12:50:33.300Z",
       "completed": false,
