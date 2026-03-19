@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773898142103,
+      "createdAt": "2026-03-19T05:29:02.103Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11631634",
+      "fenKayitNo": "806",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "İnsu",
+      "ada": "182",
+      "parsel": "10",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-03-16",
+      "tescilGelisTarihi": "2026-03-17",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773841471893,
       "createdAt": "2026-03-18T13:44:31.893Z",
       "completed": false,
