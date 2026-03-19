@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1773898260350,
+      "createdAt": "2026-03-19T05:31:00.350Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11600519",
+      "fenKayitNo": "730",
+      "ilce": "TOROSLAR",
+      "mahalle": "Değirmendere",
+      "ada": "136",
+      "parsel": "30",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-03-17",
+      "tescilGelisTarihi": "2026-03-18",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1773898142103,
       "createdAt": "2026-03-19T05:29:02.103Z",
       "completed": false,
