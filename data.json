@@ -1001,26 +1001,6 @@
       "notlar": "ayırma"
     },
     {
-      "id": 1773319379071,
-      "createdAt": "2026-03-12T12:42:59.071Z",
-      "completed": false,
-      "isArchived": false,
-      "basvuruNo": "11562203",
-      "fenKayitNo": "265",
-      "ilce": "AKDENİZ",
-      "mahalle": "Yanpar",
-      "ada": "172",
-      "parsel": "2",
-      "muhendis": "Sariye KUŞÇU",
-      "tekniker": "Dudu POYRAZ",
-      "tescilGonderimTarihi": "2026-03-12",
-      "tescilGelisTarihi": "",
-      "tapuIadeTarihi": "",
-      "tapuIadeNedeni": "",
-      "iadeTarihi": "",
-      "notlar": "yola terk"
-    },
-    {
       "id": 1773319011990,
       "createdAt": "2026-03-12T12:36:51.990Z",
       "completed": false,
