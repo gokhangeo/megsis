@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774247672272,
+      "createdAt": "2026-03-23T06:34:32.272Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11607168",
+      "fenKayitNo": "737",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "430",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-03-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "mülkiyet raporu-11931114 sayılı yazı ile gönderildi"
+    },
+    {
       "id": 1774246717498,
       "createdAt": "2026-03-23T06:18:37.498Z",
       "completed": false,
