@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774246717498,
+      "createdAt": "2026-03-23T06:18:37.498Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11508171",
+      "fenKayitNo": "455",
+      "ilce": "TOROSLAR",
+      "mahalle": "Aladağ",
+      "ada": "136",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-03-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1774246019872,
       "createdAt": "2026-03-23T06:06:59.872Z",
       "completed": false,
