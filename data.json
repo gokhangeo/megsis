@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774426701943,
+      "createdAt": "2026-03-25T08:18:21.943Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11611908",
+      "fenKayitNo": "768",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "5735",
+      "parsel": "15",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-03-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1774426567415,
       "createdAt": "2026-03-25T08:16:07.415Z",
       "completed": false,
