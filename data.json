@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774420984200,
+      "createdAt": "2026-03-25T06:43:04.200Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11435162",
+      "fenKayitNo": "270",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "95",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1774420696608,
       "createdAt": "2026-03-25T06:38:16.608Z",
       "completed": false,
