@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774426567415,
+      "createdAt": "2026-03-25T08:16:07.415Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11646290",
+      "fenKayitNo": "913",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çandır",
+      "ada": "155",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-03-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1774426506895,
       "createdAt": "2026-03-25T08:15:06.895Z",
       "completed": false,
