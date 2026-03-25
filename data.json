@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774426291415,
+      "createdAt": "2026-03-25T08:11:31.415Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11613041",
+      "fenKayitNo": "671",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "228",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1774421320689,
       "createdAt": "2026-03-25T06:48:40.689Z",
       "completed": false,
