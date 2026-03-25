@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774426397727,
+      "createdAt": "2026-03-25T08:13:17.727Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11653034",
+      "fenKayitNo": "907",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "7058",
+      "parsel": "12",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1774426291415,
       "createdAt": "2026-03-25T08:11:31.415Z",
       "completed": false,
