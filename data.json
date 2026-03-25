@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774420696608,
+      "createdAt": "2026-03-25T06:38:16.608Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11627458",
+      "fenKayitNo": "728",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "662",
+      "parsel": "12",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-23",
+      "tescilGelisTarihi": "2026-03-24",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1774420010720,
       "createdAt": "2026-03-25T06:26:50.720Z",
       "completed": false,
