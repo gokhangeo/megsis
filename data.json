@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774421320689,
+      "createdAt": "2026-03-25T06:48:40.689Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11421704",
+      "fenKayitNo": "196",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "9877",
+      "parsel": "4",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1774420984200,
       "createdAt": "2026-03-25T06:43:04.200Z",
       "completed": false,
