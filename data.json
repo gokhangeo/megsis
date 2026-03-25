@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774426995049,
+      "createdAt": "2026-03-25T08:23:15.049Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11646637",
+      "fenKayitNo": "915",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çandır",
+      "ada": "156",
+      "parsel": "19",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-03-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1774426915409,
       "createdAt": "2026-03-25T08:21:55.409Z",
       "completed": false,
