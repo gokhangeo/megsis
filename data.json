@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774443636242,
+      "createdAt": "2026-03-25T13:00:36.242Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11646865",
+      "fenKayitNo": "894",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çopurlu",
+      "ada": "159",
+      "parsel": "5",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-03-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1774435831651,
       "createdAt": "2026-03-25T10:50:31.651Z",
       "completed": false,
