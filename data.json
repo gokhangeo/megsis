@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774427161088,
+      "createdAt": "2026-03-25T08:26:01.088Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11597643",
+      "fenKayitNo": "771",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "0",
+      "parsel": "77",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-03-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1774426995049,
       "createdAt": "2026-03-25T08:23:15.049Z",
       "completed": false,
