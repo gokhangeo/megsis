@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774420010720,
+      "createdAt": "2026-03-25T06:26:50.720Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11648448",
+      "fenKayitNo": "456",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "129",
+      "parsel": "28",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-03-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-03-25",
+      "tapuIadeNedeni": "şerh",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1774251360853,
       "createdAt": "2026-03-23T07:36:00.853Z",
       "completed": false,
