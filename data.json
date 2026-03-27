@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774595814275,
+      "createdAt": "2026-03-27T07:16:54.275Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11446123",
+      "fenKayitNo": "272",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "360",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1774595734609,
       "createdAt": "2026-03-27T07:15:34.609Z",
       "completed": false,
