@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774596200367,
+      "createdAt": "2026-03-27T07:23:20.367Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11652477",
+      "fenKayitNo": "473",
+      "ilce": "AKDENİZ",
+      "mahalle": "Yaka",
+      "ada": "9493",
+      "parsel": "5",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-03-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1774595814275,
       "createdAt": "2026-03-27T07:16:54.275Z",
       "completed": false,
