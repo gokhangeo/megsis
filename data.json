@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774849624261,
+      "createdAt": "2026-03-30T05:47:04.261Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11627392",
+      "fenKayitNo": "824",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "1877",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-03-27",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1774596271276,
       "createdAt": "2026-03-27T07:24:31.276Z",
       "completed": false,
