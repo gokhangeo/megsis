@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774867184639,
+      "createdAt": "2026-03-30T10:39:44.639Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11566873",
+      "fenKayitNo": "685",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "11820",
+      "parsel": "2",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-03-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1774867108445,
       "createdAt": "2026-03-30T10:38:28.445Z",
       "completed": false,
