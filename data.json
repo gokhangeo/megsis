@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774868278983,
+      "createdAt": "2026-03-30T10:57:58.983Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11621360",
+      "fenKayitNo": "705",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kocayer",
+      "ada": "102",
+      "parsel": "12",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-03-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "irtifak hakkı"
+    },
+    {
       "id": 1774867985915,
       "createdAt": "2026-03-30T10:53:05.915Z",
       "completed": false,
