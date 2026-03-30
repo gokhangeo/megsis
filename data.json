@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774849910071,
+      "createdAt": "2026-03-30T05:51:50.071Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11650603",
+      "fenKayitNo": "940",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çandır",
+      "ada": "307",
+      "parsel": "56",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-03-27",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1774849826231,
       "createdAt": "2026-03-30T05:50:26.231Z",
       "completed": false,
