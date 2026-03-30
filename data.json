@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774858279138,
+      "createdAt": "2026-03-30T08:11:19.138Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11638735",
+      "fenKayitNo": "825",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1634",
+      "parsel": "12",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-03-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1774849910071,
       "createdAt": "2026-03-30T05:51:50.071Z",
       "completed": false,
