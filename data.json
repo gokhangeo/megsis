@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774867840553,
+      "createdAt": "2026-03-30T10:50:40.553Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11674790",
+      "fenKayitNo": "495",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "119",
+      "parsel": "27",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-03-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1774867788271,
       "createdAt": "2026-03-30T10:49:48.271Z",
       "completed": false,
