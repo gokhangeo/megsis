@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774867389950,
+      "createdAt": "2026-03-30T10:43:09.950Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11678144",
+      "fenKayitNo": "501",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "101",
+      "parsel": "38",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-03-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1774867321116,
       "createdAt": "2026-03-30T10:42:01.116Z",
       "completed": false,
