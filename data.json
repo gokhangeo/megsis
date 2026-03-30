@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774849779078,
+      "createdAt": "2026-03-30T05:49:39.078Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11621986",
+      "fenKayitNo": "802",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yavca",
+      "ada": "204",
+      "parsel": "12",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-03-27",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1774849624261,
       "createdAt": "2026-03-30T05:47:04.261Z",
       "completed": false,
