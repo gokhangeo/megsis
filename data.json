@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774867108445,
+      "createdAt": "2026-03-30T10:38:28.445Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11611341",
+      "fenKayitNo": "762",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "8999",
+      "parsel": "4",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-03-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1774858279138,
       "createdAt": "2026-03-30T08:11:19.138Z",
       "completed": false,
