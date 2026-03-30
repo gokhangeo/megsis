@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774849826231,
+      "createdAt": "2026-03-30T05:50:26.231Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11611290",
+      "fenKayitNo": "769",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "10164",
+      "parsel": "9",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-03-27",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1774849779078,
       "createdAt": "2026-03-30T05:49:39.078Z",
       "completed": false,
