@@ -7465,6 +7465,23 @@
   ],
   "ebys": [
     {
+      "id": 1774936340743,
+      "createdAt": "2026-03-31T05:52:20.743Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-03-02",
+      "evrakSayisi": "278649",
+      "konu": "mülkiyet raporu-",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "3202",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "cevapTarihi": "2026-03-27",
+      "notlar": "elden"
+    },
+    {
       "id": 1772523861701,
       "createdAt": "2026-03-03T07:44:21.701Z",
       "completed": false,
