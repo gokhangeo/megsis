@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774936936130,
+      "createdAt": "2026-03-31T06:02:16.130Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11646552",
+      "fenKayitNo": "918",
+      "ilce": "TOROSLAR",
+      "mahalle": "Gözne",
+      "ada": "0",
+      "parsel": "337",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-03-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1774936863634,
       "createdAt": "2026-03-31T06:01:03.634Z",
       "completed": false,
