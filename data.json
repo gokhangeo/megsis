@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1774938331723,
+      "createdAt": "2026-03-31T06:25:31.723Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11578944",
+      "fenKayitNo": "828",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kaleburnu",
+      "ada": "130",
+      "parsel": "39",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-03-31",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1774937094609,
       "createdAt": "2026-03-31T06:04:54.609Z",
       "completed": false,
