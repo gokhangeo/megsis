@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775043872268,
+      "createdAt": "2026-04-01T11:44:32.268Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11617198",
+      "fenKayitNo": "788",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "857",
+      "parsel": "156",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-04-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1774959086846,
       "createdAt": "2026-03-31T12:11:26.846Z",
       "completed": false,
@@ -574,7 +594,7 @@
       "muhendis": "Sariye KUŞÇU",
       "tekniker": "Ayşe PEKÇETİN",
       "tescilGonderimTarihi": "2026-03-24",
-      "tescilGelisTarihi": "",
+      "tescilGelisTarihi": "2026-03-31",
       "tapuIadeTarihi": "",
       "tapuIadeNedeni": "",
       "iadeTarihi": "",
