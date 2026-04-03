@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775205194793,
+      "createdAt": "2026-04-03T08:33:14.793Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11678258",
+      "fenKayitNo": "505",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "124",
+      "parsel": "38",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-04-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-04-03",
+      "tapuIadeNedeni": "31/b şerhi",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma- eski 330 fkn"
+    },
+    {
       "id": 1775131440477,
       "createdAt": "2026-04-02T12:04:00.477Z",
       "completed": false,
