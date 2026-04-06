@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775458418629,
+      "createdAt": "2026-04-06T06:53:38.629Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11678439",
+      "fenKayitNo": "513",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "110",
+      "parsel": "30",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-04-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-04-06",
+      "tapuIadeNedeni": "anlaşma tutanağı taranmadı",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1775213306468,
       "createdAt": "2026-04-03T10:48:26.468Z",
       "completed": false,
