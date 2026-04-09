@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775714926939,
+      "createdAt": "2026-04-09T06:08:46.939Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11709472",
+      "fenKayitNo": "548",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "120",
+      "parsel": "8",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-04-07",
+      "tescilGelisTarihi": "2026-04-08",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1775714817532,
       "createdAt": "2026-04-09T06:06:57.532Z",
       "completed": false,
