@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775715404117,
+      "createdAt": "2026-04-09T06:16:44.117Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11674204",
+      "fenKayitNo": "833",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "940",
+      "parsel": "9",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-03-30",
+      "tescilGelisTarihi": "2026-04-07",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1775715193908,
       "createdAt": "2026-04-09T06:13:13.908Z",
       "completed": false,
