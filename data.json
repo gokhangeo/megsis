@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775835205462,
+      "createdAt": "2026-04-10T15:33:25.462Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11646425",
+      "fenKayitNo": "920",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çandır",
+      "ada": "156",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-04-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1775835049296,
       "createdAt": "2026-04-10T15:30:49.296Z",
       "completed": false,
