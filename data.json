@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775832765488,
+      "createdAt": "2026-04-10T14:52:45.488Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11635733",
+      "fenKayitNo": "753",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Demirışık",
+      "ada": "201",
+      "parsel": "20",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-04-06",
+      "tescilGelisTarihi": "2026-04-10",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1775832638257,
       "createdAt": "2026-04-10T14:50:38.257Z",
       "completed": false,
