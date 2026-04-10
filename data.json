@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775833412169,
+      "createdAt": "2026-04-10T15:03:32.169Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11635731",
+      "fenKayitNo": "754",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Demirışık",
+      "ada": "183",
+      "parsel": "31",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-04-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1775833346941,
       "createdAt": "2026-04-10T15:02:26.941Z",
       "completed": false,
