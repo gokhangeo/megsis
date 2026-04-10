@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775833584052,
+      "createdAt": "2026-04-10T15:06:24.052Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11701133",
+      "fenKayitNo": "921",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kaleburnu",
+      "ada": "108",
+      "parsel": "6",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-04-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1775833412169,
       "createdAt": "2026-04-10T15:03:32.169Z",
       "completed": false,
