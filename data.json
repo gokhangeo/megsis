@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775818422233,
+      "createdAt": "2026-04-10T10:53:42.233Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11693368",
+      "fenKayitNo": "944",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2473",
+      "parsel": "30",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-04-07",
+      "tescilGelisTarihi": "2026-04-09",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1775811465397,
       "createdAt": "2026-04-10T08:57:45.397Z",
       "completed": false,
