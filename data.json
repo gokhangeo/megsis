@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775832638257,
+      "createdAt": "2026-04-10T14:50:38.257Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11626936",
+      "fenKayitNo": "735",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "131",
+      "parsel": "37",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-04-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1775832576658,
       "createdAt": "2026-04-10T14:49:36.658Z",
       "completed": false,
