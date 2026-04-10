@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775833346941,
+      "createdAt": "2026-04-10T15:02:26.941Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11675428",
+      "fenKayitNo": "838",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Demirışık",
+      "ada": "197",
+      "parsel": "6",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-04-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1775833277201,
       "createdAt": "2026-04-10T15:01:17.201Z",
       "completed": false,
