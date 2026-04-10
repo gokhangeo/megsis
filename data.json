@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775834153424,
+      "createdAt": "2026-04-10T15:15:53.424Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11709949",
+      "fenKayitNo": "545",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "110",
+      "parsel": "32",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-04-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1775834065917,
       "createdAt": "2026-04-10T15:14:25.917Z",
       "completed": false,
