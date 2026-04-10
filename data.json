@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775835669062,
+      "createdAt": "2026-04-10T15:41:09.062Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11673298",
+      "fenKayitNo": "896",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "3084",
+      "parsel": "8",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-04-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1775835621263,
       "createdAt": "2026-04-10T15:40:21.263Z",
       "completed": false,
