@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775835259800,
+      "createdAt": "2026-04-10T15:34:19.800Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11610270",
+      "fenKayitNo": "770",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "6511",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-04-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1775835205462,
       "createdAt": "2026-04-10T15:33:25.462Z",
       "completed": false,
