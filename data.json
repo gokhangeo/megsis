@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1775833277201,
+      "createdAt": "2026-04-10T15:01:17.201Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11676659",
+      "fenKayitNo": "859",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kaleburnu",
+      "ada": "130",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-04-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1775833178500,
       "createdAt": "2026-04-10T14:59:38.500Z",
       "completed": false,
