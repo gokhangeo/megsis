@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776088505839,
+      "createdAt": "2026-04-13T13:55:05.839Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11674390",
+      "fenKayitNo": "899",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1605",
+      "parsel": "10",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-04-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776086455342,
       "createdAt": "2026-04-13T13:20:55.342Z",
       "completed": false,
