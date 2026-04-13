@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776088564489,
+      "createdAt": "2026-04-13T13:56:04.489Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11692473",
+      "fenKayitNo": "889",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Pelitkoyağı",
+      "ada": "107",
+      "parsel": "87",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-04-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776088505839,
       "createdAt": "2026-04-13T13:55:05.839Z",
       "completed": false,
