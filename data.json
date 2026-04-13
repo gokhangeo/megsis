@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776085759353,
+      "createdAt": "2026-04-13T13:09:19.353Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11702371",
+      "fenKayitNo": "919",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kaleburnu",
+      "ada": "109",
+      "parsel": "62",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-04-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1776085708200,
       "createdAt": "2026-04-13T13:08:28.200Z",
       "completed": false,
