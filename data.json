@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776085493208,
+      "createdAt": "2026-04-13T13:04:53.208Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11702410",
+      "fenKayitNo": "918",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Çevlik",
+      "ada": "0",
+      "parsel": "5",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-04-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776085229801,
       "createdAt": "2026-04-13T13:00:29.801Z",
       "completed": false,
