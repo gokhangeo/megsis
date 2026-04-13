@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776085229801,
+      "createdAt": "2026-04-13T13:00:29.801Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11682025",
+      "fenKayitNo": "528",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "588",
+      "parsel": "200",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-04-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776085168767,
       "createdAt": "2026-04-13T12:59:28.767Z",
       "completed": false,
