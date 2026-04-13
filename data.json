@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776084991479,
+      "createdAt": "2026-04-13T12:56:31.479Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11713278",
+      "fenKayitNo": "988",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "11820",
+      "parsel": "2",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-04-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1775835866632,
       "createdAt": "2026-04-10T15:44:26.632Z",
       "completed": false,
