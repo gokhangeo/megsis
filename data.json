@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776153078371,
+      "createdAt": "2026-04-14T07:51:18.371Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11678409",
+      "fenKayitNo": "510",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "101",
+      "parsel": "97",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-04-02",
+      "tescilGelisTarihi": "2026-04-10",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1776152780720,
       "createdAt": "2026-04-14T07:46:20.720Z",
       "completed": false,
