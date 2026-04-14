@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776155129085,
+      "createdAt": "2026-04-14T08:25:29.085Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "10321201",
+      "fenKayitNo": "948",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "6801",
+      "parsel": "12",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-02-06",
+      "tescilGelisTarihi": "2026-02-25",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1776153868721,
       "createdAt": "2026-04-14T08:04:28.721Z",
       "completed": false,
