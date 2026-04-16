@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776326550972,
+      "createdAt": "2026-04-16T08:02:30.972Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11671371",
+      "fenKayitNo": "827",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kale",
+      "ada": "114",
+      "parsel": "8",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-04-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776326358294,
       "createdAt": "2026-04-16T07:59:18.294Z",
       "completed": false,
