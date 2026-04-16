@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776326714723,
+      "createdAt": "2026-04-16T08:05:14.723Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11727127",
+      "fenKayitNo": "973",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "363",
+      "parsel": "15",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-04-14",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1776326550972,
       "createdAt": "2026-04-16T08:02:30.972Z",
       "completed": false,
