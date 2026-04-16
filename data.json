@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776326358294,
+      "createdAt": "2026-04-16T07:59:18.294Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11671433",
+      "fenKayitNo": "826",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kale",
+      "ada": "108",
+      "parsel": "92",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-04-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776325490910,
       "createdAt": "2026-04-16T07:44:50.910Z",
       "completed": false,
