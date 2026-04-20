@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776680286147,
+      "createdAt": "2026-04-20T10:18:06.147Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11766348",
+      "fenKayitNo": "612",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "103",
+      "parsel": "12",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-04-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1776680144917,
       "createdAt": "2026-04-20T10:15:44.917Z",
       "completed": false,
