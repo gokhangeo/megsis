@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776682203390,
+      "createdAt": "2026-04-20T10:50:03.390Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11738943",
+      "fenKayitNo": "1049",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Değirmençay",
+      "ada": "198",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-04-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776681874736,
       "createdAt": "2026-04-20T10:44:34.736Z",
       "completed": false,
