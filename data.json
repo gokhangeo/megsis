@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776681564914,
+      "createdAt": "2026-04-20T10:39:24.914Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11621415",
+      "fenKayitNo": "801",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yavca",
+      "ada": "204",
+      "parsel": "4",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-04-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776681478223,
       "createdAt": "2026-04-20T10:37:58.223Z",
       "completed": false,
