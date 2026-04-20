@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776681258095,
+      "createdAt": "2026-04-20T10:34:18.095Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11727555",
+      "fenKayitNo": "1131",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "104",
+      "parsel": "4",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-04-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776680286147,
       "createdAt": "2026-04-20T10:18:06.147Z",
       "completed": false,
