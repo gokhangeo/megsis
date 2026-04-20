@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776681754346,
+      "createdAt": "2026-04-20T10:42:34.346Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11657930",
+      "fenKayitNo": "926",
+      "ilce": "TOROSLAR",
+      "mahalle": "Buluklu",
+      "ada": "2401",
+      "parsel": "19",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-04-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776681564914,
       "createdAt": "2026-04-20T10:39:24.914Z",
       "completed": false,
