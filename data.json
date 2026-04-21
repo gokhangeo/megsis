@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776776838469,
+      "createdAt": "2026-04-21T13:07:18.469Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11745641",
+      "fenKayitNo": "1055",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "8739",
+      "parsel": "6",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-04-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1776776767755,
       "createdAt": "2026-04-21T13:06:07.755Z",
       "completed": false,
