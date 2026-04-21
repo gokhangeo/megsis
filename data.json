@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776776894192,
+      "createdAt": "2026-04-21T13:08:14.192Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11690734",
+      "fenKayitNo": "940",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "965",
+      "parsel": "13",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-04-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1776776838469,
       "createdAt": "2026-04-21T13:07:18.469Z",
       "completed": false,
