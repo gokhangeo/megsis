@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776776767755,
+      "createdAt": "2026-04-21T13:06:07.755Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11750878",
+      "fenKayitNo": "1069",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "5600",
+      "parsel": "8",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-04-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1776776652134,
       "createdAt": "2026-04-21T13:04:12.134Z",
       "completed": false,
