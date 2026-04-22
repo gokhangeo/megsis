@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1776858031088,
+      "createdAt": "2026-04-22T11:40:31.088Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11160729",
+      "fenKayitNo": "2549",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "10939",
+      "parsel": "6",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Özlem AYDINLI",
+      "tescilGonderimTarihi": "2026-04-16",
+      "tescilGelisTarihi": "2026-04-21",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1776841255079,
       "createdAt": "2026-04-22T07:00:55.079Z",
       "completed": false,
