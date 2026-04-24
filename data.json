@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777031781718,
+      "createdAt": "2026-04-24T11:56:21.718Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11705837",
+      "fenKayitNo": "972",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "3042",
+      "parsel": "8",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-04-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1777031585262,
       "createdAt": "2026-04-24T11:53:05.262Z",
       "completed": false,
