@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777031212990,
+      "createdAt": "2026-04-24T11:46:52.990Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11730933",
+      "fenKayitNo": "981",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "540",
+      "parsel": "2",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-04-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1777031037148,
       "createdAt": "2026-04-24T11:43:57.148Z",
       "completed": false,
