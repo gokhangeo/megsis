@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777464895343,
+      "createdAt": "2026-04-29T12:14:55.343Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11735269",
+      "fenKayitNo": "579",
+      "ilce": "AKDENİZ",
+      "mahalle": "Tekke",
+      "ada": "224",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-04-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1777460408747,
       "createdAt": "2026-04-29T11:00:08.747Z",
       "completed": false,
