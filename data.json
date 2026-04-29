@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777460160936,
+      "createdAt": "2026-04-29T10:56:00.936Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11738858",
+      "fenKayitNo": "997",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "207",
+      "parsel": "12",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-04-29",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1777459864568,
       "createdAt": "2026-04-29T10:51:04.568Z",
       "completed": false,
