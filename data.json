@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777460408747,
+      "createdAt": "2026-04-29T11:00:08.747Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11791575",
+      "fenKayitNo": "1110",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "300",
+      "parsel": "6",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-04-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1777460160936,
       "createdAt": "2026-04-29T10:56:00.936Z",
       "completed": false,
