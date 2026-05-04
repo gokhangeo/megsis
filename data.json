@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777878731282,
+      "createdAt": "2026-05-04T07:12:11.282Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11613860",
+      "fenKayitNo": "786",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "3499",
+      "parsel": "38",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-04-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1777878660667,
       "createdAt": "2026-05-04T07:11:00.667Z",
       "completed": false,
