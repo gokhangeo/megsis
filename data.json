@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777879663542,
+      "createdAt": "2026-05-04T07:27:43.542Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11699037",
+      "fenKayitNo": "532",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "10112",
+      "parsel": "6",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-04-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1777879606373,
       "createdAt": "2026-05-04T07:26:46.373Z",
       "completed": false,
