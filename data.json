@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777874755559,
+      "createdAt": "2026-05-04T06:05:55.559Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11763340",
+      "fenKayitNo": "1099",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "5263",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-04-27",
+      "tescilGelisTarihi": "2026-04-28",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1777526984042,
       "createdAt": "2026-04-30T05:29:44.042Z",
       "completed": false,
