@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777874976630,
+      "createdAt": "2026-05-04T06:09:36.630Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11733268",
+      "fenKayitNo": "1141",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "0",
+      "parsel": "1478",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-04-28",
+      "tescilGelisTarihi": "2026-04-28",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "idari yoldan tescil"
+    },
+    {
       "id": 1777874755559,
       "createdAt": "2026-05-04T06:05:55.559Z",
       "completed": false,
