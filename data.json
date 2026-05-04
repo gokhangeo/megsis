@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777879606373,
+      "createdAt": "2026-05-04T07:26:46.373Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11788249",
+      "fenKayitNo": "639",
+      "ilce": "AKDENİZ",
+      "mahalle": "Kazanlı",
+      "ada": "301",
+      "parsel": "1009",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-04-27",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1777878731282,
       "createdAt": "2026-05-04T07:12:11.282Z",
       "completed": false,
