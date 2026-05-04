@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777879892123,
+      "createdAt": "2026-05-04T07:31:32.123Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11593455",
+      "fenKayitNo": "755",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "11064",
+      "parsel": "7",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-05-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1777879663542,
       "createdAt": "2026-05-04T07:27:43.542Z",
       "completed": false,
