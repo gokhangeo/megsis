@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777880351658,
+      "createdAt": "2026-05-04T07:39:11.658Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11554813",
+      "fenKayitNo": "1",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kaleburnu",
+      "ada": "109",
+      "parsel": "25",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-05-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1777880191622,
       "createdAt": "2026-05-04T07:36:31.622Z",
       "completed": false,
