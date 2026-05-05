@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1777987056093,
+      "createdAt": "2026-05-05T13:17:36.093Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11796937",
+      "fenKayitNo": "1114",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "582",
+      "parsel": "3",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-04-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-04-30",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1777986689130,
       "createdAt": "2026-05-05T13:11:29.130Z",
       "completed": false,
