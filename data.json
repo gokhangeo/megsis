@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778044933535,
+      "createdAt": "2026-05-06T05:22:13.535Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11632245",
+      "fenKayitNo": "425",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "557",
+      "parsel": "728",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-05-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1778044345531,
       "createdAt": "2026-05-06T05:12:25.531Z",
       "completed": false,
