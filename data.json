@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778044169860,
+      "createdAt": "2026-05-06T05:09:29.860Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11727091",
+      "fenKayitNo": "946",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "203",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-05-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1777987056093,
       "createdAt": "2026-05-05T13:17:36.093Z",
       "completed": false,
