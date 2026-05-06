@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778045103954,
+      "createdAt": "2026-05-06T05:25:03.954Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11752231",
+      "fenKayitNo": "591",
+      "ilce": "AKDENİZ",
+      "mahalle": "Bekirde",
+      "ada": "10067",
+      "parsel": "7",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-05-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1778045033631,
       "createdAt": "2026-05-06T05:23:53.631Z",
       "completed": false,
