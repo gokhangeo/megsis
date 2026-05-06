@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778044345531,
+      "createdAt": "2026-05-06T05:12:25.531Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11735334",
+      "fenKayitNo": "996",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Demirışık",
+      "ada": "140",
+      "parsel": "54",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-05-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1778044288398,
       "createdAt": "2026-05-06T05:11:28.398Z",
       "completed": false,
