@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778047370098,
+      "createdAt": "2026-05-06T06:02:50.098Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11784075",
+      "fenKayitNo": "1314",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "4783",
+      "parsel": "19",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-05-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1778045459328,
       "createdAt": "2026-05-06T05:30:59.328Z",
       "completed": false,
