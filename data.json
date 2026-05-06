@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778045260856,
+      "createdAt": "2026-05-06T05:27:40.856Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11760786",
+      "fenKayitNo": "1092",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "11826",
+      "parsel": "11",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-05-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1778045103954,
       "createdAt": "2026-05-06T05:25:03.954Z",
       "completed": false,
