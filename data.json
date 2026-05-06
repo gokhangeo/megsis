@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778044237928,
+      "createdAt": "2026-05-06T05:10:37.928Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11726626",
+      "fenKayitNo": "990",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "500",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-04-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1778044169860,
       "createdAt": "2026-05-06T05:09:29.860Z",
       "completed": false,
