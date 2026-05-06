@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778045413599,
+      "createdAt": "2026-05-06T05:30:13.599Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11766258",
+      "fenKayitNo": "1106",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "3177",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-05-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1778045260856,
       "createdAt": "2026-05-06T05:27:40.856Z",
       "completed": false,
