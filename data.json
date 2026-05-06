@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778045033631,
+      "createdAt": "2026-05-06T05:23:53.631Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11648877",
+      "fenKayitNo": "459",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "126",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-04-13",
+      "tescilGelisTarihi": "2026-04-14",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1778044933535,
       "createdAt": "2026-05-06T05:22:13.535Z",
       "completed": false,
