@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778150403336,
+      "createdAt": "2026-05-07T10:40:03.336Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11797755",
+      "fenKayitNo": "1388",
+      "ilce": "TOROSLAR",
+      "mahalle": "Değirmendere",
+      "ada": "143",
+      "parsel": "40",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-05-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "irtifak hakkı"
+    },
+    {
       "id": 1778150098258,
       "createdAt": "2026-05-07T10:34:58.258Z",
       "completed": false,
