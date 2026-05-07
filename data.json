@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778152856268,
+      "createdAt": "2026-05-07T11:20:56.268Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11804482",
+      "fenKayitNo": "1178",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "7655",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-05-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1778152798194,
       "createdAt": "2026-05-07T11:19:58.194Z",
       "completed": false,
