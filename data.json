@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778132095860,
+      "createdAt": "2026-05-07T05:34:55.860Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11765476",
+      "fenKayitNo": "1237",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "8301",
+      "parsel": "6",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-05-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1778132038820,
       "createdAt": "2026-05-07T05:33:58.820Z",
       "completed": false,
