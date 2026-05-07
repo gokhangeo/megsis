@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778153069856,
+      "createdAt": "2026-05-07T11:24:29.856Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11817401",
+      "fenKayitNo": "1224",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "4253",
+      "parsel": "4",
+      "muhendis": "Mustafa DIKI",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-05-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1778152856268,
       "createdAt": "2026-05-07T11:20:56.268Z",
       "completed": false,
