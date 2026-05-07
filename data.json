@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778150098258,
+      "createdAt": "2026-05-07T10:34:58.258Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11799216",
+      "fenKayitNo": "1140",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "479",
+      "parsel": "3",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-05-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1778150032743,
       "createdAt": "2026-05-07T10:33:52.743Z",
       "completed": false,
