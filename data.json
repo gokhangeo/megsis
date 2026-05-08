@@ -10985,6 +10985,23 @@
   ],
   "ebys": [
     {
+      "id": 1778241814706,
+      "createdAt": "2026-05-08T12:03:34.706Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-05-06",
+      "evrakSayisi": "290231",
+      "konu": "mülkiyet raporu-254 adet parsel",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "167",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mustafa BAYSAL",
+      "cevapTarihi": "",
+      "notlar": "15/04/2026+ tarih ve 1000011751456 dekont numarası ile teknik belge ücreti yatırıldı"
+    },
+    {
       "id": 1774936340743,
       "createdAt": "2026-03-31T05:52:20.743Z",
       "completed": false,
