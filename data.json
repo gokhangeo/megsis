@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778246920847,
+      "createdAt": "2026-05-08T13:28:40.847Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11616452",
+      "fenKayitNo": "813",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Emirler",
+      "ada": "10944",
+      "parsel": "4",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-05-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1778153069856,
       "createdAt": "2026-05-07T11:24:29.856Z",
       "completed": false,
