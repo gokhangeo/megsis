@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778505502991,
+      "createdAt": "2026-05-11T13:18:22.991Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11786132",
+      "fenKayitNo": "1125",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "12",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-05-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1778505433366,
       "createdAt": "2026-05-11T13:17:13.366Z",
       "completed": false,
