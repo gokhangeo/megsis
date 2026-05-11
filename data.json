@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778505301008,
+      "createdAt": "2026-05-11T13:15:01.008Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11699053",
+      "fenKayitNo": "1021",
+      "ilce": "TOROSLAR",
+      "mahalle": "Bekiralanı",
+      "ada": "159",
+      "parsel": "2",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-05-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1778505079288,
       "createdAt": "2026-05-11T13:11:19.288Z",
       "completed": false,
