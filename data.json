@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778504935135,
+      "createdAt": "2026-05-11T13:08:55.135Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11826332",
+      "fenKayitNo": "1440",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "3534",
+      "parsel": "17",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-05-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1778503659376,
       "createdAt": "2026-05-11T12:47:39.376Z",
       "completed": false,
