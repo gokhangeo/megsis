@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778503124336,
+      "createdAt": "2026-05-11T12:38:44.336Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11828953",
+      "fenKayitNo": "1257",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "İnsu",
+      "ada": "195",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-05-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1778503039392,
       "createdAt": "2026-05-11T12:37:19.392Z",
       "completed": false,
