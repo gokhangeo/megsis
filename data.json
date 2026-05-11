@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778505079288,
+      "createdAt": "2026-05-11T13:11:19.288Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11774635",
+      "fenKayitNo": "1285",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kayrakkeşlik",
+      "ada": "130",
+      "parsel": "32",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-05-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1778504935135,
       "createdAt": "2026-05-11T13:08:55.135Z",
       "completed": false,
