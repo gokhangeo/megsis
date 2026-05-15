@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778825025274,
+      "createdAt": "2026-05-15T06:03:45.274Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11809792",
+      "fenKayitNo": "1430",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kepirli",
+      "ada": "219",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-05-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1778824896021,
       "createdAt": "2026-05-15T06:01:36.021Z",
       "completed": false,
