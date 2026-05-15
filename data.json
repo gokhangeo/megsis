@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778828265972,
+      "createdAt": "2026-05-15T06:57:45.972Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11816675",
+      "fenKayitNo": "685",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "159",
+      "parsel": "11",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-05-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1778828005959,
       "createdAt": "2026-05-15T06:53:25.959Z",
       "completed": false,
