@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778824746623,
+      "createdAt": "2026-05-15T05:59:06.623Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11839118",
+      "fenKayitNo": "1284",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Turunçlu",
+      "ada": "196",
+      "parsel": "25",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-05-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-05-15",
+      "tapuIadeNedeni": "ilgilisinin telefon no yok",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1778759012628,
       "createdAt": "2026-05-14T11:43:32.628Z",
       "completed": false,
