@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778825080615,
+      "createdAt": "2026-05-15T06:04:40.615Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11839440",
+      "fenKayitNo": "1495",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "8671",
+      "parsel": "11",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-05-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1778825025274,
       "createdAt": "2026-05-15T06:03:45.274Z",
       "completed": false,
