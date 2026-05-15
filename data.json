@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778828005959,
+      "createdAt": "2026-05-15T06:53:25.959Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11832872",
+      "fenKayitNo": "1176",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "12761",
+      "parsel": "3",
+      "muhendis": "Gülizar YILDIZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-05-14",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1778825589208,
       "createdAt": "2026-05-15T06:13:09.208Z",
       "completed": false,
