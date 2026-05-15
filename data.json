@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778825589208,
+      "createdAt": "2026-05-15T06:13:09.208Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11829767",
+      "fenKayitNo": "1171",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "665",
+      "parsel": "10",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-05-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1778825540056,
       "createdAt": "2026-05-15T06:12:20.056Z",
       "completed": false,
