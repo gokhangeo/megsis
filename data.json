@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778828874056,
+      "createdAt": "2026-05-15T07:07:54.056Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11779033",
+      "fenKayitNo": "624",
+      "ilce": "AKDENİZ",
+      "mahalle": "Tekke",
+      "ada": "222",
+      "parsel": "3",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-05-07",
+      "tescilGelisTarihi": "2026-05-14",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1778828433438,
       "createdAt": "2026-05-15T07:00:33.438Z",
       "completed": false,
