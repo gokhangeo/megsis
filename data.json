@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1778828381427,
+      "createdAt": "2026-05-15T06:59:41.427Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11847865",
+      "fenKayitNo": "723",
+      "ilce": "AKDENİZ",
+      "mahalle": "Hebilli",
+      "ada": "137",
+      "parsel": "169",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-05-14",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1778828320456,
       "createdAt": "2026-05-15T06:58:40.456Z",
       "completed": false,
