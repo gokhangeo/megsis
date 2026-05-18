@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779093447509,
+      "createdAt": "2026-05-18T08:37:27.509Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11808670",
+      "fenKayitNo": "675",
+      "ilce": "AKDENİZ",
+      "mahalle": "Sarıibrahimli",
+      "ada": "144",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Özlem AYDINLI",
+      "tescilGonderimTarihi": "2026-05-14",
+      "tescilGelisTarihi": "2026-05-15",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1779092440342,
       "createdAt": "2026-05-18T08:20:40.342Z",
       "completed": false,
