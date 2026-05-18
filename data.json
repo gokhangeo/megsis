@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779104179678,
+      "createdAt": "2026-05-18T11:36:19.678Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11754179",
+      "fenKayitNo": "1186",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kaleburnu",
+      "ada": "103",
+      "parsel": "20",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-05-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1779103901991,
       "createdAt": "2026-05-18T11:31:41.991Z",
       "completed": false,
