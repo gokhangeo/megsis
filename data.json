@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779104237877,
+      "createdAt": "2026-05-18T11:37:17.877Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11808707",
+      "fenKayitNo": "1400",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "6587",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-05-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1779104179678,
       "createdAt": "2026-05-18T11:36:19.678Z",
       "completed": false,
