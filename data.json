@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779108946020,
+      "createdAt": "2026-05-18T12:55:46.020Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "10991734",
+      "fenKayitNo": "2807",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çapar",
+      "ada": "440",
+      "parsel": "56",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Özlem AYDINLI",
+      "tescilGonderimTarihi": "2026-04-30",
+      "tescilGelisTarihi": "2026-05-18",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "idari yoldan tescil"
+    },
+    {
       "id": 1779104297981,
       "createdAt": "2026-05-18T11:38:17.981Z",
       "completed": false,
