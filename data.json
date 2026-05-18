@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779104297981,
+      "createdAt": "2026-05-18T11:38:17.981Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11767474",
+      "fenKayitNo": "1243",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yavca",
+      "ada": "105",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-05-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1779104237877,
       "createdAt": "2026-05-18T11:37:17.877Z",
       "completed": false,
