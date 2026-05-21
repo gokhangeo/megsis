@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779346873104,
+      "createdAt": "2026-05-21T07:01:13.104Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11857282",
+      "fenKayitNo": "739",
+      "ilce": "AKDENİZ",
+      "mahalle": "Mahmudiye",
+      "ada": "304",
+      "parsel": "6",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-05-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1779346669171,
       "createdAt": "2026-05-21T06:57:49.171Z",
       "completed": false,
