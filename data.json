@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779344915722,
+      "createdAt": "2026-05-21T06:28:35.722Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11848788",
+      "fenKayitNo": "724",
+      "ilce": "AKDENİZ",
+      "mahalle": "Hebilli",
+      "ada": "133",
+      "parsel": "9",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-05-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1779108946020,
       "createdAt": "2026-05-18T12:55:46.020Z",
       "completed": false,
