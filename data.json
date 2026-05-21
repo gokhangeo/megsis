@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779345145449,
+      "createdAt": "2026-05-21T06:32:25.449Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11762169",
+      "fenKayitNo": "1042",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "1001",
+      "parsel": "4",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-05-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1779344915722,
       "createdAt": "2026-05-21T06:28:35.722Z",
       "completed": false,
@@ -6768,7 +6788,8 @@
       "tapuIadeTarihi": "2026-03-12",
       "tapuIadeNedeni": "hatalı parsel",
       "iadeTarihi": "",
-      "notlar": "hükmen tescil-vazgeçildi"
+      "notlar": "hükmen tescil-vazgeçildi",
+      "vazgecildi": "21.05.2026"
     },
     {
       "id": 1773210153985,
