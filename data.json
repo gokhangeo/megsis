@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779346669171,
+      "createdAt": "2026-05-21T06:57:49.171Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11772104",
+      "fenKayitNo": "1116",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "0",
+      "parsel": "83",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-05-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1779346452886,
       "createdAt": "2026-05-21T06:54:12.886Z",
       "completed": false,
