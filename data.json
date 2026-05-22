@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779430303162,
+      "createdAt": "2026-05-22T06:11:43.162Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11850105",
+      "fenKayitNo": "1198",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "0",
+      "parsel": "527",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-05-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1779430193458,
       "createdAt": "2026-05-22T06:09:53.458Z",
       "completed": false,
