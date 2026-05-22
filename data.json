@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779430387146,
+      "createdAt": "2026-05-22T06:13:07.146Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11864386",
+      "fenKayitNo": "1317",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Turunçlu",
+      "ada": "158",
+      "parsel": "22",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-05-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1779430303162,
       "createdAt": "2026-05-22T06:11:43.162Z",
       "completed": false,
