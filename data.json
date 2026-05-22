@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779437454354,
+      "createdAt": "2026-05-22T08:10:54.354Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11838201",
+      "fenKayitNo": "712",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "6054",
+      "parsel": "13",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-05-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1779430462363,
       "createdAt": "2026-05-22T06:14:22.363Z",
       "completed": false,
