@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779429809652,
+      "createdAt": "2026-05-22T06:03:29.652Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11661553",
+      "fenKayitNo": "824",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tolköy",
+      "ada": "114",
+      "parsel": "18",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-05-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1779429728009,
       "createdAt": "2026-05-22T06:02:08.009Z",
       "completed": false,
