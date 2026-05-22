@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779429994769,
+      "createdAt": "2026-05-22T06:06:34.769Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11840602",
+      "fenKayitNo": "1208",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Sarılar",
+      "ada": "126",
+      "parsel": "8",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-05-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1779429910992,
       "createdAt": "2026-05-22T06:05:10.992Z",
       "completed": false,
