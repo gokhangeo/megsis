@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1779430462363,
+      "createdAt": "2026-05-22T06:14:22.363Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11816620",
+      "fenKayitNo": "684",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "134",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-05-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1779430387146,
       "createdAt": "2026-05-22T06:13:07.146Z",
       "completed": false,
