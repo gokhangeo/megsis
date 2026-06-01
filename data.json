@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780315829261,
+      "createdAt": "2026-06-01T12:10:29.261Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11887843",
+      "fenKayitNo": "1252",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "221",
+      "parsel": "5",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-01",
+      "tescilGelisTarihi": "2026-06-01",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1779438325972,
       "createdAt": "2026-05-22T08:25:25.972Z",
       "completed": false,
