@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780381534902,
+      "createdAt": "2026-06-02T06:25:34.902Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11873290",
+      "fenKayitNo": "1346",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "8764",
+      "parsel": "30",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1780381473746,
       "createdAt": "2026-06-02T06:24:33.746Z",
       "completed": false,
