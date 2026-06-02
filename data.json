@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780383980070,
+      "createdAt": "2026-06-02T07:06:20.070Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11848491",
+      "fenKayitNo": "1512",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "3458",
+      "parsel": "1",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-06-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780383790544,
       "createdAt": "2026-06-02T07:03:10.544Z",
       "completed": false,
