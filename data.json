@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780381473746,
+      "createdAt": "2026-06-02T06:24:33.746Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11901263",
+      "fenKayitNo": "1390",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1508",
+      "parsel": "8",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1780315829261,
       "createdAt": "2026-06-01T12:10:29.261Z",
       "completed": false,
