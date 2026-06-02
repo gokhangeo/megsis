@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780381735278,
+      "createdAt": "2026-06-02T06:28:55.278Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11795026",
+      "fenKayitNo": "1164",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "1862",
+      "parsel": "27",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-05-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780381677701,
       "createdAt": "2026-06-02T06:27:57.701Z",
       "completed": false,
