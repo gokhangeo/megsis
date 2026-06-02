@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780381677701,
+      "createdAt": "2026-06-02T06:27:57.701Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11882551",
+      "fenKayitNo": "1358",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Emirler",
+      "ada": "11000",
+      "parsel": "8",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1780381534902,
       "createdAt": "2026-06-02T06:25:34.902Z",
       "completed": false,
