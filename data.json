@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780383614272,
+      "createdAt": "2026-06-02T07:00:14.272Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11661581",
+      "fenKayitNo": "823",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tolköy",
+      "ada": "129",
+      "parsel": "3",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780381804480,
       "createdAt": "2026-06-02T06:30:04.480Z",
       "completed": false,
