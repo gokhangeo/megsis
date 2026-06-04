@@ -981,26 +981,6 @@
       "notlar": "3194 uyg"
     },
     {
-      "id": 1779103757055,
-      "createdAt": "2026-05-18T11:29:17.055Z",
-      "completed": false,
-      "isArchived": false,
-      "basvuruNo": "11436676",
-      "fenKayitNo": "228",
-      "ilce": "TOROSLAR",
-      "mahalle": "Osmaniye",
-      "ada": "8622",
-      "parsel": "4",
-      "muhendis": "Sariye KUŞÇU",
-      "tekniker": "Ayşe PEKÇETİN",
-      "tescilGonderimTarihi": "2026-05-18",
-      "tescilGelisTarihi": "",
-      "tapuIadeTarihi": "",
-      "tapuIadeNedeni": "kat irtifakı terkini ve ipotek muvafakatı",
-      "iadeTarihi": "",
-      "notlar": "imar barışı"
-    },
-    {
       "id": 1779093447509,
       "createdAt": "2026-05-18T08:37:27.509Z",
       "completed": false,
