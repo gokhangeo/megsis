@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780558303811,
+      "createdAt": "2026-06-04T07:31:43.811Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11884335",
+      "fenKayitNo": "1244",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "210",
+      "parsel": "4",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780558179428,
       "createdAt": "2026-06-04T07:29:39.428Z",
       "completed": false,
