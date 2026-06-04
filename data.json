@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780559210565,
+      "createdAt": "2026-06-04T07:46:50.565Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11896784",
+      "fenKayitNo": "1266",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "12578",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1780559086947,
       "createdAt": "2026-06-04T07:44:46.947Z",
       "completed": false,
