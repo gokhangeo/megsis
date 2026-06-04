@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780558889008,
+      "createdAt": "2026-06-04T07:41:29.008Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11879949",
+      "fenKayitNo": "1357",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "0",
+      "parsel": "1497",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780558531448,
       "createdAt": "2026-06-04T07:35:31.448Z",
       "completed": false,
