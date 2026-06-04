@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780556609018,
+      "createdAt": "2026-06-04T07:03:29.018Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11808791",
+      "fenKayitNo": "678",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "536",
+      "parsel": "340",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-06-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1780556515116,
       "createdAt": "2026-06-04T07:01:55.116Z",
       "completed": false,
