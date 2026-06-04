@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780556680355,
+      "createdAt": "2026-06-04T07:04:40.355Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11855126",
+      "fenKayitNo": "740",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "509",
+      "parsel": "117",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780556609018,
       "createdAt": "2026-06-04T07:03:29.018Z",
       "completed": false,
