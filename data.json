@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780556780787,
+      "createdAt": "2026-06-04T07:06:20.787Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11849229",
+      "fenKayitNo": "728",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "5874",
+      "parsel": "8",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780556680355,
       "createdAt": "2026-06-04T07:04:40.355Z",
       "completed": false,
