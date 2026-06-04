@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780556515116,
+      "createdAt": "2026-06-04T07:01:55.116Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11855071",
+      "fenKayitNo": "741",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "930",
+      "parsel": "146",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780405211291,
       "createdAt": "2026-06-02T13:00:11.291Z",
       "completed": false,
