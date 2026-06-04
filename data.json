@@ -12707,6 +12707,23 @@
   ],
   "ebys": [
     {
+      "id": 1780561633917,
+      "createdAt": "2026-06-04T08:27:13.917Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-03-18",
+      "evrakSayisi": "24129714",
+      "konu": "turunçlu 158 ada 1 parsel-dilekçe",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Turunçlu",
+      "ada": "158",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Şehmus ÖZTÜRK",
+      "cevapTarihi": "",
+      "notlar": "arazi-04/06/2026 fkn:2026/1431"
+    },
+    {
       "id": 1778241814706,
       "createdAt": "2026-05-08T12:03:34.706Z",
       "completed": false,
