@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780558422411,
+      "createdAt": "2026-06-04T07:33:42.411Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11424527",
+      "fenKayitNo": "183",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "570",
+      "parsel": "10",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme -ihdas"
+    },
+    {
       "id": 1780558303811,
       "createdAt": "2026-06-04T07:31:43.811Z",
       "completed": false,
