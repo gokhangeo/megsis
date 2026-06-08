@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780902288575,
+      "createdAt": "2026-06-08T07:04:48.575Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11873289",
+      "fenKayitNo": "752",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karacailyas",
+      "ada": "5300",
+      "parsel": "8",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1780902207042,
       "createdAt": "2026-06-08T07:03:27.042Z",
       "completed": false,
