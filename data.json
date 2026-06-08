@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780901575473,
+      "createdAt": "2026-06-08T06:52:55.473Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11916469",
+      "fenKayitNo": "1425",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "5385",
+      "parsel": "15",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-06-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1780901520994,
       "createdAt": "2026-06-08T06:52:00.994Z",
       "completed": false,
