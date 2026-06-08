@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780902207042,
+      "createdAt": "2026-06-08T07:03:27.042Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11913368",
+      "fenKayitNo": "1418",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Turunçlu",
+      "ada": "200",
+      "parsel": "12",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1780901575473,
       "createdAt": "2026-06-08T06:52:55.473Z",
       "completed": false,
