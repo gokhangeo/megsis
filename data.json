@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780901412145,
+      "createdAt": "2026-06-08T06:50:12.145Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11912635",
+      "fenKayitNo": "1419",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çavak",
+      "ada": "104",
+      "parsel": "10",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1780901354506,
       "createdAt": "2026-06-08T06:49:14.506Z",
       "completed": false,
