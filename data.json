@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780901520994,
+      "createdAt": "2026-06-08T06:52:00.994Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11884355",
+      "fenKayitNo": "1365",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "5621",
+      "parsel": "4",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780901467858,
       "createdAt": "2026-06-08T06:51:07.858Z",
       "completed": false,
