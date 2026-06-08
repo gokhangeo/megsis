@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780901179986,
+      "createdAt": "2026-06-08T06:46:19.986Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11888933",
+      "fenKayitNo": "1600",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "4895",
+      "parsel": "18",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1780900929154,
       "createdAt": "2026-06-08T06:42:09.154Z",
       "completed": false,
