@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780901354506,
+      "createdAt": "2026-06-08T06:49:14.506Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11867436",
+      "fenKayitNo": "1323",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2465",
+      "parsel": "5",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1780901179986,
       "createdAt": "2026-06-08T06:46:19.986Z",
       "completed": false,
