@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780900589473,
+      "createdAt": "2026-06-08T06:36:29.473Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11853985",
+      "fenKayitNo": "1531",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "10164",
+      "parsel": "17",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-06-08",
+      "tapuIadeNedeni": "beyanname eksikliği",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780560270912,
       "createdAt": "2026-06-04T08:04:30.912Z",
       "completed": false,
