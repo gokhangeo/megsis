@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1780901467858,
+      "createdAt": "2026-06-08T06:51:07.858Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11909902",
+      "fenKayitNo": "1412",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "7658",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1780901412145,
       "createdAt": "2026-06-08T06:50:12.145Z",
       "completed": false,
