@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781008496768,
+      "createdAt": "2026-06-09T12:34:56.768Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11852017",
+      "fenKayitNo": "1299",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "324",
+      "parsel": "180",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1781008331828,
       "createdAt": "2026-06-09T12:32:11.828Z",
       "completed": false,
