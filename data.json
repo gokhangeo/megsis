@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781008331828,
+      "createdAt": "2026-06-09T12:32:11.828Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11871660",
+      "fenKayitNo": "1334",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1062",
+      "parsel": "10",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1780902288575,
       "createdAt": "2026-06-08T07:04:48.575Z",
       "completed": false,
