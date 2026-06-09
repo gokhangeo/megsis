@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781008981789,
+      "createdAt": "2026-06-09T12:43:01.789Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11858704",
+      "fenKayitNo": "1546",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "4320",
+      "parsel": "6",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1781008795270,
       "createdAt": "2026-06-09T12:39:55.270Z",
       "completed": false,
