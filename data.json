@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781010027563,
+      "createdAt": "2026-06-09T13:00:27.563Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11888040",
+      "fenKayitNo": "1251",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "821",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1781009970473,
       "createdAt": "2026-06-09T12:59:30.473Z",
       "completed": false,
