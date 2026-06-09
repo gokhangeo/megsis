@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781008795270,
+      "createdAt": "2026-06-09T12:39:55.270Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11912911",
+      "fenKayitNo": "1657",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "4820",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1781008496768,
       "createdAt": "2026-06-09T12:34:56.768Z",
       "completed": false,
