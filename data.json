@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781262867708,
+      "createdAt": "2026-06-12T11:14:27.708Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11884753",
+      "fenKayitNo": "1362",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çavak",
+      "ada": "13501",
+      "parsel": "3",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1781262718851,
       "createdAt": "2026-06-12T11:11:58.851Z",
       "completed": false,
