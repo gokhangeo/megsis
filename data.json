@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781261184897,
+      "createdAt": "2026-06-12T10:46:24.897Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11929232",
+      "fenKayitNo": "1719",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "109",
+      "parsel": "2",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1781010325622,
       "createdAt": "2026-06-09T13:05:25.622Z",
       "completed": false,
