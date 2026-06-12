@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781263784350,
+      "createdAt": "2026-06-12T11:29:44.350Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11828388",
+      "fenKayitNo": "697",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karacailyas",
+      "ada": "12580",
+      "parsel": "2",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "idari yoldan tescil"
+    },
+    {
       "id": 1781263709794,
       "createdAt": "2026-06-12T11:28:29.794Z",
       "completed": false,
