@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781262658507,
+      "createdAt": "2026-06-12T11:10:58.507Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11885271",
+      "fenKayitNo": "1243",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "120",
+      "parsel": "376",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1781262566186,
       "createdAt": "2026-06-12T11:09:26.186Z",
       "completed": false,
