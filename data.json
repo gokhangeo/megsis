@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781261357277,
+      "createdAt": "2026-06-12T10:49:17.277Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11923737",
+      "fenKayitNo": "1706",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "9382",
+      "parsel": "12",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1781261286836,
       "createdAt": "2026-06-12T10:48:06.836Z",
       "completed": false,
