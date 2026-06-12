@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781262956661,
+      "createdAt": "2026-06-12T11:15:56.661Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11914197",
+      "fenKayitNo": "1420",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "8648",
+      "parsel": "3",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "muhtesat terkini"
+    },
+    {
       "id": 1781262867708,
       "createdAt": "2026-06-12T11:14:27.708Z",
       "completed": false,
