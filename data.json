@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781263008310,
+      "createdAt": "2026-06-12T11:16:48.310Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11936252",
+      "fenKayitNo": "1460",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "3042",
+      "parsel": "11",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1781262956661,
       "createdAt": "2026-06-12T11:15:56.661Z",
       "completed": false,
