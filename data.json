@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781261403775,
+      "createdAt": "2026-06-12T10:50:03.775Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11921391",
+      "fenKayitNo": "1695",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "5809",
+      "parsel": "2",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1781261357277,
       "createdAt": "2026-06-12T10:49:17.277Z",
       "completed": false,
