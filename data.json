@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781262718851,
+      "createdAt": "2026-06-12T11:11:58.851Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11889439",
+      "fenKayitNo": "1255",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Demirışık",
+      "ada": "136",
+      "parsel": "22",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1781262658507,
       "createdAt": "2026-06-12T11:10:58.507Z",
       "completed": false,
