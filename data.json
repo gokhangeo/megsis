@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781263709794,
+      "createdAt": "2026-06-12T11:28:29.794Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11942344",
+      "fenKayitNo": "895",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "139",
+      "parsel": "9",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1781263657725,
       "createdAt": "2026-06-12T11:27:37.725Z",
       "completed": false,
