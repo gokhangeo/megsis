@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781261527698,
+      "createdAt": "2026-06-12T10:52:07.698Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11922855",
+      "fenKayitNo": "1699",
+      "ilce": "TOROSLAR",
+      "mahalle": "Hamzabeyli",
+      "ada": "133",
+      "parsel": "17",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1781261465248,
       "createdAt": "2026-06-12T10:51:05.248Z",
       "completed": false,
