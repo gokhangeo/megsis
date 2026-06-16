@@ -13667,6 +13667,23 @@
   ],
   "ebys": [
     {
+      "id": 1781615339780,
+      "createdAt": "2026-06-16T13:08:59.780Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-06-16",
+      "evrakSayisi": "284089",
+      "konu": "mülkiyet raporu",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "150",
+      "parsel": "3",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "cevapTarihi": "2026-06-16",
+      "notlar": ""
+    },
+    {
       "id": 1780561633917,
       "createdAt": "2026-06-04T08:27:13.917Z",
       "completed": false,
