@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781615850805,
+      "createdAt": "2026-06-16T13:17:30.805Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11950611",
+      "fenKayitNo": "1382",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "165",
+      "parsel": "4",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1781615786027,
       "createdAt": "2026-06-16T13:16:26.027Z",
       "completed": false,
