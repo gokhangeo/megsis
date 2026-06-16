@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781615786027,
+      "createdAt": "2026-06-16T13:16:26.027Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11924269",
+      "fenKayitNo": "1396",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Pelitkoyağı",
+      "ada": "107",
+      "parsel": "98",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1781615733458,
       "createdAt": "2026-06-16T13:15:33.458Z",
       "completed": false,
