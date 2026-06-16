@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781615022797,
+      "createdAt": "2026-06-16T13:03:42.797Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11930561",
+      "fenKayitNo": "1715",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "8107",
+      "parsel": "14",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği-yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1781614929760,
       "createdAt": "2026-06-16T13:02:09.760Z",
       "completed": false,
