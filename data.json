@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781615083930,
+      "createdAt": "2026-06-16T13:04:43.930Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11946405",
+      "fenKayitNo": "1769",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "129",
+      "parsel": "6",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1781615022797,
       "createdAt": "2026-06-16T13:03:42.797Z",
       "completed": false,
