@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781685343562,
+      "createdAt": "2026-06-17T08:35:43.562Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11924197",
+      "fenKayitNo": "1397",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Pelitkoyağı",
+      "ada": "107",
+      "parsel": "99",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1781615850805,
       "createdAt": "2026-06-16T13:17:30.805Z",
       "completed": false,
