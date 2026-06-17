@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781693866947,
+      "createdAt": "2026-06-17T10:57:46.947Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11918619",
+      "fenKayitNo": "1436",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1720",
+      "parsel": "10",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1781685343562,
       "createdAt": "2026-06-17T08:35:43.562Z",
       "completed": false,
