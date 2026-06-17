@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781694349782,
+      "createdAt": "2026-06-17T11:05:49.782Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11917050",
+      "fenKayitNo": "1689",
+      "ilce": "TOROSLAR",
+      "mahalle": "Aladağ",
+      "ada": "201",
+      "parsel": "8",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1781693866947,
       "createdAt": "2026-06-17T10:57:46.947Z",
       "completed": false,
