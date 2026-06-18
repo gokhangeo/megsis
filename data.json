@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781773712945,
+      "createdAt": "2026-06-18T09:08:32.945Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11945433",
+      "fenKayitNo": "1763",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çapar",
+      "ada": "276",
+      "parsel": "7",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1781773659946,
       "createdAt": "2026-06-18T09:07:39.946Z",
       "completed": false,
