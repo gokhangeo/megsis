@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781773583518,
+      "createdAt": "2026-06-18T09:06:23.518Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11832747",
+      "fenKayitNo": "1477",
+      "ilce": "TOROSLAR",
+      "mahalle": "Gözne",
+      "ada": "12326",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1781773529037,
       "createdAt": "2026-06-18T09:05:29.037Z",
       "completed": false,
