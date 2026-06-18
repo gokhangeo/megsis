@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781773529037,
+      "createdAt": "2026-06-18T09:05:29.037Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11884745",
+      "fenKayitNo": "1363",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çavak",
+      "ada": "13507",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1781694349782,
       "createdAt": "2026-06-17T11:05:49.782Z",
       "completed": false,
