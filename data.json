@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781784331631,
+      "createdAt": "2026-06-18T12:05:31.631Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11922958",
+      "fenKayitNo": "1700",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arslanköy",
+      "ada": "127",
+      "parsel": "424",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kadastro mahkemesi"
+    },
+    {
       "id": 1781773712945,
       "createdAt": "2026-06-18T09:08:32.945Z",
       "completed": false,
