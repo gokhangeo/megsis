@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781850325615,
+      "createdAt": "2026-06-19T06:25:25.615Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "10961067",
+      "fenKayitNo": "1264",
+      "ilce": "AKDENİZ",
+      "mahalle": "Sarıibrahimli",
+      "ada": "133",
+      "parsel": "24",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "idari yoldan tescil-29-09-2025 tarik ve 13649877 sayılı yazı"
+    },
+    {
       "id": 1781850107280,
       "createdAt": "2026-06-19T06:21:47.280Z",
       "completed": false,
