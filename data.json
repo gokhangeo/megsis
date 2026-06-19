@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1781850107280,
+      "createdAt": "2026-06-19T06:21:47.280Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11869214",
+      "fenKayitNo": "1559",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "8816",
+      "parsel": "16",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1781784331631,
       "createdAt": "2026-06-18T12:05:31.631Z",
       "completed": false,
