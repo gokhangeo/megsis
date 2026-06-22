@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782117884880,
+      "createdAt": "2026-06-22T08:44:44.880Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11929912",
+      "fenKayitNo": "1721",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çopurlu",
+      "ada": "25",
+      "parsel": "10",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1782117813127,
       "createdAt": "2026-06-22T08:43:33.127Z",
       "completed": false,
