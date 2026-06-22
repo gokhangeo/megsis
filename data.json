@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782118408540,
+      "createdAt": "2026-06-22T08:53:28.540Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11919859",
+      "fenKayitNo": "1744",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "3166",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-06-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1782118029187,
       "createdAt": "2026-06-22T08:47:09.187Z",
       "completed": false,
