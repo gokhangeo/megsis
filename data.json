@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782136594705,
+      "createdAt": "2026-06-22T13:56:34.705Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11926349",
+      "fenKayitNo": "1474",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1498",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1782136543095,
       "createdAt": "2026-06-22T13:55:43.095Z",
       "completed": false,
