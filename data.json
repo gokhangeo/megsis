@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782117624894,
+      "createdAt": "2026-06-22T08:40:24.894Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11924389",
+      "fenKayitNo": "1394",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kaleburnu",
+      "ada": "109",
+      "parsel": "68",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-06-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1781850325615,
       "createdAt": "2026-06-19T06:25:25.615Z",
       "completed": false,
