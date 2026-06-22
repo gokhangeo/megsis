@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782136543095,
+      "createdAt": "2026-06-22T13:55:43.095Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11892696",
+      "fenKayitNo": "1349",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Demirışık",
+      "ada": "223",
+      "parsel": "8",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1782136315088,
       "createdAt": "2026-06-22T13:51:55.088Z",
       "completed": false,
