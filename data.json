@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782117676214,
+      "createdAt": "2026-06-22T08:41:16.214Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11961402",
+      "fenKayitNo": "1509",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "9059",
+      "parsel": "4",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-06-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1782117624894,
       "createdAt": "2026-06-22T08:40:24.894Z",
       "completed": false,
