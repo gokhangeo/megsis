@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782117940697,
+      "createdAt": "2026-06-22T08:45:40.697Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11966442",
+      "fenKayitNo": "1420",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "214",
+      "parsel": "15",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1782117884880,
       "createdAt": "2026-06-22T08:44:44.880Z",
       "completed": false,
