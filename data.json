@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782118586367,
+      "createdAt": "2026-06-22T08:56:26.367Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11947349",
+      "fenKayitNo": "1421",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Pelitkoyağı",
+      "ada": "112",
+      "parsel": "75",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1782118408540,
       "createdAt": "2026-06-22T08:53:28.540Z",
       "completed": false,
