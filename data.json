@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782136315088,
+      "createdAt": "2026-06-22T13:51:55.088Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11855494",
+      "fenKayitNo": "1548",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "5799",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1782136209339,
       "createdAt": "2026-06-22T13:50:09.339Z",
       "completed": false,
