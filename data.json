@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782117730512,
+      "createdAt": "2026-06-22T08:42:10.512Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11962401",
+      "fenKayitNo": "937",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "6018",
+      "parsel": "13",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-06-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1782117676214,
       "createdAt": "2026-06-22T08:41:16.214Z",
       "completed": false,
