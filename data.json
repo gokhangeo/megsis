@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782196675042,
+      "createdAt": "2026-06-23T06:37:55.042Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11944823",
+      "fenKayitNo": "1379",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "467",
+      "parsel": "1",
+      "muhendis": "Volkan İZCİ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "3194 uyg"
+    },
+    {
       "id": 1782136594705,
       "createdAt": "2026-06-22T13:56:34.705Z",
       "completed": false,
