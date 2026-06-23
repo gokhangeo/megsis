@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782220981659,
+      "createdAt": "2026-06-23T13:23:01.659Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11937200",
+      "fenKayitNo": "1360",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "306",
+      "parsel": "4",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "2026-06-23",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1782220830609,
       "createdAt": "2026-06-23T13:20:30.609Z",
       "completed": false,
