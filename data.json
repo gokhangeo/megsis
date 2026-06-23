@@ -14267,6 +14267,23 @@
   ],
   "ebys": [
     {
+      "id": 1782197393025,
+      "createdAt": "2026-06-23T06:49:53.025Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-05-07",
+      "evrakSayisi": "1278393",
+      "konu": "mülkiyet raporu",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "11777",
+      "parsel": "7",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "cevapTarihi": "2026-06-23",
+      "notlar": ""
+    },
+    {
       "id": 1781615339780,
       "createdAt": "2026-06-16T13:08:59.780Z",
       "completed": false,
