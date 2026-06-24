@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782282493015,
+      "createdAt": "2026-06-24T06:28:13.015Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11973829",
+      "fenKayitNo": "1843",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kurudere",
+      "ada": "0",
+      "parsel": "440",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ormana terk-12552895 sayılı yazı"
+    },
+    {
       "id": 1782282442463,
       "createdAt": "2026-06-24T06:27:22.463Z",
       "completed": false,
