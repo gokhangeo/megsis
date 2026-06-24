@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782284049840,
+      "createdAt": "2026-06-24T06:54:09.840Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11962910",
+      "fenKayitNo": "1410",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "927",
+      "parsel": "4",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1782283953836,
       "createdAt": "2026-06-24T06:52:33.836Z",
       "completed": false,
