@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782280748882,
+      "createdAt": "2026-06-24T05:59:08.882Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11825443",
+      "fenKayitNo": "695",
+      "ilce": "AKDENİZ",
+      "mahalle": "Tekke",
+      "ada": "200",
+      "parsel": "5",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1782220981659,
       "createdAt": "2026-06-23T13:23:01.659Z",
       "completed": false,
