@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782282348190,
+      "createdAt": "2026-06-24T06:25:48.190Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11973818",
+      "fenKayitNo": "1844",
+      "ilce": "TOROSLAR",
+      "mahalle": "Tırtar",
+      "ada": "154",
+      "parsel": "66",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ormana terk-12552895 sayılı yazı"
+    },
+    {
       "id": 1782282301198,
       "createdAt": "2026-06-24T06:25:01.198Z",
       "completed": false,
