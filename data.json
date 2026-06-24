@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782299737994,
+      "createdAt": "2026-06-24T11:15:37.994Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11947133",
+      "fenKayitNo": "1424",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Takanlı",
+      "ada": "118",
+      "parsel": "53",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1782299552384,
       "createdAt": "2026-06-24T11:12:32.384Z",
       "completed": false,
