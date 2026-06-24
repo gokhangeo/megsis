@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782282301198,
+      "createdAt": "2026-06-24T06:25:01.198Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11973812",
+      "fenKayitNo": "1845",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yavca",
+      "ada": "113",
+      "parsel": "12",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ormana terk-12552895 sayılı yazı"
+    },
+    {
       "id": 1782282248254,
       "createdAt": "2026-06-24T06:24:08.254Z",
       "completed": false,
