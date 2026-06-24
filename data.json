@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782283774541,
+      "createdAt": "2026-06-24T06:49:34.541Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11942524",
+      "fenKayitNo": "896",
+      "ilce": "AKDENİZ",
+      "mahalle": "Tekke",
+      "ada": "215",
+      "parsel": "5",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1782283643816,
       "createdAt": "2026-06-24T06:47:23.816Z",
       "completed": false,
