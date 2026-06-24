@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782283953836,
+      "createdAt": "2026-06-24T06:52:33.836Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11929131",
+      "fenKayitNo": "1393",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Çevlik",
+      "ada": "0",
+      "parsel": "223",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1782283774541,
       "createdAt": "2026-06-24T06:49:34.541Z",
       "completed": false,
