@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782282395695,
+      "createdAt": "2026-06-24T06:26:35.695Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11973689",
+      "fenKayitNo": "1850",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kerimler",
+      "ada": "0",
+      "parsel": "1304",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ormana terk-12552895 sayılı yazı"
+    },
+    {
       "id": 1782282348190,
       "createdAt": "2026-06-24T06:25:48.190Z",
       "completed": false,
