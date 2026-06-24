@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782299842333,
+      "createdAt": "2026-06-24T11:17:22.333Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11962736",
+      "fenKayitNo": "1416",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuzucubelen",
+      "ada": "105",
+      "parsel": "15",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1782299737994,
       "createdAt": "2026-06-24T11:15:37.994Z",
       "completed": false,
