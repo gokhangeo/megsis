@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782282079838,
+      "createdAt": "2026-06-24T06:21:19.838Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11973730",
+      "fenKayitNo": "1849",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arslanköy",
+      "ada": "129",
+      "parsel": "54",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ormana terk-12552895 sayılı yazı"
+    },
+    {
       "id": 1782282041566,
       "createdAt": "2026-06-24T06:20:41.566Z",
       "completed": false,
