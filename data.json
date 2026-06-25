@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782382349762,
+      "createdAt": "2026-06-25T10:12:29.762Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11977824",
+      "fenKayitNo": "1441",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Pelitkoyağı",
+      "ada": "112",
+      "parsel": "66",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1782382284814,
       "createdAt": "2026-06-25T10:11:24.814Z",
       "completed": false,
