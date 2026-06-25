@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782389827333,
+      "createdAt": "2026-06-25T12:17:07.333Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11923958",
+      "fenKayitNo": "869",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "126",
+      "parsel": "126",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1782389647451,
       "createdAt": "2026-06-25T12:14:07.451Z",
       "completed": false,
