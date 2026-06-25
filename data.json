@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782389994331,
+      "createdAt": "2026-06-25T12:19:54.331Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11750093",
+      "fenKayitNo": "1195",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "9985",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "muhtesat terkini"
+    },
+    {
       "id": 1782389918615,
       "createdAt": "2026-06-25T12:18:38.615Z",
       "completed": false,
