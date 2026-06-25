@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782382284814,
+      "createdAt": "2026-06-25T10:11:24.814Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11979876",
+      "fenKayitNo": "1443",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "12818",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği-yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1782299842333,
       "createdAt": "2026-06-24T11:17:22.333Z",
       "completed": false,
