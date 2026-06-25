@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782385383768,
+      "createdAt": "2026-06-25T11:03:03.768Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11945951",
+      "fenKayitNo": "1484",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çavak",
+      "ada": "107",
+      "parsel": "3",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1782382599281,
       "createdAt": "2026-06-25T10:16:39.281Z",
       "completed": false,
