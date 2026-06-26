@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782464872618,
+      "createdAt": "2026-06-26T09:07:52.618Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11618356",
+      "fenKayitNo": "817",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "378",
+      "parsel": "50",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1782390060463,
       "createdAt": "2026-06-25T12:21:00.463Z",
       "completed": false,
@@ -1175,8 +1195,8 @@
       "tekniker": "Dudu POYRAZ",
       "tescilGonderimTarihi": "2026-06-17",
       "tescilGelisTarihi": "",
-      "tapuIadeTarihi": "",
-      "tapuIadeNedeni": "",
+      "tapuIadeTarihi": "2026-06-26",
+      "tapuIadeNedeni": "iptal gerekçesi yazılmamış",
       "iadeTarihi": "",
       "notlar": "cins değişikliği"
     },
