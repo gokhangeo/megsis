@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782481204257,
+      "createdAt": "2026-06-26T13:40:04.257Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11947001",
+      "fenKayitNo": "1423",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Takanlı",
+      "ada": "157",
+      "parsel": "3",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-06-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1782481145112,
       "createdAt": "2026-06-26T13:39:05.112Z",
       "completed": false,
