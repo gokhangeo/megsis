@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782478381141,
+      "createdAt": "2026-06-26T12:53:01.141Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11963513",
+      "fenKayitNo": "1417",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kale",
+      "ada": "108",
+      "parsel": "131",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1782465179455,
       "createdAt": "2026-06-26T09:12:59.455Z",
       "completed": false,
