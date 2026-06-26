@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782465009180,
+      "createdAt": "2026-06-26T09:10:09.180Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11989546",
+      "fenKayitNo": "958",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nacarlı",
+      "ada": "357",
+      "parsel": "6",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "mühendis burak akbaş"
+    },
+    {
       "id": 1782464933548,
       "createdAt": "2026-06-26T09:08:53.548Z",
       "completed": false,
