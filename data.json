@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782465118603,
+      "createdAt": "2026-06-26T09:11:58.603Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11990082",
+      "fenKayitNo": "1559",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "5290",
+      "parsel": "5",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-06-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1782465009180,
       "createdAt": "2026-06-26T09:10:09.180Z",
       "completed": false,
