@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782465179455,
+      "createdAt": "2026-06-26T09:12:59.455Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11943404",
+      "fenKayitNo": "1768",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "533",
+      "parsel": "333",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Mustafa BAYSAL",
+      "tescilGonderimTarihi": "2026-06-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1782465118603,
       "createdAt": "2026-06-26T09:11:58.603Z",
       "completed": false,
