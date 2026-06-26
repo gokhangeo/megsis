@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782481145112,
+      "createdAt": "2026-06-26T13:39:05.112Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11924318",
+      "fenKayitNo": "1395",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Pelitkoyağı",
+      "ada": "112",
+      "parsel": "41",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-06-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1782480962381,
       "createdAt": "2026-06-26T13:36:02.381Z",
       "completed": false,
