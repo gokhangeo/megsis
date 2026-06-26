@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782480962381,
+      "createdAt": "2026-06-26T13:36:02.381Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11991982",
+      "fenKayitNo": "1894",
+      "ilce": "TOROSLAR",
+      "mahalle": "Aladağ",
+      "ada": "202",
+      "parsel": "21",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Özlem AYDINLI",
+      "tescilGonderimTarihi": "2026-06-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks-BARIŞ"
+    },
+    {
       "id": 1782478381141,
       "createdAt": "2026-06-26T12:53:01.141Z",
       "completed": false,
