@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782736772418,
+      "createdAt": "2026-06-29T12:39:32.418Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11918709",
+      "fenKayitNo": "1441",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2390",
+      "parsel": "15",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-26",
+      "tescilGelisTarihi": "2026-06-29",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1782481204257,
       "createdAt": "2026-06-26T13:40:04.257Z",
       "completed": false,
