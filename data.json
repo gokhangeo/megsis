@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782887399376,
+      "createdAt": "2026-07-01T06:29:59.376Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11646169",
+      "fenKayitNo": "922",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çandır",
+      "ada": "211",
+      "parsel": "3",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1782886421928,
       "createdAt": "2026-07-01T06:13:41.928Z",
       "completed": false,
