@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782895144782,
+      "createdAt": "2026-07-01T08:39:04.782Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11335476",
+      "fenKayitNo": "2703",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Çevlik",
+      "ada": "0",
+      "parsel": "112",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-07-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme-2025/2703 fkn"
+    },
+    {
       "id": 1782887529956,
       "createdAt": "2026-07-01T06:32:09.956Z",
       "completed": false,
