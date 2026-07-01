@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782886159768,
+      "createdAt": "2026-07-01T06:09:19.768Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12002854",
+      "fenKayitNo": "1579",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "285",
+      "parsel": "16",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-06-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1782886032185,
       "createdAt": "2026-07-01T06:07:12.185Z",
       "completed": false,
