@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782886421928,
+      "createdAt": "2026-07-01T06:13:41.928Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11984691",
+      "fenKayitNo": "942",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "587",
+      "parsel": "11",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-06-29",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1782886282664,
       "createdAt": "2026-07-01T06:11:22.664Z",
       "completed": false,
