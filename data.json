@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782886032185,
+      "createdAt": "2026-07-01T06:07:12.185Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12005865",
+      "fenKayitNo": "966",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "117",
+      "parsel": "33",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-06-29",
+      "tescilGelisTarihi": "2026-06-30",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1782736772418,
       "createdAt": "2026-06-29T12:39:32.418Z",
       "completed": false,
