@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782895489632,
+      "createdAt": "2026-07-01T08:44:49.632Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11892958",
+      "fenKayitNo": "1942",
+      "ilce": "TOROSLAR",
+      "mahalle": "Korucular",
+      "ada": "127",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-07-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1782895144782,
       "createdAt": "2026-07-01T08:39:04.782Z",
       "completed": false,
