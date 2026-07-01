@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782887529956,
+      "createdAt": "2026-07-01T06:32:09.956Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11999944",
+      "fenKayitNo": "1934",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "2844",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-06-29",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği"
+    },
+    {
       "id": 1782887465826,
       "createdAt": "2026-07-01T06:31:05.826Z",
       "completed": false,
