@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782994768407,
+      "createdAt": "2026-07-02T12:19:28.407Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11935837",
+      "fenKayitNo": "941",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "1049",
+      "parsel": "11",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1782987079166,
       "createdAt": "2026-07-02T10:11:19.166Z",
       "completed": false,
