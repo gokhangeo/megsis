@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782995313495,
+      "createdAt": "2026-07-02T12:28:33.495Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11970231",
+      "fenKayitNo": "1858",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "0",
+      "parsel": "915",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1782995236558,
       "createdAt": "2026-07-02T12:27:16.558Z",
       "completed": false,
