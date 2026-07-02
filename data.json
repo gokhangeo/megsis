@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782986927198,
+      "createdAt": "2026-07-02T10:08:47.198Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12027488",
+      "fenKayitNo": "2000",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "5739",
+      "parsel": "31",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-07-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1782895489632,
       "createdAt": "2026-07-01T08:44:49.632Z",
       "completed": false,
