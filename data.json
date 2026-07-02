@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1782995236558,
+      "createdAt": "2026-07-02T12:27:16.558Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12027469",
+      "fenKayitNo": "1999",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "5071",
+      "parsel": "14",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1782994768407,
       "createdAt": "2026-07-02T12:19:28.407Z",
       "completed": false,
