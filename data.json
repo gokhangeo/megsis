@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783075854753,
+      "createdAt": "2026-07-03T10:50:54.753Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11921448",
+      "fenKayitNo": "1325",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "891",
+      "parsel": "1",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Özlem AYDINLI",
+      "tescilGonderimTarihi": "2026-06-22",
+      "tescilGelisTarihi": "2026-07-01",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1783067971811,
       "createdAt": "2026-07-03T08:39:31.811Z",
       "completed": false,
