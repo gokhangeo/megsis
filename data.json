@@ -8090,7 +8090,7 @@
       "id": 1774959086846,
       "createdAt": "2026-03-31T12:11:26.846Z",
       "completed": false,
-      "isArchived": false,
+      "isArchived": true,
       "basvuruNo": "11502754",
       "fenKayitNo": "427",
       "ilce": "TOROSLAR",
