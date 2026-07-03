@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783077305379,
+      "createdAt": "2026-07-03T11:15:05.379Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11936262",
+      "fenKayitNo": "1741",
+      "ilce": "TOROSLAR",
+      "mahalle": "Belenkeslik",
+      "ada": "341",
+      "parsel": "11",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-01",
+      "tescilGelisTarihi": "2026-07-02",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1783075854753,
       "createdAt": "2026-07-03T10:50:54.753Z",
       "completed": false,
