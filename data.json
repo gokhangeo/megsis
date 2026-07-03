@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783067971811,
+      "createdAt": "2026-07-03T08:39:31.811Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11599979",
+      "fenKayitNo": "359",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "58",
+      "parsel": "19",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-07-01",
+      "tescilGelisTarihi": "2026-07-02",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783061959311,
       "createdAt": "2026-07-03T06:59:19.311Z",
       "completed": false,
