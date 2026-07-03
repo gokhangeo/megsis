@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783061873334,
+      "createdAt": "2026-07-03T06:57:53.334Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11736390",
+      "fenKayitNo": "1055",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "599",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-07-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1782995313495,
       "createdAt": "2026-07-02T12:28:33.495Z",
       "completed": false,
