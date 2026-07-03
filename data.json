@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783061959311,
+      "createdAt": "2026-07-03T06:59:19.311Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11986102",
+      "fenKayitNo": "1555",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "8061",
+      "parsel": "2",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-mühendis burak akbaş"
+    },
+    {
       "id": 1783061873334,
       "createdAt": "2026-07-03T06:57:53.334Z",
       "completed": false,
