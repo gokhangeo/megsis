@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783344472640,
+      "createdAt": "2026-07-06T13:27:52.640Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11972521",
+      "fenKayitNo": "1463",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Akarca",
+      "ada": "102",
+      "parsel": "13",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783344395438,
       "createdAt": "2026-07-06T13:26:35.438Z",
       "completed": false,
