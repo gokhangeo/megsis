@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783343007478,
+      "createdAt": "2026-07-06T13:03:27.478Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12039206",
+      "fenKayitNo": "1522",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "245",
+      "parsel": "7",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-03",
+      "tescilGelisTarihi": "2026-07-03",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1783077305379,
       "createdAt": "2026-07-03T11:15:05.379Z",
       "completed": false,
