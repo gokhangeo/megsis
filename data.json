@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783343989365,
+      "createdAt": "2026-07-06T13:19:49.365Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12036318",
+      "fenKayitNo": "1521",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "12806",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1783343007478,
       "createdAt": "2026-07-06T13:03:27.478Z",
       "completed": false,
