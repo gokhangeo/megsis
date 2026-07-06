@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783344058205,
+      "createdAt": "2026-07-06T13:20:58.205Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12017292",
+      "fenKayitNo": "1496",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "11105",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-07-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783343989365,
       "createdAt": "2026-07-06T13:19:49.365Z",
       "completed": false,
