@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783344638884,
+      "createdAt": "2026-07-06T13:30:38.884Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12040494",
+      "fenKayitNo": "1525",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "550",
+      "parsel": "2",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-07-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783344472640,
       "createdAt": "2026-07-06T13:27:52.640Z",
       "completed": false,
