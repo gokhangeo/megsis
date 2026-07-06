@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783345960606,
+      "createdAt": "2026-07-06T13:52:40.606Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12026811",
+      "fenKayitNo": "1651",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1277",
+      "parsel": "16",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-07-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1783345902080,
       "createdAt": "2026-07-06T13:51:42.080Z",
       "completed": false,
