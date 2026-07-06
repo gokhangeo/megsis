@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783345750317,
+      "createdAt": "2026-07-06T13:49:10.317Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12025955",
+      "fenKayitNo": "1008",
+      "ilce": "AKDENİZ",
+      "mahalle": "Iğdır",
+      "ada": "151",
+      "parsel": "36",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1783345664364,
       "createdAt": "2026-07-06T13:47:44.364Z",
       "completed": false,
