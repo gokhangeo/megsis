@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783344176369,
+      "createdAt": "2026-07-06T13:22:56.369Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12013798",
+      "fenKayitNo": "1488",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "12455",
+      "parsel": "3",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-07-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783344115216,
       "createdAt": "2026-07-06T13:21:55.216Z",
       "completed": false,
