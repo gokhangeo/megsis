@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783346126330,
+      "createdAt": "2026-07-06T13:55:26.330Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11978158",
+      "fenKayitNo": "1857",
+      "ilce": "TOROSLAR",
+      "mahalle": "Gözne",
+      "ada": "435",
+      "parsel": "3",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783346032420,
       "createdAt": "2026-07-06T13:53:52.420Z",
       "completed": false,
