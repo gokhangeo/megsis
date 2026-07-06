@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783345902080,
+      "createdAt": "2026-07-06T13:51:42.080Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12043889",
+      "fenKayitNo": "1667",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "11698",
+      "parsel": "2",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1783345822743,
       "createdAt": "2026-07-06T13:50:22.743Z",
       "completed": false,
