@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783429787326,
+      "createdAt": "2026-07-07T13:09:47.326Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12039011",
+      "fenKayitNo": "1551",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Çevlik",
+      "ada": "0",
+      "parsel": "226",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783429734894,
       "createdAt": "2026-07-07T13:08:54.894Z",
       "completed": false,
