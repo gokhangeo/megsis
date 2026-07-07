@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783429734894,
+      "createdAt": "2026-07-07T13:08:54.894Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "120066556",
+      "fenKayitNo": "1946",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arslanköy",
+      "ada": "209",
+      "parsel": "62",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783429674690,
       "createdAt": "2026-07-07T13:07:54.690Z",
       "completed": false,
