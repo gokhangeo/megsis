@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783405296870,
+      "createdAt": "2026-07-07T06:21:36.870Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12036182",
+      "fenKayitNo": "2025",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çapar",
+      "ada": "271",
+      "parsel": "68",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-03",
+      "tescilGelisTarihi": "2026-07-03",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1783346126330,
       "createdAt": "2026-07-06T13:55:26.330Z",
       "completed": false,
