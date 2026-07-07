@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783429613774,
+      "createdAt": "2026-07-07T13:06:53.774Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12013764",
+      "fenKayitNo": "1489",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "12446",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-07-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783405296870,
       "createdAt": "2026-07-07T06:21:36.870Z",
       "completed": false,
