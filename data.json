@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783430388059,
+      "createdAt": "2026-07-07T13:19:48.059Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12024590",
+      "fenKayitNo": "1647",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2498",
+      "parsel": "23",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği-yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1783429787326,
       "createdAt": "2026-07-07T13:09:47.326Z",
       "completed": false,
