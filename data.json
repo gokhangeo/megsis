@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783593116002,
+      "createdAt": "2026-07-09T10:31:56.002Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12046932",
+      "fenKayitNo": "1677",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2110",
+      "parsel": "2",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-08",
+      "tescilGelisTarihi": "2026-07-08",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1783574913899,
       "createdAt": "2026-07-09T05:28:33.899Z",
       "completed": false,
