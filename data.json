@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783574913899,
+      "createdAt": "2026-07-09T05:28:33.899Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12000823",
+      "fenKayitNo": "2029",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "5054",
+      "parsel": "17",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-07-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783574866140,
       "createdAt": "2026-07-09T05:27:46.140Z",
       "completed": false,
