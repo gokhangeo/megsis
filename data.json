@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783681931016,
+      "createdAt": "2026-07-10T11:12:11.016Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12033953",
+      "fenKayitNo": "2013",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "1609",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1783681762163,
       "createdAt": "2026-07-10T11:09:22.163Z",
       "completed": false,
