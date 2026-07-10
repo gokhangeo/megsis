@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783681762163,
+      "createdAt": "2026-07-10T11:09:22.163Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12044573",
+      "fenKayitNo": "1016",
+      "ilce": "AKDENİZ",
+      "mahalle": "Kürkçü",
+      "ada": "150",
+      "parsel": "30",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "cins değişikliği-parsel vasfına yönelik"
+    },
+    {
       "id": 1783593116002,
       "createdAt": "2026-07-09T10:31:56.002Z",
       "completed": false,
