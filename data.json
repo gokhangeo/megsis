@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783688847499,
+      "createdAt": "2026-07-10T13:07:27.499Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12055621",
+      "fenKayitNo": "1693",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "5558",
+      "parsel": "3",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-07-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "2026-07-09",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1783688767495,
       "createdAt": "2026-07-10T13:06:07.495Z",
       "completed": false,
