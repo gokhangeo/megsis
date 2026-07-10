@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783688068773,
+      "createdAt": "2026-07-10T12:54:28.773Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11351125",
+      "fenKayitNo": "145",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "46",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-07-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1783687709106,
       "createdAt": "2026-07-10T12:48:29.106Z",
       "completed": false,
