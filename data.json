@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783688767495,
+      "createdAt": "2026-07-10T13:06:07.495Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12030946",
+      "fenKayitNo": "1655",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "8742",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-07-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1783688585760,
       "createdAt": "2026-07-10T13:03:05.760Z",
       "completed": false,
