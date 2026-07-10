@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783682357071,
+      "createdAt": "2026-07-10T11:19:17.071Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12050420",
+      "fenKayitNo": "2048",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çağlarca",
+      "ada": "106",
+      "parsel": "13",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-07-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1783682299309,
       "createdAt": "2026-07-10T11:18:19.309Z",
       "completed": false,
