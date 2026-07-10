@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783689154044,
+      "createdAt": "2026-07-10T13:12:34.044Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12056007",
+      "fenKayitNo": "1694",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "11831",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-07-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1783689098946,
       "createdAt": "2026-07-10T13:11:38.946Z",
       "completed": false,
