@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783688585760,
+      "createdAt": "2026-07-10T13:03:05.760Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12009929",
+      "fenKayitNo": "1608",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "8953",
+      "parsel": "7",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783688068773,
       "createdAt": "2026-07-10T12:54:28.773Z",
       "completed": false,
