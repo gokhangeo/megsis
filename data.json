@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783689098946,
+      "createdAt": "2026-07-10T13:11:38.946Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12067152",
+      "fenKayitNo": "1715",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "3143",
+      "parsel": "2",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-07-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1783688847499,
       "createdAt": "2026-07-10T13:07:27.499Z",
       "completed": false,
