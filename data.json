@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783689769225,
+      "createdAt": "2026-07-10T13:22:49.225Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12070062",
+      "fenKayitNo": "1725",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "9470",
+      "parsel": "3",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1783689154044,
       "createdAt": "2026-07-10T13:12:34.044Z",
       "completed": false,
