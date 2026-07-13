@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783930938643,
+      "createdAt": "2026-07-13T08:22:18.643Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12073093",
+      "fenKayitNo": "1730",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "8175",
+      "parsel": "5",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1783926437930,
       "createdAt": "2026-07-13T07:07:17.930Z",
       "completed": false,
