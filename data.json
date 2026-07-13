@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783950710636,
+      "createdAt": "2026-07-13T13:51:50.636Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11966406",
+      "fenKayitNo": "1516",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "3067",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-07-10",
+      "tescilGelisTarihi": "2026-07-10",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1783950348670,
       "createdAt": "2026-07-13T13:45:48.670Z",
       "completed": false,
