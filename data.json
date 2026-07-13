@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783950895748,
+      "createdAt": "2026-07-13T13:54:55.748Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12030972",
+      "fenKayitNo": "1512",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "290",
+      "parsel": "7",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-03",
+      "tescilGelisTarihi": "2026-07-09",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1783950786378,
       "createdAt": "2026-07-13T13:53:06.378Z",
       "completed": false,
