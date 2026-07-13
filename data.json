@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783950786378,
+      "createdAt": "2026-07-13T13:53:06.378Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12070210",
+      "fenKayitNo": "1724",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocahamzalı",
+      "ada": "103",
+      "parsel": "3",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-07-10",
+      "tescilGelisTarihi": "2026-07-10",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1783950710636,
       "createdAt": "2026-07-13T13:51:50.636Z",
       "completed": false,
