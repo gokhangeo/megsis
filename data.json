@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1783950283697,
+      "createdAt": "2026-07-13T13:44:43.697Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12078659",
+      "fenKayitNo": "2119",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "2754",
+      "parsel": "5",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-07-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1783930938643,
       "createdAt": "2026-07-13T08:22:18.643Z",
       "completed": false,
