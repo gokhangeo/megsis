@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784198052929,
+      "createdAt": "2026-07-16T10:34:12.929Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12084634",
+      "fenKayitNo": "1091",
+      "ilce": "AKDENİZ",
+      "mahalle": "Bağcılar/ihsaniye",
+      "ada": "105",
+      "parsel": "52",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-14",
+      "tescilGelisTarihi": "2026-07-14",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği-orman"
+    },
+    {
       "id": 1783950895748,
       "createdAt": "2026-07-13T13:54:55.748Z",
       "completed": false,
