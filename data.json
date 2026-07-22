@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784724033539,
+      "createdAt": "2026-07-22T12:40:33.539Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12040441",
+      "fenKayitNo": "1",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "12374",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1784269701608,
       "createdAt": "2026-07-17T06:28:21.608Z",
       "completed": false,
