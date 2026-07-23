@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784802874330,
+      "createdAt": "2026-07-23T10:34:34.330Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12079189",
+      "fenKayitNo": "2117",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çopurlu",
+      "ada": "156",
+      "parsel": "8",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1784784677734,
       "createdAt": "2026-07-23T05:31:17.734Z",
       "completed": false,
