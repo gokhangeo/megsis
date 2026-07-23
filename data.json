@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784784677734,
+      "createdAt": "2026-07-23T05:31:17.734Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12055644",
+      "fenKayitNo": "2059",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "10709",
+      "parsel": "11",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1784724706167,
       "createdAt": "2026-07-22T12:51:46.167Z",
       "completed": false,
