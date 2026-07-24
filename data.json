@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784885167196,
+      "createdAt": "2026-07-24T09:26:07.196Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12082181",
+      "fenKayitNo": "1609",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "277",
+      "parsel": "9",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1784885114139,
       "createdAt": "2026-07-24T09:25:14.139Z",
       "completed": false,
