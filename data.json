@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784885058457,
+      "createdAt": "2026-07-24T09:24:18.457Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12113340",
+      "fenKayitNo": "2203",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "3166",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1784885007328,
       "createdAt": "2026-07-24T09:23:27.328Z",
       "completed": false,
