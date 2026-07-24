@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784885403449,
+      "createdAt": "2026-07-24T09:30:03.449Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12066191",
+      "fenKayitNo": "1046",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "8157",
+      "parsel": "6",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1784885354079,
       "createdAt": "2026-07-24T09:29:14.079Z",
       "completed": false,
