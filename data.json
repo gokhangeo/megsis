@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784891806787,
+      "createdAt": "2026-07-24T11:16:46.787Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12055211",
+      "fenKayitNo": "1692",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "324",
+      "parsel": "477",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-07-16",
+      "tescilGelisTarihi": "2026-07-24",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1784885459519,
       "createdAt": "2026-07-24T09:30:59.519Z",
       "completed": false,
