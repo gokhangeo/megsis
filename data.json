@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784885222606,
+      "createdAt": "2026-07-24T09:27:02.606Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12113053",
+      "fenKayitNo": "1667",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "12807",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1784885167196,
       "createdAt": "2026-07-24T09:26:07.196Z",
       "completed": false,
