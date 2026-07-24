@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784885459519,
+      "createdAt": "2026-07-24T09:30:59.519Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12100604",
+      "fenKayitNo": "1113",
+      "ilce": "AKDENİZ",
+      "mahalle": "Mahmudiye",
+      "ada": "9385",
+      "parsel": "13",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1784885403449,
       "createdAt": "2026-07-24T09:30:03.449Z",
       "completed": false,
