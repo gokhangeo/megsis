@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784885114139,
+      "createdAt": "2026-07-24T09:25:14.139Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12079356",
+      "fenKayitNo": "2121",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "3801",
+      "parsel": "10",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1784885058457,
       "createdAt": "2026-07-24T09:24:18.457Z",
       "completed": false,
