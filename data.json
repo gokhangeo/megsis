@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784885354079,
+      "createdAt": "2026-07-24T09:29:14.079Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12123126",
+      "fenKayitNo": "1145",
+      "ilce": "AKDENİZ",
+      "mahalle": "Sarıibrahimli",
+      "ada": "131",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1784885282534,
       "createdAt": "2026-07-24T09:28:02.534Z",
       "completed": false,
