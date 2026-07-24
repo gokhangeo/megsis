@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784892249695,
+      "createdAt": "2026-07-24T11:24:09.695Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12082121",
+      "fenKayitNo": "1622",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "277",
+      "parsel": "6",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-07-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1784892144280,
       "createdAt": "2026-07-24T11:22:24.280Z",
       "completed": false,
