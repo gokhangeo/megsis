@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784899666691,
+      "createdAt": "2026-07-24T13:27:46.691Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11983820",
+      "fenKayitNo": "1876",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arslanköy",
+      "ada": "304",
+      "parsel": "11",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-06-24",
+      "tescilGelisTarihi": "2026-06-25",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1784893357022,
       "createdAt": "2026-07-24T11:42:37.022Z",
       "completed": false,
