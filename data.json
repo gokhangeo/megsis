@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784885282534,
+      "createdAt": "2026-07-24T09:28:02.534Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12093561",
+      "fenKayitNo": "1781",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "2745",
+      "parsel": "7",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1784885222606,
       "createdAt": "2026-07-24T09:27:02.606Z",
       "completed": false,
