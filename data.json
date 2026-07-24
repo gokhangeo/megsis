@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1784883793330,
+      "createdAt": "2026-07-24T09:03:13.330Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12104473",
+      "fenKayitNo": "2172",
+      "ilce": "TOROSLAR",
+      "mahalle": "Belenkeslik",
+      "ada": "155",
+      "parsel": "16",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-20",
+      "tescilGelisTarihi": "2026-07-20",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1784802874330,
       "createdAt": "2026-07-23T10:34:34.330Z",
       "completed": false,
