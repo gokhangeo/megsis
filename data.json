@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785148365681,
+      "createdAt": "2026-07-27T10:32:45.681Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12123916",
+      "fenKayitNo": "1867",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "7707",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-24",
+      "tescilGelisTarihi": "2026-07-24",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1784899666691,
       "createdAt": "2026-07-24T13:27:46.691Z",
       "completed": false,
