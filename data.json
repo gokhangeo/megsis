@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785239890998,
+      "createdAt": "2026-07-28T11:58:10.998Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12039614",
+      "fenKayitNo": "1687",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "11566",
+      "parsel": "12",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-24",
+      "tescilGelisTarihi": "2026-07-28",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785148365681,
       "createdAt": "2026-07-27T10:32:45.681Z",
       "completed": true,
