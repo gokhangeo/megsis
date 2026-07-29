@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785320770927,
+      "createdAt": "2026-07-29T10:26:10.927Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12123932",
+      "fenKayitNo": "2219",
+      "ilce": "TOROSLAR",
+      "mahalle": "Bekiralanı",
+      "ada": "0",
+      "parsel": "2545",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-24",
+      "tescilGelisTarihi": "2026-07-28",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785306882579,
       "createdAt": "2026-07-29T06:34:42.579Z",
       "completed": true,
