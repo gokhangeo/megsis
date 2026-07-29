@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785306882579,
+      "createdAt": "2026-07-29T06:34:42.579Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12094601",
+      "fenKayitNo": "1105",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "671",
+      "parsel": "30",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-28",
+      "tescilGelisTarihi": "2026-07-28",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785239890998,
       "createdAt": "2026-07-28T11:58:10.998Z",
       "completed": true,
