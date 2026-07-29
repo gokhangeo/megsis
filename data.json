@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785330506828,
+      "createdAt": "2026-07-29T13:08:26.828Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12120685",
+      "fenKayitNo": "2212",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "533",
+      "parsel": "333",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-07-29",
+      "tescilGelisTarihi": "2026-07-29",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785330449754,
       "createdAt": "2026-07-29T13:07:29.754Z",
       "completed": true,
