@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785392869890,
+      "createdAt": "2026-07-30T06:27:49.890Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12112962",
+      "fenKayitNo": "1666",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "1115",
+      "parsel": "8",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-29",
+      "tescilGelisTarihi": "2026-07-29",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785330506828,
       "createdAt": "2026-07-29T13:08:26.828Z",
       "completed": true,
