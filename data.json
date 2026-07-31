@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785503967118,
+      "createdAt": "2026-07-31T13:19:27.118Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12102918",
+      "fenKayitNo": "2167",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "938",
+      "parsel": "9",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-30",
+      "tescilGelisTarihi": "2026-07-31",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785503916369,
       "createdAt": "2026-07-31T13:18:36.369Z",
       "completed": false,
