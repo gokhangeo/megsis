@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785479812548,
+      "createdAt": "2026-07-31T06:36:52.549Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12135697",
+      "fenKayitNo": "1689",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "502",
+      "parsel": "10",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-30",
+      "tescilGelisTarihi": "2026-07-30",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785392949265,
       "createdAt": "2026-07-30T06:29:09.265Z",
       "completed": false,
