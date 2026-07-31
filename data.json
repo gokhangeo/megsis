@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785504075525,
+      "createdAt": "2026-07-31T13:21:15.525Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12142387",
+      "fenKayitNo": "2264",
+      "ilce": "TOROSLAR",
+      "mahalle": "Gözne",
+      "ada": "539",
+      "parsel": "4",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-30",
+      "tescilGelisTarihi": "2026-07-31",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785504013990,
       "createdAt": "2026-07-31T13:20:13.990Z",
       "completed": false,
