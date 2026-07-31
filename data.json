@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785503916369,
+      "createdAt": "2026-07-31T13:18:36.369Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12083240",
+      "fenKayitNo": "1611",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "117",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-30",
+      "tescilGelisTarihi": "2026-07-31",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785503829429,
       "createdAt": "2026-07-31T13:17:09.429Z",
       "completed": false,
