@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785504013990,
+      "createdAt": "2026-07-31T13:20:13.990Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12135820",
+      "fenKayitNo": "1697",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "607",
+      "parsel": "28",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-31",
+      "tescilGelisTarihi": "2026-07-31",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785503967118,
       "createdAt": "2026-07-31T13:19:27.118Z",
       "completed": false,
