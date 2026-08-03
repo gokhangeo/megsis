@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785745089866,
+      "createdAt": "2026-08-03T08:18:09.866Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12130006",
+      "fenKayitNo": "1681",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuzucubelen",
+      "ada": "150",
+      "parsel": "13",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-07-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-07-31",
+      "tapuIadeNedeni": "intikal yapılacak",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1785743585491,
       "createdAt": "2026-08-03T07:53:05.491Z",
       "completed": false,
