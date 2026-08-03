@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785753668619,
+      "createdAt": "2026-08-03T10:41:08.619Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12108653",
+      "fenKayitNo": "1121",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "10124",
+      "parsel": "6",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1785753562718,
       "createdAt": "2026-08-03T10:39:22.718Z",
       "completed": false,
