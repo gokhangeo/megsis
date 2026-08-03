@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785746139476,
+      "createdAt": "2026-08-03T08:35:39.476Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11902829",
+      "fenKayitNo": "1635",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "6764",
+      "parsel": "7",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-07-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme-ihdas"
+    },
+    {
       "id": 1785745372014,
       "createdAt": "2026-08-03T08:22:52.014Z",
       "completed": false,
