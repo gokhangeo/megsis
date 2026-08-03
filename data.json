@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785743585491,
+      "createdAt": "2026-08-03T07:53:05.491Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12101083",
+      "fenKayitNo": "1699",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Pelitkoyağı",
+      "ada": "107",
+      "parsel": "88",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-29",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1785743307580,
       "createdAt": "2026-08-03T07:48:27.580Z",
       "completed": false,
