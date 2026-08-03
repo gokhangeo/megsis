@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785751965018,
+      "createdAt": "2026-08-03T10:12:45.018Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12076590",
+      "fenKayitNo": "2114",
+      "ilce": "TOROSLAR",
+      "mahalle": "Darısekisi",
+      "ada": "120",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1785751890134,
       "createdAt": "2026-08-03T10:11:30.134Z",
       "completed": false,
