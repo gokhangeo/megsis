@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785753158905,
+      "createdAt": "2026-08-03T10:32:38.905Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12094856",
+      "fenKayitNo": "1811",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "5552",
+      "parsel": "32",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-07-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1785752346869,
       "createdAt": "2026-08-03T10:19:06.869Z",
       "completed": false,
