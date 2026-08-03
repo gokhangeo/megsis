@@ -8333,7 +8333,7 @@
       "id": 1777352723506,
       "createdAt": "2026-04-28T05:05:23.506Z",
       "completed": false,
-      "isArchived": false,
+      "isArchived": true,
       "basvuruNo": "11725151",
       "fenKayitNo": "1020",
       "ilce": "TOROSLAR",
