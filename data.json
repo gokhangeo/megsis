@@ -17895,6 +17895,23 @@
   ],
   "ebys": [
     {
+      "id": 1785753399569,
+      "createdAt": "2026-08-03T10:36:39.569Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-07-03",
+      "evrakSayisi": "1316517",
+      "konu": "18.md imar uygulaması",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "0",
+      "parsel": "2494",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "cevapTarihi": "2026-07-07",
+      "notlar": "iade edildi"
+    },
+    {
       "id": 1782197393025,
       "createdAt": "2026-06-23T06:49:53.025Z",
       "completed": false,
