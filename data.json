@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785742774123,
+      "createdAt": "2026-08-03T07:39:34.123Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12051309",
+      "fenKayitNo": "1562",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kocayer",
+      "ada": "110",
+      "parsel": "2",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-07-31",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1785742717521,
       "createdAt": "2026-08-03T07:38:37.521Z",
       "completed": false,
