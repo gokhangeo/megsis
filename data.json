@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785751613473,
+      "createdAt": "2026-08-03T10:06:53.473Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12135105",
+      "fenKayitNo": "2243",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çelebili",
+      "ada": "103",
+      "parsel": "3",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-07-31",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1785746862566,
       "createdAt": "2026-08-03T08:47:42.566Z",
       "completed": false,
