@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785824687385,
+      "createdAt": "2026-08-04T06:24:47.385Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12153302",
+      "fenKayitNo": "1732",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "729",
+      "parsel": "4",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-07-31",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-08-04",
+      "tapuIadeNedeni": "13/a ilişigi yok",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1785753668619,
       "createdAt": "2026-08-03T10:41:08.619Z",
       "completed": false,
