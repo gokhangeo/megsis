@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785849324126,
+      "createdAt": "2026-08-04T13:15:24.126Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12120126",
+      "fenKayitNo": "1888",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çavak",
+      "ada": "124",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1785849240665,
       "createdAt": "2026-08-04T13:14:00.665Z",
       "completed": false,
