@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785848745552,
+      "createdAt": "2026-08-04T13:05:45.552Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11862708",
+      "fenKayitNo": "837",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "954",
+      "parsel": "145",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-07-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-08-04",
+      "tapuIadeNedeni": "kat mülkiyeti terkini yapılacağından",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1785825006655,
       "createdAt": "2026-08-04T06:30:06.655Z",
       "completed": false,
