@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785824920414,
+      "createdAt": "2026-08-04T06:28:40.414Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12150359",
+      "fenKayitNo": "1722",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "113",
+      "parsel": "2",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-07-31",
+      "tescilGelisTarihi": "2026-08-03",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1785824687385,
       "createdAt": "2026-08-04T06:24:47.385Z",
       "completed": false,
