@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785849240665,
+      "createdAt": "2026-08-04T13:14:00.665Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12095667",
+      "fenKayitNo": "1644",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Demirışık",
+      "ada": "154",
+      "parsel": "11",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-08-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1785849197097,
       "createdAt": "2026-08-04T13:13:17.097Z",
       "completed": false,
