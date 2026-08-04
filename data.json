@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785849125877,
+      "createdAt": "2026-08-04T13:12:05.877Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11983895",
+      "fenKayitNo": "1878",
+      "ilce": "TOROSLAR",
+      "mahalle": "Belenkeslik",
+      "ada": "391",
+      "parsel": "2",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1785849081675,
       "createdAt": "2026-08-04T13:11:21.675Z",
       "completed": false,
