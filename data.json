@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1785825006655,
+      "createdAt": "2026-08-04T06:30:06.655Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12149680",
+      "fenKayitNo": "2293",
+      "ilce": "TOROSLAR",
+      "mahalle": "Aladağ",
+      "ada": "172",
+      "parsel": "7",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-07-31",
+      "tescilGelisTarihi": "2026-08-03",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1785824920414,
       "createdAt": "2026-08-04T06:28:40.414Z",
       "completed": false,
