@@ -444,7 +444,7 @@
       "id": 1785746531028,
       "createdAt": "2026-08-03T08:42:11.028Z",
       "completed": false,
-      "isArchived": false,
+      "isArchived": true,
       "basvuruNo": "12040499",
       "fenKayitNo": "2049",
       "ilce": "TOROSLAR",
