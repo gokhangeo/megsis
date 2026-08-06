@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786020461367,
+      "createdAt": "2026-08-06T12:47:41.367Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12151263",
+      "fenKayitNo": "1726",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "105",
+      "parsel": "1",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-05",
+      "tescilGelisTarihi": "2026-08-05",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1785849324126,
       "createdAt": "2026-08-04T13:15:24.126Z",
       "completed": false,
