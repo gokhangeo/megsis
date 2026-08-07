@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786109441321,
+      "createdAt": "2026-08-07T13:30:41.321Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12094811",
+      "fenKayitNo": "1813",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "5343",
+      "parsel": "16",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-08-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1786109399040,
       "createdAt": "2026-08-07T13:29:59.040Z",
       "completed": false,
