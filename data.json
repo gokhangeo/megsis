@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786109252438,
+      "createdAt": "2026-08-07T13:27:32.438Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12154415",
+      "fenKayitNo": "2303",
+      "ilce": "TOROSLAR",
+      "mahalle": "Belenkeslik",
+      "ada": "323",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-08-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1786109169460,
       "createdAt": "2026-08-07T13:26:09.460Z",
       "completed": false,
