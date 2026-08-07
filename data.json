@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786109349327,
+      "createdAt": "2026-08-07T13:29:09.327Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12094851",
+      "fenKayitNo": "2192",
+      "ilce": "TOROSLAR",
+      "mahalle": "Bekiralanı",
+      "ada": "271",
+      "parsel": "12",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-08-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1786109297430,
       "createdAt": "2026-08-07T13:28:17.430Z",
       "completed": false,
