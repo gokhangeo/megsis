@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786109297430,
+      "createdAt": "2026-08-07T13:28:17.430Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12141650",
+      "fenKayitNo": "2269",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "406",
+      "parsel": "53",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-08-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1786109252438,
       "createdAt": "2026-08-07T13:27:32.438Z",
       "completed": false,
