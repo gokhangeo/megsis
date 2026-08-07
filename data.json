@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786109123372,
+      "createdAt": "2026-08-07T13:25:23.372Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12095729",
+      "fenKayitNo": "1643",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Akarca",
+      "ada": "101",
+      "parsel": "11",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-08-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1786109086002,
       "createdAt": "2026-08-07T13:24:46.002Z",
       "completed": false,
