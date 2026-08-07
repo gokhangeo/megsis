@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786110198476,
+      "createdAt": "2026-08-07T13:43:18.476Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12094832",
+      "fenKayitNo": "1812",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "5343",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-08-07",
+      "tapuIadeNedeni": "2022/4",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1786109503154,
       "createdAt": "2026-08-07T13:31:43.154Z",
       "completed": false,
