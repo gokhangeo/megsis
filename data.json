@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786110442260,
+      "createdAt": "2026-08-07T13:47:22.260Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12153567",
+      "fenKayitNo": "1934",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2474",
+      "parsel": "9",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-08-06",
+      "tescilGelisTarihi": "2026-08-07",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1786110198476,
       "createdAt": "2026-08-07T13:43:18.476Z",
       "completed": false,
