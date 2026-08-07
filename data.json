@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786110608224,
+      "createdAt": "2026-08-07T13:50:08.224Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12097396",
+      "fenKayitNo": "1805",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "7990",
+      "parsel": "3",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-03",
+      "tescilGelisTarihi": "2026-08-07",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1786110442260,
       "createdAt": "2026-08-07T13:47:22.260Z",
       "completed": false,
@@ -574,7 +594,7 @@
       "muhendis": "Sariye KUŞÇU",
       "tekniker": "Mehmet CEYLAN",
       "tescilGonderimTarihi": "2026-07-24",
-      "tescilGelisTarihi": "",
+      "tescilGelisTarihi": "2026-08-07",
       "tapuIadeTarihi": "",
       "tapuIadeNedeni": "",
       "iadeTarihi": "",
