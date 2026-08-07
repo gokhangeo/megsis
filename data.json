@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786109086002,
+      "createdAt": "2026-08-07T13:24:46.002Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12105036",
+      "fenKayitNo": "1651",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "0",
+      "parsel": "2409",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-08-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1786109019248,
       "createdAt": "2026-08-07T13:23:39.248Z",
       "completed": false,
