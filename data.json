@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786520566874,
+      "createdAt": "2026-08-12T07:42:46.874Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12183878",
+      "fenKayitNo": "1981",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "11580",
+      "parsel": "2",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1786520441368,
       "createdAt": "2026-08-12T07:40:41.368Z",
       "completed": false,
