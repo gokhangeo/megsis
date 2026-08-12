@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786513635026,
+      "createdAt": "2026-08-12T05:47:15.026Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11097475",
+      "fenKayitNo": "2419",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Karahacılı",
+      "ada": "112",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-07-30",
+      "tescilGelisTarihi": "2026-07-31",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1786513145320,
       "createdAt": "2026-08-12T05:39:05.320Z",
       "completed": false,
