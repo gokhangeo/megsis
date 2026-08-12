@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786513145320,
+      "createdAt": "2026-08-12T05:39:05.320Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12191203",
+      "fenKayitNo": "2400",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "7154",
+      "parsel": "24",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1786513094595,
       "createdAt": "2026-08-12T05:38:14.595Z",
       "completed": false,
