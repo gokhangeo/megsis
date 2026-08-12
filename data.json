@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786519356025,
+      "createdAt": "2026-08-12T07:22:36.025Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12105148",
+      "fenKayitNo": "1675",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "896",
+      "parsel": "8",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1786513937042,
       "createdAt": "2026-08-12T05:52:17.042Z",
       "completed": false,
