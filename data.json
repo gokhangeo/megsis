@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786520441368,
+      "createdAt": "2026-08-12T07:40:41.368Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12179801",
+      "fenKayitNo": "1963",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "9670",
+      "parsel": "12",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1786520314573,
       "createdAt": "2026-08-12T07:38:34.573Z",
       "completed": false,
