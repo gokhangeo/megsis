@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786513094595,
+      "createdAt": "2026-08-12T05:38:14.595Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12180407",
+      "fenKayitNo": "2383",
+      "ilce": "TOROSLAR",
+      "mahalle": "Değirmendere",
+      "ada": "164",
+      "parsel": "13",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1786513036801,
       "createdAt": "2026-08-12T05:37:16.801Z",
       "completed": false,
