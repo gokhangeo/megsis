@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786513036801,
+      "createdAt": "2026-08-12T05:37:16.801Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12168149",
+      "fenKayitNo": "2351",
+      "ilce": "TOROSLAR",
+      "mahalle": "Korucular",
+      "ada": "133",
+      "parsel": "2",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-08-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1786456380983,
       "createdAt": "2026-08-11T13:53:00.983Z",
       "completed": false,
