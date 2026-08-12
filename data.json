@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786538471985,
+      "createdAt": "2026-08-12T12:41:11.985Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12189809",
+      "fenKayitNo": "1997",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1506",
+      "parsel": "4",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1786538166740,
       "createdAt": "2026-08-12T12:36:06.740Z",
       "completed": false,
