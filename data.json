@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786513937042,
+      "createdAt": "2026-08-12T05:52:17.042Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12167579",
+      "fenKayitNo": "1951",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "4283",
+      "parsel": "11",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1786513635026,
       "createdAt": "2026-08-12T05:47:15.026Z",
       "completed": false,
