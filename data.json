@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786600062969,
+      "createdAt": "2026-08-13T05:47:42.969Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12190656",
+      "fenKayitNo": "2405",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "5722",
+      "parsel": "11",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1786538710810,
       "createdAt": "2026-08-12T12:45:10.810Z",
       "completed": false,
