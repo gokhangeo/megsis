@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786600188280,
+      "createdAt": "2026-08-13T05:49:48.280Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12182881",
+      "fenKayitNo": "1978",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "İnsu",
+      "ada": "194",
+      "parsel": "4",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-08-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1786600121664,
       "createdAt": "2026-08-13T05:48:41.664Z",
       "completed": false,
