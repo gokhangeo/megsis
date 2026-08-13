@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786600121664,
+      "createdAt": "2026-08-13T05:48:41.664Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12164162",
+      "fenKayitNo": "2328",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "8791",
+      "parsel": "5",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-08-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1786600062969,
       "createdAt": "2026-08-13T05:47:42.969Z",
       "completed": false,
