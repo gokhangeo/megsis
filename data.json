@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786705223290,
+      "createdAt": "2026-08-14T11:00:23.290Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12153360",
+      "fenKayitNo": "2301",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "1152",
+      "parsel": "13",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1786600188280,
       "createdAt": "2026-08-13T05:49:48.280Z",
       "completed": false,
