@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786705532147,
+      "createdAt": "2026-08-14T11:05:32.147Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12191218",
+      "fenKayitNo": "1790",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "927",
+      "parsel": "4",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-08-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1786705413060,
       "createdAt": "2026-08-14T11:03:33.060Z",
       "completed": false,
