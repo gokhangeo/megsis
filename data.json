@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786705413060,
+      "createdAt": "2026-08-14T11:03:33.060Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12211193",
+      "fenKayitNo": "1247",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "124",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1786705359653,
       "createdAt": "2026-08-14T11:02:39.653Z",
       "completed": false,
