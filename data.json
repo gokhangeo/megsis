@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1786705581555,
+      "createdAt": "2026-08-14T11:06:21.555Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12194150",
+      "fenKayitNo": "1800",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "271",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1786705532147,
       "createdAt": "2026-08-14T11:05:32.147Z",
       "completed": false,
