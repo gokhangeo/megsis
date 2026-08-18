@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787052270763,
+      "createdAt": "2026-08-18T11:24:30.763Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12174336",
+      "fenKayitNo": "2384",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "8616",
+      "parsel": "16",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1787052105273,
       "createdAt": "2026-08-18T11:21:45.273Z",
       "completed": false,
