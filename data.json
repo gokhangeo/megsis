@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787052105273,
+      "createdAt": "2026-08-18T11:21:45.273Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12201450",
+      "fenKayitNo": "2426",
+      "ilce": "TOROSLAR",
+      "mahalle": "Evcili",
+      "ada": "167",
+      "parsel": "7",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1786705710074,
       "createdAt": "2026-08-14T11:08:30.074Z",
       "completed": false,
