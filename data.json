@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787052688221,
+      "createdAt": "2026-08-18T11:31:28.221Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12184865",
+      "fenKayitNo": "1982",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "3955",
+      "parsel": "12",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1787052270763,
       "createdAt": "2026-08-18T11:24:30.763Z",
       "completed": false,
