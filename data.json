@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787058242050,
+      "createdAt": "2026-08-18T13:04:02.050Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12203650",
+      "fenKayitNo": "2461",
+      "ilce": "TOROSLAR",
+      "mahalle": "Korucular",
+      "ada": "145",
+      "parsel": "88",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1787053068345,
       "createdAt": "2026-08-18T11:37:48.345Z",
       "completed": false,
