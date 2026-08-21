@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787320667318,
+      "createdAt": "2026-08-21T13:57:47.318Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11021689",
+      "fenKayitNo": "3231",
+      "ilce": "TOROSLAR",
+      "mahalle": "Belenkeslik",
+      "ada": "316",
+      "parsel": "5",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-08-21",
+      "tapuIadeNedeni": "vekalette yetki yok",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1787320558653,
       "createdAt": "2026-08-21T13:55:58.653Z",
       "completed": false,
