@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787318325191,
+      "createdAt": "2026-08-21T13:18:45.191Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12210789",
+      "fenKayitNo": "1245",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "110",
+      "parsel": "165",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1787318175275,
       "createdAt": "2026-08-21T13:16:15.275Z",
       "completed": false,
