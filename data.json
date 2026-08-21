@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787319896997,
+      "createdAt": "2026-08-21T13:44:56.997Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12234433",
+      "fenKayitNo": "2530",
+      "ilce": "TOROSLAR",
+      "mahalle": "Gözne",
+      "ada": "136",
+      "parsel": "7",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-08-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1787318444168,
       "createdAt": "2026-08-21T13:20:44.168Z",
       "completed": false,
