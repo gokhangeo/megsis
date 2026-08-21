@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787317279284,
+      "createdAt": "2026-08-21T13:01:19.284Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12211771",
+      "fenKayitNo": "2025",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2691",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1787290617464,
       "createdAt": "2026-08-21T05:36:57.464Z",
       "completed": false,
