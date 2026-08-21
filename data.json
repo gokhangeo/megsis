@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787290617464,
+      "createdAt": "2026-08-21T05:36:57.464Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12223627",
+      "fenKayitNo": "1266",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "10963",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-08-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1787290541622,
       "createdAt": "2026-08-21T05:35:41.622Z",
       "completed": false,
