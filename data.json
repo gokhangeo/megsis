@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787317829244,
+      "createdAt": "2026-08-21T13:10:29.244Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12091541",
+      "fenKayitNo": "1786",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "5172",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1787317489556,
       "createdAt": "2026-08-21T13:04:49.556Z",
       "completed": false,
