@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787290541622,
+      "createdAt": "2026-08-21T05:35:41.622Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12204399",
+      "fenKayitNo": "1257",
+      "ilce": "AKDENİZ",
+      "mahalle": "Iğdır",
+      "ada": "160",
+      "parsel": "48",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1787290344509,
       "createdAt": "2026-08-21T05:32:24.509Z",
       "completed": false,
