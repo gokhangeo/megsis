@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787320151324,
+      "createdAt": "2026-08-21T13:49:11.324Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12234380",
+      "fenKayitNo": "2531",
+      "ilce": "TOROSLAR",
+      "mahalle": "Gözne",
+      "ada": "136",
+      "parsel": "2",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1787319896997,
       "createdAt": "2026-08-21T13:44:56.997Z",
       "completed": false,
