@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787317362398,
+      "createdAt": "2026-08-21T13:02:42.398Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12150264",
+      "fenKayitNo": "1949",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çavak",
+      "ada": "147",
+      "parsel": "4",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1787317279284,
       "createdAt": "2026-08-21T13:01:19.284Z",
       "completed": false,
