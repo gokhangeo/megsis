@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787318116185,
+      "createdAt": "2026-08-21T13:15:16.185Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12112299",
+      "fenKayitNo": "1723",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kale",
+      "ada": "144",
+      "parsel": "11",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1787317829244,
       "createdAt": "2026-08-21T13:10:29.244Z",
       "completed": false,
