@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787318175275,
+      "createdAt": "2026-08-21T13:16:15.275Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12153694",
+      "fenKayitNo": "1741",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kaleburnu",
+      "ada": "130",
+      "parsel": "38",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1787318116185,
       "createdAt": "2026-08-21T13:15:16.185Z",
       "completed": false,
