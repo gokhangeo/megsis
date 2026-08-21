@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787320283196,
+      "createdAt": "2026-08-21T13:51:23.196Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12196058",
+      "fenKayitNo": "1259",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "103",
+      "parsel": "19",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1787320151324,
       "createdAt": "2026-08-21T13:49:11.324Z",
       "completed": false,
