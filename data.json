@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787290200062,
+      "createdAt": "2026-08-21T05:30:00.062Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12191557",
+      "fenKayitNo": "1801",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "1003",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-08-21",
+      "tapuIadeNedeni": "vasi",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1787124387301,
       "createdAt": "2026-08-19T07:26:27.301Z",
       "completed": false,
