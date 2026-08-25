@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787670040295,
+      "createdAt": "2026-08-25T15:00:40.295Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12247092",
+      "fenKayitNo": "2104",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "783",
+      "parsel": "3",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-08-24",
+      "tescilGelisTarihi": "2026-08-25",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1787669980860,
       "createdAt": "2026-08-25T14:59:40.860Z",
       "completed": false,
