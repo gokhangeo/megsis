@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787668752231,
+      "createdAt": "2026-08-25T14:39:12.231Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12216336",
+      "fenKayitNo": "2469",
+      "ilce": "TOROSLAR",
+      "mahalle": "Değirmendere",
+      "ada": "113",
+      "parsel": "27",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1787668689628,
       "createdAt": "2026-08-25T14:38:09.628Z",
       "completed": false,
