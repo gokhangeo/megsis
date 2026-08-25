@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787669785451,
+      "createdAt": "2026-08-25T14:56:25.451Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12105496",
+      "fenKayitNo": "1814",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocahamzalı",
+      "ada": "111",
+      "parsel": "333",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1787669162880,
       "createdAt": "2026-08-25T14:46:02.880Z",
       "completed": false,
