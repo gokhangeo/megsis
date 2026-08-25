@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787670220749,
+      "createdAt": "2026-08-25T15:03:40.749Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12216379",
+      "fenKayitNo": "1849",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Bozön",
+      "ada": "13809",
+      "parsel": "24",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1787670040295,
       "createdAt": "2026-08-25T15:00:40.295Z",
       "completed": false,
