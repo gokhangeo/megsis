@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787668689628,
+      "createdAt": "2026-08-25T14:38:09.628Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12217704",
+      "fenKayitNo": "2473",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "1132",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1787668635900,
       "createdAt": "2026-08-25T14:37:15.900Z",
       "completed": false,
