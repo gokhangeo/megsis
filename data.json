@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787668564624,
+      "createdAt": "2026-08-25T14:36:04.624Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12241365",
+      "fenKayitNo": "2550",
+      "ilce": "TOROSLAR",
+      "mahalle": "Belenkeslik",
+      "ada": "12038",
+      "parsel": "14",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1787320667318,
       "createdAt": "2026-08-21T13:57:47.318Z",
       "completed": false,
