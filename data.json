@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787669890889,
+      "createdAt": "2026-08-25T14:58:10.889Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12227355",
+      "fenKayitNo": "2066",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "1980",
+      "parsel": "6",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-08-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1787669841158,
       "createdAt": "2026-08-25T14:57:21.158Z",
       "completed": false,
