@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1787668635900,
+      "createdAt": "2026-08-25T14:37:15.900Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12221541",
+      "fenKayitNo": "2483",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "13898",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-08-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1787668564624,
       "createdAt": "2026-08-25T14:36:04.624Z",
       "completed": false,
