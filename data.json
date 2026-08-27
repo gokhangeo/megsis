@@ -363,7 +363,7 @@
     {
       "id": 1787318444168,
       "createdAt": "2026-08-21T13:20:44.168Z",
-      "completed": false,
+      "completed": true,
       "isArchived": false,
       "basvuruNo": "12223626",
       "fenKayitNo": "1267",
