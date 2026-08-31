@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788162093182,
+      "createdAt": "2026-08-31T07:41:33.182Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12260385",
+      "fenKayitNo": "1895",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "144",
+      "parsel": "4",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-08-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1788161992813,
       "createdAt": "2026-08-31T07:39:52.813Z",
       "completed": false,
