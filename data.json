@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788162730781,
+      "createdAt": "2026-08-31T07:52:10.781Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12234498",
+      "fenKayitNo": "2528",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çapar",
+      "ada": "216",
+      "parsel": "2",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-08-31",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1788162666095,
       "createdAt": "2026-08-31T07:51:06.095Z",
       "completed": false,
