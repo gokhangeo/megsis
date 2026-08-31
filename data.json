@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788161732135,
+      "createdAt": "2026-08-31T07:35:32.135Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12237837",
+      "fenKayitNo": "2095",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "8998",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-08-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1788161459523,
       "createdAt": "2026-08-31T07:30:59.523Z",
       "completed": false,
