@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788161992813,
+      "createdAt": "2026-08-31T07:39:52.813Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12267067",
+      "fenKayitNo": "1906",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "928",
+      "parsel": "19",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-08-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1788161732135,
       "createdAt": "2026-08-31T07:35:32.135Z",
       "completed": false,
