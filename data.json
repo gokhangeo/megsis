@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788174425168,
+      "createdAt": "2026-08-31T11:07:05.168Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12232301",
+      "fenKayitNo": "2522",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "7106",
+      "parsel": "8",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-08-27",
+      "tescilGelisTarihi": "2026-08-28",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1788162937835,
       "createdAt": "2026-08-31T07:55:37.835Z",
       "completed": false,
