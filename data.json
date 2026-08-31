@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788162845479,
+      "createdAt": "2026-08-31T07:54:05.479Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12148577",
+      "fenKayitNo": "2290",
+      "ilce": "TOROSLAR",
+      "mahalle": "Düğdüören",
+      "ada": "9717",
+      "parsel": "3",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1788162730781,
       "createdAt": "2026-08-31T07:52:10.781Z",
       "completed": false,
