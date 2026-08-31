@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788162335621,
+      "createdAt": "2026-08-31T07:45:35.621Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12215675",
+      "fenKayitNo": "1847",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "103",
+      "parsel": "193",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-08-31",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "irtifak hakkı"
+    },
+    {
       "id": 1788162093182,
       "createdAt": "2026-08-31T07:41:33.182Z",
       "completed": false,
