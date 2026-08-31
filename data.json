@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788161459523,
+      "createdAt": "2026-08-31T07:30:59.523Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12217623",
+      "fenKayitNo": "1264",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "721",
+      "parsel": "598",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-08-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1788161372381,
       "createdAt": "2026-08-31T07:29:32.381Z",
       "completed": false,
