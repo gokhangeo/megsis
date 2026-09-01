@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788242191913,
+      "createdAt": "2026-09-01T05:56:31.913Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12221178",
+      "fenKayitNo": "2056",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2365",
+      "parsel": "3",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-08-27",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1788241365305,
       "createdAt": "2026-09-01T05:42:45.305Z",
       "completed": false,
