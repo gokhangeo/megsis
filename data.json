@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788244887950,
+      "createdAt": "2026-09-01T06:41:27.950Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12150608",
+      "fenKayitNo": "1745",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "122",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-08-25",
+      "tescilGelisTarihi": "2026-08-29",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1788242340080,
       "createdAt": "2026-09-01T05:59:00.080Z",
       "completed": false,
