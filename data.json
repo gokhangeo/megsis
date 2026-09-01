@@ -1003,7 +1003,7 @@
     {
       "id": 1787317362398,
       "createdAt": "2026-08-21T13:02:42.398Z",
-      "completed": true,
+      "completed": false,
       "isArchived": false,
       "basvuruNo": "12150264",
       "fenKayitNo": "1949",
@@ -1634,7 +1634,7 @@
       "muhendis": "Sariye KUŞÇU",
       "tekniker": "Dudu POYRAZ",
       "tescilGonderimTarihi": "2026-08-11",
-      "tescilGelisTarihi": "",
+      "tescilGelisTarihi": "2026-08-21",
       "tapuIadeTarihi": "",
       "tapuIadeNedeni": "",
       "iadeTarihi": "",
