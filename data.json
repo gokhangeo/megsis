@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788240849418,
+      "createdAt": "2026-09-01T05:34:09.418Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12133141",
+      "fenKayitNo": "1159",
+      "ilce": "AKDENİZ",
+      "mahalle": "Adanalıoğlu",
+      "ada": "181",
+      "parsel": "101",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1788240572803,
       "createdAt": "2026-09-01T05:29:32.803Z",
       "completed": false,
