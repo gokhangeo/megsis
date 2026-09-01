@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788240572803,
+      "createdAt": "2026-09-01T05:29:32.803Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12218002",
+      "fenKayitNo": "1263",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "2047",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-09-27",
+      "tescilGelisTarihi": "2026-09-28",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1788174425168,
       "createdAt": "2026-08-31T11:07:05.168Z",
       "completed": false,
