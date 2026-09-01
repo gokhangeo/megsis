@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788245005373,
+      "createdAt": "2026-09-01T06:43:25.373Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12261424",
+      "fenKayitNo": "1894",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Çevlik",
+      "ada": "0",
+      "parsel": "181",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-08-28",
+      "tescilGelisTarihi": "2026-08-28",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1788244887950,
       "createdAt": "2026-09-01T06:41:27.950Z",
       "completed": false,
