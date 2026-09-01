@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788245104957,
+      "createdAt": "2026-09-01T06:45:04.957Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12264528",
+      "fenKayitNo": "1897",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "337",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-08-28",
+      "tescilGelisTarihi": "2026-08-28",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1788245005373,
       "createdAt": "2026-09-01T06:43:25.373Z",
       "completed": false,
