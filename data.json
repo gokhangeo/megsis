@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788268214516,
+      "createdAt": "2026-09-01T13:10:14.516Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12214168",
+      "fenKayitNo": "1256",
+      "ilce": "AKDENİZ",
+      "mahalle": "Tekke",
+      "ada": "221",
+      "parsel": "1",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-09-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1788267592840,
       "createdAt": "2026-09-01T12:59:52.840Z",
       "completed": false,
