@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788245663892,
+      "createdAt": "2026-09-01T06:54:23.892Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12257344",
+      "fenKayitNo": "2122",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "9155",
+      "parsel": "7",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-08-27",
+      "tescilGelisTarihi": "2026-08-28",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1788245104957,
       "createdAt": "2026-09-01T06:45:04.957Z",
       "completed": false,
