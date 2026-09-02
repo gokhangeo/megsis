@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788337007402,
+      "createdAt": "2026-09-02T08:16:47.402Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12287970",
+      "fenKayitNo": "1950",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "656",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-09-01",
+      "tescilGelisTarihi": "2026-09-01",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1788335821463,
       "createdAt": "2026-09-02T07:57:01.463Z",
       "completed": false,
