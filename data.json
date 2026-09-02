@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788335747404,
+      "createdAt": "2026-09-02T07:55:47.404Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12288589",
+      "fenKayitNo": "2184",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2146",
+      "parsel": "15",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-09-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1788333518753,
       "createdAt": "2026-09-02T07:18:38.753Z",
       "completed": false,
