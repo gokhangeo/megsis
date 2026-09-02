@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788333465497,
+      "createdAt": "2026-09-02T07:17:45.497Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12261196",
+      "fenKayitNo": "2127",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "13091",
+      "parsel": "1",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1788333394192,
       "createdAt": "2026-09-02T07:16:34.192Z",
       "completed": false,
