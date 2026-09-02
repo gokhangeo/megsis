@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788333394192,
+      "createdAt": "2026-09-02T07:16:34.192Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12216356",
+      "fenKayitNo": "1848",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kale",
+      "ada": "108",
+      "parsel": "42",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-08-31",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1788333321217,
       "createdAt": "2026-09-02T07:15:21.217Z",
       "completed": false,
