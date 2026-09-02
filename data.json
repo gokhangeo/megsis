@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788335821463,
+      "createdAt": "2026-09-02T07:57:01.463Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12218003",
+      "fenKayitNo": "1262",
+      "ilce": "AKDENİZ",
+      "mahalle": "Hamidiye",
+      "ada": "600",
+      "parsel": "7",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1788335747404,
       "createdAt": "2026-09-02T07:55:47.404Z",
       "completed": false,
