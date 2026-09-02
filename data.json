@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788333321217,
+      "createdAt": "2026-09-02T07:15:21.217Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12277783",
+      "fenKayitNo": "2672",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "10817",
+      "parsel": "11",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-01",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1788271024673,
       "createdAt": "2026-09-01T13:57:04.673Z",
       "completed": false,
