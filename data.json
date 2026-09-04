@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788510655499,
+      "createdAt": "2026-09-04T08:30:55.499Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12296154",
+      "fenKayitNo": "2198",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "625",
+      "parsel": "5",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-09-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1788508316266,
       "createdAt": "2026-09-04T07:51:56.266Z",
       "completed": false,
