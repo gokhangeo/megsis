@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788528323530,
+      "createdAt": "2026-09-04T13:25:23.530Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12286485",
+      "fenKayitNo": "2186",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "1828",
+      "parsel": "39",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-09-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1788526750468,
       "createdAt": "2026-09-04T12:59:10.468Z",
       "completed": false,
