@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788519996831,
+      "createdAt": "2026-09-04T11:06:36.831Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12217120",
+      "fenKayitNo": "2471",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yuksekoluk",
+      "ada": "148",
+      "parsel": "4",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-09-03",
+      "tescilGelisTarihi": "2026-09-04",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1788519924349,
       "createdAt": "2026-09-04T11:05:24.349Z",
       "completed": false,
