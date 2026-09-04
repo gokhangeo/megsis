@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788511466592,
+      "createdAt": "2026-09-04T08:44:26.592Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12279111",
+      "fenKayitNo": "1475",
+      "ilce": "AKDENİZ",
+      "mahalle": "Adanalıoğlu",
+      "ada": "183",
+      "parsel": "178",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1788510655499,
       "createdAt": "2026-09-04T08:30:55.499Z",
       "completed": false,
