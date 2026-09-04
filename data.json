@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788519479078,
+      "createdAt": "2026-09-04T10:57:59.078Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12289641",
+      "fenKayitNo": "2710",
+      "ilce": "TOROSLAR",
+      "mahalle": "Belenkeslik",
+      "ada": "12943",
+      "parsel": "18",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-09-01",
+      "tescilGelisTarihi": "2026-09-02",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1788518603400,
       "createdAt": "2026-09-04T10:43:23.400Z",
       "completed": false,
