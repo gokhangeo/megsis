@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788519799236,
+      "createdAt": "2026-09-04T11:03:19.236Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12278843",
+      "fenKayitNo": "1929",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "1108",
+      "parsel": "16",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-09-01",
+      "tescilGelisTarihi": "2026-09-01",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1788519631721,
       "createdAt": "2026-09-04T11:00:31.721Z",
       "completed": false,
