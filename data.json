@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788518299275,
+      "createdAt": "2026-09-04T10:38:19.275Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11572023",
+      "fenKayitNo": "596",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "620",
+      "parsel": "8",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-09-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "41. md"
+    },
+    {
       "id": 1788518152706,
       "createdAt": "2026-09-04T10:35:52.706Z",
       "completed": false,
