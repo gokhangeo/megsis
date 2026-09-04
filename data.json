@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788518603400,
+      "createdAt": "2026-09-04T10:43:23.400Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12305098",
+      "fenKayitNo": "1966",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Sarılar",
+      "ada": "128",
+      "parsel": "18",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "41. md"
+    },
+    {
       "id": 1788518299275,
       "createdAt": "2026-09-04T10:38:19.275Z",
       "completed": false,
