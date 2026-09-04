@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788511950685,
+      "createdAt": "2026-09-04T08:52:30.685Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11961116",
+      "fenKayitNo": "1445",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "546",
+      "parsel": "4",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1788511863704,
       "createdAt": "2026-09-04T08:51:03.704Z",
       "completed": false,
