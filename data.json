@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788519631721,
+      "createdAt": "2026-09-04T11:00:31.721Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12209311",
+      "fenKayitNo": "2022",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "11778",
+      "parsel": "1",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-09-13",
+      "tescilGelisTarihi": "2026-09-01",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ilgilisine elden teslim edildi-mülkiyet raporu"
+    },
+    {
       "id": 1788519479078,
       "createdAt": "2026-09-04T10:57:59.078Z",
       "completed": false,
