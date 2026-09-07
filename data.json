@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788783305035,
+      "createdAt": "2026-09-07T12:15:05.035Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12307543",
+      "fenKayitNo": "1979",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "233",
+      "parsel": "6",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-09-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1788759749394,
       "createdAt": "2026-09-07T05:42:29.394Z",
       "completed": false,
