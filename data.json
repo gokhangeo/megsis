@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788759570738,
+      "createdAt": "2026-09-07T05:39:30.738Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12217667",
+      "fenKayitNo": "2045",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çavak",
+      "ada": "101",
+      "parsel": "1",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1788528323530,
       "createdAt": "2026-09-04T13:25:23.530Z",
       "completed": false,
