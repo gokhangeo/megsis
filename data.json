@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788759749394,
+      "createdAt": "2026-09-07T05:42:29.394Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12206247",
+      "fenKayitNo": "2436",
+      "ilce": "TOROSLAR",
+      "mahalle": "Evcili",
+      "ada": "382",
+      "parsel": "3",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1788759570738,
       "createdAt": "2026-09-07T05:39:30.738Z",
       "completed": false,
