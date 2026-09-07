@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788783655520,
+      "createdAt": "2026-09-07T12:20:55.520Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12262600",
+      "fenKayitNo": "2610",
+      "ilce": "TOROSLAR",
+      "mahalle": "Aladağ",
+      "ada": "126",
+      "parsel": "21",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-09-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "irtifak hakkı"
+    },
+    {
       "id": 1788783590797,
       "createdAt": "2026-09-07T12:19:50.797Z",
       "completed": false,
