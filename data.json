@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788844445751,
+      "createdAt": "2026-09-08T05:14:05.751Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12306942",
+      "fenKayitNo": "2757",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çapar",
+      "ada": "559",
+      "parsel": "8",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-09-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1788783655520,
       "createdAt": "2026-09-07T12:20:55.520Z",
       "completed": false,
