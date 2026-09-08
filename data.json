@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788868652660,
+      "createdAt": "2026-09-08T11:57:32.660Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12276628",
+      "fenKayitNo": "2669",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "5073",
+      "parsel": "6",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-09-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1788856406295,
       "createdAt": "2026-09-08T08:33:26.295Z",
       "completed": false,
