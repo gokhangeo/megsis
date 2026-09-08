@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788869597289,
+      "createdAt": "2026-09-08T12:13:17.289Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12257308",
+      "fenKayitNo": "1332",
+      "ilce": "AKDENİZ",
+      "mahalle": "Kürkçü",
+      "ada": "150",
+      "parsel": "30",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1788868709399,
       "createdAt": "2026-09-08T11:58:29.399Z",
       "completed": false,
