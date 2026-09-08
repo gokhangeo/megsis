@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788844578742,
+      "createdAt": "2026-09-08T05:16:18.742Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12101396",
+      "fenKayitNo": "1832",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Demirışık",
+      "ada": "106",
+      "parsel": "65",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1788844503709,
       "createdAt": "2026-09-08T05:15:03.709Z",
       "completed": false,
