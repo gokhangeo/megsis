@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1788932930401,
+      "createdAt": "2026-09-09T05:48:50.401Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12291289",
+      "fenKayitNo": "1507",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nacarlı",
+      "ada": "522",
+      "parsel": "6",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-09-07",
+      "tescilGelisTarihi": "2026-09-08",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1788869597289,
       "createdAt": "2026-09-08T12:13:17.289Z",
       "completed": false,
