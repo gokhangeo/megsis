@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789038900226,
+      "createdAt": "2026-09-10T11:15:00.226Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12308500",
+      "fenKayitNo": "1980",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "120",
+      "parsel": "314",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-09-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1789038821043,
       "createdAt": "2026-09-10T11:13:41.043Z",
       "completed": false,
