@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789045476713,
+      "createdAt": "2026-09-10T13:04:36.713Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12285756",
+      "fenKayitNo": "2694",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yuksekoluk",
+      "ada": "146",
+      "parsel": "3",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1789045385974,
       "createdAt": "2026-09-10T13:03:05.974Z",
       "completed": false,
