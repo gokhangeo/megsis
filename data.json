@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789045287036,
+      "createdAt": "2026-09-10T13:01:27.036Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12297308",
+      "fenKayitNo": "2764",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "4531",
+      "parsel": "1",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1789044982065,
       "createdAt": "2026-09-10T12:56:22.065Z",
       "completed": false,
