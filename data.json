@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789039926377,
+      "createdAt": "2026-09-10T11:32:06.377Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12238387",
+      "fenKayitNo": "2099",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "3170",
+      "parsel": "4",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1789039875969,
       "createdAt": "2026-09-10T11:31:15.969Z",
       "completed": false,
