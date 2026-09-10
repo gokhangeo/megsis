@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789044982065,
+      "createdAt": "2026-09-10T12:56:22.065Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12264110",
+      "fenKayitNo": "1343",
+      "ilce": "AKDENİZ",
+      "mahalle": "Tekke",
+      "ada": "10251",
+      "parsel": "14",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1789044770785,
       "createdAt": "2026-09-10T12:52:50.785Z",
       "completed": false,
