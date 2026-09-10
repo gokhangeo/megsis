@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789039274033,
+      "createdAt": "2026-09-10T11:21:14.033Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12308489",
+      "fenKayitNo": "2766",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "4879",
+      "parsel": "20",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-09-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1789039148985,
       "createdAt": "2026-09-10T11:19:08.985Z",
       "completed": false,
