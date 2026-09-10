@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789045385974,
+      "createdAt": "2026-09-10T13:03:05.974Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12222269",
+      "fenKayitNo": "2549",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yuksekoluk",
+      "ada": "157",
+      "parsel": "51",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-09-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1789045336444,
       "createdAt": "2026-09-10T13:02:16.444Z",
       "completed": false,
