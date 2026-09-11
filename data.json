@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789105591759,
+      "createdAt": "2026-09-11T05:46:31.759Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12312362",
+      "fenKayitNo": "1530",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nacarlı",
+      "ada": "547",
+      "parsel": "4",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-09-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1789105544181,
       "createdAt": "2026-09-11T05:45:44.181Z",
       "completed": false,
