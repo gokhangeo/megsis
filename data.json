@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789105672109,
+      "createdAt": "2026-09-11T05:47:52.109Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12297810",
+      "fenKayitNo": "2208",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "9",
+      "parsel": "37",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-09-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1789105633014,
       "createdAt": "2026-09-11T05:47:13.014Z",
       "completed": false,
