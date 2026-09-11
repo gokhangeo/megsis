@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789112704271,
+      "createdAt": "2026-09-11T07:45:04.271Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12296292",
+      "fenKayitNo": "2724",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yeniköy",
+      "ada": "206",
+      "parsel": "14",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ormana terk"
+    },
+    {
       "id": 1789109049829,
       "createdAt": "2026-09-11T06:44:09.829Z",
       "completed": false,
