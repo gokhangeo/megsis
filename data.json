@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789105633014,
+      "createdAt": "2026-09-11T05:47:13.014Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12283394",
+      "fenKayitNo": "2730",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çağlarca",
+      "ada": "101",
+      "parsel": "103",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-09-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1789105591759,
       "createdAt": "2026-09-11T05:46:31.759Z",
       "completed": false,
