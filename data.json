@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789455323439,
+      "createdAt": "2026-09-15T06:55:23.439Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12307778",
+      "fenKayitNo": "2217",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1137",
+      "parsel": "2",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-09-14",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1789455269863,
       "createdAt": "2026-09-15T06:54:29.863Z",
       "completed": false,
