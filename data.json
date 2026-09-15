@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789454625264,
+      "createdAt": "2026-09-15T06:43:45.264Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12325360",
+      "fenKayitNo": "2827",
+      "ilce": "TOROSLAR",
+      "mahalle": "Darısekisi",
+      "ada": "108",
+      "parsel": "8",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-09-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1789454246144,
       "createdAt": "2026-09-15T06:37:26.144Z",
       "completed": false,
