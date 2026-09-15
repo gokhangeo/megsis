@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789453921642,
+      "createdAt": "2026-09-15T06:32:01.642Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12260413",
+      "fenKayitNo": "1342",
+      "ilce": "AKDENİZ",
+      "mahalle": "Kazanlı",
+      "ada": "301",
+      "parsel": "997",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-09-11",
+      "tescilGelisTarihi": "2026-09-14",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1789453783760,
       "createdAt": "2026-09-15T06:29:43.760Z",
       "completed": false,
