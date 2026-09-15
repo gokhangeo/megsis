@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789455203326,
+      "createdAt": "2026-09-15T06:53:23.326Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12330194",
+      "fenKayitNo": "2253",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "8998",
+      "parsel": "4",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-11",
+      "tescilGelisTarihi": "2026-09-14",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1789455113932,
       "createdAt": "2026-09-15T06:51:53.932Z",
       "completed": false,
