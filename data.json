@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789455375239,
+      "createdAt": "2026-09-15T06:56:15.239Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12347565",
+      "fenKayitNo": "2300",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "5516",
+      "parsel": "15",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-14",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1789455323439,
       "createdAt": "2026-09-15T06:55:23.439Z",
       "completed": false,
