@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789453783760,
+      "createdAt": "2026-09-15T06:29:43.760Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12274392",
+      "fenKayitNo": "1525",
+      "ilce": "AKDENİZ",
+      "mahalle": "Adanalıoğlu",
+      "ada": "194",
+      "parsel": "364",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-09-14",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-09-14",
+      "tapuIadeNedeni": "kamu haczi",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1789453643736,
       "createdAt": "2026-09-15T06:27:23.736Z",
       "completed": false,
