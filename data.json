@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789453980918,
+      "createdAt": "2026-09-15T06:33:00.918Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12165434",
+      "fenKayitNo": "1201",
+      "ilce": "AKDENİZ",
+      "mahalle": "Parmakkurdu",
+      "ada": "139",
+      "parsel": "19",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1789453921642,
       "createdAt": "2026-09-15T06:32:01.642Z",
       "completed": false,
