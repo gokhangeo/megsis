@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789454685779,
+      "createdAt": "2026-09-15T06:44:45.779Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12297491",
+      "fenKayitNo": "2740",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "9313",
+      "parsel": "3",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-09-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1789454625264,
       "createdAt": "2026-09-15T06:43:45.264Z",
       "completed": false,
