@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789628670469,
+      "createdAt": "2026-09-17T07:04:30.469Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12268834",
+      "fenKayitNo": "2138",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çukurkeşlik",
+      "ada": "170",
+      "parsel": "31",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1789628451898,
       "createdAt": "2026-09-17T07:00:51.898Z",
       "completed": false,
