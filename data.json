@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789630341422,
+      "createdAt": "2026-09-17T07:32:21.422Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12337904",
+      "fenKayitNo": "2867",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "1125",
+      "parsel": "7",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-09-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1789630262724,
       "createdAt": "2026-09-17T07:31:02.724Z",
       "completed": false,
