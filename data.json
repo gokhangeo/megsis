@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789629468793,
+      "createdAt": "2026-09-17T07:17:48.793Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12345396",
+      "fenKayitNo": "1552",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nacarlı",
+      "ada": "449",
+      "parsel": "13",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-09-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1789629425225,
       "createdAt": "2026-09-17T07:17:05.225Z",
       "completed": false,
