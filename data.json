@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789719284495,
+      "createdAt": "2026-09-18T08:14:44.495Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11695082",
+      "fenKayitNo": "961",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "0",
+      "parsel": "56",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1789719138161,
       "createdAt": "2026-09-18T08:12:18.161Z",
       "completed": false,
