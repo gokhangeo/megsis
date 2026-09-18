@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789718829665,
+      "createdAt": "2026-09-18T08:07:09.665Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12311954",
+      "fenKayitNo": "1984",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Akarca",
+      "ada": "111",
+      "parsel": "109",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1789649568806,
       "createdAt": "2026-09-17T12:52:48.806Z",
       "completed": false,
