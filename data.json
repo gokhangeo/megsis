@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789719138161,
+      "createdAt": "2026-09-18T08:12:18.161Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12052494",
+      "fenKayitNo": "2051",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arslanköy",
+      "ada": "133",
+      "parsel": "10",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-09-17",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1789718915055,
       "createdAt": "2026-09-18T08:08:35.055Z",
       "completed": false,
