@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789986963301,
+      "createdAt": "2026-09-21T10:36:03.301Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12287501",
+      "fenKayitNo": "2697",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kavaklıpınar",
+      "ada": "175",
+      "parsel": "24",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-09-17",
+      "tescilGelisTarihi": "2026-09-18",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1789986799718,
       "createdAt": "2026-09-21T10:33:19.718Z",
       "completed": false,
