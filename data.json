@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1789987721031,
+      "createdAt": "2026-09-21T10:48:41.031Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12346745",
+      "fenKayitNo": "1553",
+      "ilce": "AKDENİZ",
+      "mahalle": "Evci",
+      "ada": "189",
+      "parsel": "61",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-09-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1789987655526,
       "createdAt": "2026-09-21T10:47:35.526Z",
       "completed": false,
