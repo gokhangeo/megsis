@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790077785315,
+      "createdAt": "2026-09-22T11:49:45.315Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12346830",
+      "fenKayitNo": "2301",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "5612",
+      "parsel": "5",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-09-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1790077711797,
       "createdAt": "2026-09-22T11:48:31.797Z",
       "completed": false,
