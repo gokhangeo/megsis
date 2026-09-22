@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790055840228,
+      "createdAt": "2026-09-22T05:44:00.228Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12370121",
+      "fenKayitNo": "2968",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "6796",
+      "parsel": "3",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-09-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1789987721031,
       "createdAt": "2026-09-21T10:48:41.031Z",
       "completed": false,
