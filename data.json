@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790077665409,
+      "createdAt": "2026-09-22T11:47:45.409Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12275584",
+      "fenKayitNo": "2664",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "2855",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "irtifak hakkı"
+    },
+    {
       "id": 1790055840228,
       "createdAt": "2026-09-22T05:44:00.228Z",
       "completed": false,
