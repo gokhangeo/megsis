@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790141798763,
+      "createdAt": "2026-09-23T05:36:38.763Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12387035",
+      "fenKayitNo": "2387",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "3170",
+      "parsel": "8",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1790141627172,
       "createdAt": "2026-09-23T05:33:47.172Z",
       "completed": false,
