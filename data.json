@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790171490968,
+      "createdAt": "2026-09-23T13:51:30.968Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12342719",
+      "fenKayitNo": "2284",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çukurkeşlik",
+      "ada": "117",
+      "parsel": "18",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-09-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-09-23",
+      "tapuIadeNedeni": "31/b şerhi",
+      "iadeTarihi": "",
+      "notlar": "irtifak hakkı"
+    },
+    {
       "id": 1790142024412,
       "createdAt": "2026-09-23T05:40:24.412Z",
       "completed": false,
