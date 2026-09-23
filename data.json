@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790142024412,
+      "createdAt": "2026-09-23T05:40:24.412Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12352164",
+      "fenKayitNo": "1557",
+      "ilce": "AKDENİZ",
+      "mahalle": "Bekirde",
+      "ada": "122",
+      "parsel": "4",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-09-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1790141869852,
       "createdAt": "2026-09-23T05:37:49.852Z",
       "completed": false,
