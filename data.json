@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790141627172,
+      "createdAt": "2026-09-23T05:33:47.172Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12379019",
+      "fenKayitNo": "2990",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "10705",
+      "parsel": "7",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "2026-09-22",
+      "notlar": "vazgeçildi"
+    },
+    {
       "id": 1790077785315,
       "createdAt": "2026-09-22T11:49:45.315Z",
       "completed": false,
