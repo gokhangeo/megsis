@@ -2804,7 +2804,7 @@
       "id": 1788242340080,
       "createdAt": "2026-09-01T05:59:00.080Z",
       "completed": false,
-      "isArchived": false,
+      "isArchived": true,
       "basvuruNo": "12171487",
       "fenKayitNo": "1965",
       "ilce": "YENİŞEHİR",
