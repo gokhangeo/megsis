@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790343556738,
+      "createdAt": "2026-09-25T13:39:16.738Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12195606",
+      "fenKayitNo": "1227",
+      "ilce": "AKDENİZ",
+      "mahalle": "Tekke",
+      "ada": "215",
+      "parsel": "27",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-09-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1790331080264,
       "createdAt": "2026-09-25T10:11:20.264Z",
       "completed": false,
