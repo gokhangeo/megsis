@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790331080264,
+      "createdAt": "2026-09-25T10:11:20.264Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12403316",
+      "fenKayitNo": "2132",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "505",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-09-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1790330771242,
       "createdAt": "2026-09-25T10:06:11.242Z",
       "completed": false,
