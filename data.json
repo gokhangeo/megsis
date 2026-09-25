@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790330771242,
+      "createdAt": "2026-09-25T10:06:11.242Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12396540",
+      "fenKayitNo": "2405",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "180",
+      "parsel": "68",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-09-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1790330690901,
       "createdAt": "2026-09-25T10:04:50.901Z",
       "completed": false,
