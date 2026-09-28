@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790591029918,
+      "createdAt": "2026-09-28T10:23:49.918Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12354309",
+      "fenKayitNo": "2324",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "5603",
+      "parsel": "14",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-09-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1790590960048,
       "createdAt": "2026-09-28T10:22:40.048Z",
       "completed": false,
