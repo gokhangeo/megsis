@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790590841627,
+      "createdAt": "2026-09-28T10:20:41.627Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12270924",
+      "fenKayitNo": "2144",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çavak",
+      "ada": "178",
+      "parsel": "10",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-09-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1790343556738,
       "createdAt": "2026-09-25T13:39:16.738Z",
       "completed": false,
