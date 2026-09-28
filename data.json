@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790592198319,
+      "createdAt": "2026-09-28T10:43:18.319Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12341050",
+      "fenKayitNo": "2863",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "9350",
+      "parsel": "9",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-09-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1790592144838,
       "createdAt": "2026-09-28T10:42:24.838Z",
       "completed": false,
