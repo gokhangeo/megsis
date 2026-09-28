@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790591795531,
+      "createdAt": "2026-09-28T10:36:35.531Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12808675",
+      "fenKayitNo": "2431",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1498",
+      "parsel": "1",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1790591671764,
       "createdAt": "2026-09-28T10:34:31.764Z",
       "completed": false,
