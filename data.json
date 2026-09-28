@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790594405251,
+      "createdAt": "2026-09-28T11:20:05.251Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12381976",
+      "fenKayitNo": "2105",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "0",
+      "parsel": "3642",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-09-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1790594341872,
       "createdAt": "2026-09-28T11:19:01.872Z",
       "completed": false,
