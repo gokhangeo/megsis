@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790594341872,
+      "createdAt": "2026-09-28T11:19:01.872Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12345355",
+      "fenKayitNo": "2037",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Bozön",
+      "ada": "13793",
+      "parsel": "34",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-09-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "irtifak hakkı"
+    },
+    {
       "id": 1790592273521,
       "createdAt": "2026-09-28T10:44:33.521Z",
       "completed": false,
