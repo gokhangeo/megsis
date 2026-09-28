@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790591671764,
+      "createdAt": "2026-09-28T10:34:31.764Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12396608",
+      "fenKayitNo": "2406",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "8432",
+      "parsel": "6",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-09-25",
+      "tescilGelisTarihi": "2026-09-25",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1790591029918,
       "createdAt": "2026-09-28T10:23:49.918Z",
       "completed": false,
