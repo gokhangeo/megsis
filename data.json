@@ -1844,7 +1844,7 @@
       "id": 1789044691970,
       "createdAt": "2026-09-10T12:51:31.970Z",
       "completed": false,
-      "isArchived": false,
+      "isArchived": true,
       "basvuruNo": "12195735",
       "fenKayitNo": "1228",
       "ilce": "AKDENİZ",
