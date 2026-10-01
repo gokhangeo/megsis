@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790835418175,
+      "createdAt": "2026-10-01T06:16:58.175Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12416612",
+      "fenKayitNo": "3079",
+      "ilce": "TOROSLAR",
+      "mahalle": "Tırtar",
+      "ada": "120",
+      "parsel": "296",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-09-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1790594405251,
       "createdAt": "2026-09-28T11:20:05.251Z",
       "completed": false,
