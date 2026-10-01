@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790836775464,
+      "createdAt": "2026-10-01T06:39:35.464Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12383245",
+      "fenKayitNo": "2106",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "6892",
+      "parsel": "1",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-28",
+      "tescilGelisTarihi": "2026-09-29",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1790836666610,
       "createdAt": "2026-10-01T06:37:46.610Z",
       "completed": false,
