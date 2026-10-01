@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790836168044,
+      "createdAt": "2026-10-01T06:29:28.044Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12394687",
+      "fenKayitNo": "3020",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "6122",
+      "parsel": "8",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-09-29",
+      "tescilGelisTarihi": "2026-09-30",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1790836048660,
       "createdAt": "2026-10-01T06:27:28.660Z",
       "completed": false,
