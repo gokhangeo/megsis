@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790835509576,
+      "createdAt": "2026-10-01T06:18:29.576Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12424194",
+      "fenKayitNo": "3110",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "1121",
+      "parsel": "17",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-09-30",
+      "tescilGelisTarihi": "2026-09-30",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1790835418175,
       "createdAt": "2026-10-01T06:16:58.175Z",
       "completed": false,
