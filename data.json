@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790835846304,
+      "createdAt": "2026-10-01T06:24:06.305Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12402352",
+      "fenKayitNo": "1599",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karacailyas",
+      "ada": "4511",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-09-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1790835702718,
       "createdAt": "2026-10-01T06:21:42.718Z",
       "completed": false,
