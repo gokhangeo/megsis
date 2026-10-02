@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790943964307,
+      "createdAt": "2026-10-02T12:26:04.307Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12339578",
+      "fenKayitNo": "2856",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kayrakkeşlik",
+      "ada": "125",
+      "parsel": "2",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-orman"
+    },
+    {
       "id": 1790943882446,
       "createdAt": "2026-10-02T12:24:42.446Z",
       "completed": false,
