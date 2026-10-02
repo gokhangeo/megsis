@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790943720332,
+      "createdAt": "2026-10-02T12:22:00.332Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12308484",
+      "fenKayitNo": "2767",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "418",
+      "parsel": "173",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme -ihdas"
+    },
+    {
       "id": 1790836775464,
       "createdAt": "2026-10-01T06:39:35.464Z",
       "completed": false,
