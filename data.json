@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1790943882446,
+      "createdAt": "2026-10-02T12:24:42.446Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12403368",
+      "fenKayitNo": "3071",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "1558",
+      "parsel": "32",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1790943766874,
       "createdAt": "2026-10-02T12:22:46.874Z",
       "completed": false,
