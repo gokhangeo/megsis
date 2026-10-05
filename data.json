@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791203389346,
+      "createdAt": "2026-10-05T12:29:49.346Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12351159",
+      "fenKayitNo": "2051",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "0",
+      "parsel": "4442",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "irtifak hakkı"
+    },
+    {
       "id": 1791203212707,
       "createdAt": "2026-10-05T12:26:52.707Z",
       "completed": false,
