@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791205627644,
+      "createdAt": "2026-10-05T13:07:07.644Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12458814",
+      "fenKayitNo": "2514",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "4639",
+      "parsel": "9",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1791205551167,
       "createdAt": "2026-10-05T13:05:51.167Z",
       "completed": false,
