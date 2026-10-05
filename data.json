@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791204627967,
+      "createdAt": "2026-10-05T12:50:27.967Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12366852",
+      "fenKayitNo": "2949",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kepirli",
+      "ada": "110",
+      "parsel": "26",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791204554727,
       "createdAt": "2026-10-05T12:49:14.727Z",
       "completed": false,
