@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791205502767,
+      "createdAt": "2026-10-05T13:05:02.767Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12434330",
+      "fenKayitNo": "2487",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "357",
+      "parsel": "4",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791205433890,
       "createdAt": "2026-10-05T13:03:53.890Z",
       "completed": false,
