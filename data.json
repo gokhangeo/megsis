@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791205317077,
+      "createdAt": "2026-10-05T13:01:57.077Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12457452",
+      "fenKayitNo": "2510",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çavak",
+      "ada": "177",
+      "parsel": "48",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1791205222343,
       "createdAt": "2026-10-05T13:00:22.343Z",
       "completed": false,
