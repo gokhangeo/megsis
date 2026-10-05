@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791205551167,
+      "createdAt": "2026-10-05T13:05:51.167Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12438518",
+      "fenKayitNo": "2503",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocahamzalı",
+      "ada": "116",
+      "parsel": "14",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791205502767,
       "createdAt": "2026-10-05T13:05:02.767Z",
       "completed": false,
