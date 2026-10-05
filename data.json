@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791203834758,
+      "createdAt": "2026-10-05T12:37:14.758Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12338650",
+      "fenKayitNo": "2866",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "13897",
+      "parsel": "7",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791203744520,
       "createdAt": "2026-10-05T12:35:44.520Z",
       "completed": false,
