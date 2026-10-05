@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791204333153,
+      "createdAt": "2026-10-05T12:45:33.153Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12378870",
+      "fenKayitNo": "2989",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yavca",
+      "ada": "108",
+      "parsel": "196",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791204232948,
       "createdAt": "2026-10-05T12:43:52.948Z",
       "completed": false,
