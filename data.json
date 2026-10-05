@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791203744520,
+      "createdAt": "2026-10-05T12:35:44.520Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12390816",
+      "fenKayitNo": "3029",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çandır",
+      "ada": "251",
+      "parsel": "5",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791203389346,
       "createdAt": "2026-10-05T12:29:49.346Z",
       "completed": false,
