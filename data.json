@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791204554727,
+      "createdAt": "2026-10-05T12:49:14.727Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12409444",
+      "fenKayitNo": "3063",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kayrakkeşlik",
+      "ada": "13625",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791204333153,
       "createdAt": "2026-10-05T12:45:33.153Z",
       "completed": false,
