@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791357723326,
+      "createdAt": "2026-10-07T07:22:03.326Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12416428",
+      "fenKayitNo": "2146",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Mezitli",
+      "ada": "135",
+      "parsel": "2",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-25",
+      "tescilGelisTarihi": "2026-09-25",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1791357464947,
       "createdAt": "2026-10-07T07:17:44.947Z",
       "completed": false,
