@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791357464947,
+      "createdAt": "2026-10-07T07:17:44.947Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12088972",
+      "fenKayitNo": "1098",
+      "ilce": "AKDENİZ",
+      "mahalle": "Yanpar",
+      "ada": "104",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-08-31",
+      "tescilGelisTarihi": "2026-10-01",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1791271827311,
       "createdAt": "2026-10-06T07:30:27.311Z",
       "completed": false,
