@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791372837503,
+      "createdAt": "2026-10-07T11:33:57.503Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12390851",
+      "fenKayitNo": "3028",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çandır",
+      "ada": "249",
+      "parsel": "3",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791372757983,
       "createdAt": "2026-10-07T11:32:37.984Z",
       "completed": false,
