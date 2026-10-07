@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791373229650,
+      "createdAt": "2026-10-07T11:40:29.650Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12306337",
+      "fenKayitNo": "2760",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "3690",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-09-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791373148375,
       "createdAt": "2026-10-07T11:39:08.375Z",
       "completed": false,
