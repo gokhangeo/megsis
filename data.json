@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791370782416,
+      "createdAt": "2026-10-07T10:59:42.416Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12438667",
+      "fenKayitNo": "2502",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocahamzalı",
+      "ada": "116",
+      "parsel": "21",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791370730887,
       "createdAt": "2026-10-07T10:58:50.887Z",
       "completed": false,
