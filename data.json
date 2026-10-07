@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791372158473,
+      "createdAt": "2026-10-07T11:22:38.473Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12435949",
+      "fenKayitNo": "3181",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "2002",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791372008756,
       "createdAt": "2026-10-07T11:20:08.756Z",
       "completed": false,
