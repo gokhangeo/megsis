@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791371354382,
+      "createdAt": "2026-10-07T11:09:14.382Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12436465",
+      "fenKayitNo": "1640",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nacarlı",
+      "ada": "609",
+      "parsel": "3",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-09-29",
+      "tescilGelisTarihi": "2026-10-06",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "dilekçe ilgilisine verildi"
+    },
+    {
       "id": 1791370868857,
       "createdAt": "2026-10-07T11:01:08.857Z",
       "completed": false,
