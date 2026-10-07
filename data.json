@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791373095876,
+      "createdAt": "2026-10-07T11:38:15.876Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12450012",
+      "fenKayitNo": "3174",
+      "ilce": "TOROSLAR",
+      "mahalle": "Musalı",
+      "ada": "153",
+      "parsel": "204",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1791373018473,
       "createdAt": "2026-10-07T11:36:58.473Z",
       "completed": false,
