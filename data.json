@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791371919498,
+      "createdAt": "2026-10-07T11:18:39.498Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12425166",
+      "fenKayitNo": "2153",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "12614",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-10-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1791371455417,
       "createdAt": "2026-10-07T11:10:55.417Z",
       "completed": false,
