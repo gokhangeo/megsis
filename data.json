@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791372008756,
+      "createdAt": "2026-10-07T11:20:08.756Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12438063",
+      "fenKayitNo": "2489",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "3192",
+      "parsel": "2",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1791371919498,
       "createdAt": "2026-10-07T11:18:39.498Z",
       "completed": false,
