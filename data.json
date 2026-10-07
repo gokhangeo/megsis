@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791370730887,
+      "createdAt": "2026-10-07T10:58:50.887Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12400815",
+      "fenKayitNo": "2419",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "5486",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-07",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791357723326,
       "createdAt": "2026-10-07T07:22:03.326Z",
       "completed": false,
