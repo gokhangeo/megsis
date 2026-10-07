@@ -24056,6 +24056,23 @@
   ],
   "ebys": [
     {
+      "id": 1791371842207,
+      "createdAt": "2026-10-07T11:17:22.207Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-08-31",
+      "evrakSayisi": "154974",
+      "konu": "mülkiyet raporu",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "304",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "cevapTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1785753399569,
       "createdAt": "2026-08-03T10:36:39.569Z",
       "completed": false,
