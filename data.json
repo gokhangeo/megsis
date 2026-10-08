@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791465862948,
+      "createdAt": "2026-10-08T13:24:22.948Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12361885",
+      "fenKayitNo": "2931",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yeniköy",
+      "ada": "281",
+      "parsel": "5",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-09-29",
+      "tescilGelisTarihi": "2026-10-08",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791465317208,
       "createdAt": "2026-10-08T13:15:17.208Z",
       "completed": false,
