@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791455331135,
+      "createdAt": "2026-10-08T10:28:51.135Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12470523",
+      "fenKayitNo": "3241",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "2436",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791455117274,
       "createdAt": "2026-10-08T10:25:17.274Z",
       "completed": false,
