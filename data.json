@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791454915241,
+      "createdAt": "2026-10-08T10:21:55.241Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12420648",
+      "fenKayitNo": "1617",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "948",
+      "parsel": "3",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791373229650,
       "createdAt": "2026-10-07T11:40:29.650Z",
       "completed": false,
