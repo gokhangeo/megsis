@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791454982340,
+      "createdAt": "2026-10-08T10:23:02.340Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12360916",
+      "fenKayitNo": "2073",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "446",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1791454915241,
       "createdAt": "2026-10-08T10:21:55.241Z",
       "completed": false,
