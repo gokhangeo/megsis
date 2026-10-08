@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791457661484,
+      "createdAt": "2026-10-08T11:07:41.484Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12386558",
+      "fenKayitNo": "1593",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "8227",
+      "parsel": "55",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-10-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791455521254,
       "createdAt": "2026-10-08T10:32:01.254Z",
       "completed": false,
