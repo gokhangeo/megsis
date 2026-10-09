@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791527725955,
+      "createdAt": "2026-10-09T06:35:25.955Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12376081",
+      "fenKayitNo": "2402",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "11011",
+      "parsel": "5",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791527497596,
       "createdAt": "2026-10-09T06:31:37.596Z",
       "completed": false,
