@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791529425227,
+      "createdAt": "2026-10-09T07:03:45.227Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12457686",
+      "fenKayitNo": "1665",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karacailyas",
+      "ada": "4511",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-08",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1791529276874,
       "createdAt": "2026-10-09T07:01:16.874Z",
       "completed": false,
