@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791529276874,
+      "createdAt": "2026-10-09T07:01:16.874Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12175014",
+      "fenKayitNo": "2370",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "8111",
+      "parsel": "2",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-09-24",
+      "tescilGelisTarihi": "2026-10-07",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1791528719893,
       "createdAt": "2026-10-09T06:51:59.893Z",
       "completed": false,
