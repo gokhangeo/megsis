@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791873487292,
+      "createdAt": "2026-10-13T06:38:07.292Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12130134",
+      "fenKayitNo": "1185",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nacarlı",
+      "ada": "322",
+      "parsel": "2",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791873426908,
       "createdAt": "2026-10-13T06:37:06.908Z",
       "completed": false,
