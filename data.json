@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791890504036,
+      "createdAt": "2026-10-13T11:21:44.036Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12470794",
+      "fenKayitNo": "3227",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "3858",
+      "parsel": "6",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791890408338,
       "createdAt": "2026-10-13T11:20:08.338Z",
       "completed": false,
