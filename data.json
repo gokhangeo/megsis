@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791872724039,
+      "createdAt": "2026-10-13T06:25:24.039Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12390531",
+      "fenKayitNo": "2396",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2390",
+      "parsel": "17",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1791872665430,
       "createdAt": "2026-10-13T06:24:25.430Z",
       "completed": false,
