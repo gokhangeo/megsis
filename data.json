@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791889251562,
+      "createdAt": "2026-10-13T11:00:51.562Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12349276",
+      "fenKayitNo": "2317",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "285",
+      "parsel": "16",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-09-29",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme+ihdas"
+    },
+    {
       "id": 1791879016294,
       "createdAt": "2026-10-13T08:10:16.294Z",
       "completed": false,
