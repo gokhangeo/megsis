@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791873426908,
+      "createdAt": "2026-10-13T06:37:06.908Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12419647",
+      "fenKayitNo": "1618",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "770",
+      "parsel": "204",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-10-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791873370249,
       "createdAt": "2026-10-13T06:36:10.249Z",
       "completed": false,
