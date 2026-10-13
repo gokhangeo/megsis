@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791891244205,
+      "createdAt": "2026-10-13T11:34:04.205Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12415346",
+      "fenKayitNo": "2476",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "7252",
+      "parsel": "20",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791891202197,
       "createdAt": "2026-10-13T11:33:22.197Z",
       "completed": false,
