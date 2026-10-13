@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791891485408,
+      "createdAt": "2026-10-13T11:38:05.408Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12439571",
+      "fenKayitNo": "3155",
+      "ilce": "TOROSLAR",
+      "mahalle": "Alanyalı",
+      "ada": "108",
+      "parsel": "98",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791891244205,
       "createdAt": "2026-10-13T11:34:04.205Z",
       "completed": false,
