@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791893613758,
+      "createdAt": "2026-10-13T12:13:33.758Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12460831",
+      "fenKayitNo": "2522",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1503",
+      "parsel": "13",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1791891485408,
       "createdAt": "2026-10-13T11:38:05.408Z",
       "completed": false,
