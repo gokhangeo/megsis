@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791874434508,
+      "createdAt": "2026-10-13T06:53:54.508Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12413757",
+      "fenKayitNo": "3203",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "0",
+      "parsel": "1040",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791873561373,
       "createdAt": "2026-10-13T06:39:21.373Z",
       "completed": false,
