@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791879016294,
+      "createdAt": "2026-10-13T08:10:16.294Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12477158",
+      "fenKayitNo": "2549",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "2812",
+      "parsel": "3",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1791877573664,
       "createdAt": "2026-10-13T07:46:13.664Z",
       "completed": false,
