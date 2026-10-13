@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791873561373,
+      "createdAt": "2026-10-13T06:39:21.373Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12484422",
+      "fenKayitNo": "1694",
+      "ilce": "AKDENİZ",
+      "mahalle": "Bağcılar/ihsaniye",
+      "ada": "109",
+      "parsel": "111",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1791873487292,
       "createdAt": "2026-10-13T06:38:07.292Z",
       "completed": false,
