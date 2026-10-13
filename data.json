@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791872408029,
+      "createdAt": "2026-10-13T06:20:08.029Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12470889",
+      "fenKayitNo": "2200",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "12981",
+      "parsel": "5",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1791529425227,
       "createdAt": "2026-10-09T07:03:45.227Z",
       "completed": false,
