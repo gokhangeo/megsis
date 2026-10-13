@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791873319729,
+      "createdAt": "2026-10-13T06:35:19.729Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12444386",
+      "fenKayitNo": "1651",
+      "ilce": "AKDENİZ",
+      "mahalle": "Kiremithane",
+      "ada": "116",
+      "parsel": "129",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Özlem AYDINLI",
+      "tescilGonderimTarihi": "2026-10-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1791872805359,
       "createdAt": "2026-10-13T06:26:45.359Z",
       "completed": false,
