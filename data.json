@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791890027051,
+      "createdAt": "2026-10-13T11:13:47.051Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12177023",
+      "fenKayitNo": "1210",
+      "ilce": "AKDENİZ",
+      "mahalle": "Kazanlı",
+      "ada": "301",
+      "parsel": "182",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1791889251562,
       "createdAt": "2026-10-13T11:00:51.562Z",
       "completed": false,
