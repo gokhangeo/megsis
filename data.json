@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791872805359,
+      "createdAt": "2026-10-13T06:26:45.359Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12486425",
+      "fenKayitNo": "2563",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "1823",
+      "parsel": "9",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791872724039,
       "createdAt": "2026-10-13T06:25:24.039Z",
       "completed": false,
