@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791874999144,
+      "createdAt": "2026-10-13T07:03:19.144Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12422286",
+      "fenKayitNo": "3104",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "64",
+      "parsel": "9",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791874919290,
       "createdAt": "2026-10-13T07:01:59.290Z",
       "completed": false,
