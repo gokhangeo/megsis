@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791975522280,
+      "createdAt": "2026-10-14T10:58:42.280Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12483844",
+      "fenKayitNo": "1692",
+      "ilce": "AKDENİZ",
+      "mahalle": "Parmakkurdu",
+      "ada": "109",
+      "parsel": "150",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-14",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1791975473735,
       "createdAt": "2026-10-14T10:57:53.735Z",
       "completed": false,
