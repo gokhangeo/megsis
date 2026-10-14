@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1791975618243,
+      "createdAt": "2026-10-14T11:00:18.243Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12443035",
+      "fenKayitNo": "3156",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "2525",
+      "parsel": "9",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-14",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1791975522280,
       "createdAt": "2026-10-14T10:58:42.280Z",
       "completed": false,
