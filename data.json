@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792132189551,
+      "createdAt": "2026-10-16T06:29:49.551Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12509371",
+      "fenKayitNo": "2247",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Bozön",
+      "ada": "13337",
+      "parsel": "1",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1792132129927,
       "createdAt": "2026-10-16T06:28:49.927Z",
       "completed": false,
