@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792131769717,
+      "createdAt": "2026-10-16T06:22:49.717Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12378617",
+      "fenKayitNo": "1577",
+      "ilce": "AKDENİZ",
+      "mahalle": "Burhan",
+      "ada": "122",
+      "parsel": "19",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1792131319211,
       "createdAt": "2026-10-16T06:15:19.211Z",
       "completed": false,
