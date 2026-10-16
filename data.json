@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792132493643,
+      "createdAt": "2026-10-16T06:34:53.643Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12484084",
+      "fenKayitNo": "2562",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocahamzalı",
+      "ada": "114",
+      "parsel": "17",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792132407600,
       "createdAt": "2026-10-16T06:33:27.600Z",
       "completed": false,
