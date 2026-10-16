@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792131147938,
+      "createdAt": "2026-10-16T06:12:27.938Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12489208",
+      "fenKayitNo": "3261",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "8500",
+      "parsel": "2",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1791975618243,
       "createdAt": "2026-10-14T11:00:18.243Z",
       "completed": false,
