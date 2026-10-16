@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792131222898,
+      "createdAt": "2026-10-16T06:13:42.898Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12419798",
+      "fenKayitNo": "3098",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "10755",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-10-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1792131147938,
       "createdAt": "2026-10-16T06:12:27.938Z",
       "completed": false,
