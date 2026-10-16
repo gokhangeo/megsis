@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792132040214,
+      "createdAt": "2026-10-16T06:27:20.214Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12454851",
+      "fenKayitNo": "2228",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "203",
+      "parsel": "2",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-15",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1792131769717,
       "createdAt": "2026-10-16T06:22:49.717Z",
       "completed": false,
