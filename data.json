@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792132672565,
+      "createdAt": "2026-10-16T06:37:52.565Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12264125",
+      "fenKayitNo": "1344",
+      "ilce": "AKDENİZ",
+      "mahalle": "Yaka",
+      "ada": "162",
+      "parsel": "39",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-14",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "şeritvari kamulaştırma"
+    },
+    {
       "id": 1792132493643,
       "createdAt": "2026-10-16T06:34:53.643Z",
       "completed": false,
