@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792475561393,
+      "createdAt": "2026-10-20T05:52:41.393Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12453149",
+      "fenKayitNo": "2505",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "857",
+      "parsel": "156",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1792475414985,
       "createdAt": "2026-10-20T05:50:14.985Z",
       "completed": false,
