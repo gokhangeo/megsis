@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792477169403,
+      "createdAt": "2026-10-20T06:19:29.403Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12451309",
+      "fenKayitNo": "2539",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1098",
+      "parsel": "10",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792477094235,
       "createdAt": "2026-10-20T06:18:14.235Z",
       "completed": false,
