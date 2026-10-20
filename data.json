@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792475685313,
+      "createdAt": "2026-10-20T05:54:45.313Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12148587",
+      "fenKayitNo": "2292",
+      "ilce": "TOROSLAR",
+      "mahalle": "Düğdüören",
+      "ada": "9717",
+      "parsel": "1",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792475561393,
       "createdAt": "2026-10-20T05:52:41.393Z",
       "completed": false,
