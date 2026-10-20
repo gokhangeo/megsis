@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792477261563,
+      "createdAt": "2026-10-20T06:21:01.563Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12466466",
+      "fenKayitNo": "1689",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "771",
+      "parsel": "6",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792477169403,
       "createdAt": "2026-10-20T06:19:29.403Z",
       "completed": false,
