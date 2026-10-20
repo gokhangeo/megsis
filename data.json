@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792484399575,
+      "createdAt": "2026-10-20T08:19:59.575Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12378678",
+      "fenKayitNo": "1576",
+      "ilce": "AKDENİZ",
+      "mahalle": "Kürkçü",
+      "ada": "143",
+      "parsel": "90",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1792478330483,
       "createdAt": "2026-10-20T06:38:50.483Z",
       "completed": false,
