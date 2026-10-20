@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792475352333,
+      "createdAt": "2026-10-20T05:49:12.333Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12535528",
+      "fenKayitNo": "3347",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "18",
+      "parsel": "6",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1792475303694,
       "createdAt": "2026-10-20T05:48:23.694Z",
       "completed": false,
