@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792499383053,
+      "createdAt": "2026-10-20T12:29:43.053Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12562474",
+      "fenKayitNo": "2278",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kale",
+      "ada": "148",
+      "parsel": "66",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "2026-10-19",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1792498544022,
       "createdAt": "2026-10-20T12:15:44.022Z",
       "completed": false,
