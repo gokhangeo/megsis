@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792477425311,
+      "createdAt": "2026-10-20T06:23:45.311Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12381919",
+      "fenKayitNo": "2384",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "857",
+      "parsel": "72",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-10-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-ihdas"
+    },
+    {
       "id": 1792477363142,
       "createdAt": "2026-10-20T06:22:43.142Z",
       "completed": false,
