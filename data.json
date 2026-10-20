@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792475303694,
+      "createdAt": "2026-10-20T05:48:23.694Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12451291",
+      "fenKayitNo": "3178",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "155",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792475250240,
       "createdAt": "2026-10-20T05:47:30.240Z",
       "completed": false,
