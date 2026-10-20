@@ -26017,6 +26017,23 @@
   ],
   "ebys": [
     {
+      "id": 1792499926452,
+      "createdAt": "2026-10-20T12:38:46.452Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-07-20",
+      "evrakSayisi": "302885",
+      "konu": "mülkiyet raporu",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "129",
+      "parsel": "7",
+      "muhendis": "Mustafa DIKI",
+      "tekniker": "Ahmet ÇELİK",
+      "cevapTarihi": "2026-09-28",
+      "notlar": ""
+    },
+    {
       "id": 1791371842207,
       "createdAt": "2026-10-07T11:17:22.207Z",
       "completed": false,
