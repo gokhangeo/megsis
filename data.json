@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792475867306,
+      "createdAt": "2026-10-20T05:57:47.306Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12387027",
+      "fenKayitNo": "3003",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "4878",
+      "parsel": "8",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792475793258,
       "createdAt": "2026-10-20T05:56:33.258Z",
       "completed": false,
