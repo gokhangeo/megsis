@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792478186373,
+      "createdAt": "2026-10-20T06:36:26.373Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12534863",
+      "fenKayitNo": "3348",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "0",
+      "parsel": "799",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1792477522332,
       "createdAt": "2026-10-20T06:25:22.332Z",
       "completed": false,
