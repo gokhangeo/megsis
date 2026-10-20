@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792498544022,
+      "createdAt": "2026-10-20T12:15:44.022Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12533611",
+      "fenKayitNo": "2258",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "155",
+      "parsel": "3",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-10-16",
+      "tescilGelisTarihi": "2026-10-16",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1792485591268,
       "createdAt": "2026-10-20T08:39:51.268Z",
       "completed": false,
