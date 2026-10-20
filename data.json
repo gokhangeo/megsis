@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792476920609,
+      "createdAt": "2026-10-20T06:15:20.609Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12431642",
+      "fenKayitNo": "2478",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "5612",
+      "parsel": "5",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792476706441,
       "createdAt": "2026-10-20T06:11:46.441Z",
       "completed": false,
