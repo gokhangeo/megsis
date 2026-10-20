@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792475793258,
+      "createdAt": "2026-10-20T05:56:33.258Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12533441",
+      "fenKayitNo": "3344",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yeniköy",
+      "ada": "174",
+      "parsel": "12",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı-volkan izci"
+    },
+    {
       "id": 1792475685313,
       "createdAt": "2026-10-20T05:54:45.313Z",
       "completed": false,
