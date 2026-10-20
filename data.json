@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792475250240,
+      "createdAt": "2026-10-20T05:47:30.240Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12476578",
+      "fenKayitNo": "3237",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "4628",
+      "parsel": "1",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792475195753,
       "createdAt": "2026-10-20T05:46:35.753Z",
       "completed": false,
