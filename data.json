@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792476706441,
+      "createdAt": "2026-10-20T06:11:46.441Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12538317",
+      "fenKayitNo": "1722",
+      "ilce": "AKDENİZ",
+      "mahalle": "Hamidiye",
+      "ada": "3842",
+      "parsel": "9",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1792475867306,
       "createdAt": "2026-10-20T05:57:47.306Z",
       "completed": false,
