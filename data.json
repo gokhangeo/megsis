@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792477522332,
+      "createdAt": "2026-10-20T06:25:22.332Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12337346",
+      "fenKayitNo": "2024",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kale",
+      "ada": "135",
+      "parsel": "113",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1792477425311,
       "createdAt": "2026-10-20T06:23:45.311Z",
       "completed": false,
