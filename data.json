@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792485591268,
+      "createdAt": "2026-10-20T08:39:51.268Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11844105",
+      "fenKayitNo": "717",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "6876",
+      "parsel": "13",
+      "muhendis": "Mustafa DIKI",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1792484399575,
       "createdAt": "2026-10-20T08:19:59.575Z",
       "completed": false,
