@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792579020339,
+      "createdAt": "2026-10-21T10:37:00.339Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12416766",
+      "fenKayitNo": "1609",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "131",
+      "parsel": "125",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Hasan İN",
+      "tescilGonderimTarihi": "2026-10-05",
+      "tescilGelisTarihi": "2026-10-20",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1792578857617,
       "createdAt": "2026-10-21T10:34:17.617Z",
       "completed": false,
