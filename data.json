@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792578211347,
+      "createdAt": "2026-10-21T10:23:31.347Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12523146",
+      "fenKayitNo": "3324",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "1135",
+      "parsel": "8",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792578164090,
       "createdAt": "2026-10-21T10:22:44.090Z",
       "completed": false,
