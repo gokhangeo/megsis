@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792578410670,
+      "createdAt": "2026-10-21T10:26:50.670Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12274617",
+      "fenKayitNo": "2703",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çapar",
+      "ada": "183",
+      "parsel": "16",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-10-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme -ihdas"
+    },
+    {
       "id": 1792578273763,
       "createdAt": "2026-10-21T10:24:33.763Z",
       "completed": false,
