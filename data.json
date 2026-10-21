@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792578273763,
+      "createdAt": "2026-10-21T10:24:33.763Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "11993869",
+      "fenKayitNo": "1899",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çandır",
+      "ada": "271",
+      "parsel": "4",
+      "muhendis": "Mustafa DIKI",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1792578211347,
       "createdAt": "2026-10-21T10:23:31.347Z",
       "completed": false,
