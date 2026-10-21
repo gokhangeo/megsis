@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792578046230,
+      "createdAt": "2026-10-21T10:20:46.230Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12472707",
+      "fenKayitNo": "2257",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Demirışık",
+      "ada": "183",
+      "parsel": "8",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1792578000466,
       "createdAt": "2026-10-21T10:20:00.466Z",
       "completed": false,
