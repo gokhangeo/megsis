@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792578857617,
+      "createdAt": "2026-10-21T10:34:17.617Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12463640",
+      "fenKayitNo": "1669",
+      "ilce": "AKDENİZ",
+      "mahalle": "Puğkaracadağ",
+      "ada": "159",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Hasan İN",
+      "tescilGonderimTarihi": "2026-10-12",
+      "tescilGelisTarihi": "2026-10-16",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1792578410670,
       "createdAt": "2026-10-21T10:26:50.670Z",
       "completed": false,
