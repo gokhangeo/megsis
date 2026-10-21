@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792578000466,
+      "createdAt": "2026-10-21T10:20:00.466Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12449500",
+      "fenKayitNo": "3177",
+      "ilce": "TOROSLAR",
+      "mahalle": "Alanyalı",
+      "ada": "103",
+      "parsel": "157",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1792577952133,
       "createdAt": "2026-10-21T10:19:12.133Z",
       "completed": false,
