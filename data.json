@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792578114473,
+      "createdAt": "2026-10-21T10:21:54.473Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12387021",
+      "fenKayitNo": "2389",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "2501",
+      "parsel": "6",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1792578046230,
       "createdAt": "2026-10-21T10:20:46.230Z",
       "completed": false,
