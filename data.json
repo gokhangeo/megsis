@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792666772531,
+      "createdAt": "2026-10-22T10:59:32.531Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12534853",
+      "fenKayitNo": "2606",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "11875",
+      "parsel": "12",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792666710595,
       "createdAt": "2026-10-22T10:58:30.595Z",
       "completed": false,
