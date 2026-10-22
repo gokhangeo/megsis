@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792648778155,
+      "createdAt": "2026-10-22T05:59:38.155Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12463529",
+      "fenKayitNo": "3223",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "0",
+      "parsel": "1028",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792648660619,
       "createdAt": "2026-10-22T05:57:40.619Z",
       "completed": false,
