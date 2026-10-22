@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792648074883,
+      "createdAt": "2026-10-22T05:47:54.883Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12526099",
+      "fenKayitNo": "3360",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "11722",
+      "parsel": "13",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı-volkan izci"
+    },
+    {
       "id": 1792579020339,
       "createdAt": "2026-10-21T10:37:00.339Z",
       "completed": false,
@@ -5754,7 +5774,7 @@
       "parsel": "7",
       "muhendis": "Sariye KUŞÇU",
       "tekniker": "Ahmet ÇELİK",
-      "tescilGonderimTarihi": "2026-09-13",
+      "tescilGonderimTarihi": "2026-10-20",
       "tescilGelisTarihi": "",
       "tapuIadeTarihi": "2026-09-16",
       "tapuIadeNedeni": "vekalette yetki yok",
