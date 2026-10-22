@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792666180628,
+      "createdAt": "2026-10-22T10:49:40.628Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12524239",
+      "fenKayitNo": "3345",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "6748",
+      "parsel": "9",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792666105219,
       "createdAt": "2026-10-22T10:48:25.219Z",
       "completed": false,
