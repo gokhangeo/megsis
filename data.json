@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792648418331,
+      "createdAt": "2026-10-22T05:53:38.331Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12378504",
+      "fenKayitNo": "1578",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nacarlı",
+      "ada": "184",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1792648129019,
       "createdAt": "2026-10-22T05:48:49.019Z",
       "completed": false,
