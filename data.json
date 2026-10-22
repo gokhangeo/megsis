@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792666058827,
+      "createdAt": "2026-10-22T10:47:38.827Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12422198",
+      "fenKayitNo": "3105",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yavca",
+      "ada": "133",
+      "parsel": "2",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1792648955251,
       "createdAt": "2026-10-22T06:02:35.251Z",
       "completed": false,
