@@ -2625,7 +2625,7 @@
       "id": 1791205222343,
       "createdAt": "2026-10-05T13:00:22.343Z",
       "completed": false,
-      "isArchived": false,
+      "isArchived": true,
       "basvuruNo": "12410990",
       "fenKayitNo": "2438",
       "ilce": "YENİŞEHİR",
