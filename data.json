@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792648491763,
+      "createdAt": "2026-10-22T05:54:51.763Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12569493",
+      "fenKayitNo": "2650",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "4672",
+      "parsel": "12",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1792648418331,
       "createdAt": "2026-10-22T05:53:38.331Z",
       "completed": false,
