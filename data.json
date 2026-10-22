@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792648660619,
+      "createdAt": "2026-10-22T05:57:40.619Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12474321",
+      "fenKayitNo": "2547",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocahamzalı",
+      "ada": "117",
+      "parsel": "12",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792648601611,
       "createdAt": "2026-10-22T05:56:41.611Z",
       "completed": false,
