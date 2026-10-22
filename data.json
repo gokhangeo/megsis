@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792648601611,
+      "createdAt": "2026-10-22T05:56:41.611Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12565576",
+      "fenKayitNo": "2644",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "3862",
+      "parsel": "6",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1792648491763,
       "createdAt": "2026-10-22T05:54:51.763Z",
       "completed": false,
