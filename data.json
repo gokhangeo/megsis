@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792666105219,
+      "createdAt": "2026-10-22T10:48:25.219Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12421618",
+      "fenKayitNo": "3106",
+      "ilce": "TOROSLAR",
+      "mahalle": "Gözne",
+      "ada": "130",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1792666058827,
       "createdAt": "2026-10-22T10:47:38.827Z",
       "completed": false,
