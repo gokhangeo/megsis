@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792751523072,
+      "createdAt": "2026-10-23T10:32:03.072Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12184341",
+      "fenKayitNo": "1265",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "2045",
+      "parsel": "16",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792751320272,
       "createdAt": "2026-10-23T10:28:40.272Z",
       "completed": false,
