@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792751320272,
+      "createdAt": "2026-10-23T10:28:40.272Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12427591",
+      "fenKayitNo": "1633",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nacarlı",
+      "ada": "564",
+      "parsel": "3",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1792666772531,
       "createdAt": "2026-10-22T10:59:32.531Z",
       "completed": false,
