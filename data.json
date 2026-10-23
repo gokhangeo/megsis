@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792753241391,
+      "createdAt": "2026-10-23T11:00:41.391Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12458132",
+      "fenKayitNo": "2516",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "5284",
+      "parsel": "22",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-10-21",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı-volkan izci"
+    },
+    {
       "id": 1792752234121,
       "createdAt": "2026-10-23T10:43:54.121Z",
       "completed": false,
