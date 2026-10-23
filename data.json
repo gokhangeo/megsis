@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792751692857,
+      "createdAt": "2026-10-23T10:34:52.857Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12470789",
+      "fenKayitNo": "3226",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "10706",
+      "parsel": "3",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1792751523072,
       "createdAt": "2026-10-23T10:32:03.072Z",
       "completed": false,
