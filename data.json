@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792751781560,
+      "createdAt": "2026-10-23T10:36:21.560Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12338701",
+      "fenKayitNo": "2859",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kepirli",
+      "ada": "344",
+      "parsel": "18",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-22",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1792751736681,
       "createdAt": "2026-10-23T10:35:36.681Z",
       "completed": false,
