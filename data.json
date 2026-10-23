@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1792752187009,
+      "createdAt": "2026-10-23T10:43:07.009Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12565582",
+      "fenKayitNo": "2643",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "5612",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1792751850921,
       "createdAt": "2026-10-23T10:37:30.921Z",
       "completed": false,
