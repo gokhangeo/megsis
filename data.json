@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793089542333,
+      "createdAt": "2026-10-27T08:25:42.333Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12572419",
+      "fenKayitNo": "3419",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kerimler",
+      "ada": "157",
+      "parsel": "16",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Hasan İN",
+      "tescilGonderimTarihi": "2026-10-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "41. md"
+    },
+    {
       "id": 1793089358265,
       "createdAt": "2026-10-27T08:22:38.265Z",
       "completed": false,
