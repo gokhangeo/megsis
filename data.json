@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793089314257,
+      "createdAt": "2026-10-27T08:21:54.257Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12541061",
+      "fenKayitNo": "2613",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Emirler",
+      "ada": "114",
+      "parsel": "13",
+      "muhendis": "Mustafa DIKI",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-10-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "hükmen tescil"
+    },
+    {
       "id": 1792999023983,
       "createdAt": "2026-10-26T07:17:03.983Z",
       "completed": false,
