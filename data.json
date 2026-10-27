@@ -26757,6 +26757,23 @@
   ],
   "ebys": [
     {
+      "id": 1793090936701,
+      "createdAt": "2026-10-27T08:48:56.701Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-09-09",
+      "evrakSayisi": "26514913",
+      "konu": "dilekçe",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yuksekoluk",
+      "ada": "146",
+      "parsel": "10",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Mehmet CEYLAN",
+      "cevapTarihi": "2026-10-21",
+      "notlar": "cevap-ebys 22283899 red"
+    },
+    {
       "id": 1792499926452,
       "createdAt": "2026-10-20T12:38:46.452Z",
       "completed": false,
