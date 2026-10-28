@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793169659623,
+      "createdAt": "2026-10-28T06:40:59.623Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12541096",
+      "fenKayitNo": "3358",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "5840",
+      "parsel": "8",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1793169502376,
       "createdAt": "2026-10-28T06:38:22.376Z",
       "completed": false,
