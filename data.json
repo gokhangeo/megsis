@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793169853048,
+      "createdAt": "2026-10-28T06:44:13.048Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12589876",
+      "fenKayitNo": "3462",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "133",
+      "parsel": "21",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme-volkan izci"
+    },
+    {
       "id": 1793169729511,
       "createdAt": "2026-10-28T06:42:09.511Z",
       "completed": false,
