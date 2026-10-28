@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793169729511,
+      "createdAt": "2026-10-28T06:42:09.511Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12491490",
+      "fenKayitNo": "3293",
+      "ilce": "TOROSLAR",
+      "mahalle": "Bekiralanı",
+      "ada": "157",
+      "parsel": "13",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-10-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793169659623,
       "createdAt": "2026-10-28T06:40:59.623Z",
       "completed": false,
