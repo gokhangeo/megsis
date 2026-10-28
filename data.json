@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793172615603,
+      "createdAt": "2026-10-28T07:30:15.603Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12614616",
+      "fenKayitNo": "2318",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuzucubelen",
+      "ada": "147",
+      "parsel": "61",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-27",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1793172568468,
       "createdAt": "2026-10-28T07:29:28.468Z",
       "completed": false,
