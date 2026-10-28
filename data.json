@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793172427467,
+      "createdAt": "2026-10-28T07:27:07.467Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12413006",
+      "fenKayitNo": "3067",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "8549",
+      "parsel": "10",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Mehmet CEYLAN",
+      "tescilGonderimTarihi": "2026-10-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793170150866,
       "createdAt": "2026-10-28T06:49:10.866Z",
       "completed": false,
