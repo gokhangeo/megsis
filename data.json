@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793169997783,
+      "createdAt": "2026-10-28T06:46:37.783Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12607511",
+      "fenKayitNo": "3488",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "134",
+      "parsel": "5",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1793169853048,
       "createdAt": "2026-10-28T06:44:13.048Z",
       "completed": false,
