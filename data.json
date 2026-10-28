@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793172683146,
+      "createdAt": "2026-10-28T07:31:23.146Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12624318",
+      "fenKayitNo": "2715",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "0",
+      "parsel": "961",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-10-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ihdas"
+    },
+    {
       "id": 1793172615603,
       "createdAt": "2026-10-28T07:30:15.603Z",
       "completed": false,
