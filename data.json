@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793622981954,
+      "createdAt": "2026-11-02T12:36:21.954Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12431475",
+      "fenKayitNo": "3128",
+      "ilce": "TOROSLAR",
+      "mahalle": "Gözne",
+      "ada": "542",
+      "parsel": "3",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793622867262,
       "createdAt": "2026-11-02T12:34:27.262Z",
       "completed": false,
