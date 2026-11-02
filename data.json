@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793623193260,
+      "createdAt": "2026-11-02T12:39:53.260Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12651351",
+      "fenKayitNo": "2342",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "132",
+      "parsel": "76",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1793623077915,
       "createdAt": "2026-11-02T12:37:57.915Z",
       "completed": false,
