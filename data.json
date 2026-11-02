@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793623077915,
+      "createdAt": "2026-11-02T12:37:57.915Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12274605",
+      "fenKayitNo": "2704",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çapar",
+      "ada": "154",
+      "parsel": "7",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-10-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme-ihdas"
+    },
+    {
       "id": 1793622981954,
       "createdAt": "2026-11-02T12:36:21.954Z",
       "completed": false,
