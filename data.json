@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793623632262,
+      "createdAt": "2026-11-02T12:47:12.262Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12596631",
+      "fenKayitNo": "2679",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "10936",
+      "parsel": "9",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "muhtesat terkini"
+    },
+    {
       "id": 1793623305757,
       "createdAt": "2026-11-02T12:41:45.757Z",
       "completed": false,
