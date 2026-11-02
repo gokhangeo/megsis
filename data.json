@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793622712649,
+      "createdAt": "2026-11-02T12:31:52.649Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12618802",
+      "fenKayitNo": "3512",
+      "ilce": "TOROSLAR",
+      "mahalle": "Doruklu",
+      "ada": "210",
+      "parsel": "23",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-28",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793622660512,
       "createdAt": "2026-11-02T12:31:00.512Z",
       "completed": false,
