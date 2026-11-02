@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793622789776,
+      "createdAt": "2026-11-02T12:33:09.776Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12599102",
+      "fenKayitNo": "3484",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "9982",
+      "parsel": "4",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793622712649,
       "createdAt": "2026-11-02T12:31:52.649Z",
       "completed": false,
