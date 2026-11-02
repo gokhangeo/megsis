@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793623759812,
+      "createdAt": "2026-11-02T12:49:19.812Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12618977",
+      "fenKayitNo": "2718",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1070",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı-volkan izci"
+    },
+    {
       "id": 1793623677633,
       "createdAt": "2026-11-02T12:47:57.633Z",
       "completed": false,
