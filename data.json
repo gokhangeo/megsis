@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793622660512,
+      "createdAt": "2026-11-02T12:31:00.512Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12627530",
+      "fenKayitNo": "3524",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "4029",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793622571512,
       "createdAt": "2026-11-02T12:29:31.512Z",
       "completed": false,
