@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793624104657,
+      "createdAt": "2026-11-02T12:55:04.657Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12614832",
+      "fenKayitNo": "1767",
+      "ilce": "AKDENİZ",
+      "mahalle": "Parmakkurdu",
+      "ada": "139",
+      "parsel": "21",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-10-30",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1793624061263,
       "createdAt": "2026-11-02T12:54:21.263Z",
       "completed": false,
