@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793622449243,
+      "createdAt": "2026-11-02T12:27:29.243Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12304817",
+      "fenKayitNo": "2763",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arslanköy",
+      "ada": "168",
+      "parsel": "86",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-11-02",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "2026-10-30",
+      "notlar": "22413565 sayılı yaz"
+    },
+    {
       "id": 1793172683146,
       "createdAt": "2026-10-28T07:31:23.146Z",
       "completed": false,
