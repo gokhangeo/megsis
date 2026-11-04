@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793772100312,
+      "createdAt": "2026-11-04T06:01:40.312Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12646464",
+      "fenKayitNo": "2752",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocahamzalı",
+      "ada": "102",
+      "parsel": "74",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-03",
+      "tescilGelisTarihi": "2026-11-03",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1793771124625,
       "createdAt": "2026-11-04T05:45:24.625Z",
       "completed": false,
