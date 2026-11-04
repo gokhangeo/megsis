@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793771124625,
+      "createdAt": "2026-11-04T05:45:24.625Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12651952",
+      "fenKayitNo": "2343",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Demirışık",
+      "ada": "149",
+      "parsel": "10",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-02",
+      "tescilGelisTarihi": "2026-11-03",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1793624750448,
       "createdAt": "2026-11-02T13:05:50.448Z",
       "completed": false,
