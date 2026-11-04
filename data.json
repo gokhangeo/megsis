@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793777391400,
+      "createdAt": "2026-11-04T07:29:51.400Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "1266339",
+      "fenKayitNo": "1786",
+      "ilce": "AKDENİZ",
+      "mahalle": "Parmakkurdu",
+      "ada": "140",
+      "parsel": "41",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-11-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1793777119977,
       "createdAt": "2026-11-04T07:25:19.977Z",
       "completed": false,
