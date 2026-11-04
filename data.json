@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793777119977,
+      "createdAt": "2026-11-04T07:25:19.977Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12606203",
+      "fenKayitNo": "3509",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "4106",
+      "parsel": "8",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793777080672,
       "createdAt": "2026-11-04T07:24:40.672Z",
       "completed": false,
