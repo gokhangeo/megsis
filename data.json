@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793778006102,
+      "createdAt": "2026-11-04T07:40:06.102Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12519835",
+      "fenKayitNo": "2591",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "3187",
+      "parsel": "15",
+      "muhendis": "Volkan İZCİ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1793777955883,
       "createdAt": "2026-11-04T07:39:15.883Z",
       "completed": false,
