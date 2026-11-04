@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793772313248,
+      "createdAt": "2026-11-04T06:05:13.248Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12633945",
+      "fenKayitNo": "2737",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "69",
+      "parsel": "16",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-02",
+      "tescilGelisTarihi": "2026-11-03",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1793772100312,
       "createdAt": "2026-11-04T06:01:40.312Z",
       "completed": false,
