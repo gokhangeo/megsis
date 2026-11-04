@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793776937404,
+      "createdAt": "2026-11-04T07:22:17.404Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12640320",
+      "fenKayitNo": "2334",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "108",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1793772313248,
       "createdAt": "2026-11-04T06:05:13.248Z",
       "completed": false,
