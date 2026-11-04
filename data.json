@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793776974526,
+      "createdAt": "2026-11-04T07:22:54.526Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12651495",
+      "fenKayitNo": "2338",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kuyuluk",
+      "ada": "671",
+      "parsel": "10",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1793776937404,
       "createdAt": "2026-11-04T07:22:17.404Z",
       "completed": false,
