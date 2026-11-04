@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793777454121,
+      "createdAt": "2026-11-04T07:30:54.121Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12558839",
+      "fenKayitNo": "1733",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "4360",
+      "parsel": "16",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-03",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793777391400,
       "createdAt": "2026-11-04T07:29:51.400Z",
       "completed": false,
