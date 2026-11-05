@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793873360205,
+      "createdAt": "2026-11-05T10:09:20.205Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12370382",
+      "fenKayitNo": "2967",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "0",
+      "parsel": "1009",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793798319611,
       "createdAt": "2026-11-04T13:18:39.611Z",
       "completed": false,
