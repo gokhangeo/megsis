@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793874020752,
+      "createdAt": "2026-11-05T10:20:20.752Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12665713",
+      "fenKayitNo": "1820",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "5914",
+      "parsel": "18",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1793873963052,
       "createdAt": "2026-11-05T10:19:23.052Z",
       "completed": false,
