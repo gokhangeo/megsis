@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793873904510,
+      "createdAt": "2026-11-05T10:18:24.510Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12672000",
+      "fenKayitNo": "2380",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Kale",
+      "ada": "116",
+      "parsel": "22",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1793873855816,
       "createdAt": "2026-11-05T10:17:35.816Z",
       "completed": false,
