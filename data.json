@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793873963052,
+      "createdAt": "2026-11-05T10:19:23.052Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12662698",
+      "fenKayitNo": "1817",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "8471",
+      "parsel": "13",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-04",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793873904510,
       "createdAt": "2026-11-05T10:18:24.510Z",
       "completed": false,
