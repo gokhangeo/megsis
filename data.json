@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1793873855816,
+      "createdAt": "2026-11-05T10:17:35.816Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12664677",
+      "fenKayitNo": "2784",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "0",
+      "parsel": "1496",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1793873580652,
       "createdAt": "2026-11-05T10:13:00.652Z",
       "completed": false,
