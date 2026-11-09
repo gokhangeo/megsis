@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794207316591,
+      "createdAt": "2026-11-09T06:55:16.591Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12628065",
+      "fenKayitNo": "3527",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "2659",
+      "muhendis": "Volkan İZCİ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1794207167302,
       "createdAt": "2026-11-09T06:52:47.302Z",
       "completed": false,
