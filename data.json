@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794206720606,
+      "createdAt": "2026-11-09T06:45:20.606Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12631294",
+      "fenKayitNo": "3538",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kepirli",
+      "ada": "315",
+      "parsel": "9",
+      "muhendis": "Volkan İZCİ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1794206669358,
       "createdAt": "2026-11-09T06:44:29.358Z",
       "completed": false,
