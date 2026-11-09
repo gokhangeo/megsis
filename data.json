@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794206669358,
+      "createdAt": "2026-11-09T06:44:29.358Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12611758",
+      "fenKayitNo": "3503",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "6797",
+      "parsel": "8",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794206622766,
       "createdAt": "2026-11-09T06:43:42.766Z",
       "completed": false,
