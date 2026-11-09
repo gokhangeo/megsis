@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794207708574,
+      "createdAt": "2026-11-09T07:01:48.574Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12628477",
+      "fenKayitNo": "3523",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "3759",
+      "parsel": "8",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1794207583047,
       "createdAt": "2026-11-09T06:59:43.047Z",
       "completed": false,
