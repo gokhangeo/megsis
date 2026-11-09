@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794206307318,
+      "createdAt": "2026-11-09T06:38:27.318Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12479268",
+      "fenKayitNo": "1",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "4053",
+      "parsel": "23",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1793874020752,
       "createdAt": "2026-11-05T10:20:20.752Z",
       "completed": false,
