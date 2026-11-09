@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794207476263,
+      "createdAt": "2026-11-09T06:57:56.263Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12670543",
+      "fenKayitNo": "1824",
+      "ilce": "AKDENİZ",
+      "mahalle": "Kazanlı",
+      "ada": "398",
+      "parsel": "46",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "41. md"
+    },
+    {
       "id": 1794207390111,
       "createdAt": "2026-11-09T06:56:30.111Z",
       "completed": false,
