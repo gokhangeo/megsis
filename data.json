@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794206440541,
+      "createdAt": "2026-11-09T06:40:40.541Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12566339",
+      "fenKayitNo": "3409",
+      "ilce": "TOROSLAR",
+      "mahalle": "Korucular",
+      "ada": "145",
+      "parsel": "103",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-10-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794206307318,
       "createdAt": "2026-11-09T06:38:27.318Z",
       "completed": false,
