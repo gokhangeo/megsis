@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794207018823,
+      "createdAt": "2026-11-09T06:50:18.823Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12666932",
+      "fenKayitNo": "2787",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "9376",
+      "parsel": "8",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "p"
+    },
+    {
       "id": 1794206720606,
       "createdAt": "2026-11-09T06:45:20.606Z",
       "completed": false,
