@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794207390111,
+      "createdAt": "2026-11-09T06:56:30.111Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12652250",
+      "fenKayitNo": "3548",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çağlarca",
+      "ada": "125",
+      "parsel": "4",
+      "muhendis": "Volkan İZCİ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1794207316591,
       "createdAt": "2026-11-09T06:55:16.591Z",
       "completed": false,
