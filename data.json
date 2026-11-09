@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794207583047,
+      "createdAt": "2026-11-09T06:59:43.047Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12628108",
+      "fenKayitNo": "3522",
+      "ilce": "TOROSLAR",
+      "mahalle": "Karaisali",
+      "ada": "5572",
+      "parsel": "3",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794207476263,
       "createdAt": "2026-11-09T06:57:56.263Z",
       "completed": false,
