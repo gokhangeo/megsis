@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794207167302,
+      "createdAt": "2026-11-09T06:52:47.302Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12664298",
+      "fenKayitNo": "1804",
+      "ilce": "AKDENİZ",
+      "mahalle": "Parmakkurdu",
+      "ada": "144",
+      "parsel": "71",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-06",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1794207018823,
       "createdAt": "2026-11-09T06:50:18.823Z",
       "completed": false,
