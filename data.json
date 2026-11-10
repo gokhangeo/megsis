@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794309199979,
+      "createdAt": "2026-11-10T11:13:19.979Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12453764",
+      "fenKayitNo": "2183",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "154",
+      "parsel": "11",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1794207775015,
       "createdAt": "2026-11-09T07:02:55.015Z",
       "completed": false,
