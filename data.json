@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794309420077,
+      "createdAt": "2026-11-10T11:17:00.077Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12665142",
+      "fenKayitNo": "2783",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Uzunkaş",
+      "ada": "140",
+      "parsel": "68",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-09",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1794309199979,
       "createdAt": "2026-11-10T11:13:19.979Z",
       "completed": false,
