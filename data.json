@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794309498430,
+      "createdAt": "2026-11-10T11:18:18.430Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12667698",
+      "fenKayitNo": "2793",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "5136",
+      "parsel": "27",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1794309420077,
       "createdAt": "2026-11-10T11:17:00.077Z",
       "completed": false,
