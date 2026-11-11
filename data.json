@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794376536049,
+      "createdAt": "2026-11-11T05:55:36.049Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12532118",
+      "fenKayitNo": "3359",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "13895",
+      "parsel": "8",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-11-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1794376489384,
       "createdAt": "2026-11-11T05:54:49.384Z",
       "completed": false,
