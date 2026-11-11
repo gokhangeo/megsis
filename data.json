@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794378279398,
+      "createdAt": "2026-11-11T06:24:39.398Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12681005",
+      "fenKayitNo": "2825",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "5192",
+      "parsel": "8",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1794376583153,
       "createdAt": "2026-11-11T05:56:23.153Z",
       "completed": false,
