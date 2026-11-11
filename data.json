@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794376309210,
+      "createdAt": "2026-11-11T05:51:49.210Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12686738",
+      "fenKayitNo": "3652",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yeniköy",
+      "ada": "288",
+      "parsel": "7",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1794376257127,
       "createdAt": "2026-11-11T05:50:57.127Z",
       "completed": false,
