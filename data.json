@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794378337215,
+      "createdAt": "2026-11-11T06:25:37.215Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12448580",
+      "fenKayitNo": "2500",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1820",
+      "parsel": "27",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-11-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1794378279398,
       "createdAt": "2026-11-11T06:24:39.398Z",
       "completed": false,
