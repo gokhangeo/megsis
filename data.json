@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794376489384,
+      "createdAt": "2026-11-11T05:54:49.384Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12653326",
+      "fenKayitNo": "3643",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "6752",
+      "parsel": "32",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794376353288,
       "createdAt": "2026-11-11T05:52:33.288Z",
       "completed": false,
