@@ -2245,7 +2245,7 @@
       "id": 1792648074883,
       "createdAt": "2026-10-22T05:47:54.883Z",
       "completed": false,
-      "isArchived": false,
+      "isArchived": true,
       "basvuruNo": "12526099",
       "fenKayitNo": "3360",
       "ilce": "TOROSLAR",
