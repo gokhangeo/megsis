@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794376180309,
+      "createdAt": "2026-11-11T05:49:40.309Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12686353",
+      "fenKayitNo": "3650",
+      "ilce": "TOROSLAR",
+      "mahalle": "Bekiralanı",
+      "ada": "258",
+      "parsel": "6",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1794374647746,
       "createdAt": "2026-11-11T05:24:07.746Z",
       "completed": false,
