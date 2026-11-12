@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794486513905,
+      "createdAt": "2026-11-12T12:28:33.905Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12718144",
+      "fenKayitNo": "2915",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "8167",
+      "parsel": "12",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme-volkan izci"
+    },
+    {
       "id": 1794485976139,
       "createdAt": "2026-11-12T12:19:36.139Z",
       "completed": false,
