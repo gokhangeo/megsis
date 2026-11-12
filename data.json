@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794486652523,
+      "createdAt": "2026-11-12T12:30:52.523Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12686248",
+      "fenKayitNo": "2852",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "1621",
+      "parsel": "20",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794486587459,
       "createdAt": "2026-11-12T12:29:47.459Z",
       "completed": false,
