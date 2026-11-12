@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794486587459,
+      "createdAt": "2026-11-12T12:29:47.459Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12696104",
+      "fenKayitNo": "2864",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "4139",
+      "parsel": "17",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1794486513905,
       "createdAt": "2026-11-12T12:28:33.905Z",
       "completed": false,
