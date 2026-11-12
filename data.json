@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794463602520,
+      "createdAt": "2026-11-12T06:06:42.520Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12633198",
+      "fenKayitNo": "1819",
+      "ilce": "AKDENİZ",
+      "mahalle": "Karaduvar",
+      "ada": "3756",
+      "parsel": "9",
+      "muhendis": "Volkan İZCİ",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-11-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1794463502423,
       "createdAt": "2026-11-12T06:05:02.423Z",
       "completed": false,
