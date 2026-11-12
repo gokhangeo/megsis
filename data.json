@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794463502423,
+      "createdAt": "2026-11-12T06:05:02.423Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12618806",
+      "fenKayitNo": "3511",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "3930",
+      "parsel": "2",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794463409179,
       "createdAt": "2026-11-12T06:03:29.179Z",
       "completed": false,
