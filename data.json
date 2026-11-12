@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794463717744,
+      "createdAt": "2026-11-12T06:08:37.744Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12686699",
+      "fenKayitNo": "3653",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "1121",
+      "parsel": "9",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-10",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1794463657560,
       "createdAt": "2026-11-12T06:07:37.560Z",
       "completed": false,
