@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794463409179,
+      "createdAt": "2026-11-12T06:03:29.179Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12452875",
+      "fenKayitNo": "3186",
+      "ilce": "TOROSLAR",
+      "mahalle": "Darısekisi",
+      "ada": "113",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-11",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794378586603,
       "createdAt": "2026-11-11T06:29:46.603Z",
       "completed": false,
