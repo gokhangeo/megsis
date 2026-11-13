@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794577540164,
+      "createdAt": "2026-11-13T13:45:40.164Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12668379",
+      "fenKayitNo": "2791",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocahamzalı",
+      "ada": "116",
+      "parsel": "20",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794570367407,
       "createdAt": "2026-11-13T11:46:07.407Z",
       "completed": false,
