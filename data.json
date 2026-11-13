@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794569852239,
+      "createdAt": "2026-11-13T11:37:32.239Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12701138",
+      "fenKayitNo": "3683",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "8616",
+      "parsel": "29",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-11-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "yapılı iken yapısız hale gelme"
+    },
+    {
       "id": 1794569803510,
       "createdAt": "2026-11-13T11:36:43.510Z",
       "completed": false,
