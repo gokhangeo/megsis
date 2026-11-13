@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794568113876,
+      "createdAt": "2026-11-13T11:08:33.876Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12557092",
+      "fenKayitNo": "3398",
+      "ilce": "TOROSLAR",
+      "mahalle": "Bekiralanı",
+      "ada": "0",
+      "parsel": "1185",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794568056875,
       "createdAt": "2026-11-13T11:07:36.875Z",
       "completed": false,
