@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794570258549,
+      "createdAt": "2026-11-13T11:44:18.549Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12695819",
+      "fenKayitNo": "2863",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çavak",
+      "ada": "104",
+      "parsel": "15",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1794569852239,
       "createdAt": "2026-11-13T11:37:32.239Z",
       "completed": false,
