@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794570314193,
+      "createdAt": "2026-11-13T11:45:14.193Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12689359",
+      "fenKayitNo": "2857",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocahamzalı",
+      "ada": "111",
+      "parsel": "22",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "irtifak hakkı"
+    },
+    {
       "id": 1794570258549,
       "createdAt": "2026-11-13T11:44:18.549Z",
       "completed": false,
