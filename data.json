@@ -28718,6 +28718,23 @@
   ],
   "ebys": [
     {
+      "id": 1794549194766,
+      "createdAt": "2026-11-13T05:53:14.766Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-07-23",
+      "evrakSayisi": "302904",
+      "konu": "mülkiyet raporu",
+      "ilce": "TOROSLAR",
+      "mahalle": "Buluklu",
+      "ada": "0",
+      "parsel": "145",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Nurhan ARSLAN",
+      "cevapTarihi": "2026-08-31",
+      "notlar": "cevabi yazı sayı:21680563"
+    },
+    {
       "id": 1794549019469,
       "createdAt": "2026-11-13T05:50:19.469Z",
       "completed": false,
