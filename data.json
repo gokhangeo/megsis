@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794577940527,
+      "createdAt": "2026-11-13T13:52:20.527Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12611776",
+      "fenKayitNo": "3501",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yavca",
+      "ada": "171",
+      "parsel": "8",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794577893175,
       "createdAt": "2026-11-13T13:51:33.175Z",
       "completed": false,
