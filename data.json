@@ -28718,6 +28718,23 @@
   ],
   "ebys": [
     {
+      "id": 1794549019469,
+      "createdAt": "2026-11-13T05:50:19.469Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-07-23",
+      "evrakSayisi": "151734",
+      "konu": "mülkiyet raporu",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "143",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "cevapTarihi": "2026-08-13",
+      "notlar": ""
+    },
+    {
       "id": 1794548893781,
       "createdAt": "2026-11-13T05:48:13.781Z",
       "completed": false,
