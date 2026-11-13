@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794569803510,
+      "createdAt": "2026-11-13T11:36:43.510Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12698186",
+      "fenKayitNo": "3676",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "7277",
+      "parsel": "4",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1794569755581,
       "createdAt": "2026-11-13T11:35:55.581Z",
       "completed": false,
