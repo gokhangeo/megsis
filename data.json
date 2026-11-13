@@ -28718,6 +28718,23 @@
   ],
   "ebys": [
     {
+      "id": 1794549864954,
+      "createdAt": "2026-11-13T06:04:24.954Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2026-09-21",
+      "evrakSayisi": "156089",
+      "konu": "mülkiyet raporu",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Bozön",
+      "ada": "13760",
+      "parsel": "14",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Seval ÇELİK",
+      "cevapTarihi": "2026-10-01",
+      "notlar": ""
+    },
+    {
       "id": 1794549643848,
       "createdAt": "2026-11-13T06:00:43.848Z",
       "completed": false,
