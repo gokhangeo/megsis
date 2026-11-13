@@ -28718,6 +28718,23 @@
   ],
   "ebys": [
     {
+      "id": 1794548761789,
+      "createdAt": "2026-11-13T05:46:01.789Z",
+      "completed": false,
+      "isArchived": false,
+      "evrakTarihi": "2025-12-22",
+      "evrakSayisi": "195700",
+      "konu": "mülkiyet raporu",
+      "ilce": "AKDENİZ",
+      "mahalle": "Bağlarbaşı",
+      "ada": "136",
+      "parsel": "128",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Özlem AYDINLI",
+      "cevapTarihi": "2026-02-24",
+      "notlar": "ayrıca 23/12/2025 tarih ve 18892016 sayılı yazı ile de cevap verilmiş"
+    },
+    {
       "id": 1793090936701,
       "createdAt": "2026-10-27T08:48:56.701Z",
       "completed": false,
