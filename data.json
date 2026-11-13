@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794569755581,
+      "createdAt": "2026-11-13T11:35:55.581Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12577494",
+      "fenKayitNo": "3436",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yuksekoluk",
+      "ada": "128",
+      "parsel": "26",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1794568170757,
       "createdAt": "2026-11-13T11:09:30.757Z",
       "completed": false,
