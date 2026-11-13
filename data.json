@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794568056875,
+      "createdAt": "2026-11-13T11:07:36.875Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12700904",
+      "fenKayitNo": "3684",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "8302",
+      "parsel": "7",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-12",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1794487679890,
       "createdAt": "2026-11-12T12:47:59.890Z",
       "completed": false,
