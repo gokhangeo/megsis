@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794577737933,
+      "createdAt": "2026-11-13T13:48:57.933Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12603393",
+      "fenKayitNo": "2405",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Tece",
+      "ada": "107",
+      "parsel": "2",
+      "muhendis": "Volkan İZCİ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1794577540164,
       "createdAt": "2026-11-13T13:45:40.164Z",
       "completed": false,
