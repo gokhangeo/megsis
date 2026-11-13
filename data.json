@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794577786476,
+      "createdAt": "2026-11-13T13:49:46.476Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12651711",
+      "fenKayitNo": "2384",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Davultepe",
+      "ada": "291",
+      "parsel": "8",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-13",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1794577737933,
       "createdAt": "2026-11-13T13:48:57.933Z",
       "completed": false,
