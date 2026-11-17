@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794893486848,
+      "createdAt": "2026-11-17T05:31:26.848Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12448050",
+      "fenKayitNo": "3197",
+      "ilce": "TOROSLAR",
+      "mahalle": "Doruklu",
+      "ada": "0",
+      "parsel": "1715",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Şekip KORKMAZ",
+      "tescilGonderimTarihi": "2026-10-02",
+      "tescilGelisTarihi": "2026-11-11",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1794893396464,
       "createdAt": "2026-11-17T05:29:56.464Z",
       "completed": false,
