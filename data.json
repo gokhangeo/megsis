@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794901045991,
+      "createdAt": "2026-11-17T07:37:25.991Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12660828",
+      "fenKayitNo": "2776",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "7512",
+      "parsel": "14",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1794900978566,
       "createdAt": "2026-11-17T07:36:18.566Z",
       "completed": false,
