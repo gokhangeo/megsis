@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794900978566,
+      "createdAt": "2026-11-17T07:36:18.566Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12700810",
+      "fenKayitNo": "3687",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kepirli",
+      "ada": "131",
+      "parsel": "6",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-11-16",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1794900898025,
       "createdAt": "2026-11-17T07:34:58.025Z",
       "completed": false,
