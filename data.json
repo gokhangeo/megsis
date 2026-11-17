@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794893396464,
+      "createdAt": "2026-11-17T05:29:56.464Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12274126",
+      "fenKayitNo": "2655",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arslanköy",
+      "ada": "215",
+      "parsel": "26",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-11-04",
+      "tescilGelisTarihi": "2026-11-04",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1794577940527,
       "createdAt": "2026-11-13T13:52:20.527Z",
       "completed": false,
