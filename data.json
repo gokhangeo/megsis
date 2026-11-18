@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1794980465325,
+      "createdAt": "2026-11-18T05:41:05.325Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12723693",
+      "fenKayitNo": "3775",
+      "ilce": "TOROSLAR",
+      "mahalle": "Darısekisi",
+      "ada": "146",
+      "parsel": "3",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-17",
+      "tescilGelisTarihi": "2026-11-17",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1794980281453,
       "createdAt": "2026-11-18T05:38:01.453Z",
       "completed": false,
