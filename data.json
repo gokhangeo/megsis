@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795153868890,
+      "createdAt": "2026-11-20T05:51:08.890Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12723938",
+      "fenKayitNo": "3777",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "4526",
+      "parsel": "18",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-19",
+      "tescilGelisTarihi": "2026-11-19",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1794983607063,
       "createdAt": "2026-11-18T06:33:27.063Z",
       "completed": false,
