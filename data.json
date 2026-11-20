@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795153986555,
+      "createdAt": "2026-11-20T05:53:06.555Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12731131",
+      "fenKayitNo": "3794",
+      "ilce": "TOROSLAR",
+      "mahalle": "Alanyalı",
+      "ada": "103",
+      "parsel": "155",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-19",
+      "tescilGelisTarihi": "2026-11-19",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1795153926611,
       "createdAt": "2026-11-20T05:52:06.611Z",
       "completed": false,
