@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795154034355,
+      "createdAt": "2026-11-20T05:53:54.355Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12743165",
+      "fenKayitNo": "3848",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kepirli",
+      "ada": "195",
+      "parsel": "59",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-19",
+      "tescilGelisTarihi": "2026-11-19",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1795153986555,
       "createdAt": "2026-11-20T05:53:06.555Z",
       "completed": false,
