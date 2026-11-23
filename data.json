@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795429414697,
+      "createdAt": "2026-11-23T10:23:34.697Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12730747",
+      "fenKayitNo": "1861",
+      "ilce": "AKDENİZ",
+      "mahalle": "Nusratiye",
+      "ada": "983",
+      "parsel": "7",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1795429103911,
       "createdAt": "2026-11-23T10:18:23.911Z",
       "completed": false,
