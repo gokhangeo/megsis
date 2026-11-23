@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795475089638,
+      "createdAt": "2026-11-23T23:04:49.638Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12723122",
+      "fenKayitNo": "2452",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Bozön",
+      "ada": "13792",
+      "parsel": "61",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1795437461855,
       "createdAt": "2026-11-23T12:37:41.855Z",
       "completed": false,
