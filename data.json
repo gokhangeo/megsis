@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795436537334,
+      "createdAt": "2026-11-23T12:22:17.334Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12696816",
+      "fenKayitNo": "2869",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "4650",
+      "parsel": "5",
+      "muhendis": "Volkan İZCİ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1795436436780,
       "createdAt": "2026-11-23T12:20:36.780Z",
       "completed": false,
