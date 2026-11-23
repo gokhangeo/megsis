@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795436332762,
+      "createdAt": "2026-11-23T12:18:52.762Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12696824",
+      "fenKayitNo": "2868",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "11883",
+      "parsel": "5",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Engin UĞURLU",
+      "tescilGonderimTarihi": "2026-11-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1795436287858,
       "createdAt": "2026-11-23T12:18:07.858Z",
       "completed": false,
