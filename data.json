@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795477669075,
+      "createdAt": "2026-11-23T23:47:49.075Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12732164",
+      "fenKayitNo": "3810",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "6536",
+      "parsel": "3",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-19",
+      "tescilGelisTarihi": "2026-11-20",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1795477467053,
       "createdAt": "2026-11-23T23:44:27.053Z",
       "completed": false,
