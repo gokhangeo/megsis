@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795437461855,
+      "createdAt": "2026-11-23T12:37:41.855Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12716353",
+      "fenKayitNo": "2908",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "5601",
+      "parsel": "19",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-16",
+      "tescilGelisTarihi": "2026-11-17",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1795436537334,
       "createdAt": "2026-11-23T12:22:17.334Z",
       "completed": false,
