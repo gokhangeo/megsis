@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795431897311,
+      "createdAt": "2026-11-23T11:04:57.311Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12646279",
+      "fenKayitNo": "1785",
+      "ilce": "AKDENİZ",
+      "mahalle": "Parmakkurdu",
+      "ada": "144",
+      "parsel": "63",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-05",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "2026-11-20",
+      "tapuIadeNedeni": "veraset intikal ilişiği kesilmemiş",
+      "iadeTarihi": "",
+      "notlar": ""
+    },
+    {
       "id": 1795429844923,
       "createdAt": "2026-11-23T10:30:44.923Z",
       "completed": false,
