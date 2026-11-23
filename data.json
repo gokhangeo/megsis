@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795429652266,
+      "createdAt": "2026-11-23T10:27:32.266Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12742966",
+      "fenKayitNo": "1864",
+      "ilce": "AKDENİZ",
+      "mahalle": "İhsaniye",
+      "ada": "558",
+      "parsel": "7",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1795429414697,
       "createdAt": "2026-11-23T10:23:34.697Z",
       "completed": false,
