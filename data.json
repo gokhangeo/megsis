@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795477467053,
+      "createdAt": "2026-11-23T23:44:27.053Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12744440",
+      "fenKayitNo": "3850",
+      "ilce": "TOROSLAR",
+      "mahalle": "Belenkeslik",
+      "ada": "116",
+      "parsel": "15",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-20",
+      "tescilGelisTarihi": "2026-11-20",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1795477326893,
       "createdAt": "2026-11-23T23:42:06.893Z",
       "completed": false,
