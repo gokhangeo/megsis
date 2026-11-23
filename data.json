@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795436155526,
+      "createdAt": "2026-11-23T12:15:55.526Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12743970",
+      "fenKayitNo": "2959",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "485",
+      "parsel": "10",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1795431897311,
       "createdAt": "2026-11-23T11:04:57.311Z",
       "completed": false,
