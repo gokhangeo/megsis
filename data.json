@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795615050943,
+      "createdAt": "2026-11-25T13:57:30.943Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12730863",
+      "fenKayitNo": "3818",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çapar",
+      "ada": "170",
+      "parsel": "1",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-11-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1795615009400,
       "createdAt": "2026-11-25T13:56:49.400Z",
       "completed": false,
