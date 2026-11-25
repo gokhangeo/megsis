@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795615009400,
+      "createdAt": "2026-11-25T13:56:49.400Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12412843",
+      "fenKayitNo": "3068",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "124",
+      "parsel": "6",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1795614964026,
       "createdAt": "2026-11-25T13:56:04.026Z",
       "completed": false,
