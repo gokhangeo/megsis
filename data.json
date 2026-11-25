@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795614226533,
+      "createdAt": "2026-11-25T13:43:46.533Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "10870783",
+      "fenKayitNo": "1698",
+      "ilce": "MEZİTLİ",
+      "mahalle": "Fındıkpınarı",
+      "ada": "12122",
+      "parsel": "1",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "18. md uygulaması"
+    },
+    {
       "id": 1795478628419,
       "createdAt": "2026-11-24T00:03:48.419Z",
       "completed": false,
