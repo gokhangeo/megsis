@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795614964026,
+      "createdAt": "2026-11-25T13:56:04.026Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12732735",
+      "fenKayitNo": "3809",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "946",
+      "parsel": "5",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1795614908037,
       "createdAt": "2026-11-25T13:55:08.037Z",
       "completed": false,
