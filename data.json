@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795614830830,
+      "createdAt": "2026-11-25T13:53:50.830Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12755134",
+      "fenKayitNo": "3888",
+      "ilce": "TOROSLAR",
+      "mahalle": "Gözne",
+      "ada": "203",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1795614226533,
       "createdAt": "2026-11-25T13:43:46.533Z",
       "completed": false,
