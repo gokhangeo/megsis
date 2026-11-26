@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795676028921,
+      "createdAt": "2026-11-26T06:53:48.921Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12767184",
+      "fenKayitNo": "3938",
+      "ilce": "TOROSLAR",
+      "mahalle": "Arpaçsakarlar",
+      "ada": "6582",
+      "parsel": "14",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1795615050943,
       "createdAt": "2026-11-25T13:57:30.943Z",
       "completed": false,
