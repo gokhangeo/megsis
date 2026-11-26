@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795682598674,
+      "createdAt": "2026-11-26T08:43:18.674Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12705925",
+      "fenKayitNo": "2890",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Bahçe",
+      "ada": "324",
+      "parsel": "285",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1795682565466,
       "createdAt": "2026-11-26T08:42:45.466Z",
       "completed": false,
