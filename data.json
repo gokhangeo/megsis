@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795682528776,
+      "createdAt": "2026-11-26T08:42:08.776Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12695443",
+      "fenKayitNo": "2879",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "5473",
+      "parsel": "7",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Dudu POYRAZ",
+      "tescilGonderimTarihi": "2026-11-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1795682478989,
       "createdAt": "2026-11-26T08:41:18.989Z",
       "completed": false,
