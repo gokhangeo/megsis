@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795683145423,
+      "createdAt": "2026-11-26T08:52:25.423Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12729907",
+      "fenKayitNo": "3782",
+      "ilce": "TOROSLAR",
+      "mahalle": "Belenkeslik",
+      "ada": "201",
+      "parsel": "6",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1795682689223,
       "createdAt": "2026-11-26T08:44:49.223Z",
       "completed": false,
