@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795676209097,
+      "createdAt": "2026-11-26T06:56:49.097Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12741257",
+      "fenKayitNo": "3841",
+      "ilce": "TOROSLAR",
+      "mahalle": "Gözne",
+      "ada": "579",
+      "parsel": "5",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-11-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "maks"
+    },
+    {
       "id": 1795676135983,
       "createdAt": "2026-11-26T06:55:35.983Z",
       "completed": false,
