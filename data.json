@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795679228861,
+      "createdAt": "2026-11-26T07:47:08.861Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12735269",
+      "fenKayitNo": "3815",
+      "ilce": "TOROSLAR",
+      "mahalle": "Evcili",
+      "ada": "132",
+      "parsel": "2",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-19",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "kamulaştırma"
+    },
+    {
       "id": 1795679168920,
       "createdAt": "2026-11-26T07:46:08.920Z",
       "completed": false,
