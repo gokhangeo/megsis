@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795682689223,
+      "createdAt": "2026-11-26T08:44:49.223Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12743934",
+      "fenKayitNo": "2962",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "5470",
+      "parsel": "9",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-11-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma-birleştirme"
+    },
+    {
       "id": 1795682640772,
       "createdAt": "2026-11-26T08:44:00.772Z",
       "completed": false,
