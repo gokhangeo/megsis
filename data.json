@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795683193489,
+      "createdAt": "2026-11-26T08:53:13.489Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12748889",
+      "fenKayitNo": "3870",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "6705",
+      "parsel": "15",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1795683145423,
       "createdAt": "2026-11-26T08:52:25.423Z",
       "completed": false,
