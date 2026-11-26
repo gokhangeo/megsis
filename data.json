@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795682478989,
+      "createdAt": "2026-11-26T08:41:18.989Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12705888",
+      "fenKayitNo": "2891",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Kocavilayet",
+      "ada": "8987",
+      "parsel": "1",
+      "muhendis": "Burak AKBAŞ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1795682436621,
       "createdAt": "2026-11-26T08:40:36.621Z",
       "completed": false,
