@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795682436621,
+      "createdAt": "2026-11-26T08:40:36.621Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12765371",
+      "fenKayitNo": "3006",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Menteş",
+      "ada": "5350",
+      "parsel": "7",
+      "muhendis": "Kemal KORKMAZ",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-24",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "muhtesat terkini"
+    },
+    {
       "id": 1795682336615,
       "createdAt": "2026-11-26T08:38:56.615Z",
       "completed": false,
