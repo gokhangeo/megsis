@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795681158796,
+      "createdAt": "2026-11-26T08:19:18.796Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12763926",
+      "fenKayitNo": "3919",
+      "ilce": "TOROSLAR",
+      "mahalle": "Evrenli",
+      "ada": "143",
+      "parsel": "56",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-11-26",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1795679517014,
       "createdAt": "2026-11-26T07:51:57.014Z",
       "completed": false,
