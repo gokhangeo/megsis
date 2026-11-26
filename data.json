@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795682640772,
+      "createdAt": "2026-11-26T08:44:00.772Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12644933",
+      "fenKayitNo": "2751",
+      "ilce": "YENİŞEHİR",
+      "mahalle": "Çiftlik",
+      "ada": "4253",
+      "parsel": "4",
+      "muhendis": "Tevfik YILDIZ",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1795682598674,
       "createdAt": "2026-11-26T08:43:18.674Z",
       "completed": false,
