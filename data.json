@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795679275549,
+      "createdAt": "2026-11-26T07:47:55.549Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12731398",
+      "fenKayitNo": "3825",
+      "ilce": "TOROSLAR",
+      "mahalle": "Osmaniye",
+      "ada": "6794",
+      "parsel": "10",
+      "muhendis": "Lokman ALKAN",
+      "tekniker": "Müjde TÜRKMEN",
+      "tescilGonderimTarihi": "2026-11-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1795679228861,
       "createdAt": "2026-11-26T07:47:08.861Z",
       "completed": false,
