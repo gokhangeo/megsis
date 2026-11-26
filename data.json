@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795676135983,
+      "createdAt": "2026-11-26T06:55:35.983Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12721455",
+      "fenKayitNo": "3755",
+      "ilce": "TOROSLAR",
+      "mahalle": "Yalınayak",
+      "ada": "4083",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Ayşe PEKÇETİN",
+      "tescilGonderimTarihi": "2026-11-23",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "parsel vasfına yönelik cins  değişikliği"
+    },
+    {
       "id": 1795676081150,
       "createdAt": "2026-11-26T06:54:41.150Z",
       "completed": false,
