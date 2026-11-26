@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795679517014,
+      "createdAt": "2026-11-26T07:51:57.014Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12557271",
+      "fenKayitNo": "3412",
+      "ilce": "TOROSLAR",
+      "mahalle": "Çavuşlu",
+      "ada": "0",
+      "parsel": "959",
+      "muhendis": "Sariye KUŞÇU",
+      "tekniker": "Ahmet ÇELİK",
+      "tescilGonderimTarihi": "2026-11-18",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "ayırma"
+    },
+    {
       "id": 1795679461818,
       "createdAt": "2026-11-26T07:51:01.818Z",
       "completed": false,
