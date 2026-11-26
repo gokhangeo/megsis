@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795681242646,
+      "createdAt": "2026-11-26T08:20:42.646Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12714624",
+      "fenKayitNo": "3792",
+      "ilce": "TOROSLAR",
+      "mahalle": "Kaşlı",
+      "ada": "0",
+      "parsel": "1283",
+      "muhendis": "Hüseyin KURT",
+      "tekniker": "Nurhan ARSLAN",
+      "tescilGonderimTarihi": "2026-11-25",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "imar barışı"
+    },
+    {
       "id": 1795681158796,
       "createdAt": "2026-11-26T08:19:18.796Z",
       "completed": false,
