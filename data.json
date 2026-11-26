@@ -1,6 +1,26 @@
 {
   "megsis": [
     {
+      "id": 1795676269514,
+      "createdAt": "2026-11-26T06:57:49.514Z",
+      "completed": false,
+      "isArchived": false,
+      "basvuruNo": "12729911",
+      "fenKayitNo": "3783",
+      "ilce": "TOROSLAR",
+      "mahalle": "Belenkeslik",
+      "ada": "393",
+      "parsel": "1",
+      "muhendis": "H. Nilgün KIYMAÇ",
+      "tekniker": "Seval ÇELİK",
+      "tescilGonderimTarihi": "2026-11-20",
+      "tescilGelisTarihi": "",
+      "tapuIadeTarihi": "",
+      "tapuIadeNedeni": "",
+      "iadeTarihi": "",
+      "notlar": "birleştirme"
+    },
+    {
       "id": 1795676209097,
       "createdAt": "2026-11-26T06:56:49.097Z",
       "completed": false,
